@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog/1.9"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog/1.9
+                  http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-1.9.xsd">
+
+    <changeSet id="nidan-postgresql-fix-openconceptlab-hashed-url-20260310" author="nidan" dbms="postgresql">
+        <preConditions onFail="MARK_RAN" onError="MARK_RAN">
+            <tableExists tableName="openconceptlab_item"/>
+            <sqlCheck expectedResult="1">
+                SELECT CASE
+                    WHEN EXISTS (
+                        SELECT 1
+                        FROM information_schema.columns
+                        WHERE table_schema = 'public'
+                          AND table_name = 'openconceptlab_item'
+                          AND column_name = 'hashed_url'
+                          AND udt_name = 'oid'
+                    ) THEN 1 ELSE 0 END;
+            </sqlCheck>
+        </preConditions>
+        <sql splitStatements="true" endDelimiter=";">
+            DROP INDEX IF EXISTS openconceptlab_item_url;
+            ALTER TABLE openconceptlab_item
+                ALTER COLUMN hashed_url TYPE bytea
+                USING NULL;
+            CREATE INDEX openconceptlab_item_url ON openconceptlab_item (hashed_url);
+        </sql>
+    </changeSet>
+
+</databaseChangeLog>
