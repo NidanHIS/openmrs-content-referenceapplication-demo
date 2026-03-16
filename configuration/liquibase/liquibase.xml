@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+  LIQUIBASE is the first domain loaded by the Initializer (before patient_identifier_types,
+  concepts, etc.). These PostgreSQL fixes MUST run first to convert OID columns to TEXT,
+  fixing "Bad value for type long" errors. Keep these changesets at the top.
+-->
 <databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog/1.9"
                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog/1.9
@@ -25,6 +30,44 @@
                 ALTER COLUMN hashed_url TYPE bytea
                 USING NULL;
             CREATE INDEX openconceptlab_item_url ON openconceptlab_item (hashed_url);
+        </sql>
+    </changeSet>
+
+    <!-- Fix CLOB columns that were created as oid by Hibernate 5.6.2+; pgjdbc getClob() expects OID
+         but these columns store inline text. Converting to text makes getString() work. -->
+    <changeSet id="nidan-postgresql-fix-clob-oid-to-text-20260315" author="nidan" dbms="postgresql">
+        <preConditions onFail="MARK_RAN" onError="MARK_RAN">
+            <tableExists tableName="concept_class"/>
+            <sqlCheck expectedResult="1">
+                SELECT CASE WHEN EXISTS (
+                    SELECT 1 FROM information_schema.columns
+                    WHERE table_schema = 'public' AND table_name = 'concept_class'
+                      AND column_name = 'description' AND udt_name = 'oid'
+                ) THEN 1 ELSE 0 END;
+            </sqlCheck>
+        </preConditions>
+        <sql splitStatements="true" endDelimiter=";">
+            ALTER TABLE concept_class
+                ALTER COLUMN description TYPE text
+                USING COALESCE(convert_from(lo_get(description), 'UTF8'), '');
+        </sql>
+    </changeSet>
+
+    <changeSet id="nidan-postgresql-fix-patient-identifier-type-clob-20260315" author="nidan" dbms="postgresql">
+        <preConditions onFail="MARK_RAN" onError="MARK_RAN">
+            <tableExists tableName="patient_identifier_type"/>
+            <sqlCheck expectedResult="1">
+                SELECT CASE WHEN EXISTS (
+                    SELECT 1 FROM information_schema.columns
+                    WHERE table_schema = 'public' AND table_name = 'patient_identifier_type'
+                      AND column_name = 'description' AND udt_name = 'oid'
+                ) THEN 1 ELSE 0 END;
+            </sqlCheck>
+        </preConditions>
+        <sql splitStatements="true" endDelimiter=";">
+            ALTER TABLE patient_identifier_type
+                ALTER COLUMN description TYPE text
+                USING COALESCE(convert_from(lo_get(description), 'UTF8'), '');
         </sql>
     </changeSet>
 
