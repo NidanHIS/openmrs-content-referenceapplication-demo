@@ -1,0 +1,244 @@
+{
+  "name": "Malaria Note",
+  "pages": [
+    {
+      "label": "Case Registration and Treatment",
+      "sections": [
+        {
+          "label": "Investigation and Treatment",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "bc3f9ad8-a6e6-414a-b99b-6b023979ec9a"
+              },
+              "id": "parentsName",
+              "label": "Parents Name"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "475efb37-20f6-44d3-91a0-7002ac8cc532"
+              },
+              "id": "contactNumber",
+              "label": "Contact Number"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "fb4c8cfe-d0e4-4d7b-87c4-11762444921b",
+                "answers": [
+                  {
+                    "concept": "1115AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Normal"
+                  },
+                  {
+                    "concept": "3b3b0b6f-c199-4812-b30c-1c8be4cf914a",
+                    "label": "Low risk"
+                  },
+                  {
+                    "concept": "7538a7c3-2ec1-414c-96a5-c79ac79a3c71",
+                    "label": "Medium risk"
+                  },
+                  {
+                    "concept": "e2f3825e-2e4b-4802-a43a-ec94915c0a72",
+                    "label": "High risk"
+                  }
+                ]
+              },
+              "id": "receptivity",
+              "label": "Receptivity",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "d56178ce-72e3-415b-ab10-7bf44121a242",
+                "answers": [
+                  {
+                    "concept": "76d0179f-dc3d-4764-9012-fdbe20d77994",
+                    "label": "ACD - active case detection"
+                  },
+                  {
+                    "concept": "274db798-1854-4f6e-acd5-6be00e34c8ea",
+                    "label": "PCD - passive case detection"
+                  }
+                ]
+              },
+              "id": "source",
+              "label": "Source",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "998a9198-cc4e-4af8-9589-f450a42c7f17",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "isWomanPregnant",
+              "label": "Is woman pregnant ?"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "965db43f-efbd-4924-aa0b-1c3a36fb6115",
+                "answers": [
+                  {
+                    "concept": "862c6001-eead-4386-90f2-b679d1c8c71e",
+                    "label": "Plasmodium falciparum"
+                  },
+                  {
+                    "concept": "b615da48-82b7-4e50-b874-5b62b0836827",
+                    "label": "Plasmodium Mixed"
+                  },
+                  {
+                    "concept": "f67bfefa-eb30-4d4a-8f07-a6a742398b89",
+                    "label": "Plasmodium vivax"
+                  },
+                  {
+                    "concept": "b3ca41d6-fb51-41d6-90a3-5b42ffc49948",
+                    "label": "Relapse Plasmodium Vivax"
+                  },
+                  {
+                    "concept": "ed305985-c8f6-42d5-902d-5cbf66cd74ac",
+                    "label": "Others (Ovale,Malarie,Knowlwsi, etc.)"
+                  }
+                ]
+              },
+              "id": "malariaType",
+              "label": "Malaria Type",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "7ae4f09d-623e-4210-8492-6f6cc91407c0",
+                "answers": [
+                  {
+                    "concept": "cf39c2ba-5ead-4706-becb-52f48e2bb959",
+                    "label": "Imported"
+                  },
+                  {
+                    "concept": "2746e327-a8a1-49a6-93d6-4e5cdf52cde7",
+                    "label": "Indigenous"
+                  }
+                ]
+              },
+              "id": "classification",
+              "label": "Classification",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "268b92ad-b710-4541-9202-3f44ea7e8c8f",
+                "answers": [
+                  {
+                    "concept": "8e0c5e5f-17e8-4ddb-a2aa-70c5f99eb382",
+                    "label": "Suspected/Probable"
+                  },
+                  {
+                    "concept": "693484be-ec6a-4467-aa8e-4f0e691f04ce",
+                    "label": "Confirmed Uncomplicated"
+                  },
+                  {
+                    "concept": "ad6243f7-aa85-42de-9e28-0496d922a98a",
+                    "label": "Probable Severe"
+                  },
+                  {
+                    "concept": "97f6f3a1-ac99-41b6-919d-36b363fe3060",
+                    "label": "Confirmed Severe"
+                  }
+                ]
+              },
+              "id": "finding",
+              "label": "Finding",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "date",
+                "concept": "555e5e20-cd08-43cf-9092-f42b6a5fd054"
+              },
+              "id": "treatmentStartDate",
+              "label": "Treatment Start Date",
+              "datePickerFormat": "calendar"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "f520c38a-68dc-4921-8531-42ee3f2db901"
+              },
+              "id": "drugRegimen",
+              "label": "Drug regimen"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "ad0c2ed0-d886-486e-bfdf-b887b5c050c1",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "malariaPfPatientsFollowUpTestOrdered",
+              "label": "Malaria PF Patients Follow Up Test Ordered"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "date",
+                "concept": "cf761b07-4008-4860-aca8-0998e2eccdef"
+              },
+              "id": "deathDate",
+              "label": "Death Date",
+              "datePickerFormat": "calendar"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "bc44de6f-db98-42c7-98b5-5fd059f50d3a"
+              },
+              "id": "remarks",
+              "label": "Remarks"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "processor": "EncounterFormProcessor",
+  "encounterType": "dd528487-82a5-4082-9c72-ed246bd49591",
+  "referencedForms": [],
+  "uuid": "e63fcbf0-a0f6-4e8b-bef8-d9ea998c49ed",
+  "description": "Malaria Note",
+  "version": "1"
+}

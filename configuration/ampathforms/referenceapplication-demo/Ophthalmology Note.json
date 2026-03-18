@@ -1,0 +1,890 @@
+{
+  "name": "Ophthalmology Note",
+  "pages": [
+    {
+      "label": "Clinical Assessment",
+      "sections": [
+        {
+          "label": "Clinical Assessment",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "e32add25-df38-4b2b-85e8-709633467ce2"
+              },
+              "id": "chiefComplaint",
+              "label": "Chief Complaint"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "f4090447-33b7-4085-8643-f1e6a0dcd7bb"
+              },
+              "id": "pastMedicalHistory",
+              "label": "Past Medical History"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "6c1c2bd0-56db-4042-8549-e3e508319b49"
+              },
+              "id": "systemicHistory",
+              "label": "Systemic History"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Visual Examination",
+      "sections": [
+        {
+          "label": "Right Eye",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "abf320ce-3f58-4c7b-a9e9-111013022a00"
+              },
+              "id": "visualAcquity",
+              "label": "Visual Acquity"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "ff0243c7-8bd8-4f66-b715-83deb6ed9301"
+              },
+              "id": "visualWithPinhole",
+              "label": "Vision With Pinhole"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "3f734685-e829-49e9-a003-1361275445c8"
+              },
+              "id": "visonWithGlass",
+              "label": "Vision With Glass"
+            }
+          ]
+        },
+        {
+          "label": "Left Eye",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "abf320ce-3f58-4c7b-a9e9-111013022a00"
+              },
+              "id": "revisualAcquity",
+              "label": "Visual acquity"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "ff0243c7-8bd8-4f66-b715-83deb6ed9301"
+              },
+              "id": "visionWithPinhole",
+              "label": "Vision With Pinhole"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "3f734685-e829-49e9-a003-1361275445c8"
+              },
+              "id": "visionWithGlass",
+              "label": "Vision With Glass"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Auto Refraction",
+      "sections": [
+        {
+          "label": "Right Eye",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "8e3d2eda-bb9c-45e5-9554-0951ab0bbc6f"
+              },
+              "id": "spherical",
+              "label": "Spherical"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "380a4a0d-55e5-4d12-8025-2a72457c39f8"
+              },
+              "id": "cylindrical",
+              "label": "Cylindrical"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "9cb12329-bb4a-434e-8f7e-699d5bbd4787"
+              },
+              "id": "axis",
+              "label": "Axis"
+            }
+          ]
+        },
+        {
+          "label": "Left Eye",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "8e3d2eda-bb9c-45e5-9554-0951ab0bbc6f"
+              },
+              "id": "Lespherical",
+              "label": "Spherical"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "380a4a0d-55e5-4d12-8025-2a72457c39f8"
+              },
+              "id": "Lecylindrical",
+              "label": "Cylindrical"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "9cb12329-bb4a-434e-8f7e-699d5bbd4787"
+              },
+              "id": "leaxis",
+              "label": "Axis"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Power of Glass",
+      "sections": [
+        {
+          "label": "Right Eye",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "0b6fe617-b924-4116-839e-e9db0522170d"
+              },
+              "id": "sphere",
+              "label": "Sphere"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "380a4a0d-55e5-4d12-8025-2a72457c39f8"
+              },
+              "id": "pcylindrical",
+              "label": "Cylindrical"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "9cb12329-bb4a-434e-8f7e-699d5bbd4787"
+              },
+              "id": "paxis",
+              "label": "Axis"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "fb81401e-aa75-4bfa-af32-c001a65f0b95"
+              },
+              "id": "add",
+              "label": "Add"
+            }
+          ]
+        },
+        {
+          "label": "Left Eye",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "0b6fe617-b924-4116-839e-e9db0522170d"
+              },
+              "id": "lsphere",
+              "label": "Sphere"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "380a4a0d-55e5-4d12-8025-2a72457c39f8"
+              },
+              "id": "lcylindrical",
+              "label": "Cylindrical"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "9cb12329-bb4a-434e-8f7e-699d5bbd4787"
+              },
+              "id": "laxis",
+              "label": "Axis"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "fb81401e-aa75-4bfa-af32-c001a65f0b95"
+              },
+              "id": "ladd",
+              "label": "Add"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Refraction Examination",
+      "sections": [
+        {
+          "label": "Right Eye",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "0b6fe617-b924-4116-839e-e9db0522170d"
+              },
+              "id": "rsphere",
+              "label": "Sphere"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "380a4a0d-55e5-4d12-8025-2a72457c39f8"
+              },
+              "id": "rcylindrical",
+              "label": "Cylindrical"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "9cb12329-bb4a-434e-8f7e-699d5bbd4787"
+              },
+              "id": "raxis",
+              "label": "Axis"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "fb81401e-aa75-4bfa-af32-c001a65f0b95"
+              },
+              "id": "radd",
+              "label": "Add"
+            }
+          ]
+        },
+        {
+          "label": "Left Eye",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "0b6fe617-b924-4116-839e-e9db0522170d"
+              },
+              "id": "rasphere",
+              "label": "Sphere"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "380a4a0d-55e5-4d12-8025-2a72457c39f8"
+              },
+              "id": "recylindrical",
+              "label": "Cylindrical"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "9cb12329-bb4a-434e-8f7e-699d5bbd4787"
+              },
+              "id": "reaxis",
+              "label": "Axis"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "fb81401e-aa75-4bfa-af32-c001a65f0b95"
+              },
+              "id": "readd",
+              "label": "Add"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": " Slit Lamp Examination",
+      "sections": [
+        {
+          "label": "Slit Lamp Examination",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "047068f3-9104-4478-91a4-7d643f7d1f1d",
+                "answers": [
+                  {
+                    "concept": "24a484d4-79c7-471f-9a36-a49d28e8547a",
+                    "label": "Distichiasis"
+                  },
+                  {
+                    "concept": "8b4f2bb0-fe47-4432-914a-ce8d6c42d6f7",
+                    "label": "Madorosis"
+                  },
+                  {
+                    "concept": "842a1567-4f6f-4f01-9cc4-3ea093d25990",
+                    "label": "Poliosis"
+                  },
+                  {
+                    "concept": "39e6e356-7883-4efc-a090-44e7daa0aded",
+                    "label": "Trichiasis"
+                  },
+                  {
+                    "concept": "9bc64b4f-5633-4103-b058-097cfb8f95a9",
+                    "label": "NAD"
+                  }
+                ]
+              },
+              "id": "eyelashes",
+              "label": "Eyelashes"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "29fca15a-ff64-4eb9-9af9-a8449743d041",
+                "answers": [
+                  {
+                    "concept": "7205ce0b-57df-4617-a585-f51998ba703c",
+                    "label": "Blepharitis"
+                  },
+                  {
+                    "concept": "8ffc86e0-ae5f-4416-ae6e-43aff06185aa",
+                    "label": "Chalazion"
+                  },
+                  {
+                    "concept": "d5e24213-94f7-4454-baeb-1369b8b77475",
+                    "label": "Ectropion"
+                  },
+                  {
+                    "concept": "461f217b-1dca-4cdc-8fdb-a9c933280844",
+                    "label": "Entropion"
+                  },
+                  {
+                    "concept": "9bc64b4f-5633-4103-b058-097cfb8f95a9",
+                    "label": "NAD"
+                  },
+                  {
+                    "concept": "f8116f00-c9b7-46fb-a733-9ea81fd3c9e8",
+                    "label": "Stye"
+                  }
+                ]
+              },
+              "id": "eyelid",
+              "label": "Eyelid"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "1fe21ecf-0e23-4c8a-8db0-7abef8b08c60",
+                "answers": [
+                  {
+                    "concept": "e205c04e-dc97-40a0-b3b2-5e78a87ff33a",
+                    "label": "Congestion"
+                  },
+                  {
+                    "concept": "2c56cf70-15fb-4cc4-9620-9650c3acef54",
+                    "label": "Follicles"
+                  },
+                  {
+                    "concept": "22daacd0-64c1-4f10-88e7-2c71aa3dd56e",
+                    "label": "Laceration"
+                  },
+                  {
+                    "concept": "09f95a9c-33c6-4acc-9fde-db2be5ffb4a6",
+                    "label": "Pappillae"
+                  },
+                  {
+                    "concept": "c097dffc-2b8f-4355-bdf3-a6422b447ef3",
+                    "label": "Pinguecula"
+                  },
+                  {
+                    "concept": "e4030e03-29d0-41c4-8009-ece58bfcd2d9",
+                    "label": "Pteryqium"
+                  },
+                  {
+                    "concept": "9bc64b4f-5633-4103-b058-097cfb8f95a9",
+                    "label": "NAD"
+                  }
+                ]
+              },
+              "id": "conjunctiva",
+              "label": "Conjunctiva"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "b1f0d9a9-5aa1-4c9d-94ce-905a65c0126d",
+                "answers": [
+                  {
+                    "concept": "b2002c4e-3336-446a-989e-1d58d664d404",
+                    "label": "Abrasion"
+                  },
+                  {
+                    "concept": "5ff33e52-6110-4e93-815a-1fcb884b1a0f",
+                    "label": "Arcussenile"
+                  },
+                  {
+                    "concept": "122dfb03-f0cd-4907-bb00-92d4e253e491",
+                    "label": "Cornea ulcer"
+                  },
+                  {
+                    "concept": "89fb9fbc-cd0f-4959-b33f-818bc5666383",
+                    "label": "Corneal opacity"
+                  },
+                  {
+                    "concept": "fee81f10-3ac9-426a-93af-818d7da074b8",
+                    "label": "Keratitis"
+                  },
+                  {
+                    "concept": "9bc64b4f-5633-4103-b058-097cfb8f95a9",
+                    "label": "NAD"
+                  },
+                  {
+                    "concept": "3eae0c5b-a815-402a-a6fa-83850e7fac0a",
+                    "label": "Spks"
+                  }
+                ]
+              },
+              "id": "cornea",
+              "label": "Cornea"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "3bd41fbe-7399-4ca4-83cf-964f6cc6935d",
+                "answers": [
+                  {
+                    "concept": "42cb6469-33de-40c9-a347-ccf4c1c3eb67",
+                    "label": "Deep"
+                  },
+                  {
+                    "concept": "48687cdf-94cb-45bc-9c06-1344ba27b99f",
+                    "label": "Hyphema"
+                  },
+                  {
+                    "concept": "f24c13e5-dedb-4448-875f-3cb5c2728116",
+                    "label": "Hypopyon"
+                  },
+                  {
+                    "concept": "d67e7106-6b4f-4b91-a572-9ab796e2ca36",
+                    "label": "Quite"
+                  },
+                  {
+                    "concept": "658bd779-e1cb-4860-9f10-5c4460c574fc",
+                    "label": "Shallow"
+                  }
+                ]
+              },
+              "id": "anteriorChamber",
+              "label": "Anterior Chamber"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "ea26ae04-79c1-4e18-946a-7a34eb85990c",
+                "answers": [
+                  {
+                    "concept": "c541c5fa-a826-49f1-a738-ac36221e27b5",
+                    "label": "Aniridia"
+                  },
+                  {
+                    "concept": "8940ad72-d169-49c1-a4dc-7514fa00e6b6",
+                    "label": "Correctopia"
+                  },
+                  {
+                    "concept": "26ebcded-e797-4b05-b30f-1ccd47280fad",
+                    "label": "Heterochromia"
+                  },
+                  {
+                    "concept": "b7a602b0-3b64-475a-bb2a-79007a7e21da",
+                    "label": "Polycoria"
+                  },
+                  {
+                    "concept": "9bc64b4f-5633-4103-b058-097cfb8f95a9",
+                    "label": "NAD"
+                  }
+                ]
+              },
+              "id": "iris",
+              "label": "Iris"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "dc5d1a38-aab2-42f1-bcd2-65a151ca902d",
+                "answers": [
+                  {
+                    "concept": "d42de378-4970-4563-8e72-41cf022c4597",
+                    "label": "Round"
+                  },
+                  {
+                    "concept": "9aa4e353-b959-40eb-bd4c-cc20ceb9cec7",
+                    "label": "Regular Reactive"
+                  },
+                  {
+                    "concept": "f863d261-e78c-491d-ab92-c3c46aef405e",
+                    "label": "Non Reactive"
+                  }
+                ]
+              },
+              "id": "pupil",
+              "label": "Pupil"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "4f1a125a-1f06-4423-9ede-75eb73572133",
+                "answers": [
+                  {
+                    "concept": "603d70ac-3c02-46e1-983e-c5879bd0ef7a",
+                    "label": "Aphakic"
+                  },
+                  {
+                    "concept": "d1e59255-cb99-48b3-886d-1da541cef5ee",
+                    "label": "Cataract"
+                  },
+                  {
+                    "concept": "8ad90a91-6b1d-4370-85cc-8a5b37a92244",
+                    "label": "Clear"
+                  },
+                  {
+                    "concept": "ec5cbbf0-b437-44e5-a703-bd42eab08146",
+                    "label": "Dislocation"
+                  },
+                  {
+                    "concept": "91a7780d-e8dc-4008-bbe8-d6cbbe0aa015",
+                    "label": "Pseudophakic"
+                  },
+                  {
+                    "concept": "aa668131-6b35-4d9e-9d66-fd209650bd61",
+                    "label": "Subluxation"
+                  }
+                ]
+              },
+              "id": "lens",
+              "label": "Lens"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "0baf932a-1229-4154-80ec-961656314a6a",
+                "answers": [
+                  {
+                    "concept": "e81b3a83-af56-4550-b115-e4c7e6aaa13d",
+                    "label": "IMSC"
+                  },
+                  {
+                    "concept": "03ae8096-e76d-45dd-a13c-cfe9a84e533e",
+                    "label": "MSC"
+                  },
+                  {
+                    "concept": "35bc5abe-7683-49dd-affa-2b99f53cd687",
+                    "label": "Traumatic"
+                  }
+                ]
+              },
+              "id": "ifCataractSpecify",
+              "label": "If Cataract (specify)",
+              "questionInfo": "IMSC=Immature senile cataract; MSC= Mature senile cataract"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Fluorescein Stain",
+      "sections": [
+        {
+          "label": "Fluorescein Stain",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "a0f21182-b5ed-4683-b98b-42d6e20f3161"
+              },
+              "id": "rightEye",
+              "label": "Right Eye"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "0e77788d-484e-4114-a08e-aaf583105b03"
+              },
+              "id": "leftEye",
+              "label": "Left Eye"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Color Vision",
+      "sections": [
+        {
+          "label": "Color Eye",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "a0f21182-b5ed-4683-b98b-42d6e20f3161"
+              },
+              "id": "crightEye",
+              "label": "Right Eye"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "0e77788d-484e-4114-a08e-aaf583105b03"
+              },
+              "id": "cleftEye",
+              "label": "Left Eye"
+            }
+          ]
+        },
+        {
+          "label": "Other Informations",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "c9de2e18-a76b-462d-9c66-79bf937118de",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "extraOccularMotilitySeen",
+              "label": "Extra occular motility seen ?"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "select",
+                "concept": "04d743d9-39d7-4a7f-b8b7-0482b5ba79da",
+                "answers": [
+                  {
+                    "concept": "e3f4faef-c426-47b0-a708-d5062303c830",
+                    "label": "Inferior oblique"
+                  },
+                  {
+                    "concept": "9d33e011-aedf-4f6f-9b41-9bd389f9bd20",
+                    "label": "Inferior rectus"
+                  },
+                  {
+                    "concept": "e032629d-a59e-4897-b55e-2ffb5cc9acaa",
+                    "label": "Lateral rectus"
+                  },
+                  {
+                    "concept": "b90645c9-a05a-4458-9b9d-8639bfaa53fe",
+                    "label": "Medial rectus"
+                  },
+                  {
+                    "concept": "e0aa0a29-802d-44d6-8574-d2ba6183bd8b",
+                    "label": "Superior oblique"
+                  },
+                  {
+                    "concept": "5622AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Other"
+                  }
+                ]
+              },
+              "id": "ifNoSpecifyTheReason",
+              "label": "If no, specify the reason"
+            }
+          ]
+        },
+        {
+          "label": "Right Eye",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "102ad279-9d3b-4ae5-b36c-0ec6cb4c5c2e"
+              },
+              "id": "tonometryWithSchiotz(RightEye)",
+              "label": "Tonometry With Schiotz (Right Eye)"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "bf8c0a3d-9b9d-4315-9e8c-039347191a32",
+                "answers": [
+                  {
+                    "concept": "34d4b95b-3daa-4dee-bad1-fa72e21a4aad",
+                    "label": "Patent"
+                  },
+                  {
+                    "concept": "ee714502-3a6e-4247-b3d9-82ca20ddfc64",
+                    "label": "Regurgitation"
+                  }
+                ]
+              },
+              "id": "syringing",
+              "label": "Syringing"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "568a1481-7d67-4911-a9ee-696254dcdf06"
+              },
+              "id": "ifRegurgitation(Specify)",
+              "label": "If regurgitation (specify)"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "34bfe26d-48b6-45e1-9419-022e5501d6a0"
+              },
+              "id": "schirmerTestValue",
+              "label": "Schirmer Test Value"
+            }
+          ]
+        },
+        {
+          "label": "Left Eye",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "102ad279-9d3b-4ae5-b36c-0ec6cb4c5c2e"
+              },
+              "id": "tonometryWithSchiotz(LeftEye)",
+              "label": "Tonometry With Schiotz (Left Eye)"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "bf8c0a3d-9b9d-4315-9e8c-039347191a32",
+                "answers": [
+                  {
+                    "concept": "34d4b95b-3daa-4dee-bad1-fa72e21a4aad",
+                    "label": "Patent"
+                  },
+                  {
+                    "concept": "ee714502-3a6e-4247-b3d9-82ca20ddfc64",
+                    "label": "Regurgitation"
+                  }
+                ]
+              },
+              "id": "lsyringing",
+              "label": "Syringing"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "568a1481-7d67-4911-a9ee-696254dcdf06"
+              },
+              "id": "lifRegurgitation(Specify)",
+              "label": "If regurgitation (specify)"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "34bfe26d-48b6-45e1-9419-022e5501d6a0"
+              },
+              "id": "LschirmerTestValue",
+              "label": "Schirmer Test Value"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "processor": "EncounterFormProcessor",
+  "encounterType": "dd528487-82a5-4082-9c72-ed246bd49591",
+  "referencedForms": [],
+  "uuid": "174c02d0-1d27-4c0a-be3e-a7758d4856d4",
+  "description": "Ophthalmology Note",
+  "version": "1"
+}

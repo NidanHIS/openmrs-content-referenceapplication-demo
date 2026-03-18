@@ -1,0 +1,277 @@
+{
+  "name": "Nutrition note",
+  "pages": [
+    {
+      "label": "Visit Details",
+      "sections": [
+        {
+          "label": "Visit Particulars",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "select",
+                "concept": "76812b96-fbc5-43cd-ba12-d2fb70cf85df",
+                "answers": [
+                  {
+                    "concept": "0db55ea3-564b-4260-968c-2c415c396f3e",
+                    "label": "Ultra poor or poor"
+                  },
+                  {
+                    "concept": "e08bdee0-8169-4499-b9f5-f13c3f68cf2a",
+                    "label": "Helpless or destitute"
+                  },
+                  {
+                    "concept": "e3694e2d-dc2f-4dc1-9ff4-62541a006b2b",
+                    "label": "Sr. citizens greater than 60 years"
+                  },
+                  {
+                    "concept": "0c65f154-39e9-47d6-af6c-5cbcb206bc5d",
+                    "label": "Gender based violence"
+                  },
+                  {
+                    "concept": "be9c3055-bed0-4fa3-a8ed-bd995f7420bf",
+                    "label": "Disabled"
+                  },
+                  {
+                    "concept": "a0c0b3d6-cc02-4b10-ad18-3ac023e686d4",
+                    "label": "FCHV"
+                  },
+                  {
+                    "concept": "5622AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Other"
+                  },
+                  {
+                    "concept": "1175AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Not applicable"
+                  }
+                ]
+              },
+              "id": "freeHealthServiceCode",
+              "label": "Free health service code",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "38f54283-b347-477d-9bf0-515f5bf5962f",
+                "answers": [
+                  {
+                    "concept": "432492c9-6d6b-44a7-9a4f-65254e273fec",
+                    "label": "New"
+                  },
+                  {
+                    "concept": "4ea00d51-97a8-42ab-94ba-db6a4920aa90",
+                    "label": "Re-visit"
+                  },
+                  {
+                    "concept": "4c5ac9d9-d220-4d8c-be84-71a5f1b121ac",
+                    "label": "More than One Visit in a Month"
+                  }
+                ]
+              },
+              "id": "visitType",
+              "label": "Visit type",
+              "required": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Birth Detail and Feeding Assesment",
+      "sections": [
+        {
+          "label": "Birth Details",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "5089AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              },
+              "id": "birthWeight",
+              "label": "Birth weight"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "1501e350-cfab-4c52-a8c2-c57dd5a956d3",
+                "answers": [
+                  {
+                    "concept": "1115AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Normal"
+                  },
+                  {
+                    "concept": "4a8d6e7e-53aa-4046-b7cd-d5dcef90af91",
+                    "label": "Risky"
+                  },
+                  {
+                    "concept": "b5696897-564e-4835-ae98-8acf3ce3e4a1",
+                    "label": "Very risky"
+                  }
+                ]
+              },
+              "id": "birthCondition",
+              "label": "Birth condition"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "5089AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              },
+              "id": "weightAsOnDate",
+              "label": "Weight as on date"
+            }
+          ]
+        },
+        {
+          "label": "Feeding Assesment",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "f5606092-96c6-429e-974a-f851a4804b62",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "onlyBreastFeedingFor6Months",
+              "label": "Only breast feeding for 6 months"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "date",
+                "concept": "4f552526-c3df-4371-b94f-c3ab0f36b0a7"
+              },
+              "id": "onlyBreastFedTillDate",
+              "label": "Only breast fed till date",
+              "datePickerFormat": "calendar"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "f5606092-96c6-429e-974a-f851a4804b62",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "brestFeedingAndLightFoodAfter6Months",
+              "label": "Brest feeding and light food after 6 months"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "date",
+                "concept": "5afadcef-3d88-49ce-89ac-9692282a9ea0"
+              },
+              "id": "startDateOfBreastFeedingAlongWithLightFood",
+              "label": "Start date of breast feeding along with light food",
+              "datePickerFormat": "calendar"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "f47b5e5f-954a-4112-b68e-a3c9ffbc9cfa"
+              },
+              "id": "balVitaProvided",
+              "label": "Bal vita provided"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "01b8436b-1057-4a1a-8360-fc877eef615c",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "balVitaProvidedByFchv",
+              "label": "Bal vita provided by FCHV"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "ad445668-0717-481f-b431-a8d942477017",
+                "answers": [
+                  {
+                    "concept": "1115AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Normal"
+                  },
+                  {
+                    "concept": "1499AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Moderate"
+                  },
+                  {
+                    "concept": "1500AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Severe"
+                  }
+                ]
+              },
+              "id": "nutritionalStatus",
+              "label": "Nutritional status",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "bc44de6f-db98-42c7-98b5-5fd059f50d3a"
+              },
+              "id": "remarks",
+              "label": "Remarks"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "date",
+                "concept": "f5cda421-be04-4b04-a4e8-85267d32ebe5"
+              },
+              "id": "followUp",
+              "label": "Follow up",
+              "datePickerFormat": "calendar"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "processor": "EncounterFormProcessor",
+  "encounterType": "dd528487-82a5-4082-9c72-ed246bd49591",
+  "referencedForms": [],
+  "uuid": "1723e692-0ff9-4c97-be21-58218e5bfe56",
+  "description": "Nutrition note",
+  "version": "1"
+}

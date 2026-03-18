@@ -1,0 +1,622 @@
+{
+  "name": "CBIMNCI (Less Than 2 months child)",
+  "pages": [
+    {
+      "label": "Patient Details",
+      "sections": [
+        {
+          "label": "Detail Information",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "9ba979d1-2a54-464e-8fdc-4a7305d842b9",
+                "answers": [
+                  {
+                    "concept": "432492c9-6d6b-44a7-9a4f-65254e273fec",
+                    "label": "New"
+                  },
+                  {
+                    "concept": "2405482f-f736-4418-9d4e-bfdb828caa45",
+                    "label": "Follow up"
+                  }
+                ]
+              },
+              "id": "case",
+              "label": "Case",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "14AAAAAAAAAAAAAAAAAAAAAAAAABB",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "referredIn",
+              "label": "Referred In",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "e32add25-df38-4b2b-85e8-709633467ce2"
+              },
+              "id": "chiefComplain",
+              "label": "Chief Complain"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "1390AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              },
+              "id": "historyOfPresentIllness",
+              "label": "History of Present Illness",
+              "questionInfo": "Location Severity Quality Timing : Constant / Intermittent, how long did it last Duration : When did it Start Modifying Factors : Anything make it better or worse Context : What were you doing when it started Associated Signs or Symptoms"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "5242AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              },
+              "id": "respiratoryRateData",
+              "label": "Respiratory rate data"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "5088AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              },
+              "id": "temperature",
+              "label": "Temperature"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "f90eff64-e41e-448b-9504-2090c3a124e0",
+                "answers": [
+                  {
+                    "concept": "140238AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Fever"
+                  },
+                  {
+                    "concept": "0b50af28-5c6b-473f-a8a4-01ffb14ae305",
+                    "label": "Hypothermia"
+                  },
+                  {
+                    "concept": "1115AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Normal"
+                  },
+                  {
+                    "concept": "e3c234a6-be97-4b6d-90af-c790c02e591d",
+                    "label": "Severe Hypothermia"
+                  }
+                ]
+              },
+              "id": "status",
+              "label": "Status",
+              "questionInfo": "Hypothermia (<35.5 oC = severe hypothermia, 35.5 ? 36.5 oC hypothermia, 37.5 oC = fever)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "PSBI/LBI/NBI",
+      "sections": [
+        {
+          "label": "PSBI/LBI/NBI",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "561b8124-f0df-4db9-bae0-3446335c8269",
+                "answers": [
+                  {
+                    "concept": "f61602a4-7b1e-44b9-8203-bb7ab4ae38b8",
+                    "label": "Convulsion"
+                  },
+                  {
+                    "concept": "0e7edada-3fad-4e7b-a3c8-538d6d7d786c",
+                    "label": "Severe chest indrawing"
+                  },
+                  {
+                    "concept": "431df7dc-9e22-4f47-a92f-bd9be838c788",
+                    "label": "Grunting"
+                  },
+                  {
+                    "concept": "710f3e02-48fc-4f91-b86a-610943cfc5fb",
+                    "label": "Bulging fontanelle"
+                  },
+                  {
+                    "concept": "a78a9058-340e-4da3-87fc-e97f2af9456d",
+                    "label": "Lethargic/ Unconscious"
+                  },
+                  {
+                    "concept": "29a3eaaa-10d2-4fcd-9b29-16c283164df8",
+                    "label": "Unable To Feed"
+                  },
+                  {
+                    "concept": "f687852a-8923-4e02-b7d0-fb2b12c6738d",
+                    "label": "Not present"
+                  }
+                ]
+              },
+              "id": "symptoms",
+              "label": "Symptoms"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "f0fc58f6-5b44-4412-b61f-ddb5302bbe79",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "psbi",
+              "label": "PSBI",
+              "questionInfo": "Convulsion, fast breathing 60 or more/Min, severe chest in-drawing, nasal flaring, grunting, unable to suck/swallow breast milk, budging fontanelle, umbilical infection Extending to the surrounding skin, fever >37.5 oC or severe hypothermia <35.5 oC, Pustular lesion (10 or more in number or single large skin pustule), lethargic or unconscious or less than normal body movements"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "b4d0ba0c-47b9-4bb7-bf95-27e6030d5793",
+                "answers": [
+                  {
+                    "concept": "a626ee8c-2b44-43cb-917c-c0d81c01c897",
+                    "label": "Umbilicus red"
+                  },
+                  {
+                    "concept": "f5fc5438-2d5f-4ba7-af89-a1e8a926967e",
+                    "label": "Umbilicus with pus"
+                  },
+                  {
+                    "concept": "f687852a-8923-4e02-b7d0-fb2b12c6738d",
+                    "label": "Not present"
+                  }
+                ]
+              },
+              "id": "umbilicusInfection",
+              "label": "Umbilicus Infection"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "53cdd43d-67a7-47ae-8e49-98ce6f0235fb",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "lbi",
+              "label": "LBI",
+              "questionInfo": "Red umbilicus, or pus discharge from umbilicus; less than 10 pustular skin lesions, eye discharge"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "d22415c7-c97d-4e49-8313-646b6c2e1c0c",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "nbi",
+              "label": "NBI",
+              "questionInfo": "No signs and symptoms of infection present"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "5a51d680-d86e-456b-a84c-b78fd2f6a5ef",
+                "answers": [
+                  {
+                    "concept": "8b1d5ba9-51ec-4999-85fc-4d6a21fb9db8",
+                    "label": "Jaundice present"
+                  },
+                  {
+                    "concept": "ab4c88ec-fc3c-47c3-92b1-8d0e21c2ba65",
+                    "label": "Severe Jaundice"
+                  },
+                  {
+                    "concept": "f687852a-8923-4e02-b7d0-fb2b12c6738d",
+                    "label": "Not present"
+                  }
+                ]
+              },
+              "id": "jaundiceStatus",
+              "label": "Jaundice status",
+              "questionInfo": "Severe jaundice- (Jaundice extending up to hands and feet, Jaundice seen in first 24 hours or after 14th day of birth), Jaundice (absence of spreading of jaundice up to hands and feet, Jaundice seen in between 2 ? 14 days)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Diarrhoea Symptoms & Management",
+      "sections": [
+        {
+          "label": "Diarrhoea",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "464a8669-63a1-4f1c-8af3-7db92c7c792b",
+                "answers": [
+                  {
+                    "concept": "e8e92a6b-a3ab-4a05-92a9-2eea8a6fa3c6",
+                    "label": "Diarrhea"
+                  },
+                  {
+                    "concept": "a588c9e3-56cb-45dc-9649-4bb6f7a832fd",
+                    "label": "Chronic Diarrhea"
+                  },
+                  {
+                    "concept": "6d48a12e-85af-4498-8a52-0d937fd43c25",
+                    "label": "Diarrhea - Dysentery"
+                  },
+                  {
+                    "concept": "f687852a-8923-4e02-b7d0-fb2b12c6738d",
+                    "label": "Not present"
+                  }
+                ]
+              },
+              "id": "diarrhoeaPresent",
+              "label": "Diarrhoea present",
+              "questionInfo": "watery stool three times or more in 24 hours, Dysentery: Presence of blood in the stool, Chronic Diarrhoea - Diarrhoea for more than 14 days"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "aeff1ac5-67a9-4ce6-89c0-3692835f241e",
+                "answers": [
+                  {
+                    "concept": "f4d3c9bb-b39a-4f12-9154-270ed2018b0e",
+                    "label": "Slowly"
+                  },
+                  {
+                    "concept": "c557490d-5d52-4717-a608-e54b464cb439",
+                    "label": "Very Slowly"
+                  }
+                ]
+              },
+              "id": "skinPinch",
+              "label": "Skin pinch"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "13bbd0a1-9a2a-4cec-9b08-da9491cc785d",
+                "answers": [
+                  {
+                    "concept": "8110a92e-2eb6-4074-9d71-afc39d908721",
+                    "label": "No Dehydration"
+                  },
+                  {
+                    "concept": "e822c515-f840-4ff0-bed9-a803a7542802",
+                    "label": "Some Dehydration"
+                  },
+                  {
+                    "concept": "69d419df-d5ed-41e1-9abe-c698be74ecc7",
+                    "label": "Severe Dehydration"
+                  },
+                  {
+                    "concept": "1175AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Not applicable"
+                  }
+                ]
+              },
+              "id": "dehydrationStatus",
+              "label": "Dehydration Status",
+              "questionInfo": "Severe Dehydration (If any of two given signs present) Lethargic or unconscious Body movement less than normal Sunken eyes Skin pinch goes back very slowly (>2 seconds) Infant less than one month of age Some dehydration: Irritable Sunken eyes Skin pinch goes back slowly (<2 seconds) No Dehydration: No sufficient signs to classify under severe or some dehydration"
+            }
+          ]
+        },
+        {
+          "label": " Low weight/ Feeding Problem",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "98bfa962-0ee4-4873-a22c-47d990dd317a",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "breastfed",
+              "label": "Breastfed"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "5870aac0-15b1-4b4c-8cc4-7b88c6967910"
+              },
+              "id": "breastFeeding,HowManyTimesIn24Hours?",
+              "label": "Breast feeding, How many times in 24 hours?"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "93326656-24d8-401f-b64c-b496085d2b5b",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "difficultyFeedingOrLowWeight",
+              "label": "Difficulty feeding or low weight",
+              "questionInfo": " Ineffective position and/or contact, Ineffective suckling, Breastfed infant for less than 10 times in 24 hours, additional feeding practices along with breastfeeding (soup, or other food), low weight for age, oral thrush or painful lesions inside the mouth No difficulty breastfeeding or low weight- Normal weight for age, or no signs of inadequate nutrition"
+            }
+          ]
+        },
+        {
+          "label": "Counseling",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "7589ede2-38ca-41a9-8f4f-efecc0da1228",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "counselingProvided",
+              "label": "Counseling provided"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "ca86256d-1523-4bb3-bb27-3fc4af749ba3",
+                "answers": [
+                  {
+                    "concept": "af597f47-7112-410b-bada-c77d6a5c1d86",
+                    "label": "Breast feeding"
+                  },
+                  {
+                    "concept": "cf653e66-c609-4138-8cca-cad4bd471436",
+                    "label": "Immediate visit"
+                  },
+                  {
+                    "concept": "594b6e46-93c2-43dd-9f78-9edc719e5b64",
+                    "label": "Keep warm"
+                  },
+                  {
+                    "concept": "551b3910-bb8a-4845-ba11-e798b558cb1c",
+                    "label": "Regular follow up"
+                  }
+                ]
+              },
+              "id": "counselingProvidedFor",
+              "label": "Counseling provided for"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "b32c7923-2a05-43e9-9efd-28b4fd2733b4"
+              },
+              "id": "vitaminACapsulesProvided",
+              "label": "Vitamin A Capsules Provided"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "066ec5d8-50f1-43ad-a065-30b4ccea9552",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "albendazoleGiven",
+              "label": "Albendazole Given"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "b78245e5-40f3-4616-a003-faa5530b4f55",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "referredOut",
+              "label": "Referred Out"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "97ed4220-d832-42ce-bd34-66d029b26a82"
+              },
+              "id": "followUpIn",
+              "label": "Follow up in"
+            }
+          ]
+        },
+        {
+          "label": "Outcome",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "03cac365-19ca-47eb-8350-93b7f2aa6fb9",
+                "answers": [
+                  {
+                    "concept": "b693c755-21a5-427d-a197-e75c02e4c9c7",
+                    "label": "Improved"
+                  },
+                  {
+                    "concept": "aa1a00cd-8639-49a4-a077-d61a2ba7bbd0",
+                    "label": "Same"
+                  },
+                  {
+                    "concept": "95c28e6c-2430-4661-98c9-9c73185af43e",
+                    "label": "Worse"
+                  }
+                ]
+              },
+              "id": "followUpResult",
+              "label": "Follow up result"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "e465a7e9-b529-4431-ae97-5a6d475e55a0"
+              },
+              "id": "assessment/Plan",
+              "label": "Assessment/Plan"
+            }
+          ]
+        },
+        {
+          "label": "Treatment",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "e1ad8709-ec77-4c27-b1da-dc09b7c908cd",
+                "answers": [
+                  {
+                    "concept": "3b80fd67-dd7c-4bb5-b9cf-7c54701fab11",
+                    "label": "Amoxicillin"
+                  },
+                  {
+                    "concept": "55fa26ba-fc81-4b01-ae20-503c0c20cd4a",
+                    "label": "Other Antibiotics"
+                  },
+                  {
+                    "concept": "1175AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Not applicable"
+                  }
+                ]
+              },
+              "id": "treatedWith",
+              "label": "Treated with"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "0ab0e0b0-e42b-446a-9a9f-32e4be3ae610",
+                "answers": [
+                  {
+                    "concept": "25895c5d-7c3c-423f-b442-902c41f42067",
+                    "label": "Gentamycin - 1st dose"
+                  },
+                  {
+                    "concept": "41a518b9-8f75-41b6-a280-e1bcf898cab6",
+                    "label": "Complete Dose"
+                  },
+                  {
+                    "concept": "ddd9012d-4865-4f2b-b050-e9ac86dee7dc",
+                    "label": "Not given"
+                  }
+                ]
+              },
+              "id": "gentamycin",
+              "label": "Gentamycin"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "processor": "EncounterFormProcessor",
+  "encounterType": "dd528487-82a5-4082-9c72-ed246bd49591",
+  "referencedForms": [],
+  "uuid": "0ed7618b-29f2-4795-bc36-8364abfcfcbc",
+  "description": "CBIMNCI Note",
+  "version": "1"
+}

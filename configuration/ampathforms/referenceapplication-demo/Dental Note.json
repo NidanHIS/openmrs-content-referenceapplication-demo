@@ -1,0 +1,224 @@
+{
+  "name": "Dental Note",
+  "pages": [
+    {
+      "label": "Clinical Assessment",
+      "sections": [
+        {
+          "label": "Clinical Assessment",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "e32add25-df38-4b2b-85e8-709633467ce2"
+              },
+              "id": "chiefComplaint",
+              "label": "Chief Complaint"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "1390AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              },
+              "id": "historyOfIllness",
+              "label": "History of Illness",
+              "questionInfo": "Location Severity Quality Timing : Constant / Intermittent, how long did it last Duration : When did it Start Modifying Factors : Anything make it better or worse Context : What were you doing when it started Associated Signs or Symptoms"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "c9f9916b-75d2-467c-a9ba-8aeea2d5526f"
+              },
+              "id": "findings",
+              "label": "Findings"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "f4090447-33b7-4085-8643-f1e6a0dcd7bb"
+              },
+              "id": "pastMedicalHistory",
+              "label": "Past Medical History"
+            }
+          ]
+        },
+        {
+          "label": "Blood Pressure",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "5085AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              },
+              "id": "systolic",
+              "label": "Systolic"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "5086AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              },
+              "id": "diastolic(MmHg)",
+              "label": "Diastolic (mm Hg)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Examination and Treatment",
+      "sections": [
+        {
+          "label": "Examination and Treatment",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "eb514a11-4d68-48e7-a250-8320111422b0",
+                "answers": [
+                  {
+                    "concept": "bf819293-8c7e-4c66-b5b0-baeeea3a6a36",
+                    "label": "All"
+                  },
+                  {
+                    "concept": "73d6a8e6-2b1f-4e44-bd12-c87f1d5dc2a4",
+                    "label": "Lower left"
+                  },
+                  {
+                    "concept": "a3988965-fe0f-4eae-b9e1-45d7845b73b4",
+                    "label": "Lower right"
+                  },
+                  {
+                    "concept": "48baa60d-7218-47a9-b797-0d8149086bea",
+                    "label": "Upper left"
+                  },
+                  {
+                    "concept": "bd6e0dd7-c63e-4315-9bd2-85eccb936d3c",
+                    "label": "Upper right"
+                  }
+                ]
+              },
+              "id": "toothQuadrant",
+              "label": "Tooth Quadrant"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "5f4a32b2-794e-4e8a-a88b-a88a2ba06886",
+                "answers": [
+                  {
+                    "concept": "164adc96-6231-4e83-b6e8-6f593e5fcee4",
+                    "label": "1"
+                  },
+                  {
+                    "concept": "24672ed9-2ad9-4188-a1bb-bf0085bc52b0",
+                    "label": "2"
+                  },
+                  {
+                    "concept": "3f77ac24-7dd8-42bc-8d6b-f21518292f12",
+                    "label": "3"
+                  },
+                  {
+                    "concept": "2b0cdcab-92cb-4395-8531-2b4bab7db07e",
+                    "label": "4"
+                  },
+                  {
+                    "concept": "fd151b3b-c6d6-4fe5-87b1-158303d51237",
+                    "label": "5"
+                  },
+                  {
+                    "concept": "33ce3991-0ca6-473b-bd23-da5f85683162",
+                    "label": "6"
+                  },
+                  {
+                    "concept": "2bedd1b8-82c2-4468-ae01-6b8db8191b53",
+                    "label": "7"
+                  },
+                  {
+                    "concept": "86967c2a-ff8c-4ec0-a840-7c959916aafc",
+                    "label": "8"
+                  },
+                  {
+                    "concept": "f28928cc-5582-49c6-9719-3f39a1b0b96c",
+                    "label": "A"
+                  },
+                  {
+                    "concept": "21ea6ff4-11c9-4665-a9bf-74a96b0c6e94",
+                    "label": "B"
+                  },
+                  {
+                    "concept": "7b968222-fc0f-4df0-b842-caf4a200ad63",
+                    "label": "C"
+                  },
+                  {
+                    "concept": "8bf209ca-e3c8-47d7-a2a2-0567afedb80a",
+                    "label": "D"
+                  },
+                  {
+                    "concept": "0cebb311-0ada-437b-ac6f-73578dfdd4de",
+                    "label": "E"
+                  }
+                ]
+              },
+              "id": "toothNumber",
+              "label": "Tooth Number"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "5be3a766-3485-48dd-816c-994f2eeb6739",
+                "answers": [
+                  {
+                    "concept": "6029504f-0726-4879-a07a-94899ae5fc89",
+                    "label": "Extraction"
+                  },
+                  {
+                    "concept": "e919fda2-4d92-47ea-a3ad-3b53583502b9",
+                    "label": "Oral hygienic instructions"
+                  },
+                  {
+                    "concept": "1bbd18d9-7859-4871-9915-b429ed57560c",
+                    "label": "Restoration (Permanent)"
+                  },
+                  {
+                    "concept": "39d0260f-ea02-4065-aa72-68b1a5de8f4d",
+                    "label": "Restoration (Temporary)"
+                  },
+                  {
+                    "concept": "1509f5c8-8e4d-4e31-af90-d1fb5c15590a",
+                    "label": "Root canal treatment"
+                  },
+                  {
+                    "concept": "f511c5f8-cd31-4898-a678-e258cccd0893",
+                    "label": "Scaling"
+                  }
+                ]
+              },
+              "id": "procedure",
+              "label": "Procedure",
+              "required": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "processor": "EncounterFormProcessor",
+  "encounterType": "dd528487-82a5-4082-9c72-ed246bd49591",
+  "referencedForms": [],
+  "uuid": "7b24b465-166e-42e4-a8fc-a0f4b6695b4f",
+  "description": "Dental Note",
+  "version": "1"
+}

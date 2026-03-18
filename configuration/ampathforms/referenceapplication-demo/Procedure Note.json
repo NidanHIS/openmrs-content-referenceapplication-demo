@@ -1,0 +1,325 @@
+{
+  "name": "Procedure Note",
+  "pages": [
+    {
+      "label": "Pre-Procedure Details",
+      "sections": [
+        {
+          "label": "Procedure Details",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "encounterProvider",
+              "questionOptions": {
+                "rendering": "ui-select-extended"
+              },
+              "id": "prodcedureDoneBy",
+              "label": "Prodcedure Done By"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "168e0012-1bc1-46f5-804b-d4719149bcbf",
+                "answers": [
+                  {
+                    "concept": "4866ae4c-9f4a-4492-b2f7-b401b8e66cce",
+                    "label": "Catheterization"
+                  },
+                  {
+                    "concept": "2610d559-9640-423d-baef-49624e0bef2b",
+                    "label": "Dilatation"
+                  },
+                  {
+                    "concept": "7f40c4cc-8123-4465-9fde-4a69cf2d3750",
+                    "label": "Excision"
+                  },
+                  {
+                    "concept": "b07a55be-2c94-42e4-9e86-526d3270d6ee",
+                    "label": "Figure 8 Bandage"
+                  },
+                  {
+                    "concept": "6139ffd9-0fc3-4c0a-ac68-8eaca8b38ac8",
+                    "label": "First Time Dressing"
+                  },
+                  {
+                    "concept": "5970bf92-7fbb-491e-a192-b2bcdf91820e",
+                    "label": "Follow-up Dressing"
+                  },
+                  {
+                    "concept": "6a4c1def-078d-4279-8010-ad2a213609c4",
+                    "label": "Foreign Body Removal"
+                  },
+                  {
+                    "concept": "59ec7aa1-3076-441f-a109-cf7b720d9dfe",
+                    "label": "Incision and Drainage"
+                  },
+                  {
+                    "concept": "d30bb59a-10a4-4b0a-8dea-2da4328c7735",
+                    "label": "Norplant Removal"
+                  },
+                  {
+                    "concept": "b7506d1d-2760-47dd-86a0-0d6fb0349371",
+                    "label": "Orthopedic Procedure"
+                  },
+                  {
+                    "concept": "b4b5bd12-e5bb-41fb-af00-02ddb96b9a70",
+                    "label": "Suture In"
+                  },
+                  {
+                    "concept": "27e01a4b-ca19-42a2-a523-f8d02f459f6b",
+                    "label": "Suture Out"
+                  },
+                  {
+                    "concept": "7aedd201-07b8-4a71-b011-b0363b40ced0",
+                    "label": "Syringing"
+                  },
+                  {
+                    "concept": "5622AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Other"
+                  }
+                ]
+              },
+              "id": "procedure",
+              "label": "Procedure",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "a8b07e2d-5a65-4a78-8d01-fde89137e2e2"
+              },
+              "id": "procedureNote",
+              "label": "Procedure Note"
+            },
+            {
+              "type": "encounterProvider",
+              "questionOptions": {
+                "rendering": "ui-select-extended"
+              },
+              "id": "anesthetist",
+              "label": "Anesthetist"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "2f6cd3c7-4647-454d-bc31-2518f3ddd14c"
+              },
+              "id": "otherStaff",
+              "label": "Other Staff"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "af220e84-ac0e-4a75-872a-dea7a89475a3",
+                "answers": [
+                  {
+                    "concept": "cae0de9f-98c6-4484-ba9e-7229fcccc7b8",
+                    "label": "OPD"
+                  },
+                  {
+                    "concept": "167050AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "IPD"
+                  },
+                  {
+                    "concept": "04f6f7e0-e3cb-4e13-a133-4479f759574e",
+                    "label": "Emergency"
+                  },
+                  {
+                    "concept": "9b11c74a-076f-4129-a940-e8054edb4b44",
+                    "label": "Direct outside referral"
+                  }
+                ]
+              },
+              "id": "presentedFrom",
+              "label": "Presented From"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Anesthesia/Meciations/Perioperative Management",
+      "sections": [
+        {
+          "label": "Management",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "f94172a7-02f2-4e91-bfb1-d726cb1c557d"
+              },
+              "id": "anesthesia",
+              "label": "Anesthesia"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "30e3d3b6-e2e9-4890-a290-90d3204dbdb3"
+              },
+              "id": "antibioticsAdministered",
+              "label": "Antibiotics Administered"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "11fae55a-2370-4be4-bf4b-ac3624eedd22"
+              },
+              "id": "fluidAdministered",
+              "label": "Fluid Administered"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "minLength": "Fluid Amount and Unit",
+                "concept": "8f68a53b-d6eb-4c69-8464-392e333ab717"
+              },
+              "id": "fluidAmountAndUnit",
+              "label": "Fluid Amount and Unit"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "3c2179fe-e311-4ef9-9969-be98dbbbeb1e"
+              },
+              "id": "tourniquetTime",
+              "label": "Tourniquet Time"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "a8a3534a-4ad6-44d3-9bb1-1f0414d6ac7f"
+              },
+              "id": "estimatedBloodLoss",
+              "label": "Estimated Blood Loss"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "minLength": "Blood transfusion",
+                "concept": "475efb37-20f6-44d3-91a0-7002ac8cc532"
+              },
+              "id": "bloodTransfusionQuantity",
+              "label": "Blood Transfusion Quantity"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "55592180-3985-4025-a76e-3e1d9e3d62e8"
+              },
+              "id": "preoperativeMeds",
+              "label": "Preoperative Meds."
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "53a5f942-57f9-4347-bebd-3e66dac9a86b"
+              },
+              "id": "intraoperativeMeds",
+              "label": "Intraoperative Meds."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Finding and Investigations",
+      "sections": [
+        {
+          "label": "Details",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "c9f9916b-75d2-467c-a9ba-8aeea2d5526f"
+              },
+              "id": "findings",
+              "label": "Findings"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "0788e5bf-020e-4551-82e9-d32dcf5f92a1"
+              },
+              "id": "intraOpInvestigationsOrdered",
+              "label": "Intra-OP Investigations Ordered"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "4fe895d3-00c9-4c66-a1c3-c137f51a2ff6"
+              },
+              "id": "specimens",
+              "label": "Specimens",
+              "questionInfo": "Type sent to pathology (gallbladder and cystic duct, etc.). DRAINS (T-tube in RUQ, etc.)"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "0050cc5b-dc66-4706-b83c-ec638bd589ed",
+                "answers": [
+                  {
+                    "concept": "2f104ae5-c180-4600-9256-a6abfb72ef87",
+                    "label": "Transferred to recovery room"
+                  },
+                  {
+                    "concept": "9e97fbbb-986a-4f09-8073-76af1a8b6a69",
+                    "label": "Stable"
+                  },
+                  {
+                    "concept": "45c95c76-5fbd-4578-b7f9-134c7d41f89b",
+                    "label": "Extubated operative condition"
+                  }
+                ]
+              },
+              "id": "condition",
+              "label": "Condition"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "f6cb9651-7a2d-4c58-aff5-48c6d1888a64"
+              },
+              "id": "specificIntervention",
+              "label": "Specific Intervention"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "88d98899-3897-412e-80c2-73dcd0196f65"
+              },
+              "id": "complications",
+              "label": "Complications"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "processor": "EncounterFormProcessor",
+  "encounterType": "dd528487-82a5-4082-9c72-ed246bd49591",
+  "referencedForms": [],
+  "uuid": "844cb4b0-28e4-4893-b47c-9d9cdcf622b8",
+  "description": "Procedure note",
+  "version": "1"
+}

@@ -1,0 +1,917 @@
+{
+  "name": "CBIMNCI (2 to 59 months child)",
+  "pages": [
+    {
+      "label": "Patient Details",
+      "sections": [
+        {
+          "label": "Detail Information",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "9ba979d1-2a54-464e-8fdc-4a7305d842b9",
+                "answers": [
+                  {
+                    "concept": "432492c9-6d6b-44a7-9a4f-65254e273fec",
+                    "label": "New"
+                  },
+                  {
+                    "concept": "2405482f-f736-4418-9d4e-bfdb828caa45",
+                    "label": "Follow up"
+                  }
+                ]
+              },
+              "id": "case",
+              "label": "Case",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "14AAAAAAAAAAAAAAAAAAAAAAAAABB",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "referredIn",
+              "label": "Referred In",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "e32add25-df38-4b2b-85e8-709633467ce2"
+              },
+              "id": "chiefComplaint",
+              "label": "Chief Complaint"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "1390AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              },
+              "id": "historyOfPresentIllness",
+              "label": "History of Present Illness",
+              "questionInfo": "Location Severity Quality Timing : Constant / Intermittent, how long did it last Duration : When did it Start Modifying Factors : Anything make it better or worse Context : What were you doing when it started Associated Signs or Symptoms"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "616f6f4e-d193-484f-9fa5-fa874e0a8a91"
+              },
+              "id": "pertinentSystem",
+              "label": "Pertinent System",
+              "questionInfo": "  General HEENT CV Lungs Abdomen MSK Skin Neuro Psych"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "5242AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              },
+              "id": "respiratoryRate",
+              "label": "Respiratory Rate"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "5088AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              },
+              "id": "temperature",
+              "label": "Temperature"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "a2a9a48b-858d-406d-b7ba-7851825caca6",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "generalDangerSignsPresent",
+              "label": "General Danger Signs present",
+              "questionInfo": "Baby cannot suck/swallow breast milk, vomits everything, convulsions (history), lethargic or unconscious, convulsions (during observation)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Respiratory/Diarrhoea/Fever",
+      "sections": [
+        {
+          "label": "Respiratory Infection",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "0dfda4dd-bbc1-459c-ab0b-94562cded452",
+                "answers": [
+                  {
+                    "concept": "6f9bf63f-8cb9-4c23-b487-f4d240b0e5dd",
+                    "label": "Chest indrawing"
+                  },
+                  {
+                    "concept": "f687852a-8923-4e02-b7d0-fb2b12c6738d",
+                    "label": "Not present"
+                  },
+                  {
+                    "concept": "068a9105-c236-4d39-8c76-9592d82550c3",
+                    "label": "Strider"
+                  },
+                  {
+                    "concept": "83918836-5c2a-4259-91e3-fedc693cff4a",
+                    "label": "Wheezing"
+                  }
+                ]
+              },
+              "id": "acuteRespiratoryIllnessSymptoms",
+              "label": "Acute Respiratory Illness, Symptoms"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "6e61f0c9-e43d-436c-bf87-88229b4c31d2"
+              },
+              "id": "howManyDays",
+              "label": "How many days?"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "68ef9461-a821-4458-af28-a69e6deb94f8",
+                "answers": [
+                  {
+                    "concept": "1ecd1502-f5e1-4df7-a1ca-3b58953a602f",
+                    "label": "Cough/Cold"
+                  },
+                  {
+                    "concept": "f687852a-8923-4e02-b7d0-fb2b12c6738d",
+                    "label": "Not present"
+                  },
+                  {
+                    "concept": "3dc141d2-d088-4354-9064-3f77a59a7fb0",
+                    "label": "Pneumonia"
+                  },
+                  {
+                    "concept": "0db78ddb-954b-4b7f-9fae-fd855a25bb11",
+                    "label": "Severe Pneumonia"
+                  }
+                ]
+              },
+              "id": "classification",
+              "label": "Classification",
+              "questionInfo": "Severe pneumonia presence of danger sign presence of stridor in a silent child *Pneumonia chest in-drawing or wheezing) *No Pneumonia (no sign of severe pneumonia and pneumonia)"
+            }
+          ]
+        },
+        {
+          "label": "Diarrhoea",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "464a8669-63a1-4f1c-8af3-7db92c7c792b",
+                "answers": [
+                  {
+                    "concept": "a588c9e3-56cb-45dc-9649-4bb6f7a832fd",
+                    "label": "Chronic Diarrhea"
+                  },
+                  {
+                    "concept": "e8e92a6b-a3ab-4a05-92a9-2eea8a6fa3c6",
+                    "label": "Diarrhea"
+                  },
+                  {
+                    "concept": "6d48a12e-85af-4498-8a52-0d937fd43c25",
+                    "label": "Diarrhea - Dysentery"
+                  },
+                  {
+                    "concept": "f687852a-8923-4e02-b7d0-fb2b12c6738d",
+                    "label": "Not present"
+                  }
+                ]
+              },
+              "id": "diarrhoeaPresent",
+              "label": "Diarrhoea present",
+              "questionInfo": "watery stool three times or more in 24 hours, Dysentery: Presence of blood in the stool, Chronic Diarrhoea - Diarrhoea for more than 14 days"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "aeff1ac5-67a9-4ce6-89c0-3692835f241e",
+                "answers": [
+                  {
+                    "concept": "f4d3c9bb-b39a-4f12-9154-270ed2018b0e",
+                    "label": "Slowly"
+                  },
+                  {
+                    "concept": "c557490d-5d52-4717-a608-e54b464cb439",
+                    "label": "Very Slowly"
+                  }
+                ]
+              },
+              "id": "skinPinch",
+              "label": "Skin pinch"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "13bbd0a1-9a2a-4cec-9b08-da9491cc785d",
+                "answers": [
+                  {
+                    "concept": "8110a92e-2eb6-4074-9d71-afc39d908721",
+                    "label": "No Dehydration"
+                  },
+                  {
+                    "concept": "69d419df-d5ed-41e1-9abe-c698be74ecc7",
+                    "label": "Severe Dehydration"
+                  },
+                  {
+                    "concept": "1175AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Not applicable"
+                  },
+                  {
+                    "concept": "e822c515-f840-4ff0-bed9-a803a7542802",
+                    "label": "Some Dehydration"
+                  }
+                ]
+              },
+              "id": "dehydrationStatus",
+              "label": "Dehydration Status"
+            }
+          ]
+        },
+        {
+          "label": "Fever",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "7ae7405f-6288-4a47-b92b-013f487f2dd5",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "fever",
+              "label": "Fever"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "6e61f0c9-e43d-436c-bf87-88229b4c31d2"
+              },
+              "id": "howManysDays",
+              "label": "How many days?"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "ea3121cb-6cea-40a6-86ba-8c28e052f556"
+              },
+              "id": "natureOfFever",
+              "label": "Nature of Fever",
+              "questionInfo": "Describe the nature of fever in terms of frequency, diurnal pattern, severity, +- chills and rigor, or any other specific features"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "2095d23a-7eb7-4a31-9873-19c300b8450f",
+                "answers": [
+                  {
+                    "concept": "e2f3825e-2e4b-4802-a43a-ec94915c0a72",
+                    "label": "High risk"
+                  },
+                  {
+                    "concept": "3b3b0b6f-c199-4812-b30c-1c8be4cf914a",
+                    "label": "Low risk"
+                  },
+                  {
+                    "concept": "8b5bc008-6380-4d41-a19a-017953af0bdc",
+                    "label": "Risk Free"
+                  },
+                  {
+                    "concept": "c0d99bcc-0956-401d-84c6-2cc0855b8188",
+                    "label": "Very Low"
+                  }
+                ]
+              },
+              "id": "stratifiedMalariaRisk",
+              "label": "Stratified Malaria Risk",
+              "questionInfo": "Also look for travel history in last 30 days"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Malaria/ Ear Infection",
+      "sections": [
+        {
+          "label": "Malaria Risk Zone",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "125fca27-8f38-4b53-8346-ba24f06d3d66",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "verySevereFever/ComplicatedMalaria",
+              "label": "Very severe fever/Complicated Malaria",
+              "questionInfo": "General danger signs present; Neck stiffness; General danger signs with Microscopic/RDT positive (Send for investigations)"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "e6633f5f-e963-4194-bfcd-f76fde313602",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "falciparumMalaria",
+              "label": "Falciparum Malaria",
+              "questionInfo": "Microscopic/RDT positive and Faciparum Positive"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "51ac325e-847f-477e-8dcd-44237988a9a9",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "non-FalciparumMalaria",
+              "label": "Non-falciparum Malaria",
+              "questionInfo": "Microscopic RDT Positive and Falciparum Negative"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "396cec9f-dde7-4409-ae29-293a67743af8",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "feverWithoutMalaria",
+              "label": "Fever without malaria",
+              "questionInfo": "Running nose, Measles like rash, other causes of fever and Microscopic RDT Negative"
+            }
+          ]
+        },
+        {
+          "label": "Malaria Free Zone",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "a981249d-88c1-4bad-a347-bb19d5401cb1"
+              },
+              "id": "otherCausesOfFever/SevereFever",
+              "label": "Other causes of fever/severe fever",
+              "questionInfo": "General Danger signs present; Neck stiffness"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "c4a353f0-634a-44e7-b082-4bd9a37b819e",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "measles",
+              "label": "Measles"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "5c64f212-5b25-4a22-9bbf-0a32f646c43d",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "measlesInLast3Months",
+              "label": "Measles in last 3 months",
+              "questionInfo": "Look for oral lesions and their extension; eye discharge, cloudy cornea"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "87733c3f-4c77-4c86-8527-1e35fdaa2352",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "severeComplicatedMeasles",
+              "label": "Severe Complicated Measles",
+              "questionInfo": "General danger signs, cloudy cornea, several oral lesions with/without extension"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "9c6c90b3-5b5c-4a7d-8395-2a343d2a4049",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "measlesWithOralOrOpthalmicComplication",
+              "label": "Measles with oral or opthalmic complication",
+              "questionInfo": "Eye discharge; oral lesions"
+            }
+          ]
+        },
+        {
+          "label": "Ear Infection",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "d5c31064-8fcd-40cb-b01f-e5c8af29197c",
+                "answers": [
+                  {
+                    "concept": "98da7192-4272-49f2-9113-2cbf98ecaa96",
+                    "label": "Ear discharge"
+                  },
+                  {
+                    "concept": "d6577546-49ce-467b-adbd-464919d8cf71",
+                    "label": "Ear pain"
+                  },
+                  {
+                    "concept": "f687852a-8923-4e02-b7d0-fb2b12c6738d",
+                    "label": "Not present"
+                  },
+                  {
+                    "concept": "96165b58-59ae-4a68-b7e9-ca89c62bbb9f",
+                    "label": "Tender swelling behind the ear"
+                  }
+                ]
+              },
+              "id": "symptoms",
+              "label": "Symptoms"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "fe4c4a16-1a00-45f8-9dc3-af0283be909d"
+              },
+              "id": "earDischargeDays",
+              "label": "Ear discharge days"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "6e61f0c9-e43d-436c-bf87-88229b4c31d2"
+              },
+              "id": "howsManyDays",
+              "label": "How many days?"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "7853d8df-8fbd-4d93-a770-3515f5dce361",
+                "answers": [
+                  {
+                    "concept": "d3b55dd6-f36c-4f50-bb49-6d925e461d8f",
+                    "label": "Acute Ear Infection"
+                  },
+                  {
+                    "concept": "d18391c5-a4b5-4a0a-972a-31e969df2454",
+                    "label": "Chronic Ear Infection"
+                  },
+                  {
+                    "concept": "0604bdbc-fc5a-446f-8928-019ade28c5ff",
+                    "label": "Mastoiditis"
+                  },
+                  {
+                    "concept": "f687852a-8923-4e02-b7d0-fb2b12c6738d",
+                    "label": "Not present"
+                  }
+                ]
+              },
+              "id": "earInfection",
+              "label": "Ear infection",
+              "questionInfo": "Acute ear infection (ear pain or discharge from ear for <14 days) Chronic ear infection (no pain and ear discharge for > 14 days) Mastoiditis (pain and swelling behind ear) No ear infection (no signs from above)"
+            }
+          ]
+        },
+        {
+          "label": "Nutrition Status",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "ad1e8bac-ea0e-4f78-bb48-862c75ab1138",
+                "answers": [
+                  {
+                    "concept": "21d2f821-7b5e-4976-b00c-82208d44f1b1",
+                    "label": "Low weight"
+                  },
+                  {
+                    "concept": "7f6ea91a-b57d-41cd-a5db-5a055c258b2c",
+                    "label": "Normal weight"
+                  },
+                  {
+                    "concept": "882b011e-5db7-4d32-a3a6-ab2cf451cae5",
+                    "label": "Very low weight"
+                  }
+                ]
+              },
+              "id": "weightCondition",
+              "label": "Weight condition"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "ad245808-0481-4836-a8cd-fd4a526abbe0",
+                "answers": [
+                  {
+                    "concept": "1500AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Severe"
+                  },
+                  {
+                    "concept": "a2e13c5c-3dc4-44c0-bea0-ed3202349087",
+                    "label": "Some"
+                  }
+                ]
+              },
+              "id": "cbimnci2To59Pallor",
+              "label": "CBIMNCI 2 to 59-Pallor"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "ee529c26-8c2a-40b2-971d-bdbe5555bcb2",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "anaemia",
+              "label": "Anaemia"
+            }
+          ]
+        },
+        {
+          "label": "Diagnosis",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "5cf2a9c3-79f1-4537-8eb4-8252f0b2d875",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "otherDiagnosisThanAbove",
+              "label": "Other diagnosis than above"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "ce4be9ef-6345-4c8d-bb31-27417bfef331"
+              },
+              "id": "ifOtherDiagnosis,Specify",
+              "label": "If other diagnosis, specify"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Counseling and Treatment",
+      "sections": [
+        {
+          "label": "Counseling",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "7589ede2-38ca-41a9-8f4f-efecc0da1228",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "counselingProvided",
+              "label": "Counseling provided"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "413e3786-74a9-49d7-83b8-ef3bf7f2c4b7",
+                "answers": [
+                  {
+                    "concept": "7d866050-ee37-4749-9d3e-707cc06a3667",
+                    "label": "Food"
+                  },
+                  {
+                    "concept": "cf653e66-c609-4138-8cca-cad4bd471436",
+                    "label": "Immediate visit"
+                  },
+                  {
+                    "concept": "12454495-ad8b-4f01-9d2e-6a5751084851",
+                    "label": "Operative Fluids"
+                  },
+                  {
+                    "concept": "551b3910-bb8a-4845-ba11-e798b558cb1c",
+                    "label": "Regular follow up"
+                  }
+                ]
+              },
+              "id": "counselingPurpose",
+              "label": "Counseling purpose"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "b32c7923-2a05-43e9-9efd-28b4fd2733b4"
+              },
+              "id": "vitaminACapsulesProvided",
+              "label": "Vitamin A Capsules Provided"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "4bd13f7e-9952-470a-ac16-a6fc9e50a10c",
+                "answers": [
+                  {
+                    "concept": "e8e92a6b-a3ab-4a05-92a9-2eea8a6fa3c6",
+                    "label": "Diarrhoea"
+                  },
+                  {
+                    "concept": "5622AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Other"
+                  }
+                ]
+              },
+              "id": "referOut",
+              "label": "Refer Out"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "d417bd30-b94b-4f8f-8114-67f3eb92b0c9",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "followUpAdvisedForOtp/LocalHealthFacility",
+              "label": "Follow up advised for OTP/local health facility"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "fb5e45aa-ba4b-4084-8628-ad7b006ce518"
+              },
+              "id": "others",
+              "label": "Others"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "71f90b31-cf49-4a5a-92c3-791c475ad0a6"
+              },
+              "id": "followUpDaysAtHospital",
+              "label": "Follow up days at Hospital"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "03cac365-19ca-47eb-8350-93b7f2aa6fb9",
+                "answers": [
+                  {
+                    "concept": "b693c755-21a5-427d-a197-e75c02e4c9c7",
+                    "label": "Improved"
+                  },
+                  {
+                    "concept": "aa1a00cd-8639-49a4-a077-d61a2ba7bbd0",
+                    "label": "Same"
+                  },
+                  {
+                    "concept": "95c28e6c-2430-4661-98c9-9c73185af43e",
+                    "label": "Worse"
+                  }
+                ]
+              },
+              "id": "followUpResult",
+              "label": "Follow up result"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "e465a7e9-b529-4431-ae97-5a6d475e55a0"
+              },
+              "id": "assesment/Plan",
+              "label": "Assesment/Plan"
+            }
+          ]
+        },
+        {
+          "label": "Treatment",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "2740f956-5abc-4c04-9f5b-ef2cd1ab4d4e",
+                "answers": [
+                  {
+                    "concept": "3b80fd67-dd7c-4bb5-b9cf-7c54701fab11",
+                    "label": "Amoxicillin"
+                  },
+                  {
+                    "concept": "27fe8aba-533e-47e6-a451-c39f9e55278a",
+                    "label": "Anti-helminthes"
+                  },
+                  {
+                    "concept": "a762b300-bfad-490e-aab4-3340d73f6800",
+                    "label": "IV Fluid"
+                  },
+                  {
+                    "concept": "4d8a2256-58dc-4365-97cd-90c03b732772",
+                    "label": "ORS and Zinc"
+                  },
+                  {
+                    "concept": "470fe58d-4e49-4d09-bf76-2de520a3e935",
+                    "label": "Retinol (Vitamin A)"
+                  },
+                  {
+                    "concept": "1175AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Not applicable"
+                  }
+                ]
+              },
+              "id": "treatedWith",
+              "label": "Treated With"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "processor": "EncounterFormProcessor",
+  "encounterType": "dd528487-82a5-4082-9c72-ed246bd49591",
+  "referencedForms": [],
+  "uuid": "eb1a6ab3-1993-421d-9f2c-40b3f8a2462a",
+  "description": "CBIMNCI (2 to 59 months child)",
+  "version": "1"
+}

@@ -1,0 +1,344 @@
+{
+  "name": "DR TB Follow up Note",
+  "pages": [
+    {
+      "label": "Follow-Up and Diagnostic Monitoring",
+      "sections": [
+        {
+          "label": "Follow-UP",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "7b86a612-cff5-42d6-961b-0570bf827c00",
+                "answers": [
+                  {
+                    "concept": "2e98164e-f6e1-4e7b-9407-7e25592e7151",
+                    "label": "2 months"
+                  },
+                  {
+                    "concept": "48344c3f-f811-4158-ab29-e14267dab085",
+                    "label": "5th month"
+                  },
+                  {
+                    "concept": "591f0c75-0499-49d4-94ab-aa437caee819",
+                    "label": "6th month"
+                  }
+                ]
+              },
+              "id": "followUpMonth",
+              "label": "Follow Up Month"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "e691a891-a8a6-4fb0-a684-9d812d091960",
+                "answers": [
+                  {
+                    "concept": "537eb5d3-243e-4633-9c23-18b8c75eb47e",
+                    "label": "Gene Xpert"
+                  },
+                  {
+                    "concept": "75e6e30e-8aa9-43a3-aeb1-61616fbeb261",
+                    "label": "Sputum Culture"
+                  },
+                  {
+                    "concept": "c7d6141a-7801-4b97-9f89-0250497f1cbc",
+                    "label": "Sputum Smear"
+                  }
+                ]
+              },
+              "id": "testOrder",
+              "label": "Test Order"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "126a44c4-e904-432d-ac00-63e36e1f5aec",
+                "answers": [
+                  {
+                    "concept": "703AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Positive"
+                  },
+                  {
+                    "concept": "664AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Negative"
+                  },
+                  {
+                    "concept": "1175AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Not applicable"
+                  }
+                ]
+              },
+              "id": "testResult",
+              "label": "Test Result"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "dc352190-eca7-4153-81cd-25f0c095a83c",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "monthlyBaselineTestPerformed",
+              "label": "Monthly Baseline Test Performed ?",
+              "required": true,
+              "questionInfo": "Baseline test: LFT, RFT, CBC, Urine RE/ME"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Drug Resistance and Treatment Outcome Monitoring",
+      "sections": [
+        {
+          "label": "Conversion and outcome report",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "008434fc-04ed-4dd6-8ff8-9c3c03563967",
+                "answers": [
+                  {
+                    "concept": "58e09f0b-8052-4f33-8750-1c9859f08a52",
+                    "label": "Capreomycin"
+                  },
+                  {
+                    "concept": "bf0086a9-4024-4a1f-8663-9cc28e7b4484",
+                    "label": "Isoniazid"
+                  },
+                  {
+                    "concept": "1a0f5278-3540-4cc1-a8f9-7c7be5f1f3f2",
+                    "label": "Kanamycin"
+                  },
+                  {
+                    "concept": "f84b8df1-831d-4eea-9ca2-69f3b6af4ebe",
+                    "label": "Levofloxacin"
+                  },
+                  {
+                    "concept": "cf1ceefe-83f0-4a43-bcca-cf1f38aebdb1",
+                    "label": "Rifaximin"
+                  }
+                ]
+              },
+              "id": "resistantDrug",
+              "label": "Resistant Drug",
+              "questionInfo": "INH: Isoniazid RR: Rephampicin resistant KM: Kanamicin Lfx: Levofloxacin CM: Capriomycin"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "9ac50f2d-f258-4b78-9279-6235ed951ca6",
+                "answers": [
+                  {
+                    "concept": "223ed9f0-eae8-4a37-969a-df0352c616f4",
+                    "label": "Sensitive"
+                  },
+                  {
+                    "concept": "225dcf22-16ad-4b9b-a498-ccf1ff688d18",
+                    "label": "Resistant"
+                  }
+                ]
+              },
+              "id": "sensitivityTestResult",
+              "label": "Sensitivity Test Result"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "c618440a-0a1b-46fe-8dc8-7467952f278d",
+                "answers": [
+                  {
+                    "concept": "4a704784-bac9-4855-b6b7-ae9438df7ecb",
+                    "label": "Multi drug resistant"
+                  },
+                  {
+                    "concept": "3d736860-4eaa-46ba-9614-8a3b97ecbe72",
+                    "label": "Pre XDR"
+                  },
+                  {
+                    "concept": "00a14c74-3f3c-4976-b2af-e59bfbbb88c1",
+                    "label": "XDR"
+                  }
+                ]
+              },
+              "id": "treatmentCategory",
+              "label": "Treatment Category",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "f5ff3402-7827-4546-a1dc-59d9e41dfbb7",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "routine6thMonthlyTestPerformed",
+              "label": "Routine 6th Monthly Test Performed ?",
+              "questionInfo": "Routine 6th monthly tests: TSH, Ear infection"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "33fdf842-194e-455b-9614-d0324c5902cc",
+                "answers": [
+                  {
+                    "concept": "14b62de4-e49a-43a8-a4aa-11a1e732930f",
+                    "label": "Not evaluated"
+                  },
+                  {
+                    "concept": "a6b274a9-a5ed-4b23-9b13-a3b0aee2cc65",
+                    "label": "Complete"
+                  },
+                  {
+                    "concept": "4a5df41f-3379-42aa-97dc-6590b2e1934f",
+                    "label": "Death During Treatment"
+                  },
+                  {
+                    "concept": "80d49f8a-666c-42a5-bf49-6a9ffad51357",
+                    "label": "Slit skin positive"
+                  },
+                  {
+                    "concept": "deddbdeb-0fed-4812-878a-6cbe48078218",
+                    "label": "Treatment cured"
+                  },
+                  {
+                    "concept": "70743c44-41b9-4fa5-bf49-c504db1e8c38",
+                    "label": "Treatment failed"
+                  }
+                ]
+              },
+              "id": "treatmentOutcome",
+              "label": "Treatment Outcome"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "dab46ab2-4955-43bd-b66d-6a084b851d5d",
+                "answers": [
+                  {
+                    "concept": "a2601792-3170-4396-8c11-e6a94a1f3d8b",
+                    "label": "Lost to follow up"
+                  },
+                  {
+                    "concept": "14b62de4-e49a-43a8-a4aa-11a1e732930f",
+                    "label": "Not evaluated"
+                  },
+                  {
+                    "concept": "4a5df41f-3379-42aa-97dc-6590b2e1934f",
+                    "label": "Death During Treatment"
+                  }
+                ]
+              },
+              "id": "sputumConversionResult",
+              "label": "Sputum Conversion Result"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "HIV Activities",
+      "sections": [
+        {
+          "label": "HIV Testing and ART Status",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "111adf0f-c8b7-446e-a7c9-242725be4955",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "hivTestedInThisCourse?",
+              "label": "HIV Tested In This Course ?"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "c724838e-fdc9-4ab4-af0e-bce792973260",
+                "answers": [
+                  {
+                    "concept": "703AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Positive"
+                  },
+                  {
+                    "concept": "664AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Negative"
+                  }
+                ]
+              },
+              "id": "hivTestResult",
+              "label": "HIV Test Result"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "bcdaf705-a692-4ff3-a6e4-19ff50135f52",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "isPatientOnArt",
+              "label": "Is Patient on Art ?"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "processor": "EncounterFormProcessor",
+  "encounterType": "dd528487-82a5-4082-9c72-ed246bd49591",
+  "referencedForms": [],
+  "uuid": "e06006ea-0694-4db4-9a21-f5fd5253e1ff",
+  "description": "DR TB follow-up",
+  "version": "1"
+}

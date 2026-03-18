@@ -1,0 +1,440 @@
+{
+  "name": "OPD Visit Note",
+  "pages": [
+    {
+      "label": "OPD Visit Note",
+      "sections": []
+    },
+    {
+      "label": "Visit Details",
+      "sections": [
+        {
+          "label": "Visit Particulars",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "76812b96-fbc5-43cd-ba12-d2fb70cf85df",
+                "answers": [
+                  {
+                    "concept": "0db55ea3-564b-4260-968c-2c415c396f3e",
+                    "label": "Ultra poor or poor"
+                  },
+                  {
+                    "concept": "e3694e2d-dc2f-4dc1-9ff4-62541a006b2b",
+                    "label": "Sr. citizens greater than 60 years"
+                  },
+                  {
+                    "concept": "be9c3055-bed0-4fa3-a8ed-bd995f7420bf",
+                    "label": "Disabled"
+                  },
+                  {
+                    "concept": "0c65f154-39e9-47d6-af6c-5cbcb206bc5d",
+                    "label": "Gender based violence"
+                  },
+                  {
+                    "concept": "e08bdee0-8169-4499-b9f5-f13c3f68cf2a",
+                    "label": "Helpless or destitute"
+                  },
+                  {
+                    "concept": "a0c0b3d6-cc02-4b10-ad18-3ac023e686d4",
+                    "label": "FCHV"
+                  },
+                  {
+                    "concept": "5622AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Other"
+                  },
+                  {
+                    "concept": "1175AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Not applicable"
+                  }
+                ]
+              },
+              "id": "freeHealthServiceCode",
+              "label": "Free health service code",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "14AAAAAAAAAAAAAAAAAAAAAAAAABB",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "referredIn",
+              "label": "Referred in "
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "c0f2ccac-003e-406e-afe2-b0cf97b88916"
+              },
+              "id": "referInstitutionName",
+              "label": "Refer Institution Name"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "1f70de7a-6130-460d-823b-b007a42b42f9",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "genderBasedVoilence",
+              "label": "Gender based Voilence"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "bfa38864-ffdf-4ae5-bbb7-023fb3f7b728",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "suspectedTuberculosisPatients",
+              "label": "Suspected Tuberculosis Patients"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Subjective History",
+      "sections": [
+        {
+          "label": "History of Presenting Complaints",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "e32add25-df38-4b2b-85e8-709633467ce2"
+              },
+              "id": "chiefComplain",
+              "label": "Chief Complaint"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "1390AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              },
+              "id": "historyOfPresentIllness(Narrative)",
+              "label": "History of Present Illness (Narrative)"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "f4090447-33b7-4085-8643-f1e6a0dcd7bb"
+              },
+              "id": "pastMedicalHistory",
+              "label": "Past Medical History"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "date",
+                "concept": "1427AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              },
+              "id": "dateOfLmp",
+              "label": "Date of LMP",
+              "datePickerFormat": "calendar"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "4bbb0cb6-40b3-4ff8-914d-e6c7b7784aae"
+              },
+              "id": "obstetricsOrGynoHistory",
+              "label": "Obstetrics or gyno history"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "45c6fa88-707c-4936-a914-bcc88b285af6"
+              },
+              "id": "allergies",
+              "label": "Allergies"
+            }
+          ]
+        },
+        {
+          "label": "Social History",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "2dd8492d-2859-4544-96cf-5a5f2ecfb36c",
+                "answers": [
+                  {
+                    "concept": "152722AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Current Smoker"
+                  },
+                  {
+                    "concept": "152807AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Former Smoker"
+                  },
+                  {
+                    "concept": "701637c6-bba2-4b95-ae29-1a8c38a0e853",
+                    "label": "Non-smoker"
+                  }
+                ]
+              },
+              "id": "cigaretteSmoker",
+              "label": "Cigarette smoker"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "159449AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "answers": [
+                  {
+                    "concept": "159450AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Currently"
+                  },
+                  {
+                    "concept": "159452AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "In the past"
+                  },
+                  {
+                    "concept": "7dc37d7a-1725-11ed-861d-0242ac120002",
+                    "label": "Never started"
+                  }
+                ]
+              },
+              "id": "alcoholUse",
+              "label": "Alchohol Consumption"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "729f5f07-ba3c-4772-8e5e-7fb138118e96",
+                "answers": [
+                  {
+                    "concept": "159450AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Currently"
+                  },
+                  {
+                    "concept": "159452AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "In the past"
+                  },
+                  {
+                    "concept": "7dc37d7a-1725-11ed-861d-0242ac120002",
+                    "label": "Never started"
+                  }
+                ]
+              },
+              "id": "chewingTobaccoConsumptionStatus",
+              "label": "Chewing Tobacco Consumption Status"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Objective History",
+      "sections": [
+        {
+          "label": "Examination",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "2139b07e-b45e-4a3e-b54e-e61477e50e1d",
+                "answers": [
+                  {
+                    "concept": "143264AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Cough"
+                  },
+                  {
+                    "concept": "143050AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Cyanosis"
+                  },
+                  {
+                    "concept": "142630AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Dehydration"
+                  },
+                  {
+                    "concept": "140238AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Fever"
+                  },
+                  {
+                    "concept": "140125AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Finger Clubbing"
+                  },
+                  {
+                    "concept": "160680AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Inguinal lymph node(s)"
+                  },
+                  {
+                    "concept": "136443AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Jaundice"
+                  },
+                  {
+                    "concept": "116334AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Lethargy"
+                  },
+                  {
+                    "concept": "41e4d5d4-1a59-4176-8969-c82f349acca7",
+                    "label": "Lymph Node Axillary"
+                  },
+                  {
+                    "concept": "4e71282c-8298-4830-a3d7-d08a599b0f0a",
+                    "label": "Nasal Flaring"
+                  },
+                  {
+                    "concept": "1115AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Normal"
+                  },
+                  {
+                    "concept": "460AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Oedema"
+                  },
+                  {
+                    "concept": "ce9954f0-f36c-4af3-ab0a-4aceb0da4dad",
+                    "label": "Oral thrush"
+                  },
+                  {
+                    "concept": "5245AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Pallor"
+                  },
+                  {
+                    "concept": "193ab150-1c9d-44d0-95db-84bd1b75c52c",
+                    "label": "Wasting"
+                  }
+                ]
+              },
+              "id": "generalExaminationFindings:",
+              "label": "General Examination findings:"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "163042AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              },
+              "id": "generalExaminationNotes",
+              "label": "General Examination Notes"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "73646a06-fd23-4bfa-b96e-34a80efa8363"
+              },
+              "id": "systemicExamination(Narrative)",
+              "label": "Systemic Examination (Narrative)"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "2b876f06-47e9-4af0-858a-5ecd655661bc"
+              },
+              "id": "advice/Plan/Followup",
+              "label": "Advice/Plan/Followup"
+            }
+          ]
+        },
+        {
+          "label": "Past History Laboratory and Diagnostic Tests",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "label": "Past History",
+              "required": false,
+              "id": "conditonsWorkspaceLauncher",
+              "questionOptions": {
+                "rendering": "workspace-launcher",
+                "buttonLabel": "Past History",
+                "workspaceName": "conditions-form-workspace"
+              }
+            },
+            {
+              "label": "Order Basket Launcher",
+              "required": false,
+              "id": "orderBasketLabWorkspaceLauncher",
+              "questionOptions": {
+                "rendering": "workspace-launcher",
+                "buttonLabel": "Add Lab Orders",
+                "workspaceName": "add-lab-order"
+              }
+            },
+            {
+              "label": "Diagnosis",
+              "required": false,
+              "id": "visitNotesFormWorkspaceLauncher",
+              "questionOptions": {
+                "rendering": "workspace-launcher",
+                "buttonLabel": "+ Diagnosis",
+                "workspaceName": "visit-notes-form-workspace"
+              },
+              "hide": {}
+            }
+          ]
+        },
+        {
+          "label": "Diagnosis and Drug Order",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "label": "Drugs Order",
+              "required": false,
+              "id": "orderBasketDrugWorkspaceLauncher",
+              "questionOptions": {
+                "rendering": "workspace-launcher",
+                "buttonLabel": "+ Orders",
+                "workspaceName": "order-basket"
+              },
+              "hide": {}
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "processor": "EncounterFormProcessor",
+  "encounterType": "dd528487-82a5-4082-9c72-ed246bd49591",
+  "referencedForms": [],
+  "uuid": "28125f57-5983-48f0-bc69-f73876760f19",
+  "description": "Opd Visit Notes",
+  "version": "1"
+}

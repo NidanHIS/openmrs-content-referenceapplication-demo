@@ -1,0 +1,212 @@
+{
+  "name": "Ultrasound Note",
+  "pages": [
+    {
+      "label": "Abdominal Organ Measurements",
+      "sections": [
+        {
+          "label": "Measurements",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "8b78efcc-9707-473e-b32c-a5044fdf2b0f"
+              },
+              "id": "liver",
+              "label": "Liver - (In cm)"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "33843493-af6b-4467-834b-2bf707f9b061"
+              },
+              "id": "gallBladder",
+              "label": "Gall Bladder (In cm)"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "9c899285-60ba-495e-9b44-16c182d8b389",
+                "answers": [
+                  {
+                    "concept": "1115AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Normal"
+                  },
+                  {
+                    "concept": "2d20ec94-ca2a-4693-a874-f275585c2572",
+                    "label": "Abnormal"
+                  }
+                ]
+              },
+              "id": "commonBileDuct",
+              "label": "Common Bile Duct"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "32171e82-e6b6-44ea-9798-93c0c75a08aa",
+                "answers": [
+                  {
+                    "concept": "1115AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Normal"
+                  },
+                  {
+                    "concept": "2d20ec94-ca2a-4693-a874-f275585c2572",
+                    "label": "Abnormal"
+                  }
+                ]
+              },
+              "id": "pancreases",
+              "label": "Pancreases"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "01b8c3b2-0c1e-4a2b-89d7-17213618d8bd"
+              },
+              "id": "uterusInCm",
+              "label": "Uterus (In cm)"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "085e3355-b309-4aa9-8de3-8aa627e93e5a"
+              },
+              "id": "spleen(InCm)",
+              "label": "Spleen (In cm)"
+            }
+          ]
+        },
+        {
+          "label": "Rt. Kidney",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "f5224e0a-f194-44a9-9361-17d247ae751d"
+              },
+              "id": "measureInCm",
+              "label": "Measure (In cm)"
+            }
+          ]
+        },
+        {
+          "label": "Lt. Kidney",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "f5224e0a-f194-44a9-9361-17d247ae751d"
+              },
+              "id": "measure(InCm)",
+              "label": "Measure (In cm)"
+            }
+          ]
+        },
+        {
+          "label": "Prostate",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "f5224e0a-f194-44a9-9361-17d247ae751d"
+              },
+              "id": "measure",
+              "label": "Measure (In cm)"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "f8e5fea6-8246-4428-8c55-ee5492760eaa"
+              },
+              "id": "classification",
+              "label": "Classification"
+            }
+          ]
+        },
+        {
+          "label": "Ultrasound Findings & Impression",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "124bd271-8196-4739-9ea3-fd1a00310d8f",
+                "answers": [
+                  {
+                    "concept": "1115AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Normal"
+                  },
+                  {
+                    "concept": "2d20ec94-ca2a-4693-a874-f275585c2572",
+                    "label": "Abnormal"
+                  }
+                ]
+              },
+              "id": "urinaryBladder",
+              "label": "Urinary Bladder"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "52536572-ad29-4eb9-bf19-9bc0a5e026c8",
+                "answers": [
+                  {
+                    "concept": "1115AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Normal"
+                  },
+                  {
+                    "concept": "2d20ec94-ca2a-4693-a874-f275585c2572",
+                    "label": "Abnormal"
+                  }
+                ]
+              },
+              "id": "ovaries",
+              "label": "Ovaries"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "c9f9916b-75d2-467c-a9ba-8aeea2d5526f"
+              },
+              "id": "findings",
+              "label": "Findings"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "b7d12c33-8056-4ae6-9fa2-7863bb196624"
+              },
+              "id": "impression",
+              "label": "Impression"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "processor": "EncounterFormProcessor",
+  "encounterType": "dd528487-82a5-4082-9c72-ed246bd49591",
+  "referencedForms": [],
+  "uuid": "72f011f0-2ccd-46ab-a895-5074775fae2e",
+  "description": "Ultrasound Note",
+  "version": "1"
+}

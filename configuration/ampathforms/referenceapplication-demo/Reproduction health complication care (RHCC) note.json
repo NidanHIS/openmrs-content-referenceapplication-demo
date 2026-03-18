@@ -1,0 +1,457 @@
+{
+  "name": "Reproduction health complication care (RHCC) note",
+  "pages": [
+    {
+      "label": "Cervical Cancer",
+      "sections": [
+        {
+          "label": "Screening",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "b9504944-7d22-4bb6-8475-2afa6373f6ea",
+                "answers": [
+                  {
+                    "concept": "da456dae-03a8-49bb-8c4a-772952ce1b47",
+                    "label": "Screened"
+                  },
+                  {
+                    "concept": "703AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Positive"
+                  }
+                ]
+              },
+              "id": "hipvDna",
+              "label": "HIPV DNA"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "28434f0c-2f22-4b73-9225-c2e01cd48aaf",
+                "answers": [
+                  {
+                    "concept": "da456dae-03a8-49bb-8c4a-772952ce1b47",
+                    "label": "Screened"
+                  },
+                  {
+                    "concept": "703AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Positive"
+                  }
+                ]
+              },
+              "id": "via",
+              "label": "VIA"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "d46f64c5-d7b9-4f5f-b561-02de5db1527e",
+                "answers": [
+                  {
+                    "concept": "da456dae-03a8-49bb-8c4a-772952ce1b47",
+                    "label": "Screened"
+                  },
+                  {
+                    "concept": "703AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Positive"
+                  }
+                ]
+              },
+              "id": "papSmear&Other",
+              "label": "Pap smear & other"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "42312183-4cfa-45f2-befb-1b447e9616af",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "ablativeTreatment",
+              "label": "Ablative treatment"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "c48f8dff-66c1-41f5-960b-8fb7eec8de15",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "colposcopy",
+              "label": "Colposcopy"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "797a6ede-ea44-4243-b74a-5699c0189bce",
+                "answers": [
+                  {
+                    "concept": "da456dae-03a8-49bb-8c4a-772952ce1b47",
+                    "label": "Screened"
+                  },
+                  {
+                    "concept": "c0bff379-c497-410e-b25c-11443621f5b4",
+                    "label": "Suspected"
+                  }
+                ]
+              },
+              "id": "breastCancer",
+              "label": "Breast Cancer"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "1bc057d2-47f7-408e-bac9-b34910c100bf",
+                "answers": [
+                  {
+                    "concept": "f9ed5de2-d814-4762-82ab-6e19fe0cf734",
+                    "label": "Operation"
+                  },
+                  {
+                    "concept": "38450f56-a0e5-458c-ab2c-5d27ef84a782",
+                    "label": "Referred"
+                  },
+                  {
+                    "concept": "da456dae-03a8-49bb-8c4a-772952ce1b47",
+                    "label": "Screened"
+                  },
+                  {
+                    "concept": "c0bff379-c497-410e-b25c-11443621f5b4",
+                    "label": "Suspected"
+                  }
+                ]
+              },
+              "id": "obstetricFistula",
+              "label": "Obstetric Fistula"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Uterine Prolpase",
+      "sections": [
+        {
+          "label": "Screening",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "2d412da5-315b-4b03-a326-3edd059d74e0",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "screened",
+              "label": "Screened"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "3c95854c-5637-4900-b3fe-8fc0b6bb1078",
+                "answers": [
+                  {
+                    "concept": "a93dec43-2d1a-4f8b-8044-7b469bd3de85",
+                    "label": "Stage 1 & 2"
+                  },
+                  {
+                    "concept": "b4e02805-ea8b-48e9-9019-4f9576a79bca",
+                    "label": "Stage 3"
+                  },
+                  {
+                    "concept": "a082ce6d-142f-4937-91ac-e6ce22066b5a",
+                    "label": "Stage 4"
+                  }
+                ]
+              },
+              "id": "prolpaseFinding",
+              "label": "Prolpase finding"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "d1cbe4d3-9403-423b-994e-f98b24ffa396",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "ringPessary",
+              "label": "Ring pessary"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "14AAAAAAAAAAAAAAAAAAAAAAAAABB",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "referred",
+              "label": "Referred"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "5bfc1307-55ac-451d-bcf0-573ff3c9703f",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "operation",
+              "label": "Operation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "PV/PS",
+      "sections": [
+        {
+          "label": "Per Vaginal / Per Speculum Examination",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "bfe1b6f4-0944-45b4-8f76-e38aba8bc59f",
+                "answers": [
+                  {
+                    "concept": "512AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Rash"
+                  },
+                  {
+                    "concept": "1906a801-ddcc-4a08-b44a-78cc878106aa",
+                    "label": "Injury"
+                  },
+                  {
+                    "concept": "671a440b-6b0e-497f-b0f4-12b6d024d659",
+                    "label": "Any"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "externally",
+              "label": "Externally"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "7fbb4d42-d1fe-4fba-b1ff-88b09a77a9c8",
+                "answers": [
+                  {
+                    "concept": "1498AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Mild"
+                  },
+                  {
+                    "concept": "1499AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Moderate"
+                  },
+                  {
+                    "concept": "1115AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Normal"
+                  },
+                  {
+                    "concept": "1500AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Severe"
+                  }
+                ]
+              },
+              "id": "vaginalDischarge",
+              "label": "Vaginal Discharge"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "4ed5eee5-c5bd-4771-aa9f-59b5c91799e2"
+              },
+              "id": "colour",
+              "label": "Colour"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "c1409b4a-2615-4821-a927-d7fef1739ccf",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "cervixErosion",
+              "label": "Cervix Erosion"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "8835a471-f26d-4265-b1b8-b5cb550bca35",
+                "answers": [
+                  {
+                    "concept": "e933c626-7c16-49e1-87e7-c193d58d61e5",
+                    "label": "Retroverted uterus"
+                  },
+                  {
+                    "concept": "87507449-1c1a-4d16-9e8d-933204fa2010",
+                    "label": "Anteverted Uterus"
+                  }
+                ]
+              },
+              "id": "uterus",
+              "label": "Uterus"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "01b8c3b2-0c1e-4a2b-89d7-17213618d8bd"
+              },
+              "id": "uterus(InCm)",
+              "label": "Uterus (In cm)"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "e1a469bf-cbe5-40aa-941c-978047c0d024",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "polips",
+              "label": "Polips"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "162388AAAAAAAAAAAAAAAAAAAAAAOS",
+                "answers": [
+                  {
+                    "concept": "e755374f-2984-4f90-ba3c-b2fca18ec885",
+                    "label": "Close"
+                  },
+                  {
+                    "concept": "e3aceb26-8e24-4950-a502-895fdc7240aa",
+                    "label": "Open"
+                  }
+                ]
+              },
+              "id": "os",
+              "label": "OS"
+            }
+          ]
+        },
+        {
+          "label": "Follow-Up",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "e6996321-bff7-417c-bff4-6ed01dfa322a"
+              },
+              "id": "ifAny",
+              "label": "If Any"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "date",
+                "concept": "f5cda421-be04-4b04-a4e8-85267d32ebe5"
+              },
+              "id": "followUpDate",
+              "label": "Follow up Date",
+              "datePickerFormat": "calendar"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "processor": "EncounterFormProcessor",
+  "encounterType": "dd528487-82a5-4082-9c72-ed246bd49591",
+  "referencedForms": [],
+  "uuid": "cff5e633-1007-4292-aff5-1bbd652a7ddb",
+  "description": "Reproductive Health data collection note",
+  "version": "1"
+}

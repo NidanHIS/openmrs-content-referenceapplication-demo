@@ -1,0 +1,690 @@
+{
+  "name": "Delivery Note",
+  "pages": [
+    {
+      "label": "Service Information",
+      "sections": [
+        {
+          "label": "Service Provided",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "2e8e357c-bad2-40a7-bcdb-62cec2313be2",
+                "answers": [
+                  {
+                    "concept": "a57637e6-e29b-407f-a728-ff459957a615",
+                    "label": "SHP"
+                  },
+                  {
+                    "concept": "0aff20e5-07ef-4e45-8aa2-adab27c5eebe",
+                    "label": "Non SBA health worker"
+                  },
+                  {
+                    "concept": "ad176080-d368-4a55-a032-ec46d64dfb83",
+                    "label": "Delivery on House"
+                  },
+                  {
+                    "concept": "0009f69b-3ca1-4d40-a092-c8e383875292",
+                    "label": "Skilled birth attendant"
+                  }
+                ]
+              },
+              "id": "deliveryServiceDoneBy",
+              "label": "Delivery service done by",
+              "required": true
+            },
+            {
+              "type": "encounterProvider",
+              "questionOptions": {
+                "rendering": "ui-select-extended"
+              },
+              "id": "mainAttendantName",
+              "label": "Main attendant's name"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "14AAAAAAAAAAAAAAAAAAAAAAAAABB",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "referredIn",
+              "label": "Referred In",
+              "required": true
+            }
+          ]
+        },
+        {
+          "label": "Blood Pressure",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "5085AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              },
+              "id": "systolic",
+              "label": "Systolic"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "5086AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              },
+              "id": "diastolic(MmHg)",
+              "label": "Diastolic(mm Hg)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Labour & Delivery Details",
+      "sections": [
+        {
+          "label": "Labour & Delivery Details",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "datetime",
+                "concept": "d73ef9e6-7286-44d5-bc91-e86d6991199e"
+              },
+              "id": "deliveryDateAndTime",
+              "label": "Delivery Date and Time",
+              "datePickerFormat": "both",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "d0e0f0bf-9497-4310-881a-f3a3e8db736b",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "completed4AncVisitsPerProtocol",
+              "label": "Completed 4 anc visits per protocol",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "fb5e45aa-ba4b-4084-8628-ad7b006ce518"
+              },
+              "id": "patientConditionAtTheTimeOfAdmission",
+              "label": "Patient Condition at The Time of Admission"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "28fcb679-d4d6-47d7-97bd-b49ae5dda37e",
+                "answers": [
+                  {
+                    "concept": "dae884a2-11b6-4d3d-a589-2f0bc22ce54e",
+                    "label": "Caesarean section"
+                  },
+                  {
+                    "concept": "7acd4899-6bed-4a17-b150-c361873da106",
+                    "label": "Forceps assisted"
+                  },
+                  {
+                    "concept": "da5f0ab8-e823-4cfb-9ccc-dcc813ebe88e",
+                    "label": "Spontaneous vaginal delivery"
+                  },
+                  {
+                    "concept": "c7d5ac8a-54c1-4e3b-969f-61a3ca6b3c40",
+                    "label": "Vacuum assisted"
+                  }
+                ]
+              },
+              "id": "deliveryMethod",
+              "label": "Delivery Method",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "ddd9df87-a3fa-4d11-9bc2-3e77af0a3395",
+                "answers": [
+                  {
+                    "concept": "b4c6d961-398f-441f-91ad-919352187874",
+                    "label": "Single-livebirth"
+                  },
+                  {
+                    "concept": "ad7ce376-c143-4b16-a867-b98a1516968d",
+                    "label": "Single-stillbirth"
+                  },
+                  {
+                    "concept": "7a944f58-a723-4770-bccf-36f234416ee8",
+                    "label": "Twins-both liveborn"
+                  },
+                  {
+                    "concept": "b155b46a-5a1e-4645-a4da-b484aeae91f2",
+                    "label": "Twins-both stillborn"
+                  },
+                  {
+                    "concept": "aee587de-eca6-444b-a745-00e8723d46fa",
+                    "label": "Twins-one liveborn and one stillborn"
+                  },
+                  {
+                    "concept": "740553c4-de55-4cf5-9827-a902cf7ebbfe",
+                    "label": "Other multiple births-some liveborn"
+                  },
+                  {
+                    "concept": "f599070a-a60e-4408-8171-36cd8b35fe43",
+                    "label": "Other multiple births-all stillborn"
+                  },
+                  {
+                    "concept": "24fc78dc-90fb-4be2-9d79-f63efc4eb7c8",
+                    "label": "Other multiple births-all liveborn"
+                  }
+                ]
+              },
+              "id": "deliveryOutcome",
+              "label": "Delivery Outcome",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "06d09f70-8b79-450a-8a77-3656510016e2",
+                "answers": [
+                  {
+                    "concept": "159916AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Fresh stillbirth"
+                  },
+                  {
+                    "concept": "199aa68f-54eb-41a3-a1ed-2cbde43d6db4",
+                    "label": "Macerated"
+                  },
+                  {
+                    "concept": "1175AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Not applicable"
+                  }
+                ]
+              },
+              "id": "stillbirthType",
+              "label": "Stillbirth Type",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "abe1fe82-9ccb-489b-b2de-4678a6b40535",
+                "answers": [
+                  {
+                    "concept": "3564bc53-69ea-4fc3-8c89-4c126882f741",
+                    "label": "Primi"
+                  },
+                  {
+                    "concept": "8ae323b6-0c0d-4c85-be0b-b8c13b4f57c6",
+                    "label": "Multi"
+                  },
+                  {
+                    "concept": "e1adae57-382a-400c-bde1-3ba5532db311",
+                    "label": "Grand multi"
+                  }
+                ]
+              },
+              "id": "gravidaIncludingThisDelivery",
+              "label": "Gravida (including this delivery)",
+              "required": true,
+              "questionInfo": "Primi: Gravida1 Multi: Gravida 2,3,4 Grand multi:Gravida 5 and more"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "c755dfba-72a1-45a3-bb58-cb760f7534ff"
+              },
+              "id": "gestationPeriod",
+              "label": "Gestation Period"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "1c4de25d-89df-448b-aa35-4ca1a135550a",
+                "answers": [
+                  {
+                    "concept": "ccf3d985-2b11-4902-a339-da210c69342c",
+                    "label": "Shoulder"
+                  },
+                  {
+                    "concept": "829c44f0-5bc8-438f-a42d-a2231b5c24e4",
+                    "label": "Cephalic"
+                  },
+                  {
+                    "concept": "f374fa36-8e22-40c1-9559-d23e38dae170",
+                    "label": "Breech"
+                  }
+                ]
+              },
+              "id": "fetalPresentation",
+              "label": "Presentation",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "ab4d00d1-0691-4089-88cb-f83f24207334",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "meconiumStainedLiquor",
+              "label": "Meconium stained liquor"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "bf64b20c-0638-4736-a115-14ed3363bf5c",
+                "answers": [
+                  {
+                    "concept": "12b3b31e-7be7-4d0c-93be-1c57f0a52da2",
+                    "label": "Manual Removal"
+                  },
+                  {
+                    "concept": "8b54369e-48d1-4aa4-8c92-865d12b25aa3",
+                    "label": "Controlled Cord Traction"
+                  }
+                ]
+              },
+              "id": "methodOfDeliveryOfPlacenta",
+              "label": "Method of delivery of placenta"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "4dd15dba-8f11-4984-b967-3d93fc3651e2",
+                "answers": [
+                  {
+                    "concept": "2ad5b332-01d4-4635-b1f8-37a8cd3d14ba",
+                    "label": "Incomplete"
+                  },
+                  {
+                    "concept": "bc7fb713-723a-48d6-b514-fb1bfe66ef20",
+                    "label": "Doubtful"
+                  },
+                  {
+                    "concept": "a6b274a9-a5ed-4b23-9b13-a3b0aee2cc65",
+                    "label": "Complete"
+                  }
+                ]
+              },
+              "id": "placentaDeliverStatus",
+              "label": "Placenta deliver status"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "ed9a9448-b448-465b-a5f7-d587b65a0d52",
+                "answers": [
+                  {
+                    "concept": "a6b274a9-a5ed-4b23-9b13-a3b0aee2cc65",
+                    "label": "Complete"
+                  },
+                  {
+                    "concept": "1e5bffc0-83de-4c41-aeb8-ddaa4b78c6b1",
+                    "label": "Ragged"
+                  },
+                  {
+                    "concept": "d85109da-c3aa-4f6f-abb1-7dd91ab28a59",
+                    "label": "Retained"
+                  }
+                ]
+              },
+              "id": "membraneCondition",
+              "label": "Membrane condition"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "select",
+                "concept": "f1ea34fb-1f38-4065-ab63-890a7dc75246",
+                "answers": [
+                  {
+                    "concept": "2d709fb7-f6ef-418e-96bd-3cd33077d138",
+                    "label": "Intact"
+                  },
+                  {
+                    "concept": "94626d0e-5fc8-440e-8a89-4c8db760308f",
+                    "label": "1st Degree Perineal Laceration"
+                  },
+                  {
+                    "concept": "54448ee3-210c-4011-a505-13472e79c91b",
+                    "label": "2nd Degree Perineal Laceration"
+                  },
+                  {
+                    "concept": "6aa33e32-091d-4ed7-ae2d-68460a839e4a",
+                    "label": "3rd Degree Perineal Laceration"
+                  },
+                  {
+                    "concept": "7e6bd581-ddcc-4e28-878b-6179689c3467",
+                    "label": "4th degree laceration"
+                  },
+                  {
+                    "concept": "7d392689-e5c0-49f9-b3c3-05f6f1591805",
+                    "label": "Episiotomy on mother"
+                  }
+                ]
+              },
+              "id": "perineumCondition",
+              "label": "Perineum condition"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "1AASUUUUTTTTTTUUUUUUUUUUUUUUU"
+              },
+              "id": "suturing",
+              "label": "Suturing"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "3524b7ce-bfc9-41a5-93e6-e2702d036b2b",
+                "answers": [
+                  {
+                    "concept": "129251AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Pre-eclampsia"
+                  },
+                  {
+                    "concept": "118744AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Eclampsia"
+                  },
+                  {
+                    "concept": "113602AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Prolonged labor"
+                  },
+                  {
+                    "concept": "158055AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Obstructed labour due to compound presentation"
+                  },
+                  {
+                    "concept": "d27d3553-7312-4b09-aea8-1f634d41e4f7",
+                    "label": "Ruptured uterus"
+                  },
+                  {
+                    "concept": "bd4f6093-ec2e-4683-ad4d-29db295f3a7c",
+                    "label": "Other Complications"
+                  },
+                  {
+                    "concept": "f687852a-8923-4e02-b7d0-fb2b12c6738d",
+                    "label": "Not present"
+                  }
+                ]
+              },
+              "id": "complicationPresent",
+              "label": "Complication Present",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "a845e5fa-f0b3-42f6-a2c2-c445f917cb76",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "antiDProvided",
+              "label": "Anti D Provided?"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "8d00aba0-5e14-45a4-9487-8265945e03d5"
+              },
+              "id": "totalBloodLoss",
+              "label": "Total blood loss (ml)"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "8ebed08d-7c9a-4aa0-9e91-6eec2a2cb7e2"
+              },
+              "id": "bloodTransfusionQuantity",
+              "label": "Blood transfusion quantity (pint) ",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "88d98899-3897-412e-80c2-73dcd0196f65"
+              },
+              "id": "otherComplications",
+              "label": "Other Complications"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "062acf82-584a-4ea3-9c7e-08a955b34da0"
+              },
+              "id": "treatmentSuggestion",
+              "label": "Treatment suggestion"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "HIV / STI Screening",
+      "sections": [
+        {
+          "label": "HIV Counselling & Testing",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "ac931570-af3e-41f0-be14-9342c3290bed",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "hivCounselled",
+              "label": "Hiv Counselled"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "1356AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "hivTestedBefore",
+              "label": "HIV Tested Before"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "998a9198-cc4e-4af8-9589-f450a42c7f17",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "isWomenHiv",
+              "label": "Is women hiv+ve?"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "e11e5dac-8d1d-4aac-a26b-6517ee8112fc",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "hivTestIsThisDelivery",
+              "label": "HIV test is this delivery"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "c724838e-fdc9-4ab4-af0e-bce792973260",
+                "answers": [
+                  {
+                    "concept": "703AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Positive"
+                  },
+                  {
+                    "concept": "664AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Negative"
+                  }
+                ]
+              },
+              "id": "testResult",
+              "label": "Test result"
+            }
+          ]
+        },
+        {
+          "label": "Newborn & Referral",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "patientIdentifier",
+              "questionOptions": {
+                "rendering": "text",
+                "identifierType": "05a29f94-c0ed-11e2-94be-8c13b969e334"
+              },
+              "id": "infantIp",
+              "label": "Infant IP"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "fdf5b193-2fa8-4205-8844-0bf7def584b9",
+                "answers": [
+                  {
+                    "concept": "cf82933b-3f3f-45e7-a5ab-5d31aaee3da3",
+                    "label": "True"
+                  },
+                  {
+                    "concept": "1175AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Not applicable"
+                  }
+                ]
+              },
+              "id": "earlyNeonatalDeath",
+              "label": "Early neonatal death"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "b78245e5-40f3-4616-a003-faa5530b4f55",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "referralRequired",
+              "label": "Referral Required"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "processor": "EncounterFormProcessor",
+  "encounterType": "a1f5c3d2-4b6e-4e8a-9f2d-1b3e8e4a2d7f",
+  "referencedForms": [],
+  "uuid": "63010a72-328f-4204-9f4b-8f804894e582",
+  "description": "Deliver Note",
+  "version": "1"
+}

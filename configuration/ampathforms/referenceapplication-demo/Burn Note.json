@@ -1,0 +1,198 @@
+{
+  "name": "Burn Note",
+  "pages": [
+    {
+      "label": "Burn Case Registration Details",
+      "sections": [
+        {
+          "label": "Burn Details",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "53ab411e-16c3-4862-8c86-970da6b5995e"
+              },
+              "id": "dayOfPresentation",
+              "label": "Day of presentation"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "14AAAAAAAAAAAAAAAAAAAAAAAAABB",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "referredIn",
+              "label": "Referred in",
+              "required": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Burn Incident Information",
+      "sections": [
+        {
+          "label": "Burn Status",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "dc66b0ff-4fa6-4b31-9615-da7262a633d8",
+                "answers": [
+                  {
+                    "concept": "dd94287b-3b42-4eeb-88bd-a9c5d5cb1736",
+                    "label": "Accidental"
+                  },
+                  {
+                    "concept": "9b20afd2-1ceb-40d1-8243-e0e416c89e68",
+                    "label": "Homicidal"
+                  },
+                  {
+                    "concept": "887cb916-1d34-44d3-9416-f155c18b825a",
+                    "label": "Suicidal"
+                  }
+                ]
+              },
+              "id": "modeOfBurn",
+              "label": "Mode of burn"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "24af0087-e624-41c3-baba-668bced13738",
+                "answers": [
+                  {
+                    "concept": "c5ea41a4-75f7-494b-8a84-ee7d33173c6c",
+                    "label": "Abdomen"
+                  },
+                  {
+                    "concept": "57089058-2382-4d98-837b-946b2c4c7cb5",
+                    "label": "Back"
+                  },
+                  {
+                    "concept": "3a15841c-4727-4b2a-a28f-0d1a02bbe442",
+                    "label": "Chest"
+                  },
+                  {
+                    "concept": "e1056415-22a1-4b52-a165-0adbee7e33da",
+                    "label": "Face"
+                  },
+                  {
+                    "concept": "59d81e11-367c-4553-99db-8d0c7a932a93",
+                    "label": "Genital"
+                  },
+                  {
+                    "concept": "e6285013-f88a-4803-9792-08eaf0f535f9",
+                    "label": "Lower limb/s"
+                  },
+                  {
+                    "concept": "33b190c4-4c77-47be-a136-1c67eafc22e0",
+                    "label": "Scalp"
+                  },
+                  {
+                    "concept": "86986230-5e73-404e-b1e4-d3dfd4fa241a",
+                    "label": "Upper limb/s"
+                  }
+                ]
+              },
+              "id": "siteOfBurn",
+              "label": "Site of burn"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "ca15b473-c70c-4393-ad94-c543e3244b7b"
+              },
+              "id": "percentageOfBurn",
+              "label": "Percentage of burn (%)"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio"
+              },
+              "id": "degreeOfBurn",
+              "label": "Degree of burn",
+              "questionInfo": "Highest degree of burn should be selected"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "c68a5f15-de49-4dd5-95f2-49ff00b74fff",
+                "answers": [
+                  {
+                    "concept": "908893ac-3a6c-4c25-8bc9-4b5759498bf7",
+                    "label": "Amputation"
+                  },
+                  {
+                    "concept": "2550e268-7fc3-4cce-b57c-14a214c2641a",
+                    "label": "Contracture"
+                  },
+                  {
+                    "concept": "b492f8d3-96f7-465d-a922-dd5ed9605e75",
+                    "label": "Infection"
+                  },
+                  {
+                    "concept": "d799bb5a-35f2-407c-a5d7-c677dc89f838",
+                    "label": "Sepsis, unspecified"
+                  }
+                ]
+              },
+              "id": "complicationOfBurn",
+              "label": "Complication of burn"
+            }
+          ]
+        },
+        {
+          "label": "Referral Details",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "b78245e5-40f3-4616-a003-faa5530b4f55",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "referralRequired",
+              "label": "Referral required"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "processor": "EncounterFormProcessor",
+  "encounterType": "e22e39fd-7db2-45e7-80f1-60fa0d5a4378",
+  "referencedForms": [],
+  "uuid": "f93786b1-376f-4a1f-9e32-5b3f16198ca2",
+  "description": "Burn Note",
+  "version": "1"
+}

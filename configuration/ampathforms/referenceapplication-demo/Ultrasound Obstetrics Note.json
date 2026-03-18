@@ -1,0 +1,385 @@
+{
+  "name": "Ultrasound Obstetrics Note",
+  "pages": [
+    {
+      "label": "Obstetric History and Fetal Assesment",
+      "sections": [
+        {
+          "label": "Obstetric History and Fetal Assesment",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "date",
+                "concept": "1427AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              },
+              "id": "lastMenstrualPeriod",
+              "label": "Last Menstrual Period",
+              "datePickerFormat": "calendar"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "date",
+                "concept": "8002f0e5-43eb-4aa8-96dd-2120325f6095"
+              },
+              "id": "expectedDeliveryDate",
+              "label": "Expected Delivery Date",
+              "datePickerFormat": "calendar",
+              "questionInfo": "EDD is LMP + 9months 7 days"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "6ac5cb6b-443d-49ec-ae52-3bc3843caa19",
+                "answers": [
+                  {
+                    "concept": "a0177a5d-3905-42f1-9bcc-c069f6bf56d3",
+                    "label": "Single"
+                  },
+                  {
+                    "concept": "96b81335-268c-410b-8f93-f2fb286bfa87",
+                    "label": "Twin"
+                  }
+                ]
+              },
+              "id": "numberOfFetus",
+              "label": "Number of Fetus"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "001d2b06-308d-43d2-bc01-6db8312f66b0",
+                "answers": [
+                  {
+                    "concept": "c42a51f9-ae01-4d1e-9ee1-7f73b538ba79",
+                    "label": "Present"
+                  },
+                  {
+                    "concept": "f687852a-8923-4e02-b7d0-fb2b12c6738d",
+                    "label": "Not present"
+                  }
+                ]
+              },
+              "id": "cardiacActivity",
+              "label": "Cardiac Activity"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "883a4c2a-1261-47e9-9ca3-568301bfad88",
+                "answers": [
+                  {
+                    "concept": "c42a51f9-ae01-4d1e-9ee1-7f73b538ba79",
+                    "label": "Present"
+                  },
+                  {
+                    "concept": "c735b005-3f31-478c-ab17-575f0c7a3f7f",
+                    "label": "Absent"
+                  }
+                ]
+              },
+              "id": "fetalMovement",
+              "label": "Fetal Movement"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "8b9c5457-bc0c-424d-8e5d-23ac2545f280",
+                "answers": [
+                  {
+                    "concept": "18ac3fd5-10a7-405e-95d5-a2061cd39801",
+                    "label": "Cephalic Presentation"
+                  },
+                  {
+                    "concept": "f77a2e0d-28e7-4656-9968-90f05aaa1f48",
+                    "label": "Breech Presentation"
+                  }
+                ]
+              },
+              "id": "presentations",
+              "label": "Presentations"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "77c00684-d82a-4c0f-903b-f3f6700adb46",
+                "answers": [
+                  {
+                    "concept": "929b92c0-07ab-4bd8-845f-e26077f62405",
+                    "label": "Oblique"
+                  },
+                  {
+                    "concept": "3a0943d3-fec6-4bfd-899c-1a916226b57e",
+                    "label": "Longitudinal"
+                  },
+                  {
+                    "concept": "307bc5d6-222e-4b7b-b5b7-89deed911799",
+                    "label": "Transverse"
+                  }
+                ]
+              },
+              "id": "lie",
+              "label": "Lie"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "b6c329a9-c2e0-4dce-afd3-2b729a2f402c",
+                "answers": [
+                  {
+                    "concept": "3d949830-acbc-4d5f-9892-d3ddfd12c159",
+                    "label": "Increased"
+                  },
+                  {
+                    "concept": "795c6127-66ad-49e8-b527-3e6a4db63161",
+                    "label": "Decreased"
+                  },
+                  {
+                    "concept": "1115AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Normal"
+                  }
+                ]
+              },
+              "id": "liquor",
+              "label": "Liquor"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "153a1a2c-564a-4f11-a8ef-17493dba09a4",
+                "answers": [
+                  {
+                    "concept": "5adac408-2b62-40b7-86a3-df09dc2b6e8e",
+                    "label": "Anterior"
+                  },
+                  {
+                    "concept": "6cb78277-9731-4bd3-a235-ca7ec543d402",
+                    "label": "Fundal"
+                  },
+                  {
+                    "concept": "0ccacc74-660d-4eca-8413-59750e2e8bc8",
+                    "label": "Posterior"
+                  }
+                ]
+              },
+              "id": "placenta",
+              "label": "Placenta"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "0a3cfea1-0f46-4bd8-85d1-94bed64cd7ed",
+                "answers": [
+                  {
+                    "concept": "a6b274a9-a5ed-4b23-9b13-a3b0aee2cc65",
+                    "label": "Complete"
+                  },
+                  {
+                    "concept": "b9a43356-e3e2-4d9b-b42f-e36bd4eceb64",
+                    "label": "Low-Lying"
+                  },
+                  {
+                    "concept": "2238536c-8165-471f-b9fd-0d8860a237c4",
+                    "label": "Marginal"
+                  },
+                  {
+                    "concept": "4a39b7f7-7d3b-4775-bbe3-655c935387be",
+                    "label": "Partial"
+                  }
+                ]
+              },
+              "id": "placentaPrevia",
+              "label": "Placenta Previa"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "1bb13e9d-f137-483f-9003-b05316e26c75"
+              },
+              "id": "afi",
+              "label": "AFI"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Gestation Age",
+      "sections": [
+        {
+          "label": "Gestation Age",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "d5de0f6c-c355-440b-a2bf-f1a011c64e4a"
+              },
+              "id": "gs(Mm)",
+              "label": "GS (mm)"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "407290b5-7038-4a21-b179-7d8e71b86bbf"
+              },
+              "id": "gsWeeks",
+              "label": "GS weeks"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "3e13d612-2e4a-4912-bd98-d098fd9fc1bf"
+              },
+              "id": "crl(Mm)",
+              "label": "CRL (mm)"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "1f72ee25-a3f3-4b9f-853d-a399e5ffd561"
+              },
+              "id": "crlWeeks",
+              "label": "CRL Weeks"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "f6fa9817-e1ac-44ff-ae0a-889c85cfc856"
+              },
+              "id": "bpd(Mm)",
+              "label": "BPD (mm)"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "1237740e-52f7-4751-93fd-af9759bca74d"
+              },
+              "id": "bpdWeeks",
+              "label": "BPD Weeks"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "ea30cf60-b037-4e1d-8cf3-a048bc0757b0"
+              },
+              "id": "hc(Mm)",
+              "label": "HC (mm)"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "bda28400-2868-4181-9f52-833174ffee9e"
+              },
+              "id": "hcWeeks",
+              "label": "HC Weeks"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "30b85c1b-012e-45b4-ab34-e5b4bbd5e77e"
+              },
+              "id": "ac(Mm)",
+              "label": "AC (mm)"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "2d9a5543-324d-4db6-9414-a03bd3aa8c0d"
+              },
+              "id": "acWeeks",
+              "label": "AC Weeks"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "25abf1d1-2ddc-4535-bacc-0781f304434e"
+              },
+              "id": "fl(Mm)",
+              "label": "FL (mm)"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "41e14814-0a8f-44aa-b2e7-186d8d6c7fd4"
+              },
+              "id": "flWeeks",
+              "label": "FL Weeks"
+            }
+          ]
+        },
+        {
+          "label": "Other Findings",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "9239e7c7-4af4-4295-804a-98b7790d5619"
+              },
+              "id": "efw",
+              "label": "EFW"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "1f81716b-192d-47df-bc1c-f50925314b2e"
+              },
+              "id": "fhr",
+              "label": "FHR"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "c9f9916b-75d2-467c-a9ba-8aeea2d5526f"
+              },
+              "id": "otherFindings",
+              "label": "Other Findings"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "abce46b4-09ce-4288-b43b-e1d8bdbf36be"
+              },
+              "id": "deadPregnancyOf(Weeks)",
+              "label": "Dead Pregnancy of (weeks)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "processor": "EncounterFormProcessor",
+  "encounterType": "dd528487-82a5-4082-9c72-ed246bd49591",
+  "referencedForms": [],
+  "uuid": "36df335d-1343-4ece-b645-94e12521651d",
+  "description": "Ultrasound Obstetrics Note",
+  "version": "1"
+}

@@ -1,0 +1,584 @@
+{
+  "name": "Rehabitation Service (RHS) Note",
+  "pages": [
+    {
+      "label": "Disability Assessment & Visit Information",
+      "sections": [
+        {
+          "label": "Disability Assessment & Visit Information",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "aa389f7c-6724-4eac-913c-0915698f5ae7",
+                "answers": [
+                  {
+                    "concept": "432492c9-6d6b-44a7-9a4f-65254e273fec",
+                    "label": "New"
+                  },
+                  {
+                    "concept": "2405482f-f736-4418-9d4e-bfdb828caa45",
+                    "label": "Follow up"
+                  },
+                  {
+                    "concept": "fe9c749a-29ba-4d4a-bd1c-851841d0d0ac",
+                    "label": "Foreigner"
+                  }
+                ]
+              },
+              "id": "visit",
+              "label": "Visit",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "d91f0437-a6fd-4b3b-bced-34113ff6cedb",
+                "answers": [
+                  {
+                    "concept": "3e5a0ee1-f1f4-4af0-858a-8aa7e3f021ad",
+                    "label": "Autism related impairment"
+                  },
+                  {
+                    "concept": "7264b3e1-4d3f-4944-8e61-999844e28a90",
+                    "label": "Hearing disability"
+                  },
+                  {
+                    "concept": "127b2e96-dc6a-4dc5-ae95-d949e28de7c1",
+                    "label": "Hereditary hemophilia"
+                  },
+                  {
+                    "concept": "9d7b7a38-5fff-4a2f-b907-bc24ce0afd34",
+                    "label": "Intellectual disability"
+                  },
+                  {
+                    "concept": "7608bf1d-1f61-478c-b262-504c065ffd4e",
+                    "label": "Mental & psychological impairment"
+                  },
+                  {
+                    "concept": "ee9f2e2c-7ab8-486b-98fe-0091eaf48c01",
+                    "label": "Multiple disability"
+                  },
+                  {
+                    "concept": "8d3b7ea3-8181-4e7f-8191-05062878b2c1",
+                    "label": "Physical disability"
+                  },
+                  {
+                    "concept": "0bbdc952-f388-4d7c-a775-6a28129c6ba8",
+                    "label": "Speech/language related impairment"
+                  },
+                  {
+                    "concept": "8d0874df-b139-4736-9e6b-048cd391f17e",
+                    "label": "Vision and hearing impaired"
+                  },
+                  {
+                    "concept": "875400fe-077f-46c7-b6b6-7ee006829740",
+                    "label": "Vision related disability"
+                  }
+                ]
+              },
+              "id": "typesOfDisability",
+              "label": "Types of Disability",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "06faeb6a-ea3a-44f1-80f0-c9ef65e03db0",
+                "answers": [
+                  {
+                    "concept": "6e42c83c-81f2-4e66-946b-ee39c01bc0fb",
+                    "label": "A-Red (Completely disabled)"
+                  },
+                  {
+                    "concept": "dab604f5-9533-41d5-a118-2dd434bae9d5",
+                    "label": "B-Blue (Extremely handicapped disability)"
+                  },
+                  {
+                    "concept": "be6b28f7-ad3e-42a4-a3b8-526a608d13c5",
+                    "label": "C-Yellow (Moderate disability)"
+                  },
+                  {
+                    "concept": "3c963305-f110-4f35-9f21-9efcc12b1862",
+                    "label": "D-White (General disability)"
+                  }
+                ]
+              },
+              "id": "typesOfDisabilityIdCard",
+              "label": "Types of Disability ID Card"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "d28c05a2-aa7d-4a0b-838b-bee7c0c4f402",
+                "answers": [
+                  {
+                    "concept": "9a0313e2-36ee-473c-b0a2-1e87282531ad",
+                    "label": "Comprehension and interpretation"
+                  },
+                  {
+                    "concept": "ba6e0778-b8ad-47ad-9be4-414e382887a9",
+                    "label": "Critical thinking"
+                  },
+                  {
+                    "concept": "e448b8d4-350d-4334-b5dd-deedd0c780ae",
+                    "label": "Intraction"
+                  },
+                  {
+                    "concept": "17a571c7-d486-4dae-b613-bc069530990d",
+                    "label": "Life activities"
+                  },
+                  {
+                    "concept": "7e34482b-124b-4ec4-9486-c6acc6916acd",
+                    "label": "Participant"
+                  },
+                  {
+                    "concept": "70a8e04d-4feb-4fdb-891a-7f756c968c14",
+                    "label": "Self care"
+                  }
+                ]
+              },
+              "id": "functioning",
+              "label": "Functioning",
+              "required": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Disability Services & Support Needs Assessment",
+      "sections": [
+        {
+          "label": "Disability Services & Support Needs Assessment",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "6437ced8-27e2-47db-97f4-40bda0ae3de6",
+                "answers": [
+                  {
+                    "concept": "53c65835-8497-4b1e-9e98-a399e358be1e",
+                    "label": "Inbirth"
+                  },
+                  {
+                    "concept": "2ee9362e-a899-49d6-b97e-e9c8fda062db",
+                    "label": "Accident"
+                  },
+                  {
+                    "concept": "ff2bfa3a-13f3-42ba-8072-8d239f3fd9eb",
+                    "label": "Violence"
+                  },
+                  {
+                    "concept": "52ff1ba9-d422-42f3-9c14-37751a305b36",
+                    "label": "Osteoporosis"
+                  },
+                  {
+                    "concept": "a4760819-0b9b-47d6-b14e-dfd216a0f708",
+                    "label": "Communicable disease"
+                  },
+                  {
+                    "concept": "e36722ca-c3f6-4e2b-93a1-5229ec6f6848",
+                    "label": "Non communicable disease"
+                  },
+                  {
+                    "concept": "5622AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Other"
+                  },
+                  {
+                    "concept": "1067AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Unknown"
+                  }
+                ]
+              },
+              "id": "causes",
+              "label": "Causes",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "1f8164d0-8c36-4410-a6ec-58f49bc8be1c",
+                "answers": [
+                  {
+                    "concept": "45d9322d-f3eb-4da5-b91f-2364967ce42d",
+                    "label": "Occupational therapy"
+                  },
+                  {
+                    "concept": "31a66cec-8c5c-431a-a91b-b939e97c2bfb",
+                    "label": "Other clinician service"
+                  },
+                  {
+                    "concept": "b175aab3-2801-4272-960b-427a0868b07b",
+                    "label": "Other service"
+                  },
+                  {
+                    "concept": "85b5ef8e-ffb1-4cf3-a4a8-246840d6fb0c",
+                    "label": "P.M. and R"
+                  },
+                  {
+                    "concept": "131c46dd-d515-42cc-9506-c7ceff916c40",
+                    "label": "Physiotherapy Service"
+                  },
+                  {
+                    "concept": "8581a25b-eabc-4960-bd17-cc50820ee5aa",
+                    "label": "Psycho-social service"
+                  },
+                  {
+                    "concept": "a0cd0596-e46f-48f5-a87e-654acea18620",
+                    "label": "Speech & hearing service"
+                  },
+                  {
+                    "concept": "df7c113c-ba39-4a4f-a792-03a0b0971690",
+                    "label": "Support equipment service"
+                  }
+                ]
+              },
+              "id": "typeOfServices",
+              "label": "Type of Services",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "6100b555-bea3-4009-af87-84d6130398da",
+                "answers": [
+                  {
+                    "concept": "2ef5d261-b28a-4281-b179-b982d634df4a",
+                    "label": "Communication related"
+                  },
+                  {
+                    "concept": "b65a9ec1-ec82-4f9a-9286-253342b73422",
+                    "label": "Comprehension and interpretation related"
+                  },
+                  {
+                    "concept": "34878ff4-0d99-4468-8fa7-9151858a3953",
+                    "label": "Critical thinking related"
+                  },
+                  {
+                    "concept": "544e9d8f-2a8d-44c9-90da-b346773dee5e",
+                    "label": "Enviroment related"
+                  },
+                  {
+                    "concept": "3f93caec-8a9d-41c6-87a7-a446d320daa5",
+                    "label": "Hearing related"
+                  },
+                  {
+                    "concept": "9a3e661b-613a-477d-8f51-f201e8cce332",
+                    "label": "Vision related"
+                  }
+                ]
+              },
+              "id": "supportEquipmentNeed",
+              "label": "Support Equipment Need"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "814b90d0-d077-460a-9ba4-5299276fcfa9",
+                "answers": [
+                  {
+                    "concept": "2ef5d261-b28a-4281-b179-b982d634df4a",
+                    "label": "Communication related"
+                  },
+                  {
+                    "concept": "b65a9ec1-ec82-4f9a-9286-253342b73422",
+                    "label": "Comprehension and interpretation related"
+                  },
+                  {
+                    "concept": "34878ff4-0d99-4468-8fa7-9151858a3953",
+                    "label": "Critical thinking related"
+                  },
+                  {
+                    "concept": "544e9d8f-2a8d-44c9-90da-b346773dee5e",
+                    "label": "Enviroment related"
+                  },
+                  {
+                    "concept": "3f93caec-8a9d-41c6-87a7-a446d320daa5",
+                    "label": "Hearing related"
+                  },
+                  {
+                    "concept": "9a3e661b-613a-477d-8f51-f201e8cce332",
+                    "label": "Vision related"
+                  }
+                ]
+              },
+              "id": "supportEquipmentReceive",
+              "label": "Support Equipment Receive"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "3b56d86f-ecae-4312-bc81-6767a07da54e",
+                "answers": [
+                  {
+                    "concept": "adc6ebad-ddbb-4695-98e8-08b916600dc4",
+                    "label": "Hospital"
+                  },
+                  {
+                    "concept": "f8774a06-7c22-463d-9118-5e97b6c46bd9",
+                    "label": "Other government office"
+                  },
+                  {
+                    "concept": "81965bbc-7539-43ac-8424-4ae245753795",
+                    "label": "Other organization"
+                  },
+                  {
+                    "concept": "cad1e2f7-50e7-4e97-b5e3-dd2d90791015",
+                    "label": "Rehabitation center"
+                  },
+                  {
+                    "concept": "28313241-ca8f-4c89-98c2-4d680921b095",
+                    "label": "Self purchase"
+                  }
+                ]
+              },
+              "id": "supportEquipmentReceiveSource",
+              "label": "Support Equipment Receive Source"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Diagnosis & Referral Management",
+      "sections": [
+        {
+          "label": "Diagnosis & Referral Management",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "label": "Diagnosis",
+              "required": false,
+              "id": "visitNotesFormWorkspaceLauncher",
+              "questionOptions": {
+                "rendering": "workspace-launcher",
+                "buttonLabel": "+ Diagnosis",
+                "workspaceName": "visit-notes-form-workspace"
+              },
+              "hide": {}
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "select",
+                "concept": "b3612813-60d6-46f9-af3b-a99c35c520a7",
+                "answers": [
+                  {
+                    "concept": "95777798-4949-44bc-aed2-3ea12c16ec67",
+                    "label": "Immunization"
+                  },
+                  {
+                    "concept": "c9d61efd-c6ed-4342-a7d3-c537d871487a",
+                    "label": "IMNCI"
+                  },
+                  {
+                    "concept": "167050AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "IPD"
+                  },
+                  {
+                    "concept": "82cb8c36-a60b-4aed-a01e-8cf0a5194cdb",
+                    "label": "Nutrition"
+                  },
+                  {
+                    "concept": "cae0de9f-98c6-4484-ba9e-7229fcccc7b8",
+                    "label": "OPD"
+                  },
+                  {
+                    "concept": "c4974c3d-d431-4979-9d68-968cbea5febc",
+                    "label": "PEN"
+                  },
+                  {
+                    "concept": "1ac0b396-2f19-47db-b33c-b9ab72ad6c9d",
+                    "label": "PHC/ORC"
+                  },
+                  {
+                    "concept": "b35ff522-c10b-4de9-8803-ee4235086957",
+                    "label": "Refer others"
+                  },
+                  {
+                    "concept": "4250110e-0b5c-4f03-b820-0319d84789ba",
+                    "label": "Safe motherhood"
+                  }
+                ]
+              },
+              "id": "internalReferIn",
+              "label": "Internal Refer In",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "select",
+                "concept": "db93739f-3f3e-4c1c-8d8a-5e085915cb17",
+                "answers": [
+                  {
+                    "concept": "95777798-4949-44bc-aed2-3ea12c16ec67",
+                    "label": "Immunization"
+                  },
+                  {
+                    "concept": "c9d61efd-c6ed-4342-a7d3-c537d871487a",
+                    "label": "IMNCI"
+                  },
+                  {
+                    "concept": "167050AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "IPD"
+                  },
+                  {
+                    "concept": "82cb8c36-a60b-4aed-a01e-8cf0a5194cdb",
+                    "label": "Nutrition"
+                  },
+                  {
+                    "concept": "cae0de9f-98c6-4484-ba9e-7229fcccc7b8",
+                    "label": "OPD"
+                  },
+                  {
+                    "concept": "c4974c3d-d431-4979-9d68-968cbea5febc",
+                    "label": "PEN"
+                  },
+                  {
+                    "concept": "1ac0b396-2f19-47db-b33c-b9ab72ad6c9d",
+                    "label": "PHC/ORC"
+                  },
+                  {
+                    "concept": "b35ff522-c10b-4de9-8803-ee4235086957",
+                    "label": "Refer others"
+                  },
+                  {
+                    "concept": "4250110e-0b5c-4f03-b820-0319d84789ba",
+                    "label": "Safe motherhood"
+                  }
+                ]
+              },
+              "id": "internalReferOut",
+              "label": "Internal Refer Out"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "select",
+                "concept": "f6a48358-2785-4349-b9ed-0aef4f8591e6",
+                "answers": [
+                  {
+                    "concept": "68b81b23-44f8-46b8-b984-92c1c096f5a8",
+                    "label": "Central / Province Hospital"
+                  },
+                  {
+                    "concept": "f755b28e-803d-4d2f-b808-7cc7774c678e",
+                    "label": "Community health clinic"
+                  },
+                  {
+                    "concept": "e6c70718-5cb9-443a-8f3b-d36d6df844ce",
+                    "label": "External refer other"
+                  },
+                  {
+                    "concept": "a0c0b3d6-cc02-4b10-ad18-3ac023e686d4",
+                    "label": "FCHV"
+                  },
+                  {
+                    "concept": "2e369403-30ce-41d4-a103-28739576049a",
+                    "label": "Health post"
+                  },
+                  {
+                    "concept": "a077931f-aa90-49d3-a94d-8e9249d9fb3c",
+                    "label": "Other organization for disability"
+                  },
+                  {
+                    "concept": "d78b9575-2816-4bfc-a0ff-1640fb75b8a5",
+                    "label": "Other service reciver"
+                  },
+                  {
+                    "concept": "535eabac-929d-4f11-8923-ce6a698062e4",
+                    "label": "PHC"
+                  },
+                  {
+                    "concept": "7bac8c70-dc28-486f-8336-b561c949f0c2",
+                    "label": "Refer rehabitation center"
+                  },
+                  {
+                    "concept": "48a9eb92-6e20-47ea-ad8a-3b5961bbf0b0",
+                    "label": "Secondary hospital"
+                  },
+                  {
+                    "concept": "8f77b99b-4cdd-4990-97d4-64f67591040c",
+                    "label": "Urban health center"
+                  }
+                ]
+              },
+              "id": "externalReferIn",
+              "label": "External Refer In"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "select",
+                "concept": "27930ade-5de5-4724-abcd-25282cd60276",
+                "answers": [
+                  {
+                    "concept": "68b81b23-44f8-46b8-b984-92c1c096f5a8",
+                    "label": "Central / Province Hospital"
+                  },
+                  {
+                    "concept": "f755b28e-803d-4d2f-b808-7cc7774c678e",
+                    "label": "Community health clinic"
+                  },
+                  {
+                    "concept": "e6c70718-5cb9-443a-8f3b-d36d6df844ce",
+                    "label": "External refer other"
+                  },
+                  {
+                    "concept": "2e369403-30ce-41d4-a103-28739576049a",
+                    "label": "Health post"
+                  },
+                  {
+                    "concept": "a077931f-aa90-49d3-a94d-8e9249d9fb3c",
+                    "label": "Other organization for disability"
+                  },
+                  {
+                    "concept": "d78b9575-2816-4bfc-a0ff-1640fb75b8a5",
+                    "label": "Other service reciver"
+                  },
+                  {
+                    "concept": "535eabac-929d-4f11-8923-ce6a698062e4",
+                    "label": "PHC"
+                  },
+                  {
+                    "concept": "7bac8c70-dc28-486f-8336-b561c949f0c2",
+                    "label": "Refer rehabitation center"
+                  },
+                  {
+                    "concept": "48a9eb92-6e20-47ea-ad8a-3b5961bbf0b0",
+                    "label": "Secondary hospital"
+                  },
+                  {
+                    "concept": "8f77b99b-4cdd-4990-97d4-64f67591040c",
+                    "label": "Urban health center"
+                  }
+                ]
+              },
+              "id": "externalReferOut",
+              "label": "External Refer Out"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "processor": "EncounterFormProcessor",
+  "encounterType": "a1f5c3d2-4b6e-4e8a-9f2d-1b3e8e4a2d7f",
+  "referencedForms": [],
+  "uuid": "89b91e8b-2291-4f84-a9ac-a05b1a7bd3d5",
+  "description": "Rehabitation Service (RHS) Note",
+  "version": "1"
+}

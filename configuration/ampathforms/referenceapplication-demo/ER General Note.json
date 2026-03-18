@@ -1,0 +1,633 @@
+{
+  "name": "ER General Note",
+  "pages": [
+    {
+      "label": "Clinical Assessment and Social Risk Screening",
+      "sections": [
+        {
+          "label": "Assessment",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "select",
+                "concept": "76812b96-fbc5-43cd-ba12-d2fb70cf85df",
+                "answers": [
+                  {
+                    "concept": "0db55ea3-564b-4260-968c-2c415c396f3e",
+                    "label": "Ultra poor or poor"
+                  },
+                  {
+                    "concept": "e08bdee0-8169-4499-b9f5-f13c3f68cf2a",
+                    "label": "Helpless or destitute"
+                  },
+                  {
+                    "concept": "be9c3055-bed0-4fa3-a8ed-bd995f7420bf",
+                    "label": "Disabled"
+                  },
+                  {
+                    "concept": "e3694e2d-dc2f-4dc1-9ff4-62541a006b2b",
+                    "label": "Sr. citizens greater than 60 years"
+                  },
+                  {
+                    "concept": "a0c0b3d6-cc02-4b10-ad18-3ac023e686d4",
+                    "label": "FCHV"
+                  },
+                  {
+                    "concept": "0c65f154-39e9-47d6-af6c-5cbcb206bc5d",
+                    "label": "Gender based violence"
+                  },
+                  {
+                    "concept": "5622AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Other"
+                  },
+                  {
+                    "concept": "1175AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Not applicable"
+                  }
+                ]
+              },
+              "id": "freeHealthServiceCode",
+              "label": "Free health service code",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "14AAAAAAAAAAAAAAAAAAAAAAAAABB",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "referredIn",
+              "label": "Referred In",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "1f70de7a-6130-460d-823b-b007a42b42f9",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "genderBasedViolence",
+              "label": "Gender based violence",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "bfa38864-ffdf-4ae5-bbb7-023fb3f7b728",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "suspectedTuberculosisPatients",
+              "label": "Suspected Tuberculosis Patients",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "e32add25-df38-4b2b-85e8-709633467ce2"
+              },
+              "id": "chiefComplaint",
+              "label": "Chief Complaint"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "2f1de83e-2a48-400b-bdad-3aa02b35c146"
+              },
+              "id": "physicalExaminationDetails",
+              "label": "Physical examination details",
+              "questionInfo": "General HEENT CV Lungs Abdomen MSK Skin Neuro Psych"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "a113d5c7-f7e0-47f2-8ca5-ab0551ead703"
+              },
+              "id": "patientHistory",
+              "label": "Patient history"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "1390AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              },
+              "id": "hpiNotes",
+              "label": "HPI notes",
+              "questionInfo": "Location Severity Quality Timing : Constant / Intermittent, how long did it last Duration : When did it Start Modifying Factors : Anything make it better or worse Context : What were you doing when it started Associated Signs or Symptoms"
+            }
+          ]
+        },
+        {
+          "label": "Substance Use",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "2dd8492d-2859-4544-96cf-5a5f2ecfb36c",
+                "answers": [
+                  {
+                    "concept": "152807AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Former Smoker"
+                  },
+                  {
+                    "concept": "701637c6-bba2-4b95-ae29-1a8c38a0e853",
+                    "label": "Non-smoker"
+                  },
+                  {
+                    "concept": "152722AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Current Smoker"
+                  }
+                ]
+              },
+              "id": "cigaretteSmoker",
+              "label": "Cigarette smoker",
+              "questionInfo": "Cigarettes/day or Packs/day? Years?"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "9221d24c-6724-4d3a-a7c0-5083e7eac7f9",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "otherFormsOfTobacco",
+              "label": "Other Forms of Tobacco"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "b2ae4db6-7749-436f-b81b-75ffb04e3ebc",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "alcoholUse",
+              "label": "Alcohol Use",
+              "questionInfo": "Drinks/day, Type of Alcohol"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "8afd032c-db28-4f8d-9782-0520f28792c5",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "evidenceOfAlcoholAbuse",
+              "label": "Evidence of Alcohol Abuse ",
+              "questionInfo": "CAGE Questionnaire Have you ever felt you needed to Cut down on your drinking? Have people Annoyed you by criticizing your drinking? Have you ever felt Guilty about drinking? Have you ever felt you needed a drink first thing in the morning (Eye-opener) to steady your nerves or to get rid of a hangover?"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "90771aa7-a1a7-467a-a377-bc0a0b4e0527",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "illicitDrugUse",
+              "label": "Illicit Drug Use"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "45c6fa88-707c-4936-a914-bcc88b285af6"
+              },
+              "id": "allergies",
+              "label": "Allergies"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "date",
+                "concept": "1427AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              },
+              "id": "dateOfLmp",
+              "label": "Date of lmp",
+              "datePickerFormat": "calendar"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Emergency Triage",
+      "sections": [
+        {
+          "label": "Trauma and Disaster Patient",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "7ce18ae2-6cbb-4e47-a154-ca4223cd0f1f",
+                "answers": [
+                  {
+                    "concept": "5fb089ff-2e11-4260-9e2e-09b217d9d59e",
+                    "label": "Green"
+                  },
+                  {
+                    "concept": "80aed305-b33a-4413-bf97-93e957e89a0c",
+                    "label": "Red"
+                  },
+                  {
+                    "concept": "89ccd459-a23d-49fc-9654-2da7cdbbf04e",
+                    "label": "Black"
+                  },
+                  {
+                    "concept": "dab540eb-b472-44ef-a085-c5a8cfc265ac",
+                    "label": "Yellow"
+                  }
+                ]
+              },
+              "id": "triage",
+              "label": "Triage"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "200ee833-414c-4606-8721-31b9272c4346",
+                "answers": [
+                  {
+                    "concept": "703AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Positive"
+                  },
+                  {
+                    "concept": "664AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Negative"
+                  }
+                ]
+              },
+              "id": "chestCompression",
+              "label": "Chest compression"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "b6796bf0-3acd-4775-b79e-7f3e99ae50ba",
+                "answers": [
+                  {
+                    "concept": "703AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Positive"
+                  },
+                  {
+                    "concept": "664AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Negative"
+                  }
+                ]
+              },
+              "id": "pelvicCompression",
+              "label": "Pelvic compression"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "b24b61a0-078d-4fb3-9464-c10277fb8c60",
+                "answers": [
+                  {
+                    "concept": "703AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Positive"
+                  },
+                  {
+                    "concept": "664AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Negative"
+                  }
+                ]
+              },
+              "id": "spinalTenderness",
+              "label": "Spinal tenderness"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "d99a8b1a-01fe-49a1-9b0f-0d0d7e790dd3",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "secondarySurvey",
+              "label": "Secondary survey"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "19ca1572-7364-454f-bbdf-059cee635bbc",
+                "answers": [
+                  {
+                    "concept": "590af6cf-20e2-42c8-a9b1-dbd0d2e2def4",
+                    "label": "Given"
+                  },
+                  {
+                    "concept": "ddd9012d-4865-4f2b-b050-e9ac86dee7dc",
+                    "label": "Not given"
+                  }
+                ]
+              },
+              "id": "definitiveCare",
+              "label": "Definitive care"
+            }
+          ]
+        },
+        {
+          "label": "Primary Survey and Resuscitation",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "e416e3f4-39d5-4ece-b6f8-968ab2afe173",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "airwayEvaluation",
+              "label": "Airway evaluation",
+              "questionInfo": "A- Airway (clear) and cervical spine control (Y/N)"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "b6a72512-6c1a-4981-b53a-dd873f51dbb0",
+                "answers": [
+                  {
+                    "concept": "827aa5c4-675f-42e5-82e3-17b2fa208ba5",
+                    "label": "Symmetrical"
+                  },
+                  {
+                    "concept": "9ec503f1-4743-4499-b814-cbc5349600a2",
+                    "label": "Asymmetrical"
+                  }
+                ]
+              },
+              "id": "breathingDifficulties",
+              "label": "Breathing difficulties",
+              "questionInfo": "B- Breathing (RR) pattern symmetrical/asymmetrical>"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "57b0898c-4b47-4f48-86ff-f1e59bf5a7a7",
+                "answers": [
+                  {
+                    "concept": "1115AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Normal"
+                  },
+                  {
+                    "concept": "2d20ec94-ca2a-4693-a874-f275585c2572",
+                    "label": "Abnormal"
+                  }
+                ]
+              },
+              "id": "circulationProblem",
+              "label": "Circulation problem",
+              "questionInfo": "C-Circulation and hemorrhage control, tachycardia/bradycardia, CRT-NA, SPo2"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "4fa4fa63-9d6d-49b9-81d8-681e096d19a3"
+              },
+              "id": "exposureProblem",
+              "label": "Exposure problem",
+              "questionInfo": "E- Exposure and environmental control (Y/N)"
+            }
+          ]
+        },
+        {
+          "label": "Disability",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "f24113ee-978d-4dd2-a15d-e7484f2d5ce5"
+              },
+              "id": "gcs",
+              "label": "GCS",
+              "questionInfo": "Minimum 3 Maximum 15"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "e751b874-c284-4858-99da-745f67eeb0e8",
+                "answers": [
+                  {
+                    "concept": "72609AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Alert"
+                  },
+                  {
+                    "concept": "a45b466c-82bf-46fc-a914-f0c92bcfafb3",
+                    "label": "Pain"
+                  },
+                  {
+                    "concept": "7330dec8-c617-4f58-babf-c3ae8e58fc71",
+                    "label": "Unconscious"
+                  },
+                  {
+                    "concept": "4299ab97-cd35-455e-8aa8-ab54b7abd5d3",
+                    "label": "Verval"
+                  }
+                ]
+              },
+              "id": "avpu",
+              "label": "AVPU"
+            }
+          ]
+        },
+        {
+          "label": "Current Medication",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "69623642-68ad-410a-aad0-610954355aba"
+              },
+              "id": "currentHomeMedications",
+              "label": "Current Home Medications"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "bf731597-1da6-4723-bd2d-2d8ea7fa6a99"
+              },
+              "id": "nonComplianceReason",
+              "label": "Non Compliance Reason"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "ca9a6c88-4436-49bf-bcf1-86fc48f869b2",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "nonCompliance",
+              "label": "Non Compliance"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Assesment / Plan",
+      "sections": [
+        {
+          "label": "Assessment / Plan",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "3a8832ef-4487-4907-85c4-1a799b8aa2ec"
+              },
+              "id": "problem",
+              "label": "Problem"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "1e45c626-4cfc-430c-9288-49acd139cfcf",
+                "answers": [
+                  {
+                    "concept": "ee33588f-86d6-4b92-975e-2ade7fb52621",
+                    "label": "1 month"
+                  },
+                  {
+                    "concept": "b41d3471-9d5f-4953-bc34-2dbb43633a27",
+                    "label": "1 week"
+                  },
+                  {
+                    "concept": "30094b86-4158-4a78-bbda-e63496ccaaa6",
+                    "label": "2 weeks"
+                  },
+                  {
+                    "concept": "9e1a148a-cc8e-458e-ad9b-df6f13537b7f",
+                    "label": "3 weeks"
+                  }
+                ]
+              },
+              "id": "followUp",
+              "label": "Follow Up "
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "processor": "EncounterFormProcessor",
+  "encounterType": "e22e39fd-7db2-45e7-80f1-60fa0d5a4378",
+  "referencedForms": [],
+  "uuid": "7c8778db-8119-4b89-bbe2-b440808c9643",
+  "description": "Emergency General Note",
+  "version": "1"
+}

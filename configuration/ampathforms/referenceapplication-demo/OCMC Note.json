@@ -1,0 +1,330 @@
+{
+  "name": "OCMC Note",
+  "pages": [
+    {
+      "label": "Assessment and Services",
+      "sections": [
+        {
+          "label": "Assessment and Service",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "9ba979d1-2a54-464e-8fdc-4a7305d842b9",
+                "answers": [
+                  {
+                    "concept": "432492c9-6d6b-44a7-9a4f-65254e273fec",
+                    "label": "New"
+                  },
+                  {
+                    "concept": "2405482f-f736-4418-9d4e-bfdb828caa45",
+                    "label": "Follow up"
+                  }
+                ]
+              },
+              "id": "visit",
+              "label": "Visit",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "d3be5b95-4a57-4e7e-a6a3-f277b298d221",
+                "answers": [
+                  {
+                    "concept": "3e5a0ee1-f1f4-4af0-858a-8aa7e3f021ad",
+                    "label": "Autism related impairment"
+                  },
+                  {
+                    "concept": "7264b3e1-4d3f-4944-8e61-999844e28a90",
+                    "label": "Hearing disability"
+                  },
+                  {
+                    "concept": "127b2e96-dc6a-4dc5-ae95-d949e28de7c1",
+                    "label": "Hereditary hemophilia"
+                  },
+                  {
+                    "concept": "9d7b7a38-5fff-4a2f-b907-bc24ce0afd34",
+                    "label": "Intellectual disability"
+                  },
+                  {
+                    "concept": "7608bf1d-1f61-478c-b262-504c065ffd4e",
+                    "label": "Mental & psychological impairment"
+                  },
+                  {
+                    "concept": "ee9f2e2c-7ab8-486b-98fe-0091eaf48c01",
+                    "label": "Multiple disability"
+                  },
+                  {
+                    "concept": "1107AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "None"
+                  },
+                  {
+                    "concept": "8d3b7ea3-8181-4e7f-8191-05062878b2c1",
+                    "label": "Physical disability"
+                  },
+                  {
+                    "concept": "0bbdc952-f388-4d7c-a775-6a28129c6ba8",
+                    "label": "Speech/language related impairment"
+                  },
+                  {
+                    "concept": "8d0874df-b139-4736-9e6b-048cd391f17e",
+                    "label": "Vision and hearing impaired"
+                  },
+                  {
+                    "concept": "605ddbe5-74e2-4b00-b2c6-7b28f7b35be1",
+                    "label": "Vision Related"
+                  }
+                ]
+              },
+              "id": "disability",
+              "label": "Disability",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "f177dab7-749b-469b-afab-bc25e00dffe6",
+                "answers": [
+                  {
+                    "concept": "05deda8c-3403-41e3-95f3-a101126ad073",
+                    "label": "Child/Force marriage"
+                  },
+                  {
+                    "concept": "79353ac7-62d4-4819-b8cd-2755c4368440",
+                    "label": "Denial of resources/Opportunities/Services"
+                  },
+                  {
+                    "concept": "b3469646-59ec-4758-815c-dfd18ab90b63",
+                    "label": "Emotional"
+                  },
+                  {
+                    "concept": "cf4652b7-9fd2-44c4-8874-4751789425a9",
+                    "label": "Harmful traditional practices"
+                  },
+                  {
+                    "concept": "ea4bb29a-ef6d-41bc-9734-91a5c38d9d5b",
+                    "label": "Sexual assult"
+                  },
+                  {
+                    "concept": "b630e699-aaff-4d1b-b676-64d681cd2e42",
+                    "label": "Rape"
+                  },
+                  {
+                    "concept": "048c3d37-8dc0-46f2-a391-a1af65598c94",
+                    "label": "Physical violence"
+                  }
+                ]
+              },
+              "id": "typesOfViolence",
+              "label": "Types of Violence ",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "1AAAAAAAAAAAABBBBMMMCCC",
+                "answers": [
+                  {
+                    "concept": "05deda8c-3403-41e3-95f3-a101126ad073",
+                    "label": "Child/Force marriage"
+                  },
+                  {
+                    "concept": "180ddc2c-51ff-40bb-9f2a-207c414c3651",
+                    "label": "Emergency contraceptive"
+                  },
+                  {
+                    "concept": "118ea614-8c87-4d60-aaff-a31dcb976247",
+                    "label": "HIV testing/counselling"
+                  },
+                  {
+                    "concept": "1906a801-ddcc-4a08-b44a-78cc878106aa",
+                    "label": "Injury"
+                  },
+                  {
+                    "concept": "feb45853-d759-4c43-bd00-5408633f02a8",
+                    "label": "Medico-legal service"
+                  },
+                  {
+                    "concept": "963a3659-9ccb-43e0-a34a-057443aa38e0",
+                    "label": "Physical examination"
+                  },
+                  {
+                    "concept": "76ca3862-a368-4cad-9da5-ffe20bdc6576",
+                    "label": "Pregency test"
+                  },
+                  {
+                    "concept": "df06faee-120b-47ad-b903-d93ee3935d32",
+                    "label": "Psycological counseling"
+                  },
+                  {
+                    "concept": "aa6b0aa0-4752-4e0a-857e-18bf286585ca",
+                    "label": "Safe aborations"
+                  },
+                  {
+                    "concept": "0135b8f4-ec8f-4153-8e11-f566373b4e5a",
+                    "label": "STI treatment"
+                  },
+                  {
+                    "concept": "c94a42d7-6abf-4290-a424-4b7dd7783898",
+                    "label": "Treatment of mental illness"
+                  }
+                ]
+              },
+              "id": "service",
+              "label": "Service",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "eded519c-24c5-428d-8284-aad952c677c0",
+                "answers": [
+                  {
+                    "concept": "14e04a27-77fb-41a2-a818-8da9f1fdcae3",
+                    "label": "Chhaupadi"
+                  },
+                  {
+                    "concept": "ecdb6dd7-4aec-4ba5-86ec-38da8f6baa57",
+                    "label": "Child labour"
+                  },
+                  {
+                    "concept": "4b6717ce-6475-47c6-8b3e-2a51d98268e8",
+                    "label": "Dowry"
+                  },
+                  {
+                    "concept": "e87c9d77-87d8-4219-b241-6232ac14a571",
+                    "label": "Human trafficking"
+                  },
+                  {
+                    "concept": "ce87da8c-db39-4a8f-801e-da518f595b48",
+                    "label": "Polygamy"
+                  },
+                  {
+                    "concept": "e413f436-a4e8-4a0a-ba4e-7b557fb58ec2",
+                    "label": "Social discrimination"
+                  },
+                  {
+                    "concept": "8a9a614b-bbd8-42dc-a0ba-c1624afcb910",
+                    "label": "Son preference"
+                  },
+                  {
+                    "concept": "2ca99e6d-5c25-4e56-9dc4-f9029df9b792",
+                    "label": "Witchcraft"
+                  },
+                  {
+                    "concept": "5622AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Other"
+                  },
+                  {
+                    "concept": "05deda8c-3403-41e3-95f3-a101126ad073",
+                    "label": "Child/Force marriage"
+                  }
+                ]
+              },
+              "id": "causeOfViolence",
+              "label": "Cause of violence",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "4120338b-2549-4a16-a5d6-6749446618fa",
+                "answers": [
+                  {
+                    "concept": "c5153239-d309-4cfb-ad16-b66bfce85901",
+                    "label": "Outside of the relatives"
+                  },
+                  {
+                    "concept": "a09c7245-bc18-44c2-9b39-cfb52b600493",
+                    "label": "Within relatives"
+                  }
+                ]
+              },
+              "id": "relationshipOfThePerpetrator",
+              "label": "Relationship of The Perpetrator",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "5d127666-cb32-4c60-a900-a24f86b27b85",
+                "answers": [
+                  {
+                    "concept": "1e66787a-f26b-4c78-bd48-d4b7d0722cd0",
+                    "label": "<10"
+                  },
+                  {
+                    "concept": "02033615-54f0-4900-a9b7-21f0191f2b80",
+                    "label": "14-Oct"
+                  },
+                  {
+                    "concept": "fd3fe024-59a6-4b56-9e67-63c836c0548a",
+                    "label": "15-18"
+                  },
+                  {
+                    "concept": "7c6f82f1-7a28-484e-829b-8a32a8b0b61b",
+                    "label": "19-49"
+                  },
+                  {
+                    "concept": "ff9406c3-2a85-49d4-b40b-847b1c896d25",
+                    "label": "50-59"
+                  },
+                  {
+                    "concept": "761c4e7e-6f63-460f-96c4-2c7148585445",
+                    "label": "? 60"
+                  }
+                ]
+              },
+              "id": "ageOfPrepetrator",
+              "label": "Age of Prepetrator",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "e21d3a67-c2c2-45fb-b1e9-e607f832e20f",
+                "answers": [
+                  {
+                    "concept": "2ebb4b97-7789-414d-8a3a-d9bb65e4b02d",
+                    "label": "Male"
+                  },
+                  {
+                    "concept": "beaaae73-c4a9-44c1-a07f-b0bbde97c59e",
+                    "label": "Female"
+                  },
+                  {
+                    "concept": "3b5b58d8-3531-4fc5-88bc-aed23ac708d2",
+                    "label": "SM"
+                  },
+                  {
+                    "concept": "5472624d-6d97-4793-b49d-3b6466f89179",
+                    "label": "Transgender"
+                  }
+                ]
+              },
+              "id": "genderOfPrepetrator",
+              "label": "Gender of Prepetrator",
+              "required": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "processor": "EncounterFormProcessor",
+  "encounterType": "dd528487-82a5-4082-9c72-ed246bd49591",
+  "referencedForms": [],
+  "uuid": "a410753a-8d8e-4bb3-9ffc-2c65cfc055ba",
+  "description": "Ocmc note",
+  "version": "1"
+}

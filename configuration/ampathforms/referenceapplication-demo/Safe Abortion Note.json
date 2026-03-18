@@ -1,0 +1,503 @@
+{
+  "name": "Safe Abortion Note",
+  "pages": [
+    {
+      "label": "Visit Information",
+      "sections": [
+        {
+          "label": "Visit Details",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "9ba979d1-2a54-464e-8fdc-4a7305d842b9",
+                "answers": [
+                  {
+                    "concept": "432492c9-6d6b-44a7-9a4f-65254e273fec",
+                    "label": "New"
+                  },
+                  {
+                    "concept": "2405482f-f736-4418-9d4e-bfdb828caa45",
+                    "label": "Follow up"
+                  }
+                ]
+              },
+              "id": "visitType",
+              "label": "Visit type",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "14AAAAAAAAAAAAAAAAAAAAAAAAABB",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "referredIn",
+              "label": "Referred In",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "d6d52f5d-32e2-462b-92c7-42dbdfe13278",
+                "answers": [
+                  {
+                    "concept": "a0c0b3d6-cc02-4b10-ad18-3ac023e686d4",
+                    "label": "FCHV"
+                  },
+                  {
+                    "concept": "d1451a98-0a7e-4e03-9d4e-26de299c845f",
+                    "label": "Healthcare provider"
+                  }
+                ]
+              },
+              "id": "referredBy",
+              "label": "Referred by"
+            }
+          ]
+        },
+        {
+          "label": "Obstetric Assessment",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "0a0ad488-6809-43b1-a531-f35331f5518a"
+              },
+              "id": "numberOfLivingChildren",
+              "label": "Number of Living Children"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "946c58a4-36ac-4411-bccb-262e3a69e20f"
+              },
+              "id": "weeksOfCurrentGestationByLmp",
+              "label": "Weeks of current gestation by LMP"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "668adff6-511a-4924-82d3-59691aac64e1"
+              },
+              "id": "weeksOfGestationByExamination",
+              "label": "Weeks of gestation by examination"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "81390de9-51d5-4589-811a-b7c9a157a48f",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "painManagementGiven",
+              "label": "Pain management given"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Abortion Details",
+      "sections": [
+        {
+          "label": "Surgical Abortion",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "f445ff9c-e497-4b56-9fac-baf4da9d759f",
+                "answers": [
+                  {
+                    "concept": "7b368a9d-648d-4bde-a0cd-eeeb323771a2",
+                    "label": "Dilation and evacuation"
+                  },
+                  {
+                    "concept": "a351ba3b-c934-464c-a46b-a582cce5589b",
+                    "label": "Electric vacuum aspiration"
+                  },
+                  {
+                    "concept": "8237c44f-28f5-46d6-8517-b5abe79ecedb",
+                    "label": "Manual vacuum aspiration"
+                  },
+                  {
+                    "concept": "afbb1627-f4e0-4bde-9c33-e99fae03b920",
+                    "label": "Other abortion procedures"
+                  },
+                  {
+                    "concept": "1175AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Not applicable"
+                  }
+                ]
+              },
+              "id": "surgicalProcedure",
+              "label": "Surgical procedure",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "fb5e45aa-ba4b-4084-8628-ad7b006ce518"
+              },
+              "id": "others(Specify)",
+              "label": "Others(Specify)"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "70ede6b1-9054-4d2b-9102-15d22f4ca71c",
+                "answers": [
+                  {
+                    "concept": "f05e12af-cc84-4e3b-9e21-21eda0efb9a5",
+                    "label": "Bleeding requiring >1 pint of iv fluid"
+                  },
+                  {
+                    "concept": "07133e38-440c-4cbe-a2c3-b4d6cadcf2d3",
+                    "label": "Bleeding requiring blood transfusion"
+                  },
+                  {
+                    "concept": "98da5c4c-76ac-4e07-8d7d-df9c7cfaf050",
+                    "label": "Uterine or intra-abdominal injury"
+                  }
+                ]
+              },
+              "id": "immediateComplications",
+              "label": "Immediate complications"
+            }
+          ]
+        },
+        {
+          "label": "Medical Abortion",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "23566451-ad85-4fe3-8cc5-5d4bbb4195fc",
+                "answers": [
+                  {
+                    "concept": "bdf154f8-8502-4a37-a2c6-e1e45ec312bb",
+                    "label": "Medical abortion"
+                  },
+                  {
+                    "concept": "452e18bc-9b98-4a63-a95b-829794b021a1",
+                    "label": "Medical induction"
+                  },
+                  {
+                    "concept": "1175AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Not applicable"
+                  },
+                  {
+                    "concept": "5622AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Other"
+                  }
+                ]
+              },
+              "id": "medicalProcedure",
+              "label": "Medical Procedure"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "fb5e45aa-ba4b-4084-8628-ad7b006ce518"
+              },
+              "id": "othersSpecify",
+              "label": "Others(specify)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Post Abortion Care",
+      "sections": [
+        {
+          "label": "PAC",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "9c2911a6-2a2a-430e-88b3-2247eccc2429",
+                "answers": [
+                  {
+                    "concept": "aa6b0aa0-4752-4e0a-857e-18bf286585ca",
+                    "label": "Safe aborations"
+                  },
+                  {
+                    "concept": "bdf154f8-8502-4a37-a2c6-e1e45ec312bb",
+                    "label": "Medical abortion"
+                  },
+                  {
+                    "concept": "f3add608-52b9-4dba-91b9-26af6befc7c7",
+                    "label": "Spontaneous abortion"
+                  },
+                  {
+                    "concept": "c377635c-c3ae-41e1-a75e-ea4b27fb0d95",
+                    "label": "Surgical abortion"
+                  },
+                  {
+                    "concept": "1175AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Not applicable"
+                  }
+                ]
+              },
+              "id": "cause",
+              "label": "Cause",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "c8231aa3-e110-405b-a57e-fedaf5d2ef29",
+                "answers": [
+                  {
+                    "concept": "d33f6dde-93a8-4193-8964-a1f989994f2a",
+                    "label": "APH"
+                  },
+                  {
+                    "concept": "23ed94b9-f08c-4d69-bd60-5c05aa705597",
+                    "label": "Other HF"
+                  }
+                ]
+              },
+              "id": "abortionDoneAt",
+              "label": "Abortion done at"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "fae5ec06-586b-4e25-b30c-dff5f99474b1",
+                "answers": [
+                  {
+                    "concept": "8237c44f-28f5-46d6-8517-b5abe79ecedb",
+                    "label": "Manual vacuum aspiration"
+                  },
+                  {
+                    "concept": "5622AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Other"
+                  }
+                ]
+              },
+              "id": "pacProcedure",
+              "label": "PAC Procedure"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "88a84944-d488-48b2-99ab-70f47994051e",
+                "answers": [
+                  {
+                    "concept": "1115AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Normal"
+                  },
+                  {
+                    "concept": "fa41db34-6b5d-4daf-b9f8-257aaa9156ba",
+                    "label": "Leaving against medical advice"
+                  },
+                  {
+                    "concept": "8a7c1090-4fd8-4dea-ad78-b75bc24dfc3f",
+                    "label": "Died"
+                  },
+                  {
+                    "concept": "c9e55e26-ff52-41cb-b9a5-f677c9c4c53e",
+                    "label": "Referred out"
+                  }
+                ]
+              },
+              "id": "outcomeOfCac/Pac",
+              "label": "Outcome of cac/pac"
+            }
+          ]
+        },
+        {
+          "label": "PAC Diagnosis",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "cc3bb1f6-96aa-4c50-8f54-304ca7f1f4a5",
+                "answers": [
+                  {
+                    "concept": "f05e12af-cc84-4e3b-9e21-21eda0efb9a5",
+                    "label": "Bleeding requiring >1 pint of iv fluid"
+                  },
+                  {
+                    "concept": "07133e38-440c-4cbe-a2c3-b4d6cadcf2d3",
+                    "label": "Bleeding requiring blood transfusion"
+                  },
+                  {
+                    "concept": "54754242-9d33-4c4d-b15b-f811cf25125a",
+                    "label": "Infection requiring hospitalization/iv antibiotics"
+                  }
+                ]
+              },
+              "id": "medicalComplication",
+              "label": "Medical Complication"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "dee61203-5905-4fe0-8bb7-04aae7686695",
+                "answers": [
+                  {
+                    "concept": "598228e3-a77b-4a42-bdc8-97a772d8c9b1",
+                    "label": "Failed abortion"
+                  },
+                  {
+                    "concept": "108ddd7a-c9fe-4002-9774-6cf69d825423",
+                    "label": "Incomplete abortion requiring repeat procedure"
+                  },
+                  {
+                    "concept": "54754242-9d33-4c4d-b15b-f811cf25125a",
+                    "label": "Infection requiring hospitalization/iv antibiotics"
+                  },
+                  {
+                    "concept": "2ccaa575-6611-48e1-8719-cdada4a68ea4",
+                    "label": "Requiring laparotomy"
+                  },
+                  {
+                    "concept": "e2a04389-cb2b-4ae7-a23b-b629636866f4",
+                    "label": "Septic abortion"
+                  },
+                  {
+                    "concept": "98da5c4c-76ac-4e07-8d7d-df9c7cfaf050",
+                    "label": "Uterine or intra-abdominal injury"
+                  }
+                ]
+              },
+              "id": "surgicalComplication",
+              "label": "Surgical Complication"
+            }
+          ]
+        },
+        {
+          "label": "Service Provider / Family Planning",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "encounterProvider",
+              "questionOptions": {
+                "rendering": "ui-select-extended"
+              },
+              "id": "serviceProvider",
+              "label": "Service Provider"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "71d5fc45-c725-41e7-98be-83d38fd33082"
+              },
+              "id": "listedNumber",
+              "label": "Listed Number"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "c972ea51-f5c1-41ec-a427-8a9f8c9effd8",
+                "answers": [
+                  {
+                    "concept": "190AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Condoms"
+                  },
+                  {
+                    "concept": "28a0b2fe-e899-49f6-96fc-c74e4e54b762",
+                    "label": "Depo"
+                  },
+                  {
+                    "concept": "2078ae8d-4243-4455-bd24-1fa5a3688183",
+                    "label": "Female sterilization"
+                  },
+                  {
+                    "concept": "27dd2607-63d2-4aa1-aa07-6bec29737719",
+                    "label": "Implant"
+                  },
+                  {
+                    "concept": "5275AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "IUCD"
+                  },
+                  {
+                    "concept": "4b6f96cd-63f0-4f0c-82c8-205de6ce4fef",
+                    "label": "Male sterilization"
+                  },
+                  {
+                    "concept": "6a21251f-7294-46ef-a129-00ccce4b39ad",
+                    "label": "Pills"
+                  }
+                ]
+              },
+              "id": "acceptedFamilyPlanningMethods",
+              "label": "Accepted family planning methods"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "date",
+                "concept": "f5cda421-be04-4b04-a4e8-85267d32ebe5"
+              },
+              "id": "follow-Up",
+              "label": "Follow-Up",
+              "datePickerFormat": "calendar"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "bc44de6f-db98-42c7-98b5-5fd059f50d3a"
+              },
+              "id": "remarks",
+              "label": "Remarks"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "processor": "EncounterFormProcessor",
+  "encounterType": "a1f5c3d2-4b6e-4e8a-9f2d-1b3e8e4a2d7f",
+  "referencedForms": [],
+  "uuid": "d4973070-d66a-4739-b187-27937cdc8756",
+  "description": "Safe abortion note",
+  "version": "1"
+}

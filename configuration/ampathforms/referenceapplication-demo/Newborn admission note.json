@@ -1,0 +1,568 @@
+{
+  "name": "Newborn admission note",
+  "pages": [
+    {
+      "label": "Mother Detail",
+      "sections": [
+        {
+          "label": "Mother Detail",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "38dbc147-faa8-4b81-b4df-2c2e97875aa9"
+              },
+              "id": "fatherName",
+              "label": "Father Name"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "fb5e45aa-ba4b-4084-8628-ad7b006ce518"
+              },
+              "id": "motherName",
+              "label": "Mother's Name"
+            },
+            {
+              "type": "patientIdentifier",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "fb5e45aa-ba4b-4084-8628-ad7b006ce518",
+                "identifierType": "05a29f94-c0ed-11e2-94be-8c13b969e334"
+              },
+              "id": "motherId",
+              "label": "Mother's ID"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "datetime",
+                "concept": "d73ef9e6-7286-44d5-bc91-e86d6991199e"
+              },
+              "id": "dateAndTimeOfDelivery",
+              "label": "Date and time of delivery",
+              "datePickerFormat": "both"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "b2aaef96-4fed-48d3-9ea2-69a10941a0fb",
+                "answers": [
+                  {
+                    "concept": "7c30ad1b-877b-478d-81d8-af2ea0d25034",
+                    "label": "Post term"
+                  },
+                  {
+                    "concept": "5b8fb4eb-5143-45fe-be3d-091645d63521",
+                    "label": "Pre term"
+                  },
+                  {
+                    "concept": "d01b9c84-b2b6-4a07-b54f-fb29ef076972",
+                    "label": "Term"
+                  }
+                ]
+              },
+              "id": "gestationalWeek",
+              "label": "Gestational week"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Maternal History",
+      "sections": [
+        {
+          "label": "Maternal",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "aded122d-700a-47fa-8a9c-86edb950f740"
+              },
+              "id": "maternalHistory",
+              "label": "Maternal history",
+              "questionInfo": "Medical Antenatal Family"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "1eaefe6f-a678-40d1-b0ea-29899f39f2e1"
+              },
+              "id": "antenatalLabs(IfAbnormal)",
+              "label": "Antenatal labs (if abnormal)",
+              "questionInfo": "HIV, HbSAg, VDRL, Random blood sugar, Maternal blood type"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Labor and Delivery",
+      "sections": [
+        {
+          "label": "Delivery Detail's",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "1c4de25d-89df-448b-aa35-4ca1a135550a",
+                "answers": [
+                  {
+                    "concept": "f374fa36-8e22-40c1-9559-d23e38dae170",
+                    "label": "Breech"
+                  },
+                  {
+                    "concept": "829c44f0-5bc8-438f-a42d-a2231b5c24e4",
+                    "label": "Cephalic"
+                  },
+                  {
+                    "concept": "e99bf794-d29f-4bf6-bf72-68ecdb804b6f",
+                    "label": "Complication Present"
+                  }
+                ]
+              },
+              "id": "presentation",
+              "label": "Presentation"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "43d16a89-9a77-4c1f-87c6-3951018c3f1d",
+                "answers": [
+                  {
+                    "concept": "8ad90a91-6b1d-4370-85cc-8a5b37a92244",
+                    "label": "Clear"
+                  },
+                  {
+                    "concept": "02d4d65e-65df-465a-9735-60140596d9f3",
+                    "label": "Meconium stained"
+                  },
+                  {
+                    "concept": "07f14890-c2c7-4e0d-8a48-170896e7ba71",
+                    "label": "Thick meconium"
+                  }
+                ]
+              },
+              "id": "amnioticFluid",
+              "label": "Amniotic fluid"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "28fcb679-d4d6-47d7-97bd-b49ae5dda37e",
+                "answers": [
+                  {
+                    "concept": "dae884a2-11b6-4d3d-a589-2f0bc22ce54e",
+                    "label": "Caesarean section"
+                  },
+                  {
+                    "concept": "7acd4899-6bed-4a17-b150-c361873da106",
+                    "label": "Forceps assisted"
+                  },
+                  {
+                    "concept": "da5f0ab8-e823-4cfb-9ccc-dcc813ebe88e",
+                    "label": "Spontaneous vaginal delivery"
+                  },
+                  {
+                    "concept": "c7d5ac8a-54c1-4e3b-969f-61a3ca6b3c40",
+                    "label": "Vacuum assisted"
+                  }
+                ]
+              },
+              "id": "deliveryMethod",
+              "label": "Delivery method"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "3250bd64-c4a0-4953-8a1f-210bb7b629e4",
+                "answers": [
+                  {
+                    "concept": "a0177a5d-3905-42f1-9bcc-c069f6bf56d3",
+                    "label": "Single"
+                  },
+                  {
+                    "concept": "96b81335-268c-410b-8f93-f2fb286bfa87",
+                    "label": "Twin"
+                  }
+                ]
+              },
+              "id": "childBorn",
+              "label": "Child  Born"
+            }
+          ]
+        },
+        {
+          "label": "Sepsis risk factor",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "54f38c4e-55d3-42d1-8c39-3433897e73db",
+                "answers": [
+                  {
+                    "concept": "cfb7af94-9e87-4d0e-9dba-0bb23e7e45ff",
+                    "label": "Chorioamnionitis maternal fever"
+                  },
+                  {
+                    "concept": "118256AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Fetal distress"
+                  },
+                  {
+                    "concept": "f0782eb2-6148-4825-9322-e97dd9056b1c",
+                    "label": "Fetal tachycardia"
+                  },
+                  {
+                    "concept": "3328d924-c0d7-419a-b5e8-9f817d6a69df",
+                    "label": "Foul smelling discharge"
+                  },
+                  {
+                    "concept": "54b0fb3e-a3fd-49b5-9a6a-75d6253076fb",
+                    "label": "Maternal tachycardia"
+                  },
+                  {
+                    "concept": "9253a155-0129-4a07-a541-811b8b24ec7a",
+                    "label": "Meconium aspiration"
+                  },
+                  {
+                    "concept": "e9c6a380-8d0b-453e-a1e5-d4965af526b3",
+                    "label": "Prematurity"
+                  },
+                  {
+                    "concept": "14ce2472-f9ca-4f49-a3a5-ddd368a821b9",
+                    "label": "Prolonged rupture of membranes"
+                  }
+                ]
+              },
+              "id": "sepsisRiskFactor",
+              "label": "Sepsis risk factor"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Neonatal course",
+      "sections": [
+        {
+          "label": "Examination",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "6beaa81b-272a-4260-bb75-dccaf7845f6d"
+              },
+              "id": "apgarScoreAt1Minute",
+              "label": "APGAR score at 1 minute"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "c1573ed3-6c67-459a-b570-9c06c0b9564d"
+              },
+              "id": "apgarScoreAt5Minutes",
+              "label": "APGAR score at 5 minutes"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "b7166d51-11b7-412e-9a43-4facc02563b0",
+                "answers": [
+                  {
+                    "concept": "31c6de8e-226a-484a-b863-7e380e7f60d1",
+                    "label": "Asphyxiated"
+                  },
+                  {
+                    "concept": "a504ebc6-d580-4fa5-8f75-4a1bb39a1996",
+                    "label": "Caput"
+                  },
+                  {
+                    "concept": "be9c3055-bed0-4fa3-a8ed-bd995f7420bf",
+                    "label": "Disabled"
+                  },
+                  {
+                    "concept": "0b50af28-5c6b-473f-a8a4-01ffb14ae305",
+                    "label": "Hypothermia"
+                  },
+                  {
+                    "concept": "1115AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Normal"
+                  },
+                  {
+                    "concept": "584ccb56-6bda-41d1-91cf-6b6c83ce65ab",
+                    "label": "Unspecified jaundice"
+                  }
+                ]
+              },
+              "id": "newBornStatus",
+              "label": "New Born Status"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "bdad1b74-5583-4367-a184-926003b5e9be",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "cephalohematoma",
+              "label": "Cephalohematoma"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "e35dcdc7-8aa7-4d78-b1fb-46ecb0ff17d1"
+              },
+              "id": "congenitalAnomalies",
+              "label": "Congenital anomalies"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "1b889db3-184c-4001-b06f-652d33cce97d",
+                "answers": [
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  },
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              },
+              "id": "vitaminKProvided",
+              "label": "Vitamin K provided"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "82182508-2901-46ac-844a-bf5ae8a2bfc5",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "chlorhexidineAppliedOnCord",
+              "label": "Chlorhexidine applied on cord "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Physical Examination",
+      "sections": [
+        {
+          "label": "Examination",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "9c18b5bd-c465-4f30-b030-e46575a4153d"
+              },
+              "id": "neonateWeight",
+              "label": "Neonate weight",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "284bc9a7-3e68-427f-a9e1-7f2d49497643",
+                "answers": [
+                  {
+                    "concept": "c6b59deb-cdf8-41cc-8956-7ebf4e8d6af4",
+                    "label": "Large infant"
+                  },
+                  {
+                    "concept": "1bfcd30d-ebaa-44cc-b61a-3af971821349",
+                    "label": "Normal Infant"
+                  },
+                  {
+                    "concept": "8c7dcb50-0134-43f6-9f4d-737ab9040ca7",
+                    "label": "Small infant"
+                  }
+                ]
+              },
+              "id": "neonateSize",
+              "label": "Neonate size ",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "c02aac43-0c68-4d0d-a86d-122ce8eee4ce"
+              },
+              "id": "temperature",
+              "label": "Temperature"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "01070e39-119d-43f2-ab56-e3b32d9682b3"
+              },
+              "id": "heartRate",
+              "label": "Heart Rate"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "5242AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              },
+              "id": "respiratoryRateData",
+              "label": "Respiratory rate data"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Management",
+      "sections": [
+        {
+          "label": "Condition",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "975e41c3-8dbf-4a82-93f2-e1216c9d0d86",
+                "answers": [
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  },
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              },
+              "id": "prematureBirth",
+              "label": "Premature Birth"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "c1aaf746-bcbb-4016-b540-f3368e73a4f9",
+                "answers": [
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  },
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              },
+              "id": "hypoglycemiaRiskFactor",
+              "label": "Hypoglycemia risk factor"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "ef896904-2354-4b34-b688-739b19236685",
+                "answers": [
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  },
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              },
+              "id": "hyperbilirubinemiaRiskFactor",
+              "label": "Hyperbilirubinemia risk factor",
+              "questionInfo": "Risk factors include premature birth, cephalohematoma, ABO/Rh incompatibility"
+            }
+          ]
+        },
+        {
+          "label": "Routine care and counseling",
+          "isExpanded": "true",
+          "questions": []
+        },
+        {
+          "label": "Counseling Given",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "150423eb-301f-4265-b832-36c8d6f1d0cb",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "routineCareAndCounseling",
+              "label": "Routine care and counseling",
+              "questionInfo": "Counsel parents/guardians for; Discuss danger signs Discuss proper umbilical cord care Discuss effective breastfeeding Discuss immunization."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "processor": "EncounterFormProcessor",
+  "encounterType": "dd528487-82a5-4082-9c72-ed246bd49591",
+  "referencedForms": [],
+  "uuid": "e0a25eba-30b1-40cc-91cf-b80766947b19",
+  "description": "New born baby note",
+  "version": "1"
+}

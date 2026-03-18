@@ -1,0 +1,347 @@
+{
+  "name": "Operation Note",
+  "pages": [
+    {
+      "label": "Patient Admission Details",
+      "sections": [
+        {
+          "label": "Patient /Pre-Operative Details",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "af220e84-ac0e-4a75-872a-dea7a89475a3",
+                "answers": [
+                  {
+                    "concept": "cae0de9f-98c6-4484-ba9e-7229fcccc7b8",
+                    "label": "OPD"
+                  },
+                  {
+                    "concept": "167050AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "IPD"
+                  },
+                  {
+                    "concept": "04f6f7e0-e3cb-4e13-a133-4479f759574e",
+                    "label": "Emergency"
+                  },
+                  {
+                    "concept": "9b11c74a-076f-4129-a940-e8054edb4b44",
+                    "label": "Direct outside referral"
+                  }
+                ]
+              },
+              "id": "presentedFrom",
+              "label": "Presented from"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "600f6ff5-ca78-4928-9fce-e750aafe9641"
+              },
+              "id": "diagnosis",
+              "label": "Diagnosis"
+            },
+            {
+              "type": "encounterProvider",
+              "questionOptions": {
+                "rendering": "ui-select-extended"
+              },
+              "id": "surgeons",
+              "label": "Surgeons",
+              "required": true
+            },
+            {
+              "type": "encounterProvider",
+              "questionOptions": {
+                "rendering": "ui-select-extended"
+              },
+              "id": "anesthetist",
+              "label": "Anesthetist",
+              "required": true
+            },
+            {
+              "type": "encounterProvider",
+              "questionOptions": {
+                "rendering": "ui-select-extended"
+              },
+              "id": "scrubNurse",
+              "label": "Scrub nurse ",
+              "required": true
+            },
+            {
+              "type": "encounterProvider",
+              "questionOptions": {
+                "rendering": "ui-select-extended"
+              },
+              "id": "circulatingNurse",
+              "label": "Circulating nurse",
+              "required": false
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "minLength": "Other staff",
+                "concept": "2f6cd3c7-4647-454d-bc31-2518f3ddd14c"
+              },
+              "id": "otherStaff",
+              "label": "Other staff"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Intra-Operative Details",
+      "sections": [
+        {
+          "label": "Operative Details",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "77ef9b4e-e3ff-4c56-b970-fe0d1b867eed",
+                "answers": [
+                  {
+                    "concept": "2ca4b23b-2a4a-41d4-8a0c-9c01ae3e7cab",
+                    "label": "Appendectomy"
+                  },
+                  {
+                    "concept": "dae884a2-11b6-4d3d-a589-2f0bc22ce54e",
+                    "label": "Caesarean section"
+                  },
+                  {
+                    "concept": "9e17f7b8-5b58-4846-abf9-58762923683c",
+                    "label": "Cholecystostomy"
+                  },
+                  {
+                    "concept": "bb9708ed-ab08-486e-8fbf-7a297a30ec1e",
+                    "label": "Eversion of sac"
+                  },
+                  {
+                    "concept": "dad4f5c2-5c0b-4b2e-b62b-656b201d0b86",
+                    "label": "Fracture management"
+                  },
+                  {
+                    "concept": "7be18042-e935-48dd-8996-14f63c140cf1",
+                    "label": "Hernia repair"
+                  },
+                  {
+                    "concept": "5e1da26e-f6ca-4acd-be80-cb1976ba2ae9",
+                    "label": "Orthopedic surgery lower limb(LL)"
+                  },
+                  {
+                    "concept": "7af73135-3c07-4bcc-997a-f119a971e43e",
+                    "label": "Orthopedic surgery upper limb(UL)"
+                  },
+                  {
+                    "concept": "ad24b3df-7bae-45f7-8ab5-8a6d36bfd1f1",
+                    "label": "Suturing"
+                  },
+                  {
+                    "concept": "ac4d6377-490a-4450-9cd7-16694b48785d",
+                    "label": "Wound Care"
+                  },
+                  {
+                    "concept": "5622AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Other"
+                  }
+                ]
+              },
+              "id": "procedure",
+              "label": "Procedure",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "a8b07e2d-5a65-4a78-8d01-fde89137e2e2"
+              },
+              "id": "procedureNote",
+              "label": "Procedure note"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "fixed-value",
+                "concept": "a8a3534a-4ad6-44d3-9bb1-1f0414d6ac7f"
+              },
+              "id": "estimatedBloodLoss",
+              "label": "Estimated blood loss (in cc)"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "8ebed08d-7c9a-4aa0-9e91-6eec2a2cb7e2"
+              },
+              "id": "bloodTransfusionQuantity",
+              "label": "Blood transfusion quantity"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "f6cb9651-7a2d-4c58-aff5-48c6d1888a64"
+              },
+              "id": "specificIntervention",
+              "label": "Specific intervention"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "55592180-3985-4025-a76e-3e1d9e3d62e8"
+              },
+              "id": "preoperativeMeds",
+              "label": "Preoperative meds"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "f94172a7-02f2-4e91-bfb1-d726cb1c557d"
+              },
+              "id": "anesthesia",
+              "label": "Anesthesia",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "30e3d3b6-e2e9-4890-a290-90d3204dbdb3"
+              },
+              "id": "antibioticsAdministered",
+              "label": "Antibiotics administered",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "53a5f942-57f9-4347-bebd-3e66dac9a86b"
+              },
+              "id": "intraoperativeMeds",
+              "label": "Intraoperative meds"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "11fae55a-2370-4be4-bf4b-ac3624eedd22"
+              },
+              "id": "fluidAdministered",
+              "label": "Fluid administered"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "8f68a53b-d6eb-4c69-8464-392e333ab717"
+              },
+              "id": "fluidAmountAndUnit",
+              "label": "Fluid amount and unit"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "3c2179fe-e311-4ef9-9969-be98dbbbeb1e"
+              },
+              "id": "tourniquetTime",
+              "label": "Tourniquet time"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "c9f9916b-75d2-467c-a9ba-8aeea2d5526f"
+              },
+              "id": "findings",
+              "label": "Findings"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Post-Operative Status",
+      "sections": [
+        {
+          "label": "Post-Operative Status",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "4fe895d3-00c9-4c66-a1c3-c137f51a2ff6"
+              },
+              "id": "specimens",
+              "label": "Specimens",
+              "questionInfo": "type sent to pathology (gallbladder and cystic duct, etc.). DRAINS (T-tube in RUQ, etc.)"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "88d98899-3897-412e-80c2-73dcd0196f65"
+              },
+              "id": "complications",
+              "label": "Complications"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "0788e5bf-020e-4551-82e9-d32dcf5f92a1"
+              },
+              "id": "intraOpInvestigationsOrdered",
+              "label": "Intra-OP investigations ordered"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "0050cc5b-dc66-4706-b83c-ec638bd589ed",
+                "answers": [
+                  {
+                    "concept": "e319a147-c983-46d4-8450-2f6199eb7661",
+                    "label": "Death on OT table"
+                  },
+                  {
+                    "concept": "45c95c76-5fbd-4578-b7f9-134c7d41f89b",
+                    "label": "Extubated operative condition"
+                  },
+                  {
+                    "concept": "9e97fbbb-986a-4f09-8073-76af1a8b6a69",
+                    "label": "Stable"
+                  },
+                  {
+                    "concept": "2f104ae5-c180-4600-9256-a6abfb72ef87",
+                    "label": "Transferred to recovery room"
+                  }
+                ]
+              },
+              "id": "condition",
+              "label": "Condition"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "processor": "EncounterFormProcessor",
+  "encounterType": "e22e39fd-7db2-45e7-80f1-60fa0d5a4378",
+  "referencedForms": [],
+  "uuid": "73913309-75ac-4c37-a4dd-069a53feedf7",
+  "description": "Operation / Surgical Procedure Record",
+  "version": "1"
+}

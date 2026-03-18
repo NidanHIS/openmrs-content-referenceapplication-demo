@@ -1,0 +1,243 @@
+{
+  "name": "Kalazar Note",
+  "pages": [
+    {
+      "label": "Case Registration and Treatment",
+      "sections": [
+        {
+          "label": "Investigation and Treatment",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "bc3f9ad8-a6e6-414a-b99b-6b023979ec9a"
+              },
+              "id": "patientName",
+              "label": "Patient Name"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "475efb37-20f6-44d3-91a0-7002ac8cc532"
+              },
+              "id": "contactNumber",
+              "label": "Contact Number"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "fb4c8cfe-d0e4-4d7b-87c4-11762444921b",
+                "answers": [
+                  {
+                    "concept": "1115AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Normal"
+                  },
+                  {
+                    "concept": "e2f3825e-2e4b-4802-a43a-ec94915c0a72",
+                    "label": "High risk"
+                  },
+                  {
+                    "concept": "7538a7c3-2ec1-414c-96a5-c79ac79a3c71",
+                    "label": "Medium risk"
+                  },
+                  {
+                    "concept": "3b3b0b6f-c199-4812-b30c-1c8be4cf914a",
+                    "label": "Low risk"
+                  }
+                ]
+              },
+              "id": "receptivity",
+              "label": "Receptivity",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "d56178ce-72e3-415b-ab10-7bf44121a242",
+                "answers": [
+                  {
+                    "concept": "76d0179f-dc3d-4764-9012-fdbe20d77994",
+                    "label": "ACD - active case detection"
+                  },
+                  {
+                    "concept": "274db798-1854-4f6e-acd5-6be00e34c8ea",
+                    "label": "PCD - passive case detection"
+                  }
+                ]
+              },
+              "id": "source",
+              "label": "Source",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "4f1964fc-99ed-48a4-9b6a-21f2cd7716b7",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "pregnant",
+              "label": "Pregnant"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "a67b2e6f-088e-46e1-92be-3e19fd68fa3f",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "katf(Kala-AzarTreatmentFailureCase)",
+              "label": "KATF ( kala-azar treatment failure case)"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "7ae4f09d-623e-4210-8492-6f6cc91407c0",
+                "answers": [
+                  {
+                    "concept": "2746e327-a8a1-49a6-93d6-4e5cdf52cde7",
+                    "label": "Indigenous"
+                  },
+                  {
+                    "concept": "cf39c2ba-5ead-4706-becb-52f48e2bb959",
+                    "label": "Imported"
+                  },
+                  {
+                    "concept": "fe9c749a-29ba-4d4a-bd1c-851841d0d0ac",
+                    "label": "Foreigner"
+                  }
+                ]
+              },
+              "id": "classification",
+              "label": "Classification",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "5318c09c-1924-47e0-b727-41845ee6fc76",
+                "answers": [
+                  {
+                    "concept": "5564c3f5-220f-4439-bfc4-f63972cfd8ef",
+                    "label": "Stage"
+                  },
+                  {
+                    "concept": "6ebde814-8bac-44cd-8e73-f080ae786ba7",
+                    "label": "Species"
+                  },
+                  {
+                    "concept": "8509ea08-a8e1-4b28-ae2d-42ad2f70fc70",
+                    "label": "RDT /  RK39"
+                  },
+                  {
+                    "concept": "71dc484e-131a-4ad6-8e69-9f004bd5a0f3",
+                    "label": "Density"
+                  }
+                ]
+              },
+              "id": "diagnosisType",
+              "label": "Diagnosis Type"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "3047ad82-6c64-4e02-9286-308d18d77211",
+                "answers": [
+                  {
+                    "concept": "7bf0872f-7d7a-46e3-acfb-d3b8a36ea78e",
+                    "label": "Lipsomal amphotericin B/Miltefosin"
+                  },
+                  {
+                    "concept": "5622AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Other"
+                  }
+                ]
+              },
+              "id": "treatment",
+              "label": "Treatment"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "fb5e45aa-ba4b-4084-8628-ad7b006ce518"
+              },
+              "id": "other(Specity)",
+              "label": "Other (Specity)"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "ef7637eb-4ba5-484f-a189-82af39f83b9f",
+                "answers": [
+                  {
+                    "concept": "703AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Positive"
+                  },
+                  {
+                    "concept": "664AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Negative"
+                  }
+                ]
+              },
+              "id": "kalaazarPatientsFollowUpTestOrdered",
+              "label": "Kalaazar Patients Follow up Test Ordered"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "date",
+                "concept": "cf761b07-4008-4860-aca8-0998e2eccdef"
+              },
+              "id": "deathDate",
+              "label": "Death Date",
+              "datePickerFormat": "calendar"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "bc44de6f-db98-42c7-98b5-5fd059f50d3a"
+              },
+              "id": "remarks",
+              "label": "Remarks"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "processor": "EncounterFormProcessor",
+  "encounterType": "dd528487-82a5-4082-9c72-ed246bd49591",
+  "referencedForms": [],
+  "uuid": "643748ec-e200-4c19-882e-41172de20b59",
+  "description": "1",
+  "version": "1"
+}

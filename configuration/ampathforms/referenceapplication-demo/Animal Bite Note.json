@@ -1,0 +1,338 @@
+{
+  "name": "Animal Bite Note",
+  "pages": [
+    {
+      "label": "1. Animal Details",
+      "sections": [
+        {
+          "label": "1. Animal Details",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "14AAAAAAAAAAAAAAAAAAAAAAAAABB",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "referredIn",
+              "label": "Referred In",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "select",
+                "concept": "bd3edb01-d86c-4096-9800-cb9754a5b01f",
+                "answers": [
+                  {
+                    "concept": "e104c283-0951-45d8-a427-f0a341058b22",
+                    "label": "Dog"
+                  },
+                  {
+                    "concept": "a3dfb993-5a6a-4689-825f-0d9336bad0f3",
+                    "label": "Cat"
+                  },
+                  {
+                    "concept": "6efc7abb-a20a-4ff8-ac4b-e2bb36fcba7d",
+                    "label": "Wild animal"
+                  },
+                  {
+                    "concept": "5622AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Other"
+                  }
+                ]
+              },
+              "id": "bitingAnimal",
+              "label": "Biting animal",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "fb5e45aa-ba4b-4084-8628-ad7b006ce518"
+              },
+              "id": "others(Specify)",
+              "label": "Others(specify)"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "date",
+                "concept": "7f66ab13-b828-4d59-9e5c-54dada219eee"
+              },
+              "id": "dateOfBite",
+              "label": "Date of bite",
+              "datePickerFormat": "calendar"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "9fdf7674-1f1b-4b4f-a2dc-2e5e9a51339f",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  },
+                  {
+                    "concept": "1175AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Not applicable"
+                  }
+                ]
+              },
+              "id": "animalVaccinated",
+              "label": "Animal vaccinated?"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "40b7ed1f-c90e-47e4-9bad-aa987710e259"
+              },
+              "id": "addressOfTheOwnerOrLocationOfTheAnimal",
+              "label": "Address of the owner or location of the animal"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "10f19dcb-ff53-4790-878e-b6a95a8c90d2",
+                "answers": [
+                  {
+                    "concept": "d8ba7055-73a1-468d-ab42-07d305d82917",
+                    "label": "Anti rabies vaccine"
+                  },
+                  {
+                    "concept": "1175AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Not applicable"
+                  },
+                  {
+                    "concept": "7abce9cd-8bee-49ba-902f-eecd928a5d01",
+                    "label": "Tetanus texoid"
+                  }
+                ]
+              },
+              "id": "vaccinationProvided",
+              "label": "Vaccination provided"
+            }
+          ]
+        },
+        {
+          "label": "Bite Incident Details",
+          "isExpanded": "true",
+          "questions": []
+        },
+        {
+          "label": "Bite Incident",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "select",
+                "concept": "448ab9e3-de87-4da5-975c-ef11d2057444",
+                "answers": [
+                  {
+                    "concept": "3e8836c2-6449-473c-9b96-31d20477d2b8",
+                    "label": "Face/head"
+                  },
+                  {
+                    "concept": "8aff565c-6b63-41b5-8847-2260a8530a7e",
+                    "label": "Hand/Arm"
+                  },
+                  {
+                    "concept": "7447d980-9c85-4575-9b90-fcdbeb8693f6",
+                    "label": "Hand/forehand"
+                  },
+                  {
+                    "concept": "72ace641-abd3-4da9-83cc-55714bc0255f",
+                    "label": "Leg"
+                  },
+                  {
+                    "concept": "d952ba80-f96d-4108-a1c0-a14feb2517f7",
+                    "label": "Lower trunk"
+                  },
+                  {
+                    "concept": "286bc113-869e-4699-a897-d61673bb7b4f",
+                    "label": "Palm/Finger"
+                  },
+                  {
+                    "concept": "97291127-5f4c-4ccc-9d24-d6875fb060a7",
+                    "label": "Upper trunk"
+                  }
+                ]
+              },
+              "id": "siteOfBite",
+              "label": "Site of bite"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "select",
+                "concept": "4ea0dec5-54a4-4e8b-976f-5527e921c986",
+                "answers": [
+                  {
+                    "concept": "42cb6469-33de-40c9-a347-ccf4c1c3eb67",
+                    "label": "Deep"
+                  },
+                  {
+                    "concept": "5547a74b-515d-4be5-8b87-6b0a8b2da534",
+                    "label": "Multiple wound"
+                  },
+                  {
+                    "concept": "59f7d216-9595-4080-8831-333d5786c428",
+                    "label": "Scratch"
+                  },
+                  {
+                    "concept": "ad2c1336-9169-492e-bb76-b17658b92885",
+                    "label": "Superficial"
+                  }
+                ]
+              },
+              "id": "typeOfWound",
+              "label": "Type of wound"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "select",
+                "concept": "e8ed1307-2abe-4146-8594-5e81d3ac451e",
+                "answers": [
+                  {
+                    "concept": "01abc9cd-86bb-4be5-99c5-f57baae19b95",
+                    "label": "Category I"
+                  },
+                  {
+                    "concept": "919a75dc-4bda-4a61-8e49-85cfcd06f2d5",
+                    "label": "Category II"
+                  },
+                  {
+                    "concept": "19f562e5-dba7-4767-8514-f1177b1c8e52",
+                    "label": "Category III"
+                  }
+                ]
+              },
+              "id": "categoryOfBite",
+              "label": "Category of bite",
+              "questionInfo": "category I ? touching or feeding animals, licks on the skin category II - Minor scratches or abrasions without bleeding, licks on broken skin category III ? single or multiple transdermal bites or scratches, contamination of mucous membrane with saliva from licks"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Treatment(Only for PCEC)",
+      "sections": [
+        {
+          "label": "Treatment",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "b56aeee4-53a4-41ea-895b-261a270d82f6",
+                "answers": [
+                  {
+                    "concept": "eaa203df-bd28-4391-b43c-be3a69eafd49",
+                    "label": "Day 0"
+                  },
+                  {
+                    "concept": "b8a41977-db03-4ec4-b516-f48f830738a9",
+                    "label": "Day 7"
+                  },
+                  {
+                    "concept": "3d4ab96b-2518-44ab-91a8-5607fe75e4ab",
+                    "label": "Day 21"
+                  },
+                  {
+                    "concept": "281c8c75-727d-4d34-af6b-eb3e6ac84084",
+                    "label": "Day 28"
+                  },
+                  {
+                    "concept": "1175AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Not applicable"
+                  }
+                ]
+              },
+              "id": "preExposureProphylaxis",
+              "label": "Pre exposure prophylaxis",
+              "questionInfo": "Three 2.5 IU/mL doses of rabies vaccine are given IM, one injection per day, on days 0, 7, and 21 or 28, in the deltoid area of adults or in the anterolateral thigh of young children."
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "1cdcfb28-47ae-4592-ae0c-6d990608e237",
+                "answers": [
+                  {
+                    "concept": "eaa203df-bd28-4391-b43c-be3a69eafd49",
+                    "label": "Day 0"
+                  },
+                  {
+                    "concept": "58986466-13d9-47c7-b74b-10eb0f4d50aa",
+                    "label": "Day 3"
+                  },
+                  {
+                    "concept": "b8a41977-db03-4ec4-b516-f48f830738a9",
+                    "label": "Day 7"
+                  },
+                  {
+                    "concept": "144dccf1-6ecb-45ff-95c0-0eb72bfca9e3",
+                    "label": "Day 14"
+                  },
+                  {
+                    "concept": "281c8c75-727d-4d34-af6b-eb3e6ac84084",
+                    "label": "Day 28"
+                  },
+                  {
+                    "concept": "1175AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Not applicable"
+                  }
+                ]
+              },
+              "id": "postExposureTreatment",
+              "label": "Post exposure treatment",
+              "questionInfo": "One dose of the vaccine should be administered on days 0, 3, 7, 14 and 28. Given in the deltoid region or, for young children, into the antero-lateral area of the thigh muscle"
+            }
+          ]
+        },
+        {
+          "label": "Name of the service provider",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "encounterProvider",
+              "questionOptions": {
+                "rendering": "ui-select-extended"
+              },
+              "id": "serviceProvider",
+              "label": "Service Provider"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "processor": "EncounterFormProcessor",
+  "encounterType": "dd528487-82a5-4082-9c72-ed246bd49591",
+  "referencedForms": [],
+  "uuid": "254745ae-38b4-4db9-af12-17364e96a234",
+  "description": "Animal Bite",
+  "version": "1"
+}

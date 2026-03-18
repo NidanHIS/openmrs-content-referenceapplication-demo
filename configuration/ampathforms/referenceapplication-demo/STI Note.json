@@ -1,0 +1,440 @@
+{
+  "name": "STI Note",
+  "pages": [
+    {
+      "label": "STI Diagnosis (Syndromic and Etiological)",
+      "sections": [
+        {
+          "label": "Syndromic and Etiological",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "d0e8e842-f67f-4fdb-8ff8-5aaf8e64aa22",
+                "answers": [
+                  {
+                    "concept": "d79bcd54-c960-43a4-9cc6-a010f23023df",
+                    "label": "Chlamydial lymphogranuloma (venereum)"
+                  },
+                  {
+                    "concept": "4b9479c5-5eaf-43f7-8dfb-4a39c281efdf",
+                    "label": "Genital Ulcer Disease Syndrome"
+                  },
+                  {
+                    "concept": "61cd269e-75b8-43a9-929c-7d6b129376dd",
+                    "label": "Lower Abdominal Pain Syndrome"
+                  },
+                  {
+                    "concept": "a33c2a7a-070b-42dc-9d9e-e238280d9c87",
+                    "label": "Scortal Swelling Syndrome"
+                  },
+                  {
+                    "concept": "a51d821f-ca10-4412-acdb-5dae203e8de9",
+                    "label": "Urethral Discharge Syndrome"
+                  },
+                  {
+                    "concept": "8b67b335-8eb9-4ea9-9bcb-5834cdc8ae47",
+                    "label": "Vaginal Discharge Syndrome (VDS)"
+                  },
+                  {
+                    "concept": "5622AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Other"
+                  },
+                  {
+                    "concept": "f687852a-8923-4e02-b7d0-fb2b12c6738d",
+                    "label": "Not present"
+                  }
+                ]
+              },
+              "id": "syndromicDiagnosis",
+              "label": "Syndromic Diagnosis"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "fb5e45aa-ba4b-4084-8628-ad7b006ce518"
+              },
+              "id": "others(Specify)",
+              "label": "Others (specify)"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "b327e32d-05a1-45fc-98d3-55dc33077cc5",
+                "answers": [
+                  {
+                    "concept": "8b3b8b17-90a1-4b8c-b428-9371723ebee6",
+                    "label": "Cervisitis"
+                  },
+                  {
+                    "concept": "a5e0232d-027e-42db-9e36-0d8036aa74eb",
+                    "label": "GM Strain +ve"
+                  },
+                  {
+                    "concept": "66a87821-d371-4a94-bf43-71e03ee17d89",
+                    "label": "Herpes Genitalis"
+                  },
+                  {
+                    "concept": "0a3298db-97f1-4ae5-be1a-abc391bc86c9",
+                    "label": "Syphilis Positive"
+                  },
+                  {
+                    "concept": "97a38bb7-0d34-4c95-bfd0-ac1ad5431e84",
+                    "label": "Vaginitis"
+                  },
+                  {
+                    "concept": "f687852a-8923-4e02-b7d0-fb2b12c6738d",
+                    "label": "Not present"
+                  }
+                ]
+              },
+              "id": "etiologicalDiagnosis",
+              "label": "Etiological Diagnosis"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "63c539fd-d7e0-4140-ac32-65aeb9419038",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "vdrlPositive",
+              "label": "VDRL Positive"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "8a7c66dd-47e0-472b-a7a0-17a0f0330586",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "tppa+Ve",
+              "label": "TPPA +ve"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "37c6ec1d-3a36-4c5b-b1cf-fca931cd52e0",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "gnid+Ve",
+              "label": "GNID +ve"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "a34b4af0-1af8-4ffb-b05b-7894961a2ef5",
+                "answers": [
+                  {
+                    "concept": "7c8d088f-1e4c-4470-864a-d40cfc0e3cb4",
+                    "label": "Blood or Organ Recipient"
+                  },
+                  {
+                    "concept": "8b3b8b17-90a1-4b8c-b428-9371723ebee6",
+                    "label": "Cervisitis"
+                  },
+                  {
+                    "concept": "91a5be54-1a2d-452c-a0f3-744973c735c2",
+                    "label": "Client of Sex Worker"
+                  },
+                  {
+                    "concept": "a5e0232d-027e-42db-9e36-0d8036aa74eb",
+                    "label": "GM Strain +ve"
+                  },
+                  {
+                    "concept": "66a87821-d371-4a94-bf43-71e03ee17d89",
+                    "label": "Herpes Genitalis"
+                  },
+                  {
+                    "concept": "138571AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "HIV positive"
+                  },
+                  {
+                    "concept": "468241ab-6aba-4b59-8403-26cface5af19",
+                    "label": "Migrant"
+                  },
+                  {
+                    "concept": "f1e787c7-4703-4ccc-bf58-e8e5d837db73",
+                    "label": "MSM and Transgenders"
+                  },
+                  {
+                    "concept": "0dce012a-e70e-42cb-ae0f-9398f6cf54a8",
+                    "label": "Neonate"
+                  },
+                  {
+                    "concept": "b72f72ce-9b71-4c54-85f0-392656069148",
+                    "label": "Not at all"
+                  },
+                  {
+                    "concept": "5622AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Other"
+                  },
+                  {
+                    "concept": "f687852a-8923-4e02-b7d0-fb2b12c6738d",
+                    "label": "Not present"
+                  },
+                  {
+                    "concept": "5c9957f5-84e4-4645-b988-c404041aaf23",
+                    "label": "People Who Inject Drugs"
+                  },
+                  {
+                    "concept": "1ff7895e-c21f-4c90-bbed-4a0d9564d52f",
+                    "label": "Pregnant woman"
+                  },
+                  {
+                    "concept": "67812801-ff59-418d-ba04-915f98f5a23c",
+                    "label": "Sex Worker"
+                  },
+                  {
+                    "concept": "0604945e-6df6-4b32-9da9-8d176037b8d1",
+                    "label": "Spouse/Partner of Migrant"
+                  },
+                  {
+                    "concept": "0a3298db-97f1-4ae5-be1a-abc391bc86c9",
+                    "label": "Syphilis Positive"
+                  },
+                  {
+                    "concept": "97a38bb7-0d34-4c95-bfd0-ac1ad5431e84",
+                    "label": "Vaginitis"
+                  }
+                ]
+              },
+              "id": "riskGroup",
+              "label": "Risk Group"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "fb5e45aa-ba4b-4084-8628-ad7b006ce518"
+              },
+              "id": "othersSpecify",
+              "label": "Others (specify)"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "14AAAAAAAAAAAAAAAAAAAAAAAAABB",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "referredIn",
+              "label": "Referred In"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": " STI Treatment",
+      "sections": [
+        {
+          "label": "Treatment",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "581135ae-84f4-4226-874d-442a9ae942cd",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "syndromic",
+              "label": "Syndromic"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "7a1f449b-1c91-47bd-bfb6-185748e9e52d",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "etiological",
+              "label": "Etiological"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "d9d514e3-6edd-43a6-ae96-c845230c9931",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "syphilisScreening",
+              "label": "Syphilis Screening"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "1f907e15-0f22-4fa2-ad14-77bcb35a3985",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "presumptiveTreatmentForSexWorkers",
+              "label": "Presumptive Treatment for Sex Workers"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "48b6d9da-88c6-4e59-b8eb-898950e1ddd4",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "asymptomaticPartnersTreated",
+              "label": "Asymptomatic Partners Treated"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "01c9c0b1-2c3b-48a5-8de7-bc41dcec05a7",
+                "answers": [
+                  {
+                    "concept": "162361AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "In"
+                  },
+                  {
+                    "concept": "fe3d64d9-a309-4710-9930-a929dec88546",
+                    "label": "Out"
+                  },
+                  {
+                    "concept": "1175AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Not applicable"
+                  }
+                ]
+              },
+              "id": "referred",
+              "label": "Referred"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "b8cb6132-cac2-4ccb-8b1f-e42a40840cf8"
+              },
+              "id": "referredTo",
+              "label": "Referred To"
+            }
+          ]
+        },
+        {
+          "label": "Counseling/Assessed",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "7589ede2-38ca-41a9-8f4f-efecc0da1228",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "stiCounseling",
+              "label": "STI Counseling"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "processor": "EncounterFormProcessor",
+  "encounterType": "dd528487-82a5-4082-9c72-ed246bd49591",
+  "referencedForms": [],
+  "uuid": "be876e88-636a-4fda-ade3-88550fad8558",
+  "description": "Sexually Transmitted Disease",
+  "version": "1"
+}

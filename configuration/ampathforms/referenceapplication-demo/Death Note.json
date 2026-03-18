@@ -1,0 +1,298 @@
+{
+  "name": "Death Note",
+  "pages": [
+    {
+      "label": "Patient Outcome",
+      "sections": [
+        {
+          "label": "Patient Outcome",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "53b7d2a5-5df6-4dff-a3b3-9daee6c78ba7",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "broughtDead",
+              "label": "Brought dead ?",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "c0156ab0-46db-40ff-8909-2e2502e6ac42",
+                "answers": [
+                  {
+                    "concept": "652b4f83-23b4-4c99-980e-e8862dd269a8",
+                    "label": "Expected"
+                  },
+                  {
+                    "concept": "7b553737-5017-403c-839c-b87f3b3130be",
+                    "label": "Unexpected"
+                  }
+                ]
+              },
+              "id": "deathType",
+              "label": "Death type"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "datetime",
+                "concept": "ebe93dec-73a0-4703-abec-e05164896fe3"
+              },
+              "id": "pronouncedDeathDateAndTime",
+              "label": "Pronounced death date and time",
+              "datePickerFormat": "both",
+              "required": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Cause of Death",
+      "sections": [
+        {
+          "label": "Cause of Death",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "0249a235-db19-46c7-abda-7bbd61563821"
+              },
+              "id": "primaryCauseOfDeath",
+              "label": "Primary cause of death",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "6177bccf-d0fd-4295-8f3c-459192e5ad3e"
+              },
+              "id": "secondaryCauseOfDeath",
+              "label": "Secondary cause of death"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "6062cdd2-97d8-47d2-9027-d36d22238284"
+              },
+              "id": "tertiaryCauseOfDeath",
+              "label": "Tertiary cause of death"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "fd18a4cc-929e-4aea-8017-caa64102400a"
+              },
+              "id": "otherCoMorbidities",
+              "label": "Other co-morbidities"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Death Pronouncement",
+      "sections": [
+        {
+          "label": "Pronouncement",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "9fc50b9d-a44e-4a3b-b93d-ae30955d91eb"
+              },
+              "id": "mdgpNotifiedAt",
+              "label": "MDGP notified at"
+            },
+            {
+              "type": "encounterProvider",
+              "questionOptions": {
+                "rendering": "ui-select-extended"
+              },
+              "id": "providerNameWhoPronouncedDeath",
+              "label": "Provider name who pronounced death"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "352101a1-5fd9-4624-8f11-bd25d0e3268e",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "familyNext-Of-KinAwareOfDeath",
+              "label": "Family / next-of-kin aware of death"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "20048c7d-5707-4e80-8c6c-61bc026b4885",
+                "answers": [
+                  {
+                    "concept": "07b4f175-dcd7-4d4e-b5d5-fbc1cc20b56e",
+                    "label": "Medico legal"
+                  },
+                  {
+                    "concept": "ec7cb6b4-faf0-427f-90fb-ca9c20ed5944",
+                    "label": "Police case"
+                  }
+                ]
+              },
+              "id": "medicoLegalPoliceCase",
+              "label": "Medico legal / police case"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Maternal Death Details",
+      "sections": [
+        {
+          "label": "In Case of Maternal Death",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "8aae67fa-aa87-4429-8d8d-55ccfde8e5a6",
+                "answers": [
+                  {
+                    "concept": "1af727c3-086e-4911-a946-7e4b79ba9f7c",
+                    "label": "Antepartum"
+                  },
+                  {
+                    "concept": "169a9af9-1b82-431e-b77e-e87abce9e878",
+                    "label": "Intrapartum"
+                  },
+                  {
+                    "concept": "1a467bf8-dc64-41b7-a129-f16773c8eb0f",
+                    "label": "Postpartum"
+                  }
+                ]
+              },
+              "id": "ifThisIsACaseOfMaternalDeath",
+              "label": "If this is a case of maternal death"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "c2b2f70e-d85c-4fd5-99bf-1621bf07d7cd",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "deathOccuredPostOperative",
+              "label": "Death occured post operative",
+              "questionInfo": "Except neo-natal and maternal death."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Surgical & Hospital Course",
+      "sections": [
+        {
+          "label": "Surgical & Hospital Course Details",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "f75b67a8-e3e0-4a2c-959a-2e4b658d40eb",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "postmortemDone",
+              "label": "Postmortem done ?"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "af069009-42c5-42af-8a1e-8c36c9164f4c",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "didPatientHaveSurgeryWhileHospitalized",
+              "label": "Did patient have surgery while hospitalized"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "1df51cb7-d43b-4eb9-bdd8-6e778e2a0d91"
+              },
+              "id": "briefAccountOfHospitalCourse",
+              "label": "Brief account of hospital course"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "processor": "EncounterFormProcessor",
+  "encounterType": "dd528487-82a5-4082-9c72-ed246bd49591",
+  "referencedForms": [],
+  "uuid": "6e930e51-f000-44c2-829e-1ee3abaf998a",
+  "description": "Death Note form",
+  "version": "1"
+}

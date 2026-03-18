@@ -1,0 +1,230 @@
+{
+  "name": "Tuberculosis Follow Up Note",
+  "pages": [
+    {
+      "label": "TB Follow-Up & Outcome",
+      "sections": [
+        {
+          "label": "TB Follow-Up & Outcome",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "e2096792-c85f-4d54-bcc5-4a746d193ffd",
+                "answers": [
+                  {
+                    "concept": "18c07830-62ab-47dc-9226-687ed9a08ece",
+                    "label": "2nd month"
+                  },
+                  {
+                    "concept": "b229dfda-f1fc-43f0-9c3d-e4a7f98b5557",
+                    "label": "3rd month"
+                  },
+                  {
+                    "concept": "48344c3f-f811-4158-ab29-e14267dab085",
+                    "label": "5th month"
+                  },
+                  {
+                    "concept": "591f0c75-0499-49d4-94ab-aa437caee819",
+                    "label": "6th month"
+                  },
+                  {
+                    "concept": "ff5e8174-62a4-4e9f-b9d4-10a42e9bb77b",
+                    "label": "8th month"
+                  }
+                ]
+              },
+              "id": "followUpMonth",
+              "label": "Follow Up Month"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "03cdc09c-4b10-4d17-8976-9c41e8fb4d20",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "patientStillUndergoingTreatment",
+              "label": "Patient Still Undergoing Treatment"
+            }
+          ]
+        },
+        {
+          "label": "Conversion and Outcome report",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "fa67fcb9-da9b-4551-99d1-9961428b06c7",
+                "answers": [
+                  {
+                    "concept": "c7d6141a-7801-4b97-9f89-0250497f1cbc",
+                    "label": "Sputum Smear"
+                  },
+                  {
+                    "concept": "75e6e30e-8aa9-43a3-aeb1-61616fbeb261",
+                    "label": "Sputum Culture"
+                  },
+                  {
+                    "concept": "4af9afd1-e071-4c8b-9a6b-7cc145cf523d",
+                    "label": "Gene Expert"
+                  }
+                ]
+              },
+              "id": "testsOrdered",
+              "label": "Tests Ordered"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "117d0ecf-c764-432a-9678-2482e368c8a5",
+                "answers": [
+                  {
+                    "concept": "703AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Positive"
+                  },
+                  {
+                    "concept": "664AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Negative"
+                  },
+                  {
+                    "concept": "1067AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Unknown"
+                  }
+                ]
+              },
+              "id": "testResult",
+              "label": "Test Result"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "91ae3968-2642-4f2a-b5d3-21c559bf15a1",
+                "answers": [
+                  {
+                    "concept": "04334877-0bee-4e05-9ab1-712d2941ac7b",
+                    "label": "New Diagnosis"
+                  },
+                  {
+                    "concept": "bb1fe0b3-8acc-439d-a1d1-50899087110d",
+                    "label": "Relapse"
+                  },
+                  {
+                    "concept": "a28de218-ab48-4e49-8eb8-e4455bd74b71",
+                    "label": "Treatment after failure"
+                  },
+                  {
+                    "concept": "fb6bd229-b4e8-4643-9da3-14bcecf7b1fd",
+                    "label": "Treatment after loss to follow-up"
+                  },
+                  {
+                    "concept": "654d91b5-8a53-4559-a0d0-cc78894cd2d8",
+                    "label": "Other previously treated"
+                  },
+                  {
+                    "concept": "c0c723f6-66a0-4e32-9373-0f96cce62ce8",
+                    "label": "Previous treatment history unknown"
+                  },
+                  {
+                    "concept": "91dfa7e4-5f01-45b8-ae0f-8bdd036596d7",
+                    "label": "HIV +ve all type"
+                  }
+                ]
+              },
+              "id": "diagnosisCategory(Pbc)",
+              "label": "Diagnosis category (PBC)",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "dab46ab2-4955-43bd-b66d-6a084b851d5d",
+                "answers": [
+                  {
+                    "concept": "703AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Positive"
+                  },
+                  {
+                    "concept": "664AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Negative"
+                  },
+                  {
+                    "concept": "4a5df41f-3379-42aa-97dc-6590b2e1934f",
+                    "label": "Death During Treatment"
+                  },
+                  {
+                    "concept": "7dc37c9e-1725-11ed-861d-0242ac120002",
+                    "label": "Lost to Follow-up"
+                  },
+                  {
+                    "concept": "14b62de4-e49a-43a8-a4aa-11a1e732930f",
+                    "label": "Not evaluated"
+                  }
+                ]
+              },
+              "id": "sputumConversionResult",
+              "label": "Sputum Conversion Result"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "6f80481b-b12c-4485-a357-1a600326f5af",
+                "answers": [
+                  {
+                    "concept": "deddbdeb-0fed-4812-878a-6cbe48078218",
+                    "label": "Treatment cured"
+                  },
+                  {
+                    "concept": "dc3ef9bb-7644-4f9d-935b-c8772b315fd7",
+                    "label": "Treatment Completed"
+                  },
+                  {
+                    "concept": "70743c44-41b9-4fa5-bf49-c504db1e8c38",
+                    "label": "Treatment failed"
+                  },
+                  {
+                    "concept": "4a5df41f-3379-42aa-97dc-6590b2e1934f",
+                    "label": "Death During Treatment"
+                  },
+                  {
+                    "concept": "7dc37c9e-1725-11ed-861d-0242ac120002",
+                    "label": "Lost to Follow-up"
+                  },
+                  {
+                    "concept": "14b62de4-e49a-43a8-a4aa-11a1e732930f",
+                    "label": "Not evaluated"
+                  }
+                ]
+              },
+              "id": "treatmentOutcome",
+              "label": "Treatment Outcome"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "processor": "EncounterFormProcessor",
+  "encounterType": "dd528487-82a5-4082-9c72-ed246bd49591",
+  "referencedForms": [],
+  "uuid": "e76ef3db-34e2-4ff1-b308-5966a5a866de",
+  "description": "Tuberculosis Follow Up Note",
+  "version": "1"
+}

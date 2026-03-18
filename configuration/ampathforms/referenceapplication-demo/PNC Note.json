@@ -1,0 +1,341 @@
+{
+  "name": "PNC Note",
+  "pages": [
+    {
+      "label": "PNC Visit Information",
+      "sections": [
+        {
+          "label": "Visit Information & Postpartum Complications",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "date",
+                "concept": "2a4665a8-20ef-4ce2-a702-03c9d0ebf1c4"
+              },
+              "id": "pncVisitDate",
+              "label": "PNC Visit Date",
+              "datePickerFormat": "calendar"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "14AAAAAAAAAAAAAAAAAAAAAAAAABB",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "referredIn",
+              "label": "Referred In",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "27ebade7-d11f-4a82-a7e2-f5837816074e",
+                "answers": [
+                  {
+                    "concept": "6af8efbe-f9bd-4d2a-86f7-34a6ec68b10a",
+                    "label": "First visit"
+                  },
+                  {
+                    "concept": "832ceea1-7d8f-44e9-8a61-c5c793e55e25",
+                    "label": "Second visit"
+                  },
+                  {
+                    "concept": "73f733f8-514d-49f6-925b-0aae7e43a651",
+                    "label": "Third visit"
+                  },
+                  {
+                    "concept": "000b8ff5-952c-4ac1-ae50-15490dcbc304",
+                    "label": "Fourth Visit"
+                  },
+                  {
+                    "concept": "c42b46b5-0e3e-45f5-9ac9-53613b85881e",
+                    "label": "Other visit"
+                  }
+                ]
+              },
+              "id": "visitNumber",
+              "label": "Visit Number",
+              "questionInfo": "Visit within 24 hours is 1st visit, similarly in 3 days is 2nd visit and in 7 days is 3rd visit. Visit other than mentioned days should be kept in \"other visit\"",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "038c9536-52d0-4e84-b463-9aff194e583c",
+                "answers": [
+                  {
+                    "concept": "a80499ae-a5a2-410b-aaaf-24d699ab9f81",
+                    "label": "Delivered at this Hospital"
+                  },
+                  {
+                    "concept": "869cc1e3-9c75-4fb2-bd9d-427480622b23",
+                    "label": "Transfer in"
+                  },
+                  {
+                    "concept": "5622AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Other"
+                  }
+                ]
+              },
+              "id": "visitType",
+              "label": "Visit Type",
+              "questionInfo": "Women who delivered at BH should have at least one (1st) PNC visit. c/s cases should have 1,2 and 3rd PNC visit. Transfer in - Women delivered other than BH and referred to BH for PNC visit. Other - Women who self-visited / not referred."
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "0b004885-8960-4f0d-966d-fb7e1dd6c760",
+                "answers": [
+                  {
+                    "concept": "dbacc949-1483-482a-9169-8d64c2858ef7",
+                    "label": "C-Section Wound Infection"
+                  },
+                  {
+                    "concept": "118744AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Eclampsia"
+                  },
+                  {
+                    "concept": "c3b4a06f-66f4-4feb-91b9-7520008351db",
+                    "label": "Postpartum haemorrhage"
+                  },
+                  {
+                    "concept": "129251AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Pre-eclampsia"
+                  },
+                  {
+                    "concept": "130AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Puerperal sepsis"
+                  },
+                  {
+                    "concept": "127592AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Retained placenta"
+                  },
+                  {
+                    "concept": "bd4f6093-ec2e-4683-ad4d-29db295f3a7c",
+                    "label": "Other Complications"
+                  },
+                  {
+                    "concept": "1175AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Not applicable"
+                  }
+                ]
+              },
+              "id": "complicationPresent",
+              "label": "Complication present",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "aba1dd3c-f030-46b7-9754-3e93758d5f6c"
+              },
+              "id": "treatmentSuggestionDuringPostpartum",
+              "label": "Treatment suggestion during postpartum"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "8ebed08d-7c9a-4aa0-9e91-6eec2a2cb7e2"
+              },
+              "id": "bloodTransfusionQuantity",
+              "label": "Blood transfusion quantity"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Postpartum Interventions",
+      "sections": [
+        {
+          "label": "Postpartum Interventions",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "982c390d-e3b2-4aca-b931-e1571bbd19cc"
+              },
+              "id": "ifaTabletsProvided",
+              "label": "IFA tablets provided",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "b32c7923-2a05-43e9-9efd-28b4fd2733b4"
+              },
+              "id": "vitaminACapsulesProvided",
+              "label": "Vitamin A capsules provided",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "bc44de6f-db98-42c7-98b5-5fd059f50d3a"
+              },
+              "id": "remarks",
+              "label": "Remarks"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "778b36c1-12bf-43f3-b70d-6b2e8d1c9c56",
+                "answers": [
+                  {
+                    "concept": "27dd2607-63d2-4aa1-aa07-6bec29737719",
+                    "label": "Implant"
+                  },
+                  {
+                    "concept": "5275AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "IUCD"
+                  },
+                  {
+                    "concept": "1175AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Not applicable"
+                  },
+                  {
+                    "concept": "416c234f-9423-407a-8555-8bf793c8c9ca",
+                    "label": "Tubectomy"
+                  }
+                ]
+              },
+              "id": "postpartumFpChosen",
+              "label": "Postpartum FP chosen < 48 Hours"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "cb236707-ab70-4b60-b2c1-1dd6826fa51b",
+                "answers": [
+                  {
+                    "concept": "28a0b2fe-e899-49f6-96fc-c74e4e54b762",
+                    "label": "Depo"
+                  },
+                  {
+                    "concept": "27dd2607-63d2-4aa1-aa07-6bec29737719",
+                    "label": "Implant"
+                  },
+                  {
+                    "concept": "5275AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "IUCD"
+                  },
+                  {
+                    "concept": "6a21251f-7294-46ef-a129-00ccce4b39ad",
+                    "label": "Pills"
+                  },
+                  {
+                    "concept": "bb652744-9d25-440c-b5ab-4bd1ca533040",
+                    "label": "Sayana Press"
+                  },
+                  {
+                    "concept": "416c234f-9423-407a-8555-8bf793c8c9ca",
+                    "label": "Tubectomy"
+                  }
+                ]
+              },
+              "id": "pnc-PostpartumFpChosenMoreThen48Hours",
+              "label": "Postpartum FP chosen > 48 Hours"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "HIV Program",
+      "sections": [
+        {
+          "label": "HIV Program Services",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "ac931570-af3e-41f0-be14-9342c3290bed",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "hivCounsellin",
+              "label": "Hiv Counselling"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "1356AAAAAAAAAAAAAVVBB",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "hivTested",
+              "label": "HIV Tested?"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "c724838e-fdc9-4ab4-af0e-bce792973260",
+                "answers": [
+                  {
+                    "concept": "703AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Positive"
+                  },
+                  {
+                    "concept": "664AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Negative"
+                  }
+                ]
+              },
+              "id": "ifTestedResult",
+              "label": "If tested, Result"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "processor": "EncounterFormProcessor",
+  "encounterType": "dd528487-82a5-4082-9c72-ed246bd49591",
+  "referencedForms": [],
+  "uuid": "d92fc38d-121a-43a3-9ab3-9fa188e32bed",
+  "description": "PNC Note",
+  "version": "1"
+}

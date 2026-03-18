@@ -1,0 +1,599 @@
+{
+  "name": "IMAM Program",
+  "pages": [
+    {
+      "label": "Visit Information",
+      "sections": [
+        {
+          "label": "Patient Details",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "38f54283-b347-477d-9bf0-515f5bf5962f",
+                "answers": [
+                  {
+                    "concept": "432492c9-6d6b-44a7-9a4f-65254e273fec",
+                    "label": "New"
+                  },
+                  {
+                    "concept": "4ea00d51-97a8-42ab-94ba-db6a4920aa90",
+                    "label": "Re-visit"
+                  },
+                  {
+                    "concept": "4c5ac9d9-d220-4d8c-be84-71a5f1b121ac",
+                    "label": "More than One Visit in a Month"
+                  }
+                ]
+              },
+              "id": "visitType",
+              "label": "Visit Type",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "1343AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              },
+              "id": "muac",
+              "label": "MUAC"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "5090AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              },
+              "id": "height",
+              "label": "Height"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "5089AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              },
+              "id": "weight",
+              "label": "Weight"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "d975d933-1583-4369-91b4-0fc37cb4c021"
+              },
+              "id": "lengthIfTheChildIsBelow",
+              "label": "Length (If the child is below 87 cm)"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "min": "Weight for Height/Length",
+                "concept": "8a359192-14fa-413a-ae69-6d3f305d4644"
+              },
+              "id": "weightForHeightZScore",
+              "label": "Weight for Height Z-Score"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "3bad2473-be14-421a-ac5e-15ced5256409",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "pittingEdemaOnBothFeet",
+              "label": "Pitting Edema on Both Feet"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "91f87f5f-ef9e-4bbe-93d2-4a983dde5c3a",
+                "answers": [
+                  {
+                    "concept": "369c5d5b-654a-472e-945f-b6e23b3bc889",
+                    "label": "Edima +"
+                  },
+                  {
+                    "concept": "2dfd261f-e048-4bb0-ae3f-1b9d0828c34c",
+                    "label": "Edima ++"
+                  },
+                  {
+                    "concept": "deb3352c-b78c-43a5-976c-6dd0a4fe3f8f",
+                    "label": "Edima +++"
+                  }
+                ]
+              },
+              "id": "nutritionalEdema",
+              "label": "Nutritional Edema"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Medical History",
+      "sections": [
+        {
+          "label": "History",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "ef7c20c2-9fab-4d31-92fe-759cad5b7d84",
+                "answers": [
+                  {
+                    "concept": "6f9bf63f-8cb9-4c23-b487-f4d240b0e5dd",
+                    "label": "Chest indrawing"
+                  },
+                  {
+                    "concept": "143264AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Cough"
+                  },
+                  {
+                    "concept": "142412AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Diarrhoea"
+                  },
+                  {
+                    "concept": "1c2dfbd6-4095-4d50-9c8b-88e35b145bbe",
+                    "label": "No Urinating"
+                  },
+                  {
+                    "concept": "b4170b9b-fbe7-4e1b-83ba-28cce90cfe2e",
+                    "label": "Loss of appetite"
+                  },
+                  {
+                    "concept": "42c8ff2e-23b8-4255-b3fa-c7c002e09aea",
+                    "label": "Vomiting"
+                  }
+                ]
+              },
+              "id": "historyOf",
+              "label": "History Of"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "e25bc3dd-1ae2-47b4-baa6-3849a0972731"
+              },
+              "id": "stool",
+              "label": "Stool"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "ce1cb759-f503-490f-98e3-c15804c1108e",
+                "answers": [
+                  {
+                    "concept": "1115AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Normal"
+                  },
+                  {
+                    "concept": "98da7192-4272-49f2-9113-2cbf98ecaa96",
+                    "label": "Ear discharge"
+                  }
+                ]
+              },
+              "id": "ear",
+              "label": "Ear"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "5242AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              },
+              "id": "respiration",
+              "label": "Respiration"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "5088AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              },
+              "id": "temperature(C)",
+              "label": "Temperature(C)"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "6c3a3b58-af8a-4826-a711-6d836dbe2721",
+                "answers": [
+                  {
+                    "concept": "1115AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Normal"
+                  },
+                  {
+                    "concept": "2b28e81b-53c1-4fee-9607-badff4670e37",
+                    "label": "Cold"
+                  }
+                ]
+              },
+              "id": "hands/Legs",
+              "label": "Hands/Legs"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "32a31f18-41de-4369-a5f1-9281392368d2",
+                "answers": [
+                  {
+                    "concept": "1115AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Normal"
+                  },
+                  {
+                    "concept": "84b27509-2d82-4b3e-9340-222d48f466a3",
+                    "label": "Leason"
+                  },
+                  {
+                    "concept": "260505ca-ff4b-4ce4-8999-32bf62dc93fb",
+                    "label": "Candidal stomatitis"
+                  }
+                ]
+              },
+              "id": "mouth",
+              "label": "Mouth"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "a9cd63de-0ab5-4259-bf7d-b59eb08107bc",
+                "answers": [
+                  {
+                    "concept": "1115AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Normal"
+                  },
+                  {
+                    "concept": "0f20fc51-4c5d-4313-b6ef-c4f759aa9c37",
+                    "label": "Discharge"
+                  },
+                  {
+                    "concept": "77143fec-fbda-431a-96c8-70f68bb6a961",
+                    "label": "Sunken eyes"
+                  }
+                ]
+              },
+              "id": "eye",
+              "label": "Eye"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "5eba3673-14e4-4370-8873-dbd7a0236f5b",
+                "answers": [
+                  {
+                    "concept": "8110a92e-2eb6-4074-9d71-afc39d908721",
+                    "label": "No Dehydration"
+                  },
+                  {
+                    "concept": "69d419df-d5ed-41e1-9abe-c698be74ecc7",
+                    "label": "Severe Dehydration"
+                  },
+                  {
+                    "concept": "e822c515-f840-4ff0-bed9-a803a7542802",
+                    "label": "Some Dehydration"
+                  }
+                ]
+              },
+              "id": "dehydration",
+              "label": "Dehydration"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "b5cc101b-f686-4f96-b5a1-fefc43fa2f7f",
+                "answers": [
+                  {
+                    "concept": "84b27509-2d82-4b3e-9340-222d48f466a3",
+                    "label": "Leason"
+                  },
+                  {
+                    "concept": "1115AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Normal"
+                  },
+                  {
+                    "concept": "6b397016-2bae-4036-88a4-0c4c7ea6c092",
+                    "label": "Scabies"
+                  }
+                ]
+              },
+              "id": "skin",
+              "label": "Skin"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "5e97b2cd-ceba-4fbf-82e7-b4327b436d5f",
+                "answers": [
+                  {
+                    "concept": "481c86e7-5e8d-44d3-8e93-73aaafb64273",
+                    "label": "Groin"
+                  },
+                  {
+                    "concept": "f4c6c5d3-828b-44b7-b2eb-b4b2c9233f96",
+                    "label": "Neck"
+                  },
+                  {
+                    "concept": "f687852a-8923-4e02-b7d0-fb2b12c6738d",
+                    "label": "Not present"
+                  }
+                ]
+              },
+              "id": "lypmphadenopathy",
+              "label": "Lypmphadenopathy"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "6690cd4e-58a5-4f9d-ac8a-6038063ef93f",
+                "answers": [
+                  {
+                    "concept": "93bd839f-003b-40bc-a8b8-d9194518ad51",
+                    "label": "Taken"
+                  },
+                  {
+                    "concept": "a3087d22-30e3-423b-8111-f02d68259b98",
+                    "label": "Not-Taken"
+                  }
+                ]
+              },
+              "id": "measlesVaccine",
+              "label": "Measles Vaccine"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "37f89748-383d-4f8a-a541-37e55a0e45eb",
+                "answers": [
+                  {
+                    "concept": "93bd839f-003b-40bc-a8b8-d9194518ad51",
+                    "label": "Taken"
+                  },
+                  {
+                    "concept": "a3087d22-30e3-423b-8111-f02d68259b98",
+                    "label": "Not-Taken"
+                  },
+                  {
+                    "concept": "2d1dccec-e36a-4b90-8ee9-2aaa3a79f7cb",
+                    "label": "To Be Administered"
+                  }
+                ]
+              },
+              "id": "fullImmunization",
+              "label": "Full Immunization"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Nutrition Assessment and Case Management",
+      "sections": [
+        {
+          "label": "Assessment and Management",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "719db159-b88d-4d03-b5cf-f5b5473d4f47",
+                "answers": [
+                  {
+                    "concept": "1115AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Normal"
+                  },
+                  {
+                    "concept": "611767e7-3eca-4957-b539-2ead5f721deb",
+                    "label": "SAM"
+                  },
+                  {
+                    "concept": "b0b219bb-b428-4e71-836d-12d297410d84",
+                    "label": "MAM"
+                  }
+                ]
+              },
+              "id": "indicator",
+              "label": "Indicator",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "8c914979-d540-4b42-b528-c6e13b708068",
+                "answers": [
+                  {
+                    "concept": "432492c9-6d6b-44a7-9a4f-65254e273fec",
+                    "label": "New"
+                  },
+                  {
+                    "concept": "b2c73b72-f19c-402d-9746-4eee44cc18db",
+                    "label": "Re-admission"
+                  },
+                  {
+                    "concept": "869cc1e3-9c75-4fb2-bd9d-427480622b23",
+                    "label": "Transfer in"
+                  },
+                  {
+                    "concept": "843ec0ab-3dba-444c-9c9e-5d1ef660be34",
+                    "label": "Defaulter-DF"
+                  }
+                ]
+              },
+              "id": "admissionType",
+              "label": "Admission type"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "b0cf0490-c8b4-497b-afb7-f642b273cd4b",
+                "answers": [
+                  {
+                    "concept": "d35051f0-5dfc-4c21-94de-51bb00d6275c",
+                    "label": "Community"
+                  },
+                  {
+                    "concept": "a0c0b3d6-cc02-4b10-ad18-3ac023e686d4",
+                    "label": "FCHV"
+                  },
+                  {
+                    "concept": "23ed94b9-f08c-4d69-bd60-5c05aa705597",
+                    "label": "Other HF"
+                  },
+                  {
+                    "concept": "5c7a4588-1aa8-4542-982b-60044c9d084f",
+                    "label": "Out Reach Clinic"
+                  },
+                  {
+                    "concept": "22c5cdc6-252d-40fc-bb75-f95cefd2cd85",
+                    "label": "Self"
+                  },
+                  {
+                    "concept": "ee96025f-9b67-4c66-a9af-d4273fcd60ed",
+                    "label": "Stabilization Center"
+                  }
+                ]
+              },
+              "id": "transferIn",
+              "label": "Transfer In"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "e6558f14-1974-4834-a856-545e4f0435c6",
+                "answers": [
+                  {
+                    "concept": "adbf36a3-90fc-44d6-b4aa-eb6737598377",
+                    "label": "Pass"
+                  },
+                  {
+                    "concept": "feb81887-95f2-45d4-aaf7-29777612e26b",
+                    "label": "Fail"
+                  }
+                ]
+              },
+              "id": "appetiteTest",
+              "label": "Appetite test"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "239cec68-131a-45ad-a7b9-4e0a16f05c20"
+              },
+              "id": "rutfGiven",
+              "label": "RUTF Given"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "926a3eb5-f476-4fca-be58-1e8130a6dd42",
+                "answers": [
+                  {
+                    "concept": "b41d3471-9d5f-4953-bc34-2dbb43633a27",
+                    "label": "1 week"
+                  },
+                  {
+                    "concept": "30094b86-4158-4a78-bbda-e63496ccaaa6",
+                    "label": "2 weeks"
+                  },
+                  {
+                    "concept": "9e1a148a-cc8e-458e-ad9b-df6f13537b7f",
+                    "label": "3 weeks"
+                  },
+                  {
+                    "concept": "ee33588f-86d6-4b92-975e-2ade7fb52621",
+                    "label": "1 month"
+                  }
+                ]
+              },
+              "id": "followup",
+              "label": "Followup",
+              "questionInfo": "Assume \"1 month\" as \"one month or more\""
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "cbe735d9-3793-42c2-8ddc-c168242c00e8",
+                "answers": [
+                  {
+                    "concept": "e89ab708-e7d0-419a-a0e7-40b53f971125",
+                    "label": "Recovered"
+                  },
+                  {
+                    "concept": "0686d22c-02da-4585-9740-ff08086824c3",
+                    "label": "Not improved"
+                  },
+                  {
+                    "concept": "f31d9f6c-2ec1-42cb-91bb-e303dfac9375",
+                    "label": "Refer to hospital/higher center"
+                  },
+                  {
+                    "concept": "ef060aff-12f0-471c-9bfa-91223e888168",
+                    "label": "Transfer out to"
+                  },
+                  {
+                    "concept": "f6df5199-e43e-4eb5-a908-4692f59bef84",
+                    "label": "Death"
+                  },
+                  {
+                    "concept": "1175AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Not applicable"
+                  }
+                ]
+              },
+              "id": "statusAtDischarge",
+              "label": "Status at discharge"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "bc44de6f-db98-42c7-98b5-5fd059f50d3a"
+              },
+              "id": "remarks",
+              "label": "Remarks"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "processor": "EncounterFormProcessor",
+  "encounterType": "dd528487-82a5-4082-9c72-ed246bd49591",
+  "referencedForms": [],
+  "uuid": "58cfbbd0-d8f1-4960-a2ce-0886bb059f25",
+  "description": "IMAM Program",
+  "version": "1"
+}

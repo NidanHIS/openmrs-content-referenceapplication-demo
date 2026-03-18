@@ -1,0 +1,273 @@
+{
+  "name": "Leprosy Note",
+  "pages": [
+    {
+      "label": "Case Registration and Follow-up",
+      "sections": [
+        {
+          "label": "Assesment/Management",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "bc3f9ad8-a6e6-414a-b99b-6b023979ec9a"
+              },
+              "id": "parentsName",
+              "label": "Parents name"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "39310441-fbfd-4886-9385-c6fb9dcb05f4",
+                "answers": [
+                  {
+                    "concept": "ad05652a-6940-4c59-95f4-5e4d6eee39fc",
+                    "label": "Contact Examination"
+                  },
+                  {
+                    "concept": "38450f56-a0e5-458c-ab2c-5d27ef84a782",
+                    "label": "Referred"
+                  },
+                  {
+                    "concept": "06c4f6d1-fd06-4bcb-b23b-e152dd6670b5",
+                    "label": "Voluntarily"
+                  },
+                  {
+                    "concept": "5622AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Other"
+                  }
+                ]
+              },
+              "id": "findingType",
+              "label": "Finding Type"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "0f0e8210-e7b9-464f-bbf8-6a386b043384",
+                "answers": [
+                  {
+                    "concept": "ffd8f745-aa9e-4d30-9e5a-718f4ab19ff5",
+                    "label": "New Patients"
+                  },
+                  {
+                    "concept": "ae450629-274e-4306-a854-01c16dab6550",
+                    "label": "Re-starter"
+                  },
+                  {
+                    "concept": "bb1fe0b3-8acc-439d-a1d1-50899087110d",
+                    "label": "Relapse"
+                  },
+                  {
+                    "concept": "869cc1e3-9c75-4fb2-bd9d-427480622b23",
+                    "label": "Transfer in"
+                  },
+                  {
+                    "concept": "5622AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Other"
+                  }
+                ]
+              },
+              "id": "caseType",
+              "label": "Case Type",
+              "questionInfo": "Enter this, only for treatment intake cases"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "efb98e55-3bac-40e9-b947-e22a4200eb29",
+                "answers": [
+                  {
+                    "concept": "347b8239-44d3-47ae-9ef9-b194668e5227",
+                    "label": "Multi Bacillary"
+                  },
+                  {
+                    "concept": "82726680-9915-4fbd-8fd3-fc76bd90dc45",
+                    "label": "Pauci Bacillary"
+                  }
+                ]
+              },
+              "id": "leprosyType",
+              "label": "Leprosy Type",
+              "questionInfo": "Enter this, for both intake and follow-up cases"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "f520c38a-68dc-4921-8531-42ee3f2db901"
+              },
+              "id": "drugRegimen",
+              "label": "Drug Regimen"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "c3bd9c11-188f-464a-87d0-0e57857cd3ce",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "supervisedDrugAdministrationForThisMonth",
+              "label": "Supervised drug administration for this month"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "2c2ad1ab-e3ca-4804-9b37-0b0c56702a68",
+                "answers": [
+                  {
+                    "concept": "04694f65-f9e4-4817-901b-55527dc29c89",
+                    "label": "Grade 0"
+                  },
+                  {
+                    "concept": "3a0ad95d-98b9-48bd-a0a0-e77435555061",
+                    "label": "Grade 1"
+                  },
+                  {
+                    "concept": "e952c139-becb-4dbd-9f3c-e71cf1d02834",
+                    "label": "Grade 2"
+                  },
+                  {
+                    "concept": "7ada506b-040e-472f-859b-7f0c948a617a",
+                    "label": "Not examined"
+                  }
+                ]
+              },
+              "id": "disabilityGrade",
+              "label": "Disability grade"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "d3f02bb4-9dd6-4521-978d-fa707ce787cd",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "smearTest",
+              "label": "Smear Test"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "3a8c4444-62e5-4f70-a619-5c55d0e87851",
+                "answers": [
+                  {
+                    "concept": "703AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Positive"
+                  },
+                  {
+                    "concept": "664AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Negative"
+                  }
+                ]
+              },
+              "id": "smearResult",
+              "label": "Smear Result"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "be5aeee2-4ebd-4df8-b8f5-d82b808a48a1",
+                "answers": [
+                  {
+                    "concept": "1697af85-ac01-4305-834c-f77a08bf64fe",
+                    "label": "Type 1"
+                  },
+                  {
+                    "concept": "754bf4d8-95a1-4a0f-9485-87c44182bdcd",
+                    "label": "Type 2"
+                  },
+                  {
+                    "concept": "e53ed5a7-4f62-43e9-915d-bdc87dee9b05",
+                    "label": "Neurities"
+                  }
+                ]
+              },
+              "id": "lepraReaction",
+              "label": "Lepra Reaction"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "58e04def-0019-45b4-8a66-ef1f8800720a"
+              },
+              "id": "ehpScore",
+              "label": "EHP Score"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "2e7b234b-fb43-4e4a-8f74-7edf6b18878c",
+                "answers": [
+                  {
+                    "concept": "7359e95e-9a2b-42a4-b9bd-555e82adcbe2",
+                    "label": "Release from Treatment (RFT)"
+                  },
+                  {
+                    "concept": "ef060aff-12f0-471c-9bfa-91223e888168",
+                    "label": "Transfer out to"
+                  },
+                  {
+                    "concept": "7dc37c9e-1725-11ed-861d-0242ac120002",
+                    "label": "Lost to Follow-up"
+                  },
+                  {
+                    "concept": "cac1d2f9-8a49-42cb-8e94-da196a85e66f",
+                    "label": "Other Deduction - OD"
+                  }
+                ]
+              },
+              "id": "patientDeductionType",
+              "label": "Patient Deduction Type",
+              "questionInfo": "Enter this, only if the patient is ending the leprosy treatment"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "date",
+                "concept": "f5cda421-be04-4b04-a4e8-85267d32ebe5"
+              },
+              "id": "followUp",
+              "label": "Follow Up",
+              "datePickerFormat": "calendar"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "processor": "EncounterFormProcessor",
+  "encounterType": "dd528487-82a5-4082-9c72-ed246bd49591",
+  "referencedForms": [],
+  "uuid": "3f297122-3316-4b4b-8126-35696c31d404",
+  "description": "Leprosy Note",
+  "version": "1"
+}

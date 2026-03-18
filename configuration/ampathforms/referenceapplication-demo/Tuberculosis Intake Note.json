@@ -1,0 +1,383 @@
+{
+  "name": "Tuberculosis Intake Note",
+  "pages": [
+    {
+      "label": "TB Diagnosis & Treatment Initiation",
+      "sections": [
+        {
+          "label": "TB Diagnosis & Treatment Initiation",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "6710d5f8-23cf-4ba5-aa38-5fdb4e0d6c9e",
+                "answers": [
+                  {
+                    "concept": "3ef8ed15-6a50-4a3d-a639-bb9999aeb6b8",
+                    "label": "Extra Pulmonary"
+                  },
+                  {
+                    "concept": "48f8946f-5d1c-43fa-80be-bb3a8f8d6dbb",
+                    "label": "Pulmonary BC"
+                  },
+                  {
+                    "concept": "e2e1055e-ae8e-414c-b672-0e0ce7bd909c",
+                    "label": "Pulmonary CD"
+                  }
+                ]
+              },
+              "id": "tuberculosisType",
+              "label": "Tuberculosis Type"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "14AAAAAAAAAAAAAAAAAAAAAAAAABB",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "refferedIn",
+              "label": "Reffered In",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "8ebcd64f-d691-4892-a1d4-6a6754626b96",
+                "answers": [
+                  {
+                    "concept": "22c5cdc6-252d-40fc-bb75-f95cefd2cd85",
+                    "label": "Self"
+                  },
+                  {
+                    "concept": "d5381130-247d-40ca-a84d-cc53b43250da",
+                    "label": "Private Health Facility"
+                  },
+                  {
+                    "concept": "d35051f0-5dfc-4c21-94de-51bb00d6275c",
+                    "label": "Community"
+                  },
+                  {
+                    "concept": "40e6d563-0113-4dda-9ffe-89da095968d3",
+                    "label": "Diagnosed by contact tracing"
+                  }
+                ]
+              },
+              "id": "referredBy",
+              "label": "Referred By",
+              "required": false
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "date",
+                "concept": "3356ff39-3b08-40c5-bb9e-8683ed0e16f5"
+              },
+              "id": "diagnosedDate",
+              "label": "Diagnosed Date",
+              "datePickerFormat": "calendar"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "bf224927-f08a-4f7e-a6de-13a7caa8bddc",
+                "answers": [
+                  {
+                    "concept": "04334877-0bee-4e05-9ab1-712d2941ac7b",
+                    "label": "New Diagnosis"
+                  },
+                  {
+                    "concept": "654d91b5-8a53-4559-a0d0-cc78894cd2d8",
+                    "label": "Other previously treated"
+                  },
+                  {
+                    "concept": "c0c723f6-66a0-4e32-9373-0f96cce62ce8",
+                    "label": "Previous treatment history unknown"
+                  },
+                  {
+                    "concept": "bb1fe0b3-8acc-439d-a1d1-50899087110d",
+                    "label": "Relapse"
+                  },
+                  {
+                    "concept": "a28de218-ab48-4e49-8eb8-e4455bd74b71",
+                    "label": "Treatment after failure"
+                  },
+                  {
+                    "concept": "fb6bd229-b4e8-4643-9da3-14bcecf7b1fd",
+                    "label": "Treatment after loss to follow-up"
+                  }
+                ]
+              },
+              "id": "diagnosisCategory",
+              "label": "Diagnosis Category"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "aa971c3a-4f3a-42fc-a682-02448b099a2b",
+                "answers": [
+                  {
+                    "concept": "dfbc513e-2ddd-4715-8521-392fdd4b0783",
+                    "label": "0"
+                  },
+                  {
+                    "concept": "164adc96-6231-4e83-b6e8-6f593e5fcee4",
+                    "label": "1"
+                  },
+                  {
+                    "concept": "24672ed9-2ad9-4188-a1bb-bf0085bc52b0",
+                    "label": "2"
+                  },
+                  {
+                    "concept": "4690838b-e934-471d-804f-e4815ef3a68c",
+                    "label": "3+"
+                  }
+                ]
+              },
+              "id": "hospitalizationsDueToTbInLast3Months",
+              "label": "Hospitalizations Due to TB In Last 3 Months"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "2dd8492d-2859-4544-96cf-5a5f2ecfb36c",
+                "answers": [
+                  {
+                    "concept": "152722AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Current Smoker"
+                  },
+                  {
+                    "concept": "152807AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Former Smoker"
+                  },
+                  {
+                    "concept": "701637c6-bba2-4b95-ae29-1a8c38a0e853",
+                    "label": "Non-smoker"
+                  }
+                ]
+              },
+              "id": "smokingStatus",
+              "label": "Smoking Status"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "fc2945d7-5014-4611-945f-d24623100e67",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "secondLineTreatmentRegimen",
+              "label": "Second Line Treatment Regimen"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "d0abaa92-9c51-43f5-917d-cc09c88d51cc",
+                "answers": [
+                  {
+                    "concept": "0c06a95f-8d57-49a6-a06c-b317342f55f9",
+                    "label": "2HRZE+4HR"
+                  },
+                  {
+                    "concept": "0c1a52d4-f4bd-4715-af4f-fb3a9b8e1cda",
+                    "label": "2HRZE+7HRe"
+                  },
+                  {
+                    "concept": "27203c1e-4e4c-4917-85cb-77f647f5d1f4",
+                    "label": "6HRZE"
+                  },
+                  {
+                    "concept": "4bae87fc-9b62-4ce1-9470-c124af99e767",
+                    "label": "6HRZE+Lfx"
+                  }
+                ]
+              },
+              "id": "treatmentType",
+              "label": "Treatment Type",
+              "questionInfo": "Cat I is first line drug Cat II is re-treatment using first line drug Cat III is applicable only for children aged less than 15 years"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "date",
+                "concept": "d9790432-63e8-4452-aa21-2a4b869b90de"
+              },
+              "id": "treatmentStartDate",
+              "label": "Treatment Start Date",
+              "datePickerFormat": "calendar"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "fa67fcb9-da9b-4551-99d1-9961428b06c7",
+                "answers": [
+                  {
+                    "concept": "4af9afd1-e071-4c8b-9a6b-7cc145cf523d",
+                    "label": "Gene Expert"
+                  },
+                  {
+                    "concept": "75e6e30e-8aa9-43a3-aeb1-61616fbeb261",
+                    "label": "Sputum Culture"
+                  },
+                  {
+                    "concept": "c7d6141a-7801-4b97-9f89-0250497f1cbc",
+                    "label": "Sputum Smear"
+                  }
+                ]
+              },
+              "id": "testsOrdered",
+              "label": "Tests Ordered"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "date",
+                "concept": "f5cda421-be04-4b04-a4e8-85267d32ebe5"
+              },
+              "id": "followUp",
+              "label": "Follow Up",
+              "datePickerFormat": "calendar"
+            }
+          ]
+        },
+        {
+          "label": "HIV Activities",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "1356AAAAAAAAAAAAAVVBB",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "atTheTimeOfTbDiagnosisPatientTestedForHiv",
+              "label": "At the time of TB diagnosis, Patient tested for HIV"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "c724838e-fdc9-4ab4-af0e-bce792973260",
+                "answers": [
+                  {
+                    "concept": "703AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Positive"
+                  },
+                  {
+                    "concept": "664AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Negative"
+                  }
+                ]
+              },
+              "id": "hivTestResult",
+              "label": "HIV Test Result"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "5dd18935-a995-47fc-946c-739a7c890916",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  },
+                  {
+                    "concept": "1067AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Unknown"
+                  }
+                ]
+              },
+              "id": "withKnownHivStatus",
+              "label": "With Known HIV Status"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "c1281648-2658-482b-804f-214b342c16c3",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "isPatientOnCpt",
+              "label": "Is patient on CPT ?"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "bcdaf705-a692-4ff3-a6e4-19ff50135f52",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "isPatientOnArt",
+              "label": "Is patient on ART"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "processor": "EncounterFormProcessor",
+  "encounterType": "dd528487-82a5-4082-9c72-ed246bd49591",
+  "referencedForms": [],
+  "uuid": "b57af331-2a4a-49d4-b0a6-56a847238d81",
+  "description": "Tuberculosis Intake Note",
+  "version": "1"
+}

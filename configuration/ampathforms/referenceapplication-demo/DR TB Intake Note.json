@@ -1,0 +1,283 @@
+{
+  "name": "DR TB Intake Note",
+  "pages": [
+    {
+      "label": "TB Registration and Treatment Classification",
+      "sections": [
+        {
+          "label": "Registration",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "bcffead9-c5fc-46dc-bde3-168c9614ab00",
+                "answers": [
+                  {
+                    "concept": "04334877-0bee-4e05-9ab1-712d2941ac7b",
+                    "label": "New Diagnosis"
+                  },
+                  {
+                    "concept": "bb1fe0b3-8acc-439d-a1d1-50899087110d",
+                    "label": "Relapse"
+                  },
+                  {
+                    "concept": "fc3bee34-10b5-4a5b-a097-a72b95a01a9e",
+                    "label": "Worsened comorbid illness"
+                  },
+                  {
+                    "concept": "869cc1e3-9c75-4fb2-bd9d-427480622b23",
+                    "label": "Transfer in"
+                  },
+                  {
+                    "concept": "fb6bd229-b4e8-4643-9da3-14bcecf7b1fd",
+                    "label": "Treatment after loss to follow-up"
+                  },
+                  {
+                    "concept": "94599354-255e-4cf0-bf74-42e7263589de",
+                    "label": "Treatment after failure cat I"
+                  },
+                  {
+                    "concept": "9f855e2e-add4-49c8-908a-9340ee9ce5f8",
+                    "label": "Treatment after failure cat II"
+                  },
+                  {
+                    "concept": "e99bf794-d29f-4bf6-bf72-68ecdb804b6f",
+                    "label": "Complication Present"
+                  }
+                ]
+              },
+              "id": "categoryOfDiagnosis",
+              "label": "Category of Diagnosis",
+              "questionInfo": "Enter this for all new cases",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "cd3f8055-2551-4ac6-9beb-21e51a311780",
+                "answers": [
+                  {
+                    "concept": "79355f0e-285c-40c5-8d7b-800a25c3a09b",
+                    "label": "Presumptive RRTB or MDRTB"
+                  },
+                  {
+                    "concept": "13ee1eff-a65f-4071-a27b-dfb44be5946c",
+                    "label": "Confirmed RRTB or MDRTB"
+                  }
+                ]
+              },
+              "id": "reasonsForEnteringInSecond-LineTbTreatmentRegister",
+              "label": "Reasons for Entering in Second-line TB Treatment Register"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "d1d1b51f-4acb-4829-8364-e11ccd6cec3d",
+                "answers": [
+                  {
+                    "concept": "cf82933b-3f3f-45e7-a5ab-5d31aaee3da3",
+                    "label": "TRUE"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  },
+                  {
+                    "concept": "1067AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Unknown"
+                  }
+                ]
+              },
+              "id": "secondLineDrugsReceivedPreviously",
+              "label": "Second Line Drugs Received Previously"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "HIV Activities",
+      "sections": [
+        {
+          "label": "HIV Care and Prophylaxis Status",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "c1281648-2658-482b-804f-214b342c16c3",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "isPatientOnCpt",
+              "label": "Is patient on CPT",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "bcdaf705-a692-4ff3-a6e4-19ff50135f52",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "isPatientOnArt",
+              "label": "Is patient on ART"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "6c16e294-2936-45f2-a8e7-b403f6b5eec3",
+                "answers": [
+                  {
+                    "concept": "cf82933b-3f3f-45e7-a5ab-5d31aaee3da3",
+                    "label": "TRUE"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  },
+                  {
+                    "concept": "1067AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Unknown"
+                  }
+                ]
+              },
+              "id": "hivInfection",
+              "label": "HIV Infection"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Drug Susceptibility Testing and Treatment Follow-Up",
+      "sections": [
+        {
+          "label": "DST and Follow-Up",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "date",
+                "concept": "bbfee2e0-1587-469d-8fc8-0aa30e6f8f4d"
+              },
+              "id": "dateOfSampleTakenForDst",
+              "label": "Date of Sample Taken for DST",
+              "datePickerFormat": "calendar"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "fa67fcb9-da9b-4551-99d1-9961428b06c7",
+                "answers": [
+                  {
+                    "concept": "537eb5d3-243e-4633-9c23-18b8c75eb47e",
+                    "label": "Gene Xpert"
+                  },
+                  {
+                    "concept": "75e6e30e-8aa9-43a3-aeb1-61616fbeb261",
+                    "label": "Sputum Culture"
+                  },
+                  {
+                    "concept": "c7d6141a-7801-4b97-9f89-0250497f1cbc",
+                    "label": "Sputum Smear"
+                  }
+                ]
+              },
+              "id": "testsOrdered",
+              "label": "Tests Ordered",
+              "questionInfo": "Enter this for both new and follow-up cases"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "f520c38a-68dc-4921-8531-42ee3f2db901"
+              },
+              "id": "drugRegimen",
+              "label": "Drug Regimen"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "date",
+                "concept": "74df14f9-156c-4c15-9301-008de223183d"
+              },
+              "id": "regimenStartDate",
+              "label": "Regimen Start Date",
+              "datePickerFormat": "calendar"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "bc44de6f-db98-42c7-98b5-5fd059f50d3a"
+              },
+              "id": "remarks",
+              "label": "Remarks"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "1e45c626-4cfc-430c-9288-49acd139cfcf",
+                "answers": [
+                  {
+                    "concept": "b41d3471-9d5f-4953-bc34-2dbb43633a27",
+                    "label": "1 week"
+                  },
+                  {
+                    "concept": "30094b86-4158-4a78-bbda-e63496ccaaa6",
+                    "label": "2 weeks"
+                  },
+                  {
+                    "concept": "9e1a148a-cc8e-458e-ad9b-df6f13537b7f",
+                    "label": "3 weeks"
+                  },
+                  {
+                    "concept": "ee33588f-86d6-4b92-975e-2ade7fb52621",
+                    "label": "1 month"
+                  }
+                ]
+              },
+              "id": "followup",
+              "label": "Followup",
+              "questionInfo": "Assume \"1 month\" as \"one month or more\""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "processor": "EncounterFormProcessor",
+  "encounterType": "dd528487-82a5-4082-9c72-ed246bd49591",
+  "referencedForms": [],
+  "uuid": "14c4e1a8-7d44-43ee-ae87-99877abe7178",
+  "description": "DR TB Intake Note",
+  "version": "1"
+}

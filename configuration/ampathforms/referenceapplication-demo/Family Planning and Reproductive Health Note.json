@@ -1,0 +1,613 @@
+{
+  "name": "Family Planning and Reproductive Health Note",
+  "pages": [
+    {
+      "label": "Patient Details",
+      "sections": [
+        {
+          "label": "Detail Information",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "dee7ee59-5266-4209-a1cf-23220b66a52b",
+                "answers": [
+                  {
+                    "concept": "e161b980-9241-4db1-b0bd-9637ada60776",
+                    "label": "Existing"
+                  },
+                  {
+                    "concept": "432492c9-6d6b-44a7-9a4f-65254e273fec",
+                    "label": "New"
+                  }
+                ]
+              },
+              "id": "usersType",
+              "label": "Users type",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "14AAAAAAAAAAAAAAAAAAAAAAAAABB",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "referredIn",
+              "label": "Referred In",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "8d814951-0b3e-4d44-b15f-6f0f28c96fa9",
+                "answers": [
+                  {
+                    "concept": "f7b128cc-fc39-4eb3-8dfe-3e6bbd573a4b",
+                    "label": "Own"
+                  },
+                  {
+                    "concept": "e41297bd-ffd2-4b78-be15-b277d12f5f7a",
+                    "label": "Kin"
+                  }
+                ]
+              },
+              "id": "clientContactNumber",
+              "label": "Client contact number"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "475efb37-20f6-44d3-91a0-7002ac8cc532"
+              },
+              "id": "contactNumber",
+              "label": "Contact Number"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "ca6e2bcf-9c12-4266-8649-94548bed2981"
+              },
+              "id": "guardianName",
+              "label": "Guardian name"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "select",
+                "concept": "420b8d81-aeac-4311-87c0-36ea555e6ac8",
+                "answers": [
+                  {
+                    "concept": "5de72d2c-3479-4ce2-beb5-950686b1efc6",
+                    "label": "Family Member"
+                  },
+                  {
+                    "concept": "d32dc337-1204-4b44-8aab-17cb31c66aaf",
+                    "label": "Husband"
+                  },
+                  {
+                    "concept": "b17e1865-f2ba-49d3-8a85-feecdd4da3da",
+                    "label": "Next to Kin"
+                  },
+                  {
+                    "concept": "5622AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Other"
+                  }
+                ]
+              },
+              "id": "guardianRelationship",
+              "label": "Guardian relationship"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "7589ede2-38ca-41a9-8f4f-efecc0da1228",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "counsellingDone",
+              "label": "Counselling done",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "246cba45-50e4-4c02-ab38-3d1eed445011",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "consent",
+              "label": "Consent",
+              "required": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Users Type",
+      "sections": [
+        {
+          "label": "New User",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "2f23796b-6012-4ea8-b5c3-f808f5c65e1c",
+                "answers": [
+                  {
+                    "concept": "190AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Condoms"
+                  },
+                  {
+                    "concept": "28a0b2fe-e899-49f6-96fc-c74e4e54b762",
+                    "label": "Depo"
+                  },
+                  {
+                    "concept": "83a9012d-0969-4eb6-b6e1-3b7636e901bf",
+                    "label": "Emergency contraceptive pills"
+                  },
+                  {
+                    "concept": "6a21251f-7294-46ef-a129-00ccce4b39ad",
+                    "label": "Pills"
+                  },
+                  {
+                    "concept": "bb652744-9d25-440c-b5ab-4bd1ca533040",
+                    "label": "Sayana Press"
+                  }
+                ]
+              },
+              "id": "shortActingMethod",
+              "label": "Short acting method"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "485bd721-7e02-40a3-9202-d51315cb72ef",
+                "answers": [
+                  {
+                    "concept": "27dd2607-63d2-4aa1-aa07-6bec29737719",
+                    "label": "Implant"
+                  },
+                  {
+                    "concept": "5275AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "IUCD"
+                  },
+                  {
+                    "concept": "6d35f46b-47dc-490a-8707-a4f72769de43",
+                    "label": "Minilap"
+                  },
+                  {
+                    "concept": "5622AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Other"
+                  },
+                  {
+                    "concept": "6c4ba9cb-6086-4637-ba83-94d1690aa886",
+                    "label": "Vasectomy"
+                  }
+                ]
+              },
+              "id": "longActingMethods",
+              "label": "Long acting methods"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "d8020da7-015e-43db-ba3f-478d481c4498",
+                "answers": [
+                  {
+                    "concept": "457b9fa2-d513-4282-9af2-b3030d37dded",
+                    "label": "Ring pessary insertion"
+                  },
+                  {
+                    "concept": "d0eda373-0d59-4188-835c-4cb2af0d22b3",
+                    "label": "PV/PS exam"
+                  }
+                ]
+              },
+              "id": "other",
+              "label": "Other"
+            }
+          ]
+        },
+        {
+          "label": "Continuous User",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "bb8dff21-1563-48a7-b32a-c070a6a9c37b",
+                "answers": [
+                  {
+                    "concept": "190AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Condoms"
+                  },
+                  {
+                    "concept": "28a0b2fe-e899-49f6-96fc-c74e4e54b762",
+                    "label": "Depo"
+                  },
+                  {
+                    "concept": "27dd2607-63d2-4aa1-aa07-6bec29737719",
+                    "label": "Implant"
+                  },
+                  {
+                    "concept": "5275AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "IUCD"
+                  },
+                  {
+                    "concept": "6a21251f-7294-46ef-a129-00ccce4b39ad",
+                    "label": "Pills"
+                  },
+                  {
+                    "concept": "bb652744-9d25-440c-b5ab-4bd1ca533040",
+                    "label": "Sayana Press"
+                  }
+                ]
+              },
+              "id": "existingContinued",
+              "label": "Existing continued"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "167155AAAAAAAAAAAAAAAAAAAABAA",
+                "answers": [
+                  {
+                    "concept": "190AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Condoms"
+                  },
+                  {
+                    "concept": "28a0b2fe-e899-49f6-96fc-c74e4e54b762",
+                    "label": "Depo"
+                  },
+                  {
+                    "concept": "27dd2607-63d2-4aa1-aa07-6bec29737719",
+                    "label": "Implant"
+                  },
+                  {
+                    "concept": "5275AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "IUCD"
+                  },
+                  {
+                    "concept": "6a21251f-7294-46ef-a129-00ccce4b39ad",
+                    "label": "Pills"
+                  },
+                  {
+                    "concept": "bb652744-9d25-440c-b5ab-4bd1ca533040",
+                    "label": "Sayana Press"
+                  }
+                ]
+              },
+              "id": "discontinued",
+              "label": "Discontinued"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "14a60b1a-308e-4fb7-942a-f24d51702fea"
+              },
+              "id": "reasonForDiscontinue",
+              "label": "Reason for discontinue"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "9220f2c8-343c-4598-99d0-c6ceb9ba6091",
+                "answers": [
+                  {
+                    "concept": "190AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Condoms"
+                  },
+                  {
+                    "concept": "28a0b2fe-e899-49f6-96fc-c74e4e54b762",
+                    "label": "Depo"
+                  },
+                  {
+                    "concept": "27dd2607-63d2-4aa1-aa07-6bec29737719",
+                    "label": "Implant"
+                  },
+                  {
+                    "concept": "5275AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "IUCD"
+                  },
+                  {
+                    "concept": "6d35f46b-47dc-490a-8707-a4f72769de43",
+                    "label": "Minilap"
+                  },
+                  {
+                    "concept": "6a21251f-7294-46ef-a129-00ccce4b39ad",
+                    "label": "Pills"
+                  },
+                  {
+                    "concept": "bb652744-9d25-440c-b5ab-4bd1ca533040",
+                    "label": "Sayana Press"
+                  },
+                  {
+                    "concept": "6c4ba9cb-6086-4637-ba83-94d1690aa886",
+                    "label": "Vasectomy"
+                  }
+                ]
+              },
+              "id": "newMethodChosen",
+              "label": "New method chosen"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Method Provided",
+      "sections": [
+        {
+          "label": "Method",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "11e18ab5-d547-4df6-aab8-9d783f595c5b"
+              },
+              "id": "unitsProvided",
+              "label": "Units provided (provide cycle count in case of pills)"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "date",
+                "concept": "553ab2f1-9a62-484b-9ab9-003b2f75efc0"
+              },
+              "id": "methodEffectiveTill",
+              "label": "Method effective till",
+              "datePickerFormat": "calendar"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "e73221fa-612b-4a0b-80a1-c9f67c5214b5",
+                "answers": [
+                  {
+                    "concept": "f40841e8-cad1-4d70-8513-f3d595e6ebe0",
+                    "label": "General anesthesia"
+                  },
+                  {
+                    "concept": "d6ff743a-7947-4102-9da4-f5baad13d228",
+                    "label": "Local anesthesia"
+                  },
+                  {
+                    "concept": "51ad9fe1-c315-4c9c-8fe2-f663fba541fa",
+                    "label": "Regional anesthesia"
+                  }
+                ]
+              },
+              "id": "anesthesia",
+              "label": "Anesthesia"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "f16a46c4-250e-4abc-a1e6-f51e35851950",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "sterileTechniqueObserved",
+              "label": "Sterile technique observed"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "date",
+                "concept": "1427AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              },
+              "id": "lmp",
+              "label": "LMP",
+              "datePickerFormat": "calendar"
+            }
+          ]
+        },
+        {
+          "label": "Present Live Children",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "2ebb4b97-7789-414d-8a3a-d9bb65e4b02d"
+              },
+              "id": "male",
+              "label": "Male"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "beaaae73-c4a9-44c1-a07f-b0bbde97c59e"
+              },
+              "id": "female",
+              "label": "Female"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "d84032b1-d578-4f53-95cd-6f50e91be1ae"
+              },
+              "id": "maleAgeLowToHigh",
+              "label": "Male (Age low to high)"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "6725952b-87f3-46c6-99f4-1089ecb3bddd"
+              },
+              "id": "femaleAgeLowToHigh",
+              "label": "Female (Age low to high)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Complications & Clinical Findings",
+      "sections": [
+        {
+          "label": "Findings",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "select",
+                "concept": "c299d806-0eb1-4361-8920-7a2326335794",
+                "answers": [
+                  {
+                    "concept": "49b1d3d7-1476-4aa1-8f8f-df20ab54cf13",
+                    "label": "Diabetes"
+                  },
+                  {
+                    "concept": "434b9c45-65ad-4f48-a269-60d5776f74ec",
+                    "label": "Edema"
+                  },
+                  {
+                    "concept": "0a73f414-6fe3-4a50-ae48-a19c77cfc07c",
+                    "label": "Edema During ANC"
+                  },
+                  {
+                    "concept": "ff03a212-df78-42b3-b200-b38530b0b49a",
+                    "label": "High Bleeding"
+                  },
+                  {
+                    "concept": "139084AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Headache"
+                  },
+                  {
+                    "concept": "1115AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Normal"
+                  },
+                  {
+                    "concept": "5c8613dd-61f7-4757-a57b-47902a859d12",
+                    "label": "Missed Peroid"
+                  },
+                  {
+                    "concept": "39d44e45-53da-4dff-bc25-1d32cdbc9115",
+                    "label": "Lump in breast"
+                  },
+                  {
+                    "concept": "808cb72d-a285-4b86-81a3-96b4dddf8bbc",
+                    "label": "Less Bleeding"
+                  },
+                  {
+                    "concept": "136443AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Jaundice"
+                  }
+                ]
+              },
+              "id": "hormonalComplications",
+              "label": "Hormonal Complications"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "select",
+                "concept": "81b11edf-1402-4c86-8b7e-303fb93dbec6",
+                "answers": [
+                  {
+                    "concept": "0d772e03-894b-40de-9465-65d55651d67b",
+                    "label": "Smelly vaginal discharge"
+                  },
+                  {
+                    "concept": "0832b964-b13e-49a2-9ebc-e6a76854629d",
+                    "label": "Lower Abdomain Pain"
+                  },
+                  {
+                    "concept": "cd6e3420-03fe-4b9a-bb3c-1591dc178689",
+                    "label": "Cervical treatment within 3 months"
+                  }
+                ]
+              },
+              "id": "iucdComplication",
+              "label": "IUCD Complication"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "88d98899-3897-412e-80c2-73dcd0196f65"
+              },
+              "id": "otherComplications",
+              "label": "Other Complications"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "c9f9916b-75d2-467c-a9ba-8aeea2d5526f"
+              },
+              "id": "additionalFindings",
+              "label": "Additional findings"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "processor": "EncounterFormProcessor",
+  "encounterType": "dd528487-82a5-4082-9c72-ed246bd49591",
+  "referencedForms": [],
+  "uuid": "01fdafc9-d31a-4a79-8f05-e65289fb4df8",
+  "description": "Family Planning Data Record",
+  "version": "1"
+}
