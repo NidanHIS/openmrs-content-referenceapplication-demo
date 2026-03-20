@@ -1,0 +1,71 @@
+{
+  "name": "Ward Admission",
+  "pages": [
+    {
+      "label": "Ward Request",
+      "sections": [
+        {
+          "label": "Ward Details",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obsGroup",
+              "id": "inpatientDispositionConstruct",
+              "questionOptions": {
+                "rendering": "group",
+                "concept": "9ceedfb7-60e4-42ce-a11e-f2dbabc82112"
+              },
+              "questions": [
+                {
+                  "id": "inpatientPatientDisposition",
+                  "type": "obs",
+                  "required": true,
+                  "questionOptions": {
+                    "rendering": "radio",
+                    "required": true,
+                    "concept": "23deee20-1da0-4ffa-8a81-ddcf346ba810",
+                    "answers": [
+                      {
+                        "concept": "77eafb3f-58d3-4397-a6dc-d2c06e9062f3",
+                        "label": "Admit to hospital"
+                      }
+                    ]
+                  },
+                  "validators": [],
+                  "label": "Inpatient patient disposition"
+                },
+                {
+                  "id": "admitToLocation",
+                  "type": "obs",
+                  "required": true,
+                  "questionOptions": {
+                    "rendering": "ui-select-extended",
+                    "required": true,
+                    "concept": "b9cd9e47-da43-4a46-8f3c-e30ec9209cc7",
+                    "datasource": {
+                      "name": "location_datasource",
+                      "config": {
+                        "tag": "Admission Location"
+                      }
+                    }
+                  },
+                  "label": "Admitted to location (text/code)"
+                }
+              ],
+              "label": "Inpatient disposition construct"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "processor": "EncounterFormProcessor",
+  "encounter": "Transfer Request",
+  "encounterType": "e22e39fd-7db2-45e7-80f1-60fa0d5a4378",
+  "referencedForms": [],
+  "uuid": "2264fb8c-37f5-40d4-a3d6-ae46e25763bf",
+  "description": "Create an admission request to an inpatient ward",
+  "version": "1.0.0",
+  "published": true,
+  "retired": false
+}

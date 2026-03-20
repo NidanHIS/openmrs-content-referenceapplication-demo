@@ -379,5 +379,8 @@
   "referencedForms": [],
   "uuid": "b57af331-2a4a-49d4-b0a6-56a847238d81",
   "description": "Tuberculosis Intake Note",
-  "version": "1"
+  "version": "1",
+  "encounter" : "Consultation",
+  "published" : true,
+  "retired" : false
 }

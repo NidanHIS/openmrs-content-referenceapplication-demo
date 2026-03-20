@@ -337,5 +337,8 @@
   "referencedForms": [],
   "uuid": "d92fc38d-121a-43a3-9ab3-9fa188e32bed",
   "description": "PNC Note",
-  "version": "1"
+  "version": "1",
+  "encounter" : "Consultation",
+  "published" : true,
+  "retired" : false
 }

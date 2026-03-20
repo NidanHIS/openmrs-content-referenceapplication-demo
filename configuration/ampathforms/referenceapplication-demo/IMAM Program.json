@@ -595,5 +595,8 @@
   "referencedForms": [],
   "uuid": "58cfbbd0-d8f1-4960-a2ce-0886bb059f25",
   "description": "IMAM Program",
-  "version": "1"
+  "version": "1",
+  "encounter" : "Consultation",
+  "published" : true,
+  "retired" : false
 }

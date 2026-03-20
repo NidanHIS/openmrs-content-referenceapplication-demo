@@ -340,5 +340,8 @@
   "referencedForms": [],
   "uuid": "e06006ea-0694-4db4-9a21-f5fd5253e1ff",
   "description": "DR TB follow-up",
-  "version": "1"
+  "version": "1",
+  "encounter" : "Consultation",
+  "published" : true,
+  "retired" : false
 }

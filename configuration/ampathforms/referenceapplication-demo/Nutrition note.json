@@ -273,5 +273,8 @@
   "referencedForms": [],
   "uuid": "1723e692-0ff9-4c97-be21-58218e5bfe56",
   "description": "Nutrition note",
-  "version": "1"
+  "version": "1",
+  "encounter" : "Consultation",
+  "published" : true,
+  "retired" : false
 }

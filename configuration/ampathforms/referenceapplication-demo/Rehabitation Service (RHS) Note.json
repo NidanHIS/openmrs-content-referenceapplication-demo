@@ -580,5 +580,8 @@
   "referencedForms": [],
   "uuid": "89b91e8b-2291-4f84-a9ac-a05b1a7bd3d5",
   "description": "Rehabitation Service (RHS) Note",
-  "version": "1"
+  "version": "1",
+  "encounter" : "Consultation",
+  "published" : true,
+  "retired" : false
 }

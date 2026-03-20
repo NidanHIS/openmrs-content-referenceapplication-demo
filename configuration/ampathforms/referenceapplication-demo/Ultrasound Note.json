@@ -208,5 +208,8 @@
   "referencedForms": [],
   "uuid": "72f011f0-2ccd-46ab-a895-5074775fae2e",
   "description": "Ultrasound Note",
-  "version": "1"
+  "version": "1",
+  "encounter" : "Consultation",
+  "published" : true,
+  "retired" : false
 }

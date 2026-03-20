@@ -920,5 +920,8 @@
   "referencedForms": [],
   "uuid": "e05779e0-a8b2-48b2-a3db-ea3a2f164425",
   "description": "Antenatal Care",
-  "version": "1"
+  "version": "1",
+  "encounter" : "Consultation",
+  "published" : true,
+  "retired" : false
 }

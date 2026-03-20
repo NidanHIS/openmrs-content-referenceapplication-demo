@@ -499,5 +499,8 @@
   "referencedForms": [],
   "uuid": "d4973070-d66a-4739-b187-27937cdc8756",
   "description": "Safe abortion note",
-  "version": "1"
+  "version": "1",
+  "encounter" : "Consultation",
+  "published" : true,
+  "retired" : false
 }

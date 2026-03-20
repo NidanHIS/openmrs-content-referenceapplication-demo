@@ -913,5 +913,8 @@
   "referencedForms": [],
   "uuid": "eb1a6ab3-1993-421d-9f2c-40b3f8a2462a",
   "description": "CBIMNCI (2 to 59 months child)",
-  "version": "1"
+  "version": "1",
+  "encounter" : "Consultation",
+  "published" : true,
+  "retired" : false
 }

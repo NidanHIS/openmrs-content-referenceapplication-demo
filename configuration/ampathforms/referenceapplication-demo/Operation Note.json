@@ -343,5 +343,8 @@
   "referencedForms": [],
   "uuid": "73913309-75ac-4c37-a4dd-069a53feedf7",
   "description": "Operation / Surgical Procedure Record",
-  "version": "1"
+  "version": "1",
+  "encounter" : "Consultation",
+  "published" : true,
+  "retired" : false
 }

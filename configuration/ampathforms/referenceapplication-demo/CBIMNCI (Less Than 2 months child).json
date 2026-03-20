@@ -618,5 +618,8 @@
   "referencedForms": [],
   "uuid": "0ed7618b-29f2-4795-bc36-8364abfcfcbc",
   "description": "CBIMNCI Note",
-  "version": "1"
+  "version": "1",
+  "encounter" : "Consultation",
+  "published" : true,
+  "retired" : false
 }

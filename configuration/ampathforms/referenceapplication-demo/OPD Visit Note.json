@@ -436,5 +436,8 @@
   "referencedForms": [],
   "uuid": "28125f57-5983-48f0-bc69-f73876760f19",
   "description": "Opd Visit Notes",
-  "version": "1"
+  "version": "1",
+  "encounter" : "Consultation",
+  "published" : true,
+  "retired" : false
 }

@@ -321,5 +321,8 @@
   "referencedForms": [],
   "uuid": "844cb4b0-28e4-4893-b47c-9d9cdcf622b8",
   "description": "Procedure note",
-  "version": "1"
+  "version": "1",
+  "encounter" : "Consultation",
+  "published" : true,
+  "retired" : false
 }

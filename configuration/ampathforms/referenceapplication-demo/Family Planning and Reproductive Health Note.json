@@ -609,5 +609,8 @@
   "referencedForms": [],
   "uuid": "01fdafc9-d31a-4a79-8f05-e65289fb4df8",
   "description": "Family Planning Data Record",
-  "version": "1"
+  "version": "1",
+  "encounter" : "Consultation",
+  "published" : true,
+  "retired" : false
 }

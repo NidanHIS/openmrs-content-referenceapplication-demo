@@ -269,5 +269,8 @@
   "referencedForms": [],
   "uuid": "3f297122-3316-4b4b-8126-35696c31d404",
   "description": "Leprosy Note",
-  "version": "1"
+  "version": "1",
+  "encounter" : "Consultation",
+  "published" : true,
+  "retired" : false
 }

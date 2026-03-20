@@ -381,5 +381,8 @@
   "referencedForms": [],
   "uuid": "36df335d-1343-4ece-b645-94e12521651d",
   "description": "Ultrasound Obstetrics Note",
-  "version": "1"
+  "version": "1",
+  "encounter" : "Consultation",
+  "published" : true,
+  "retired" : false
 }

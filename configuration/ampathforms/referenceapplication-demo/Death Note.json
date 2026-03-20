@@ -294,5 +294,8 @@
   "referencedForms": [],
   "uuid": "6e930e51-f000-44c2-829e-1ee3abaf998a",
   "description": "Death Note form",
-  "version": "1"
+  "version": "1",
+  "encounter" : "Consultation",
+  "published" : true,
+  "retired" : false
 }

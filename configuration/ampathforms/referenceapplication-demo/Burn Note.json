@@ -126,7 +126,26 @@
             {
               "type": "obs",
               "questionOptions": {
-                "rendering": "radio"
+                "rendering": "radio",
+                "concept": "d0d17842-b70c-4625-b724-b8b653716b51",
+                "answers": [
+                  {
+                    "concept": "c358238d-511f-40c0-901b-27b233aa0120",
+                    "label": "First degree"
+                  },
+                  {
+                    "concept": "9974d678-e13d-4a5a-81ca-f1a08ce0297c",
+                    "label": "Fourth degree"
+                  },
+                  {
+                    "concept": "79efd22d-b1e8-479d-ab8e-7b822764ff85",
+                    "label": "Second degree"
+                  },
+                  {
+                    "concept": "a9303f33-bc88-4f2a-b020-1340ffb76cbe",
+                    "label": "Third degree"
+                  }
+                ]
               },
               "id": "degreeOfBurn",
               "label": "Degree of burn",
@@ -194,5 +213,8 @@
   "referencedForms": [],
   "uuid": "f93786b1-376f-4a1f-9e32-5b3f16198ca2",
   "description": "Burn Note",
-  "version": "1"
+  "version": "1",
+  "encounter": "Consultation",
+  "published": true,
+  "retired": false
 }

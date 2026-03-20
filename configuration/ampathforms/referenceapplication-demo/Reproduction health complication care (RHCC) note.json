@@ -453,5 +453,8 @@
   "referencedForms": [],
   "uuid": "cff5e633-1007-4292-aff5-1bbd652a7ddb",
   "description": "Reproductive Health data collection note",
-  "version": "1"
+  "version": "1",
+  "encounter" : "Consultation",
+  "published" : true,
+  "retired" : false
 }

@@ -220,5 +220,8 @@
   "referencedForms": [],
   "uuid": "7b24b465-166e-42e4-a8fc-a0f4b6695b4f",
   "description": "Dental Note",
-  "version": "1"
+  "version": "1",
+  "encounter" : "Consultation",
+  "published" : true,
+  "retired" : false
 }

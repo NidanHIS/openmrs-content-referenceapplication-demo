@@ -564,5 +564,8 @@
   "referencedForms": [],
   "uuid": "e0a25eba-30b1-40cc-91cf-b80766947b19",
   "description": "New born baby note",
-  "version": "1"
+  "version": "1",
+  "encounter" : "Consultation",
+  "published" : true,
+  "retired" : false
 }

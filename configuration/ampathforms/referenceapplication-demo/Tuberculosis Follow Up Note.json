@@ -226,5 +226,8 @@
   "referencedForms": [],
   "uuid": "e76ef3db-34e2-4ff1-b308-5966a5a866de",
   "description": "Tuberculosis Follow Up Note",
-  "version": "1"
+  "version": "1",
+  "encounter" : "Consultation",
+  "published" : true,
+  "retired" : false
 }

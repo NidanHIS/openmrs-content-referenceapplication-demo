@@ -886,5 +886,8 @@
   "referencedForms": [],
   "uuid": "174c02d0-1d27-4c0a-be3e-a7758d4856d4",
   "description": "Ophthalmology Note",
-  "version": "1"
+  "version": "1",
+  "encounter" : "Consultation",
+  "published" : true,
+  "retired" : false
 }

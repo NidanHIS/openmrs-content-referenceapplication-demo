@@ -334,5 +334,8 @@
   "referencedForms": [],
   "uuid": "254745ae-38b4-4db9-af12-17364e96a234",
   "description": "Animal Bite",
-  "version": "1"
+  "version": "1",
+  "encounter" : "Consultation",
+  "published" : true,
+  "retired" : false
 }

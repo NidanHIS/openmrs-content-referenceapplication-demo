@@ -240,5 +240,8 @@
   "referencedForms": [],
   "uuid": "e63fcbf0-a0f6-4e8b-bef8-d9ea998c49ed",
   "description": "Malaria Note",
-  "version": "1"
+  "version": "1",
+  "encounter" : "Consultation",
+  "published" : true,
+  "retired" : false
 }

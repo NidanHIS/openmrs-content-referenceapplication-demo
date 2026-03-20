@@ -279,5 +279,8 @@
   "referencedForms": [],
   "uuid": "14c4e1a8-7d44-43ee-ae87-99877abe7178",
   "description": "DR TB Intake Note",
-  "version": "1"
+  "version": "1",
+  "encounter" : "Consultation",
+  "published" : true,
+  "retired" : false
 }

@@ -686,5 +686,8 @@
   "referencedForms": [],
   "uuid": "63010a72-328f-4204-9f4b-8f804894e582",
   "description": "Deliver Note",
-  "version": "1"
+  "version": "1",
+  "encounter" : "Consultation",
+  "published" : true,
+  "retired" : false
 }

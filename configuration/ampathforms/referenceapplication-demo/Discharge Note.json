@@ -446,5 +446,8 @@
   "referencedForms": [],
   "uuid": "217d86c7-90f2-4cd2-ab9c-6ebc7fa1c076",
   "description": "Discharge Note",
-  "version": "1"
+  "version": "1",
+  "encounter" : "Consultation",
+  "published" : true,
+  "retired" : false
 }

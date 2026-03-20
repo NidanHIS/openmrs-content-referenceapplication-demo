@@ -239,5 +239,8 @@
   "referencedForms": [],
   "uuid": "643748ec-e200-4c19-882e-41172de20b59",
   "description": "1",
-  "version": "1"
+  "version": "1",
+  "encounter" : "Consultation",
+  "published" : true,
+  "retired" : false
 }

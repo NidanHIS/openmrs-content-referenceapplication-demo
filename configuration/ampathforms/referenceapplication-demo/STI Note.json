@@ -436,5 +436,8 @@
   "referencedForms": [],
   "uuid": "be876e88-636a-4fda-ade3-88550fad8558",
   "description": "Sexually Transmitted Disease",
-  "version": "1"
+  "version": "1",
+  "encounter" : "Consultation",
+  "published" : true,
+  "retired" : false
 }

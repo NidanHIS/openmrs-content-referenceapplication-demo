@@ -326,5 +326,8 @@
   "referencedForms": [],
   "uuid": "a410753a-8d8e-4bb3-9ffc-2c65cfc055ba",
   "description": "Ocmc note",
-  "version": "1"
+  "version": "1",
+  "encounter" : "Consultation",
+  "published" : true,
+  "retired" : false
 }
