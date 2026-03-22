@@ -1,0 +1,52 @@
+{
+  "name": "Radiology Notes",
+  "pages": [
+    {
+      "label": "Radiology Details",
+      "sections": [
+        {
+          "label": "Findings/Impression/Recommendation",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "c9f9916b-75d2-467c-a9ba-8aeea2d5526f"
+              },
+              "id": "findings",
+              "label": "Findings"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "b7d12c33-8056-4ae6-9fa2-7863bb196624"
+              },
+              "id": "impression",
+              "label": "Impression"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "bc44de6f-db98-42c7-98b5-5fd059f50d3a"
+              },
+              "id": "recommendation",
+              "label": "Recommendation"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "processor": "EncounterFormProcessor",
+  "encounterType": "dd528487-82a5-4082-9c72-ed246bd49591",  
+  "encounter" : "Consultation",
+  "referencedForms": [],
+  "uuid": "8daf16ae-39f6-487c-a011-cba74ac48549",
+  "description": "Radiology details",
+  "version": "1",
+  "published" : true,
+  "retired" : false
+}
