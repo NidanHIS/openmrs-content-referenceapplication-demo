@@ -1,7 +1,7 @@
 Uuid,Void/Retire,Name,Concept Drug,Concept Dosage Form,Strength,_version:1
 d29fb81e-cffb-5bfc-b69c-64d4ea7cb6a4,,Acyclovir 5%- 1 g(ACYCLOVIR OINTMENT (FREE)),Acyclovir,Tube,5%-1g,_version:1
 68ee7f93-b5c5-570a-9cc1-6fe6c3ef1650,,Albendazole- 400 mg (FREE),Albendazole,Tablet,400mg,_version:1
-e0e992f6-7a9d-50fa-aef0-4b446bedcac5,,Alumninium magneshim simithicon oxethazaine (Free),Magnesium hydroxide,ml,,_version:1
+e0e992f6-7a9d-50fa-aef0-4b446bedcac5,,Alumninium magneshim simithicon oxethazaine (Free),Aluminium Hydroxide + Magnesium,ml,,_version:1
 b1f7602e-a300-5e30-a935-4bda08ff3e56,,Amitriptyline HCl- 10 mg (FREE),Amitriptyline,Tablet,10mg,_version:1
 f2331bf4-2990-539a-a2dd-06457bf35a14,,Amitriptyline HCl- 25 mg (FREE),Amitriptyline,Tablet,25mg,_version:1
 3ab8f30a-9e47-5363-b560-e5d715bb55e3,,Amitriptyline HCl- 75 mg(FREE),Amitriptyline,Tablet,75mg,_version:1
@@ -17,14 +17,14 @@ f8be5e86-21ff-58f1-885d-100d85d6b9ae,,Atorvastatin Ca- 10 mg(FREE),Atorvastatin,
 7dc055ea-abc2-5038-bc54-e75fdfdf4186,,Azithromycin dihydrate- 250 mg(FREE),Azithromycin,Tablet,250mg,_version:1
 59ba0ad1-ef8b-5640-bbac-a8ec7e730fe7,,Azithromycin dihydrate- 500 mg (FREE),Azithromycin,Tablet,500mg,_version:1
 8030f8ca-1936-534d-9303-671dd59f7c6f,,Budesonide inhalation ip 200mcg/dose(free),Budesonide,Tablet,200mcg/dose,_version:1
-dd638dac-a66b-5ed2-8b01-e76db531cfc1,,Benzhexol HCL -2mg(FREE),Benzhexol,Tablet,2mg,_version:1
+dd638dac-a66b-5ed2-8b01-e76db531cfc1,,Benzhexol HCL -2mg(FREE),Benzhexol Hydrochloride,Tablet,2mg,_version:1
 b542cff2-f5bc-54b4-98ab-7640ce75385f,,Calamine lotion 15%- 1 mL(FREE),Calamine,Tube,15%-1ml,_version:1
 be9cc0f8-fdd0-56ef-995c-2f211d2acf85,,carbamazepine 100 mg (Free),Carbamazepine,Tablet,100mg,_version:1
 85226fc6-11c7-5f9f-bd48-7dd76c019b28,,Carbamazepine- 200 mg(Free),Carbamazepine,Tablet,200mg,_version:1
 f889d5cc-fcc7-512a-b2d1-3efd9034cbb0,,Carbamazepine- 400 mg(FREE),Carbamazepine,Tablet,400mg,_version:1
 57b9f668-094c-502d-8e87-696db140a4fd,,Cefixime -200mg (FREE),Cefixime,Tablet,200mg,_version:1
 1a27012c-99d1-5b4b-8a87-573c421849b5,,Cefixime Free -400mg(FREE),Cefixime,Tablet,400mg,_version:1
-81b102fd-dcef-5c33-92de-c0bb7ee7140a,,Cetrizine dihydrochloride- 10 mg(FREE),Cetrizine,Tablet,10mg,_version:1
+81b102fd-dcef-5c33-92de-c0bb7ee7140a,,Cetrizine dihydrochloride- 10 mg(FREE),Cetirizine,Tablet,10mg,_version:1
 aa86310b-381d-5237-803e-443cb0b6edf6,,Chloramphenicol 1%- 1 g(FREE),Chloramphenicol,Tube,1%-1g,_version:1
 523e894c-6088-552e-8e00-03655c85a80d,,Chlorhexidine gluconate 0.2%- 1 mL(MOUTH WASH)(Free),Chlorhexidine gluconate,ml,0.2%-1ml,_version:1
 e6b76ce4-c1e6-5eb0-a279-bf3b085c4f85,,Chlorpheniramine maleate- 4 mg (FREE),Chlorpheniramine maleate,Tablet,4mg,_version:1
@@ -41,23 +41,23 @@ e7b86291-22a0-537a-9a52-fde5e907e5ad,,Diazepam- 5 mg (FREE),Diazepam,Tablet,5mg,
 d535e5c9-455c-56a4-9529-bb3e1244903b,,Diclofenac Na -50mg(FREE),Diclofenac,Tablet,50mg,_version:1
 fde6d3df-c68e-5fb5-897b-6c46c84a6010,,Doxycycline HCl- 100 mg(FREE),Doxycycline,Tablet,100mg,_version:1
 708190e5-8547-5f86-9bcb-8e6aebdb430d,,Enalapril maleate -5mg(FREE),Enalapril,Tablet,5mg,_version:1
-f2148133-709a-577d-aa55-69ec1fb64be5,,Escitalopram oxalate -10Mg(Free),Escitalopram,Tablet,10mg,_version:1
-35e13a23-6a01-56e0-b28f-2966f222e3ff,,Escitalopram oxalate -5m(FREE),Escitalopram,Tablet,,_version:1
+f2148133-709a-577d-aa55-69ec1fb64be5,,Escitalopram oxalate -10Mg(Free),Escitalopram Oxalate,Tablet,10mg,_version:1
+35e13a23-6a01-56e0-b28f-2966f222e3ff,,Escitalopram oxalate -5m(FREE),Escitalopram Oxalate,Tablet,,_version:1
 0df1601e-1f89-5256-98c5-eb60021a372b,,Ethambutol HCl -100mg(FREE),Ethambutol,Tablet,100mg,_version:1
 3d1ac8a5-cfca-5b4f-b87b-73f1383d3304,,Ferrous sulphate -60mg(FREE),Ferrous sulphate,Tablet,60mg,_version:1
 3a2944a5-35ed-5239-9a31-d0dae41f38a6,,Fexofenadine HCl -180MG(FREE),Fexofenadine,Tablet,180mg,_version:1
 9eabdcb4-b0be-592f-a1a0-986ab6785c82,,Fluconazole- 150 mg (FREE),Fluconazole,Tablet,150mg,_version:1
 1e5e20b4-eef7-52ce-83e0-34bf06a6e331,,Fluoxetine HCl- 10 mg (FREE),Fluoxetine,Tablet,10mg,_version:1
 def66365-0c20-5cf2-850c-0ae2a84d1d4f,,Fluoxetine HCl- 20 mg (FREE),Fluoxetine,Tablet,20mg,_version:1
-33ee80be-ea1e-5cec-8e89-fe2b677fa86b,,Folic acid- 5 mg(FREE),Folic,Tablet,5mg,_version:1
+33ee80be-ea1e-5cec-8e89-fe2b677fa86b,,Folic acid- 5 mg(FREE),Folic Acid,Tablet,5mg,_version:1
 87a0de81-ecde-50a4-9b16-82cddc91ec77,,Frusemide -40mg(FREE),Furosemide,Tablet,40mg,_version:1
 50b1a3c5-73e4-5654-8fbc-92e0050f2891,,Furosemide- 40 mg(FREE),Furosemide,Tablet,40mg,_version:1
 e9bc8d97-a02d-5580-a569-97ff71b65945,,Gamma benzene hexachloride 1%- 1 mL (FREE),Lindane,Tube,1%-1ml,_version:1
-dfa9813c-b3d9-5497-80ee-a0203c7c7d26,,Glimepiride -1Mg(Free),Glimipride,Tablet,1mg,_version:1
-3879c66d-6ef3-5260-ae10-32035a24614e,,Glimepiride -2mg(FREE),Glimipride,Tablet,2mg,_version:1
-5f3fb2a8-8195-55e0-81da-0c5801c0735d,,Hydrochlorothiazide- 25 mg (FREE),Hydrochlorthiazide,Tablet,25mg,_version:1
-b336c721-e562-58fa-81c3-b3417d9d16aa,,Hyoscine butylbromide- 10 mg (FREE),Hyoscine,Tablet,10mg,_version:1
-8ed869a1-949f-56ab-803d-accd8fffcbec,,Hyoscine butylbromide- 20 mg (FREE),Hyoscine,Tablet,20mg,_version:1
+dfa9813c-b3d9-5497-80ee-a0203c7c7d26,,Glimepiride -1Mg(Free),Glimepiride,Tablet,1mg,_version:1
+3879c66d-6ef3-5260-ae10-32035a24614e,,Glimepiride -2mg(FREE),Glimepiride,Tablet,2mg,_version:1
+5f3fb2a8-8195-55e0-81da-0c5801c0735d,,Hydrochlorothiazide- 25 mg (FREE),Hydrochlorothiazide,Tablet,25mg,_version:1
+b336c721-e562-58fa-81c3-b3417d9d16aa,,Hyoscine butylbromide- 10 mg (FREE),Hyoscine butylbromide,Tablet,10mg,_version:1
+8ed869a1-949f-56ab-803d-accd8fffcbec,,Hyoscine butylbromide- 20 mg (FREE),Hyoscine butylbromide,Tablet,20mg,_version:1
 2c2599a3-aefb-5b85-8b62-3734fc8167d0,,Ibuprofen 200mg[free],Ibuprofen,Tablet,200mg,_version:1
 b96cf199-a514-5eb7-8f06-d8057ecf1d74,,Ibuprofen and paracetamol suspension [100mg/125mg] Free ,Ibuprofen + Paracetamol,ml,100mg/125mg,_version:1
 4e58afd4-fd5a-52d1-af9e-a5734268d518,,Ibuprofen Tablets IP(Free),Ibuprofen,Tablet,,_version:1
@@ -107,5 +107,5 @@ a49bd1bd-bff7-5dca-9fe6-f7c004fc5ed8,,Thiamine HCl- 100 mg (FREE),Thiamine,Table
 c9247da6-ef70-5ae7-940a-1d2f9c42d6c2,,Tinidazole- 500 mg(FREE),Tinidazole,Tablet,500mg,_version:1
 1293d428-7a05-53fd-980d-816ba719c90a,,Vitamin A palmitate -2lakh IU(FREE),Vitamin A,ml,2lakhIU,_version:1
 ca063b34-7262-524b-bab6-3f8b0dfebf7e,,Vitamin B comp- 1 dose (FREE),Vitamin B Complex,Tablet,1dose,_version:1
-4de7cbd9-c037-5bee-a0ef-9bfc8a4fb15a,,ZINC 10mg(Free),Zinc sulphate,Tablet,10mg,_version:1
-cc9ac136-b11e-5c78-82e3-0711cc96b5c6,,Zinc sulphate- 20 mg (FREE),Zinc sulphate,Tablet,20mg,_version:1
+4de7cbd9-c037-5bee-a0ef-9bfc8a4fb15a,,ZINC 10mg(Free),Zinc sulfate,Tablet,10mg,_version:1
+cc9ac136-b11e-5c78-82e3-0711cc96b5c6,,Zinc sulphate- 20 mg (FREE),Zinc sulfate,Tablet,20mg,_version:1
