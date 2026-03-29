@@ -1,0 +1,7 @@
+Uuid,Void/Retire,Name,Description,Java class name,Parent,Concept Classes,_order:1000
+131168f4-15f5-102d-96e4-000c29c2a5d7,,Drug Order,An order for a medication to be given to the patient,org.openmrs.DrugOrder,,,
+52a447d3-a64a-11e3-9aeb-50e549534c5e,,Test Order,Order type for test orders,org.openmrs.TestOrder,,,
+4237a01f-29c5-4167-9d8e-96d6e590aa33,,Procedure Order,Order type for procedures created by the Order Expansion module,org.openmrs.module.orderexpansion.api.model.ProcedureOrder,,,
+dab3ab30-2feb-48ec-b4af-8332a0831b49,,Medical Supply Order,Order type for medical supplies created by the Order Expansion module,org.openmrs.module.orderexpansion.api.model.MedicalSupplyOrder,,,
+c19c8e82-8b8d-4b4e-b1ff-3f09890b2db3,,Radiology Order,Order type for radiology-related diagnostics,org.openmrs.module.orderexpansion.api.model.RadiologyOrder,,,
+e8c4fd91-4b0a-4f2c-9d8e-1a2b3c4d5e6f,,Bed Order,"Order type for bed assignment, transfer, and related IPD bed orders",org.openmrs.Order,,,
