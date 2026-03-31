@@ -1,3 +1,10 @@
 UUID,Name,Service,Location,Status Concept Set,Priority Concept Set
-d692a223-e140-11ee-bad2-0242ac120002,Outpatient Triage,d62d58e9-ec91-4108-9643-00f5f23bf51c,44c3efb0-2583-4c80-a79e-1f756a03c0a1,,
+d692a223-e140-11ee-bad2-0242ac120002,IPD Care,d62d58e9-ec91-4108-9643-00f5f23bf51c,ba685651-ed3b-4e63-9b35-78893060758a,,
 13b656d3-e141-11ee-bad2-0242ac120002,Outpatient Consultation,e96e2ce6-e326-46f2-8015-17572689c401,44c3efb0-2583-4c80-a79e-1f756a03c0a1,,
+,Obstetrics and Gynecology,9900eaa8-59cb-4887-89e6-74a0617a6f24,1bb0d1c3-31f7-4418-afc9-e0e1e2676605,,
+,Dental Care,781af640-3a0c-4101-a0a1-06bd1f1aef29,1ce1b7d4-c865-4178-82b0-5932e51503d6,,
+,"ENT (Ear, Nose, Throat)",df6ebb9c-e688-4798-b1b3-0d4c7e7c3841,6ebe9ec1-06e3-45cb-8466-dfd34da120c8,,
+,Emergency Care,bb0f5cd6-ecbb-4c7c-a943-94b83b03a2d6,8d9045ad-50f0-45b8-93c8-3ed4bce19dbf,,
+,General Surgery,80ccc14a-58ba-41c3-bb74-3ad4b1645bc9,39ff0e19-b463-499a-a583-5f94626a4981,,
+,Opthalmology,c00d9424-2026-467f-a799-025690ab4a0b,a5cf9b91-bee1-43c6-b5df-656e8da380f1,,
+,Radiology,1115ada1-a922-4c8c-b8ce-f8494ffd4fd2,a5473deb-9dc6-4e19-8a5a-cd11909e853a,,
