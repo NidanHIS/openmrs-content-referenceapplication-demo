@@ -1,6 +1,6 @@
 Uuid,Void/Retire,Name,Description,Parent,Tag|Login Location,Tag|Visit Location,Tag|Facility Location,Tag|Queue Location,Tag|Admission Location,Tag|Appointment Location,Tag|Transfer Location,Address 1,Address 2,Address 3,Address 4,Address 5,Address 6,City/Village,County/District,State/Province,Postal Code,Country,_order:1000
 f47ac10b-58cc-4372-a567-0e02b2c3d479,,Hospital,Hospital,,,TRUE,,,,,,,,,,,,,,,,,
-44c3efb0-2583-4c80-a79e-1f756a03c0a1,,Outpatinet (OPD),Outpatient (OPD),,TRUE,TRUE,TRUE,TRUE,,TRUE,,,,,,,,,,,,,
+44c3efb0-2583-4c80-a79e-1f756a03c0a1,,Outpatient (OPD),Outpatient (OPD),,TRUE,TRUE,TRUE,TRUE,,TRUE,,,,,,,,,,,,,
 3c3a9dc6-83ed-4bc4-a998-4844c6082b4f,,Registration Desk,Patient Registration,,TRUE,TRUE,,TRUE,,,,,,,,,,,,,,,
 ba685651-ed3b-4e63-9b35-78893060758a,,Inpatient (IPD),Inpatient Ward,,TRUE,TRUE,,TRUE,TRUE,,TRUE,,,,,,,,,,,,
 8d9045ad-50f0-45b8-93c8-3ed4bce19dbf,,Emergency,Emergency,,TRUE,TRUE,,TRUE,TRUE,,,,,,,,,,,,,,
