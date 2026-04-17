@@ -1,0 +1,453 @@
+{
+  "name": "Maternal Discharge Summary",
+  "pages": [
+    {
+      "label": "Diagnosis & Hospital Outcome",
+      "sections": [
+        {
+          "label": "Diagnosis & Hospital Outcome",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "date",
+                "concept": "fee07cde-19c9-46a6-a117-2ce8dae3aefb"
+              },
+              "id": "dateOfAdmission",
+              "label": "Date of admission",
+              "datePickerFormat": "calendar"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "date",
+                "concept": "f50023bd-feb5-4945-ac00-4f6e8df0b359"
+              },
+              "id": "dateOfDischarge",
+              "label": "Date of Discharge",
+              "datePickerFormat": "calendar"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "d70df6f0-46d9-4cd0-aa33-1dd91a4c5c87"
+              },
+              "id": "dischargeTo",
+              "label": "Discharge To",
+              "questionInfo": "Discharged to Home, Discharged to Higher center"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "600f6ff5-ca78-4928-9fce-e750aafe9641"
+              },
+              "id": "diagnosis",
+              "label": "Diagnosis"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "ca1eee0c-eb4c-4c6c-85ff-e7f644d1af30",
+                "answers": [
+                  {
+                    "concept": "e89ab708-e7d0-419a-a0e7-40b53f971125",
+                    "label": "Recovered"
+                  },
+                  {
+                    "concept": "0686d22c-02da-4585-9740-ff08086824c3",
+                    "label": "Not improved"
+                  },
+                  {
+                    "concept": "85a8c75a-3e24-43a7-ab53-dccda2094171",
+                    "label": "DOR"
+                  },
+                  {
+                    "concept": "d3116246-ef64-4936-9a74-3b8db8ca5f11",
+                    "label": "LAMA/DAMA"
+                  },
+                  {
+                    "concept": "a1e56344-cbec-44af-a7d9-1aca53854052",
+                    "label": "Absconded"
+                  },
+                  {
+                    "concept": "c9e55e26-ff52-41cb-b9a5-f677c9c4c53e",
+                    "label": "Referred out"
+                  },
+                  {
+                    "concept": "4ff33ec5-84dd-4b44-b5ca-61237c641e93",
+                    "label": "Death<48 hours"
+                  },
+                  {
+                    "concept": "1dc00c4a-2821-4bf7-9acf-d646c74e1fa1",
+                    "label": "Death>48 hours"
+                  },
+                  {
+                    "concept": "428f4956-ce3f-4b79-9489-c4989832d0dd",
+                    "label": "Referred on request"
+                  }
+                ]
+              },
+              "id": "inpatientOutcome",
+              "label": "Inpatient Outcome",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "dd53dd9e-f0d3-438e-b08a-c4af65923d91",
+                "answers": [
+                  {
+                    "concept": "98851cde-014f-40d1-bb4f-92d7b2d4d017",
+                    "label": "ORIF"
+                  },
+                  {
+                    "concept": "49bdc7f1-1c0e-4006-8539-466be24b732c",
+                    "label": "Intra-abdominal/thoracic"
+                  },
+                  {
+                    "concept": "1107AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "None"
+                  },
+                  {
+                    "concept": "5622AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Other"
+                  }
+                ]
+              },
+              "id": "majorSurgeryPerformedThisAdmission",
+              "label": "Major surgery performed this admission?",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "a2fd14a5-6ce1-4fec-aa85-900ab3650ffa",
+                "answers": [
+                  {
+                    "concept": "e03cda31-5d58-412d-8529-d0f3daf9d98b",
+                    "label": "Antibiotics given to treat post-operative complication"
+                  },
+                  {
+                    "concept": "7ecb21a2-4062-4484-a604-69fe6d4885f6",
+                    "label": "Antibiotics given-prophylaxis"
+                  },
+                  {
+                    "concept": "2f3ac83e-8077-4209-9a36-8d091be388f6",
+                    "label": "Blood products given based on protocol or patient's arrival state"
+                  },
+                  {
+                    "concept": "8dcd7061-0f5a-471e-b911-faa9c28ab259",
+                    "label": "Blood products given to treat post-operative complication"
+                  },
+                  {
+                    "concept": "f6df5199-e43e-4eb5-a908-4692f59bef84",
+                    "label": "Death"
+                  },
+                  {
+                    "concept": "2711f1d5-57fd-4223-b195-ad256a0d2a27",
+                    "label": "Failed or aborted surgery"
+                  },
+                  {
+                    "concept": "1107AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "None"
+                  }
+                ]
+              },
+              "id": "postOperativeComplications",
+              "label": "Did any of the following occur during the post-operative period? ",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "9986de91-7fa2-4e4a-a0cc-9504c342ad87"
+              },
+              "id": "briefHospitalCourse",
+              "label": "Brief hospital course"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Maternal Delivery & Program Details",
+      "sections": [
+        {
+          "label": "Maternal, Delivery & Program",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "dd8d29ce-6654-41be-b864-cbe227c40214",
+                "answers": [
+                  {
+                    "concept": "190AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Condoms"
+                  },
+                  {
+                    "concept": "28a0b2fe-e899-49f6-96fc-c74e4e54b762",
+                    "label": "Depo"
+                  },
+                  {
+                    "concept": "27dd2607-63d2-4aa1-aa07-6bec29737719",
+                    "label": "Implant"
+                  },
+                  {
+                    "concept": "5275AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "IUCD"
+                  },
+                  {
+                    "concept": "6110f2c4-5bcb-4c0f-be34-5a150eaf6f5d",
+                    "label": "LAM"
+                  },
+                  {
+                    "concept": "6a21251f-7294-46ef-a129-00ccce4b39ad",
+                    "label": "Pills"
+                  },
+                  {
+                    "concept": "416c234f-9423-407a-8555-8bf793c8c9ca",
+                    "label": "Tubectomy"
+                  }
+                ]
+              },
+              "id": "contraceptiveChosen",
+              "label": "Contraceptive chosen"
+            }
+          ]
+        },
+        {
+          "label": "Aama Program",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "ce558a77-16c3-4519-8579-88cffa458128",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "transportationIncentive",
+              "label": "Transportation incentive"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "3ea3173e-f010-49c2-997c-832d9f64d5fe",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "ancIncentive",
+              "label": "ANC Incentive"
+            }
+          ]
+        },
+        {
+          "label": "Infant Details",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "d4f38e47-fe14-490d-9fdb-30dee78bc928",
+                "answers": [
+                  {
+                    "concept": "4b1f9cd6-52de-424d-9a3a-2cd1cdb112f1",
+                    "label": "Still birth"
+                  },
+                  {
+                    "concept": "1115AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Normal"
+                  },
+                  {
+                    "concept": "31c6de8e-226a-484a-b863-7e380e7f60d1",
+                    "label": "Asphyxiated"
+                  },
+                  {
+                    "concept": "35f8424f-84bc-4c5e-9b13-f4dd0498fc26",
+                    "label": "Defects"
+                  }
+                ]
+              },
+              "id": "infantCondition",
+              "label": "Infant Condition"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "9bf7ddc8-f105-4fed-92c7-202f58db8941",
+                "answers": [
+                  {
+                    "concept": "31c6de8e-226a-484a-b863-7e380e7f60d1",
+                    "label": "Asphyxiated"
+                  },
+                  {
+                    "concept": "f50023bd-feb5-4945-ac00-4f6e8df0b359",
+                    "label": "Difficulty feeding"
+                  },
+                  {
+                    "concept": "8b00f53a-98f3-4e95-b989-39eea6238772",
+                    "label": "Hypoglycemia risk factor"
+                  },
+                  {
+                    "concept": "e39799ca-6bae-47c4-b1ee-4a7cb40b685d",
+                    "label": "Hypothermia"
+                  },
+                  {
+                    "concept": "b492f8d3-96f7-465d-a922-dd5ed9605e75",
+                    "label": "Infection"
+                  },
+                  {
+                    "concept": "136443AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Jaundice"
+                  },
+                  {
+                    "concept": "6c66fab4-6258-4380-a892-f4493b1adc04",
+                    "label": "Neonatal Sepsis"
+                  }
+                ]
+              },
+              "id": "complicationsDuringHospitalStay",
+              "label": "Complications during hospital stay"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "af7d191a-7ab3-41dd-94c3-ab8edee04b5b"
+              },
+              "id": "interventionDuringHospitalStay",
+              "label": "Intervention during hospital stay"
+            }
+          ]
+        },
+        {
+          "label": "IMAM-Discharge",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "6e03c81a-41f2-49e4-b6a4-72fcca5e796c"
+              },
+              "id": "imamAdmissionWeight",
+              "label": "IMAM admission weight"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "06c754f1-aedc-4791-92fc-554fcc817857"
+              },
+              "id": "imamDischargeWeight",
+              "label": "IMAM discharge weight"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "8805c00a-aa3b-4e24-9222-f299b925e298",
+                "answers": [
+                  {
+                    "concept": "a1e56344-cbec-44af-a7d9-1aca53854052",
+                    "label": "Absconded"
+                  },
+                  {
+                    "concept": "f6df5199-e43e-4eb5-a908-4692f59bef84",
+                    "label": "Death"
+                  },
+                  {
+                    "concept": "7ed29216-8c3d-45b2-8eb0-0abfec34880c",
+                    "label": "Defaulter"
+                  },
+                  {
+                    "concept": "0686d22c-02da-4585-9740-ff08086824c3",
+                    "label": "Not improved"
+                  },
+                  {
+                    "concept": "e89ab708-e7d0-419a-a0e7-40b53f971125",
+                    "label": "Recovered"
+                  }
+                ]
+              },
+              "id": "dischargeStatus",
+              "label": "Discharge status"
+            }
+          ]
+        },
+        {
+          "label": "Discharge & Follow-up",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "c5b9574b-7ec3-4808-9a75-c78303fe7ed6"
+              },
+              "id": "medicationOnDischarge",
+              "label": "Medication on Discharge",
+              "questionInfo": "As compared to those on admission"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "75ca7f0d-a0f4-49b7-9d4c-077839a1f1cf"
+              },
+              "id": "followupInstructions",
+              "label": "Followup instructions",
+              "questionInfo": "When to return to OPD or ER, etc."
+            },
+            {
+              "type": "encounterProvider",
+              "questionOptions": {
+                "rendering": "ui-select-extended"
+              },
+              "id": "nameOfTheDoctorForMoreInformation",
+              "label": "Name of the doctor for more information"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "processor": "EncounterFormProcessor",
+  "encounterType": "181820aa-88c9-479b-9077-af92f5364329",
+  "referencedForms": [],
+  "uuid": "217d86c7-90f2-4cd2-ab9c-6ebc7fa1c076",
+  "description": "Discharge Note",
+  "version": "1",
+  "encounter" : "Consultation",
+  "published" : true,
+  "retired" : false
+}
