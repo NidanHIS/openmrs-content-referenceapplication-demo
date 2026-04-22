@@ -1,0 +1,78 @@
+{
+  "name": "Patient referred Out Form",
+  "pages": [
+    {
+      "label": "Referred Out Details",
+      "sections": [
+        {
+          "label": "Referred To",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "c0f2ccac-003e-406e-afe2-b0cf97b88916"
+              },
+              "id": "referredTo",
+              "label": "Referred To"
+            }
+          ]
+        },
+        {
+          "label": "Referral Reason",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "bc44de6f-db98-42c7-98b5-5fd059f50d3a"
+              },
+              "id": "referralReason",
+              "label": "Referral Reason"
+            }
+          ]
+        },
+        {
+          "label": "Treatment Given",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "062acf82-584a-4ea3-9c7e-08a955b34da0"
+              },
+              "id": "treatmentGiven",
+              "label": "Treatment Given"
+            }
+          ]
+        },
+        {
+          "label": "Followup Detail",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "75ca7f0d-a0f4-49b7-9d4c-077839a1f1cf"
+              },
+              "id": "followUpDetail",
+              "label": "Follow-up Detail"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "processor": "EncounterFormProcessor",
+  "encounterType": "25a042b2-60bc-4940-a909-debd098b7d82",
+  "referencedForms": [],
+  "uuid": "901a4ec8-e3d6-46d8-82ba-4c7a45aed1dc",
+  "description": "Patient referred out to higher center ",
+  "encounter": "Consultation",
+  "published": true,
+  "version": "1"
+}
