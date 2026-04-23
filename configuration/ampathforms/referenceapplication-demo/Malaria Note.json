@@ -78,7 +78,7 @@
               "type": "obs",
               "questionOptions": {
                 "rendering": "radio",
-                "concept": "998a9198-cc4e-4af8-9589-f450a42c7f17",
+                "concept": "4f1964fc-99ed-48a4-9b6a-21f2cd7716b7",
                 "answers": [
                   {
                     "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
@@ -241,7 +241,7 @@
   "uuid": "e63fcbf0-a0f6-4e8b-bef8-d9ea998c49ed",
   "description": "Malaria Note",
   "version": "1",
-  "encounter" : "Consultation",
-  "published" : true,
-  "retired" : false
+  "encounter": "Consultation",
+  "published": true,
+  "retired": false
 }
