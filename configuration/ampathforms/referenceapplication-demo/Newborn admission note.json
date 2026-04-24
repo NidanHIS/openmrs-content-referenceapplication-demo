@@ -21,10 +21,12 @@
               "type": "obs",
               "questionOptions": {
                 "rendering": "text",
-                "concept": "fb5e45aa-ba4b-4084-8628-ad7b006ce518"
+                "identifierType": "c0e1d2f3-a4b5-4c6d-9e0f-1a2b3c4d5e6f",
+                "concept": "3164ad4e-5c6e-470d-91dd-f29bcffad23a"
               },
               "id": "motherName",
-              "label": "Mother's Name"
+              "label": "Mother's Name",
+              "value": "Input                                                                         OutPut"
             },
             {
               "type": "patientIdentifier",
@@ -440,7 +442,7 @@
               "type": "obs",
               "questionOptions": {
                 "rendering": "number",
-                "concept": "01070e39-119d-43f2-ab56-e3b32d9682b3"
+                "concept": "5087AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
               },
               "id": "heartRate",
               "label": "Heart Rate"
@@ -565,7 +567,7 @@
   "uuid": "e0a25eba-30b1-40cc-91cf-b80766947b19",
   "description": "New born baby note",
   "version": "1",
-  "encounter" : "Consultation",
-  "published" : true,
-  "retired" : false
+  "encounter": "Consultation",
+  "published": true,
+  "retired": false
 }
