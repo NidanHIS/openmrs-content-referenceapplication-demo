@@ -318,7 +318,7 @@
                     "label": "Hypoglycemia risk factor"
                   },
                   {
-                    "concept": "e39799ca-6bae-47c4-b1ee-4a7cb40b685d",
+                    "concept": "0b50af28-5c6b-473f-a8a4-01ffb14ae305",
                     "label": "Hypothermia"
                   },
                   {
@@ -447,7 +447,7 @@
   "uuid": "217d86c7-90f2-4cd2-ab9c-6ebc7fa1c076",
   "description": "Discharge Note",
   "version": "1",
-  "encounter" : "Consultation",
-  "published" : true,
-  "retired" : false
+  "encounter": "Consultation",
+  "published": true,
+  "retired": false
 }
