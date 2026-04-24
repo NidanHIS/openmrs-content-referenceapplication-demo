@@ -146,10 +146,6 @@
                     "label": "Cough"
                   },
                   {
-                    "concept": "142412AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Diarrhoea"
-                  },
-                  {
                     "concept": "1c2dfbd6-4095-4d50-9c8b-88e35b145bbe",
                     "label": "No Urinating"
                   },
@@ -160,6 +156,10 @@
                   {
                     "concept": "42c8ff2e-23b8-4255-b3fa-c7c002e09aea",
                     "label": "Vomiting"
+                  },
+                  {
+                    "concept": "e8e92a6b-a3ab-4a05-92a9-2eea8a6fa3c6",
+                    "label": "Diarrhoea"
                   }
                 ]
               },
@@ -596,7 +596,7 @@
   "uuid": "58cfbbd0-d8f1-4960-a2ce-0886bb059f25",
   "description": "IMAM Program",
   "version": "1",
-  "encounter" : "Consultation",
-  "published" : true,
-  "retired" : false
+  "encounter": "Consultation",
+  "published": true,
+  "retired": false
 }
