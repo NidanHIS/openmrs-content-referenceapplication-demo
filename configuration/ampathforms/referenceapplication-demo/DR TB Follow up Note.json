@@ -246,16 +246,16 @@
                 "concept": "dab46ab2-4955-43bd-b66d-6a084b851d5d",
                 "answers": [
                   {
-                    "concept": "a2601792-3170-4396-8c11-e6a94a1f3d8b",
-                    "label": "Lost to follow up"
-                  },
-                  {
                     "concept": "14b62de4-e49a-43a8-a4aa-11a1e732930f",
                     "label": "Not evaluated"
                   },
                   {
                     "concept": "4a5df41f-3379-42aa-97dc-6590b2e1934f",
                     "label": "Death During Treatment"
+                  },
+                  {
+                    "concept": "7dc37c9e-1725-11ed-861d-0242ac120002",
+                    "label": "Lost to follow-up"
                   }
                 ]
               },
@@ -341,7 +341,7 @@
   "uuid": "e06006ea-0694-4db4-9a21-f5fd5253e1ff",
   "description": "DR TB follow-up",
   "version": "1",
-  "encounter" : "Consultation",
-  "published" : true,
-  "retired" : false
+  "encounter": "Consultation",
+  "published": true,
+  "retired": false
 }
