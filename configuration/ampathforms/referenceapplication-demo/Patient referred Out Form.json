@@ -74,5 +74,6 @@
   "description": "Patient referred out to higher center ",
   "encounter": "Consultation",
   "published": true,
-  "version": "1"
+  "version": "1",
+  "retired": false
 }
