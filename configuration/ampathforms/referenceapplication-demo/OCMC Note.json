@@ -243,7 +243,7 @@
                     "label": "Outside of the relatives"
                   },
                   {
-                    "concept": "a09c7245-bc18-44c2-9b39-cfb52b600493",
+                    "concept": "37e8e50a-9969-4a8b-938d-bc01d6e97561",
                     "label": "Within relatives"
                   }
                 ]
@@ -327,7 +327,7 @@
   "uuid": "a410753a-8d8e-4bb3-9ffc-2c65cfc055ba",
   "description": "Ocmc note",
   "version": "1",
-  "encounter" : "Consultation",
-  "published" : true,
-  "retired" : false
+  "encounter": "Consultation",
+  "published": true,
+  "retired": false
 }
