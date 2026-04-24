@@ -307,7 +307,7 @@
                     "label": "Black"
                   },
                   {
-                    "concept": "56c689c0-ec1a-4979-b674-2378fba79cd9",
+                    "concept": "9ec820f7-74ec-47a3-a0ce-024606940441",
                     "label": "Yellow"
                   }
                 ]
@@ -599,10 +599,6 @@
                 "concept": "1e45c626-4cfc-430c-9288-49acd139cfcf",
                 "answers": [
                   {
-                    "concept": "ee33588f-86d6-4b92-975e-2ade7fb52621",
-                    "label": "1 month"
-                  },
-                  {
                     "concept": "b41d3471-9d5f-4953-bc34-2dbb43633a27",
                     "label": "1 week"
                   },
@@ -613,6 +609,10 @@
                   {
                     "concept": "9e1a148a-cc8e-458e-ad9b-df6f13537b7f",
                     "label": "3 weeks"
+                  },
+                  {
+                    "concept": "ee33588f-86d6-4b92-975e-2ade7fb52621",
+                    "label": "1 month"
                   }
                 ]
               },
@@ -630,7 +630,7 @@
   "uuid": "7c8778db-8119-4b89-bbe2-b440808c9643",
   "description": "Emergency General Note",
   "version": "1",
-  "encounter" : "Consultation",
-  "published" : true,
-  "retired" : false
+  "encounter": "Consultation",
+  "published": true,
+  "retired": false
 }
