@@ -75,8 +75,8 @@
                     "label": "Vision and hearing impaired"
                   },
                   {
-                    "concept": "875400fe-077f-46c7-b6b6-7ee006829740",
-                    "label": "Vision related disability"
+                    "concept": "605ddbe5-74e2-4b00-b2c6-7b28f7b35be1",
+                    "label": "Vision Related"
                   }
                 ]
               },
@@ -581,7 +581,7 @@
   "uuid": "89b91e8b-2291-4f84-a9ac-a05b1a7bd3d5",
   "description": "Rehabitation Service (RHS) Note",
   "version": "1",
-  "encounter" : "Consultation",
-  "published" : true,
-  "retired" : false
+  "encounter": "Consultation",
+  "published": true,
+  "retired": false
 }
