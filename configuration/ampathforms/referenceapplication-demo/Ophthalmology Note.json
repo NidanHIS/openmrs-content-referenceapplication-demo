@@ -25,7 +25,8 @@
                 ]
               },
               "id": "visitType",
-              "label": "Visit Type"
+              "label": "Visit Type",
+              "required": true
             },
             {
               "type": "obs",
