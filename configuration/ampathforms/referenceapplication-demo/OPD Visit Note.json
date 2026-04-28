@@ -60,6 +60,26 @@
               "type": "obs",
               "questionOptions": {
                 "rendering": "radio",
+                "concept": "9ba979d1-2a54-464e-8fdc-4a7305d842b9",
+                "answers": [
+                  {
+                    "concept": "432492c9-6d6b-44a7-9a4f-65254e273fec",
+                    "label": "New"
+                  },
+                  {
+                    "concept": "2405482f-f736-4418-9d4e-bfdb828caa45",
+                    "label": "Follow up"
+                  }
+                ]
+              },
+              "id": "visitType",
+              "label": "Visit Type",
+              "required": true
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
                 "concept": "14AAAAAAAAAAAAAAAAAAAAAAAAABB",
                 "answers": [
                   {
@@ -437,7 +457,7 @@
   "uuid": "28125f57-5983-48f0-bc69-f73876760f19",
   "description": "Opd Visit Notes",
   "version": "1",
-  "encounter" : "Consultation",
-  "published" : true,
-  "retired" : false
+  "encounter": "Consultation",
+  "published": true,
+  "retired": false
 }
