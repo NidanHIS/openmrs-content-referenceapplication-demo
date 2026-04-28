@@ -5,6 +5,6 @@ aac48226-d143-4274-80e0-264db4e368ee,,Visit,Insurance Policy Number,,0,1,org.ope
 8553afa0-bdb9-4d3c-8a98-05fa9350aa85,,Visit,Payment Method,"The payment method used by the patient to settle payment, expects a uuid",0,1,org.openmrs.customdatatype.datatype.FreeTextDatatype,,,,
 fbc0702d-b4c9-4968-be63-af8ad3ad6239,,Visit,Patient Type,"If the patient will be paying or receives services for free, expects a uuid",0,1,org.openmrs.customdatatype.datatype.FreeTextDatatype,,,,
 36cb91f6-ac9c-4541-8734-4ddcee16db68,,Visit,Is Referred In?,Is Patient Referred In from another hospital.,0,1,org.openmrs.customdatatype.datatype.BooleanDatatype,,,,
-bf7e1c87-42f1-4876-8a73-83eaacd6ee64,,Visit,Referred By Clinician,Patient Referred By Clinician,0,1,org.openmrs.customdatatype.datatype.ProviderDatatype,,,,
+bf7e1c87-42f1-4876-8a73-83eaacd6ee64,,Visit,Referred By Clinician,Patient Referred By Clinician,0,1,org.openmrs.customdatatype.datatype.FreeTextDatatype,,,,
 460a3d59-c4a6-492e-aacb-96835c128c31,,Visit,Referred To Hospital,Patient referred to higher center for further care and treatment,0,1,org.openmrs.customdatatype.datatype.FreeTextDatatype,,,,
 e965fdc6-42c1-4167-9dfe-0b3865a6d2e6,,Visit,Assigned Doctor,Patient assigned to specific doctor for consultation,0,1,org.openmrs.customdatatype.datatype.ProviderDatatype,,,,
