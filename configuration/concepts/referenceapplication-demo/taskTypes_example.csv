@@ -1,4 +1,4 @@
-Uuid,Void/Retire,Mappings|SAME-AS,Fully specified name:en,Short name:en,Description:en,Data class,Data type,Answers,Members,_version:1,_order:3000
+Uuid,Void/Retire,Same as mappings,Fully specified name:en,Short name:en,Description:en,Data class,Data type,Answers,Members,_version:1,_order:3000
 a0eb13f7-0cd8-4e40-a03b-c8091ac05c89,,,Measurement procedure,Measurement procedure,Used for recording and tracking patient measurement procedure,Misc,N/A,,,,
 785e3bf3-5dc2-43a9-b90c-694469fbea0c,,,Medication administration assessment,Medication administration assessment,Used for recording and tracking medication administration assessment,Misc,N/A,,,,
 996b6a90-1005-4ce0-a022-9ef85ffe1886,,,Multidisciplinary assessment,Multidisciplinary assessment,Used for recording and tracking multidisciplinary assessment,Misc,N/A,,,,
