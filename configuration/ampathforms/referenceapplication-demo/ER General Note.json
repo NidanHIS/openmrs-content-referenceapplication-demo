@@ -56,6 +56,25 @@
               "type": "obs",
               "questionOptions": {
                 "rendering": "radio",
+                "concept": "9d205daa-cb83-4d90-9ae9-ee2633217ef0",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "medicoLegalCase",
+              "label": "Medico-Legal Case"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
                 "concept": "14AAAAAAAAAAAAAAAAAAAAAAAAABB",
                 "answers": [
                   {
