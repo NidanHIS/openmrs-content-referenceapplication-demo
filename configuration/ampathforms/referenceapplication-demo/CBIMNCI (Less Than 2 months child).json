@@ -573,12 +573,16 @@
                     "label": "Amoxicillin"
                   },
                   {
-                    "concept": "55fa26ba-fc81-4b01-ae20-503c0c20cd4a",
-                    "label": "Other Antibiotics"
+                    "concept": "949223e5-025f-4b8e-89a8-a49924e785bc",
+                    "label": "Ampicillin"
                   },
                   {
                     "concept": "1175AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
                     "label": "Not applicable"
+                  },
+                  {
+                    "concept": "55fa26ba-fc81-4b01-ae20-503c0c20cd4a",
+                    "label": "Other Antibiotics"
                   }
                 ]
               },
@@ -619,7 +623,7 @@
   "uuid": "0ed7618b-29f2-4795-bc36-8364abfcfcbc",
   "description": "CBIMNCI Note",
   "version": "1",
-  "encounter" : "Consultation",
-  "published" : true,
-  "retired" : false
+  "encounter": "Consultation",
+  "published": true,
+  "retired": false
 }
