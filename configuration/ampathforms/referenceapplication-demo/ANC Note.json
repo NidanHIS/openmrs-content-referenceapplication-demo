@@ -108,6 +108,25 @@
               "type": "obs",
               "questionOptions": {
                 "rendering": "radio",
+                "concept": "693f92f6-ffef-473d-97e2-9d0fd26c812e",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "rousg",
+              "label": "ROUSG"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
                 "concept": "d0e0f0bf-9497-4310-881a-f3a3e8db736b",
                 "answers": [
                   {
@@ -921,7 +940,7 @@
   "uuid": "e05779e0-a8b2-48b2-a3db-ea3a2f164425",
   "description": "Antenatal Care",
   "version": "1",
-  "encounter" : "Consultation",
-  "published" : true,
-  "retired" : false
+  "encounter": "Consultation",
+  "published": true,
+  "retired": false
 }
