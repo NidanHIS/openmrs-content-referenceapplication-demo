@@ -105,6 +105,25 @@
               "type": "obs",
               "questionOptions": {
                 "rendering": "radio",
+                "concept": "605524d2-de93-4ff7-a270-ae7592245c3c",
+                "answers": [
+                  {
+                    "concept": "12189c98-03be-46d2-9db3-72f18ac37135",
+                    "label": "Major"
+                  },
+                  {
+                    "concept": "ad4baa86-c18d-4a57-a5d5-2d40a5375758",
+                    "label": "Intermediate"
+                  }
+                ]
+              },
+              "id": "operativeType",
+              "label": "Operative Type"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
                 "concept": "77ef9b4e-e3ff-4c56-b970-fe0d1b867eed",
                 "answers": [
                   {
@@ -344,7 +363,7 @@
   "uuid": "73913309-75ac-4c37-a4dd-069a53feedf7",
   "description": "Operation / Surgical Procedure Record",
   "version": "1",
-  "encounter" : "Consultation",
-  "published" : true,
-  "retired" : false
+  "encounter": "Consultation",
+  "published": true,
+  "retired": false
 }
