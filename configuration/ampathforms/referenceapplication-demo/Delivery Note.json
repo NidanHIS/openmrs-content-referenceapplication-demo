@@ -263,11 +263,11 @@
             {
               "type": "obs",
               "questionOptions": {
-                "rendering": "text",
+                "rendering": "number",
                 "concept": "c755dfba-72a1-45a3-bb58-cb760f7534ff"
               },
               "id": "gestationPeriod",
-              "label": "Gestation Period"
+              "label": "Gestation Period In Weeks"
             },
             {
               "type": "obs",
@@ -687,7 +687,7 @@
   "uuid": "63010a72-328f-4204-9f4b-8f804894e582",
   "description": "Deliver Note",
   "version": "1",
-  "encounter" : "Consultation",
-  "published" : true,
-  "retired" : false
+  "encounter": "Consultation",
+  "published": true,
+  "retired": false
 }
