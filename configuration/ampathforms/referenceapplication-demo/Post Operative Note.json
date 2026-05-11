@@ -1,0 +1,640 @@
+{
+  "name": "Post Operative Note",
+  "pages": [
+    {
+      "label": "Post Operative Details",
+      "sections": [
+        {
+          "label": "Operative Details",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "date",
+                "concept": "7c2be742-6ed6-4e3b-90e1-059c2a757ff0"
+              },
+              "id": "dateOfSurgery",
+              "label": "Date of Surgery",
+              "datePickerFormat": "calendar"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "5b787f00-29b4-4ac0-8b58-740c0c2c638b",
+                "answers": [
+                  {
+                    "concept": "1498AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Mild"
+                  },
+                  {
+                    "concept": "1499AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Moderate"
+                  },
+                  {
+                    "concept": "1500AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Severe"
+                  }
+                ]
+              },
+              "id": "pain",
+              "label": "Pain"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "3428735f-af54-4739-9be6-c157d4a65294",
+                "answers": [
+                  {
+                    "concept": "d6f15c1e-bff3-430e-8e6b-c655b5eee417",
+                    "label": "Elective"
+                  },
+                  {
+                    "concept": "04f6f7e0-e3cb-4e13-a133-4479f759574e",
+                    "label": "Emergency"
+                  }
+                ]
+              },
+              "id": "operationType",
+              "label": "Operation Type"
+            }
+          ]
+        },
+        {
+          "label": "Vitals",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "5085AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              },
+              "id": "bloodPressure",
+              "label": "BP"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "5087AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              },
+              "id": "pulse",
+              "label": "Pulse"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "5088AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              },
+              "id": "temp",
+              "label": "Temp"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "5092AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              },
+              "id": "spo2",
+              "label": "Spo2"
+            }
+          ]
+        },
+        {
+          "label": "Immediate Post-Operative Status: ",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "4e80a38a-b843-49f9-8677-3d77a3666409",
+                "answers": [
+                  {
+                    "concept": "72609AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Alert"
+                  },
+                  {
+                    "concept": "3f5422d1-56a6-4df6-ad49-4b95768cf322",
+                    "label": "Drowsy"
+                  },
+                  {
+                    "concept": "7330dec8-c617-4f58-babf-c3ae8e58fc71",
+                    "label": "Unconscious"
+                  }
+                ]
+              },
+              "id": "consciousLevel",
+              "label": "Conscious Level"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "de21393b-b160-47e6-9efc-99f17fdc1062",
+                "answers": [
+                  {
+                    "concept": "34d4b95b-3daa-4dee-bad1-fa72e21a4aad",
+                    "label": "Patent"
+                  },
+                  {
+                    "concept": "ed0d568e-f689-4c60-a658-8c62b12eb146",
+                    "label": "Compromised"
+                  }
+                ]
+              },
+              "id": "airway",
+              "label": "Airway"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "43713d39-1b8e-4045-8665-92afaee92fac",
+                "answers": [
+                  {
+                    "concept": "1115AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Normal"
+                  },
+                  {
+                    "concept": "fbb43bea-2c08-4956-9e07-788544235dbe",
+                    "label": "Labored"
+                  },
+                  {
+                    "concept": "0133cf7a-babe-4617-969f-45c8b8e90370",
+                    "label": "On Oxygen"
+                  }
+                ]
+              },
+              "id": "breathing",
+              "label": "Breathing"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "3a67bb47-50db-4dca-9a75-58cac7a964f8",
+                "answers": [
+                  {
+                    "concept": "9e97fbbb-986a-4f09-8073-76af1a8b6a69",
+                    "label": "Stable"
+                  },
+                  {
+                    "concept": "f94713be-da80-487b-bad4-05f5c2da66a7",
+                    "label": "Unstable"
+                  }
+                ]
+              },
+              "id": "circulation",
+              "label": "Circulation"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "b7f7ae36-72f0-4ea0-b0c4-216946c83a7a",
+                "answers": [
+                  {
+                    "concept": "1498AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Mild"
+                  },
+                  {
+                    "concept": "1499AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Moderate"
+                  },
+                  {
+                    "concept": "1500AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Severe"
+                  }
+                ]
+              },
+              "id": "painScore",
+              "label": "Pain Score"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "a524d7be-b8a8-4d4d-b177-2ed89f2b8281",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "nauseaVomiting",
+              "label": "Nausea / Vomiting"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "0d94545b-5a24-41fb-991e-c245fb73c18a",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "bleeding",
+              "label": "Bleeding"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "15b349e8-94de-4e57-90c3-1d66bbaf7234",
+                "answers": [
+                  {
+                    "concept": "e6be625b-14b6-4856-a37f-8c2a47bc476b",
+                    "label": "Dry"
+                  },
+                  {
+                    "concept": "cb7b9647-8f34-4972-926e-78d1303f1be7",
+                    "label": "Soaked"
+                  },
+                  {
+                    "concept": "4722f8df-981c-429e-bd61-ae3d4fa05e2c",
+                    "label": "Bleeding"
+                  }
+                ]
+              },
+              "id": "surgicalSiteDressing",
+              "label": "Surgical Site Dressing"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "f7d53357-2a13-458a-b6cf-e532b45f0e16",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "drainPresent",
+              "label": "Drain Present"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "047f131e-2882-41f8-ab8c-23ae8d681510",
+                "answers": [
+                  {
+                    "concept": "84e79b51-aa8c-47fd-a231-e7c8858514a6",
+                    "label": "Adequate"
+                  },
+                  {
+                    "concept": "6f86a6c9-47b8-4d07-afa4-f9dd2f40d3ca",
+                    "label": "Poor"
+                  },
+                  {
+                    "concept": "eba47847-5c52-4c71-ba5c-aeae48be1522",
+                    "label": "Catheterized"
+                  }
+                ]
+              },
+              "id": "urineOutput",
+              "label": "Urine Output"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Systemic Examination Details",
+      "sections": [
+        {
+          "label": "System Examination",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "c68bb076-bd5a-42c3-a383-413ac9888cb6"
+              },
+              "id": "woundSite",
+              "label": "Wound Site"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "c3998114-3bbe-401f-949f-ac235de1e44f"
+              },
+              "id": "generalCondition",
+              "label": "General Condition"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "c8ed9ab5-c014-4e4d-8e88-4206ad9df4bf"
+              },
+              "id": "respiratorySystem",
+              "label": "Respiratory System"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "f0f5014b-702b-4dfa-ac54-06b4f461d51c"
+              },
+              "id": "cardiovascularSystem",
+              "label": "Cardiovascular System"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "c322a4fe-cf77-43e7-9f99-f469c4c6db34"
+              },
+              "id": "abdomen",
+              "label": "Abdomen"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "ef5dc7f2-e08d-4ad3-b50d-c42967556fa3"
+              },
+              "id": "cns",
+              "label": "CNS"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "e765c387-47b1-42ac-9fb2-81e07a72328d"
+              },
+              "id": "limbOperatedSite",
+              "label": "Limb / Operated Site"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Surgical Wound Assessment",
+      "sections": [
+        {
+          "label": "Assessment",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "a650b513-8ea6-4534-b72d-5c8263fbe5c1",
+                "answers": [
+                  {
+                    "concept": "d1a437f4-9f36-41a7-966e-333ed9ca6ab1",
+                    "label": "Clean"
+                  },
+                  {
+                    "concept": "cb7b9647-8f34-4972-926e-78d1303f1be7",
+                    "label": "Soaked"
+                  },
+                  {
+                    "concept": "0f20fc51-4c5d-4313-b6ef-c4f759aa9c37",
+                    "label": "Discharge"
+                  }
+                ]
+              },
+              "id": "dressingCondition",
+              "label": "Dressing Condition"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "649b7e76-5db6-49b0-b018-efa89973dbbf",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "redness",
+              "label": "Redness"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "b6394c93-2b08-4115-8e0e-22c542eb1413",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "swelling",
+              "label": "Swelling"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "5bb00c26-f3b9-49db-a766-ad7182f91f68",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "dischargePus",
+              "label": "Discharge / Pus"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "0d94545b-5a24-41fb-991e-c245fb73c18a",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "Isbleeding",
+              "label": "Bleeding"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "0fb70847-93e9-4dd5-98b9-d86783404fbf",
+                "answers": [
+                  {
+                    "concept": "2d709fb7-f6ef-418e-96bd-3cd33077d138",
+                    "label": "Intact"
+                  },
+                  {
+                    "concept": "f3dda3f8-4fb2-47bc-8773-082cf670d609",
+                    "label": "Removed"
+                  },
+                  {
+                    "concept": "5622AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Other"
+                  }
+                ]
+              },
+              "id": "sutureStaples",
+              "label": "Suture / Staples"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "280c0703-7bc0-49c5-bd20-2b0e767f15ff"
+              },
+              "id": "drainOutput",
+              "label": "Drain Output"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "a04652ca-31bf-4174-9d09-bc5f946c8fee",
+                "answers": [
+                  {
+                    "concept": "39677bd3-d730-402a-a27b-8d42967c49bb",
+                    "label": "Serous"
+                  },
+                  {
+                    "concept": "77e70592-46a5-46fd-bc4a-4301d85acddd",
+                    "label": "Blood"
+                  },
+                  {
+                    "concept": "d3b12dfc-eb2e-4026-aaf6-18c553e353a8",
+                    "label": "Pus"
+                  }
+                ]
+              },
+              "id": "type",
+              "label": "Type"
+            }
+          ]
+        },
+        {
+          "label": "Complications Present",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "ba69d081-f0e3-4c12-91ed-7cb6c8522d73",
+                "answers": [
+                  {
+                    "concept": "140238AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Fever"
+                  },
+                  {
+                    "concept": "4722f8df-981c-429e-bd61-ae3d4fa05e2c",
+                    "label": "Bleeding"
+                  },
+                  {
+                    "concept": "0ff35684-2d6e-4565-b755-8f6f986dfcbc",
+                    "label": "Wound Infection"
+                  },
+                  {
+                    "concept": "b8e5f64a-8f95-4a3c-9fd5-5e1f9c847237",
+                    "label": "Severe pain"
+                  },
+                  {
+                    "concept": "42c8ff2e-23b8-4255-b3fa-c7c002e09aea",
+                    "label": "Vomiting"
+                  },
+                  {
+                    "concept": "ce88db8c-a61b-40f6-8024-fc87ef50ca5c",
+                    "label": "Urinary retention"
+                  },
+                  {
+                    "concept": "01bb4be4-48e5-48f2-86ad-e1b25503e079",
+                    "label": "Respiratory distress"
+                  },
+                  {
+                    "concept": "d6312821-578d-4c84-90f6-ed9769b8ec70",
+                    "label": "Hypotension / Shock"
+                  },
+                  {
+                    "concept": "1038fbb2-c9d0-4a59-b272-b8a1f30743a2",
+                    "label": "Deep vein thrombosis"
+                  },
+                  {
+                    "concept": "5622AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Other"
+                  }
+                ]
+              },
+              "id": "comlications",
+              "label": "Comlications"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "bc44de6f-db98-42c7-98b5-5fd059f50d3a"
+              },
+              "id": "details",
+              "label": "Details"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "processor": "EncounterFormProcessor",
+  "encounterType": "dd528487-82a5-4082-9c72-ed246bd49591",
+  "encounter" : "Consultation",
+  "referencedForms": [],
+  "uuid": "f0d74354-7b99-4b80-be55-80b6dc1bacbe",
+  "description": "Post operative note",
+  "version": "1",
+  "published" : true,
+  "retired" : false
+}
