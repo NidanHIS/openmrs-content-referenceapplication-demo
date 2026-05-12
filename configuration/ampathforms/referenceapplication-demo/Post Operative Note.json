@@ -22,6 +22,29 @@
               "type": "obs",
               "questionOptions": {
                 "rendering": "radio",
+                "concept": "605524d2-de93-4ff7-a270-ae7592245c3c",
+                "answers": [
+                  {
+                    "concept": "3c2c0842-f6e6-4815-986d-d87ef9f1844b",
+                    "label": "Minor"
+                  },
+                  {
+                    "concept": "12189c98-03be-46d2-9db3-72f18ac37135",
+                    "label": "Major"
+                  },
+                  {
+                    "concept": "ad4baa86-c18d-4a57-a5d5-2d40a5375758",
+                    "label": "Intermediate"
+                  }
+                ]
+              },
+              "id": "operativeType",
+              "label": "Type"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
                 "concept": "5b787f00-29b4-4ac0-8b58-740c0c2c638b",
                 "answers": [
                   {
@@ -630,11 +653,11 @@
   ],
   "processor": "EncounterFormProcessor",
   "encounterType": "dd528487-82a5-4082-9c72-ed246bd49591",
-  "encounter" : "Consultation",
+  "encounter": "Consultation",
   "referencedForms": [],
   "uuid": "f0d74354-7b99-4b80-be55-80b6dc1bacbe",
   "description": "Post operative note",
   "version": "1",
-  "published" : true,
-  "retired" : false
+  "published": true,
+  "retired": false
 }
