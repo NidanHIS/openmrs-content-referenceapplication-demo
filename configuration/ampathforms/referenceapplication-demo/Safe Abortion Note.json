@@ -65,7 +65,10 @@
                 ]
               },
               "id": "referredBy",
-              "label": "Referred by"
+              "label": "Referred by",
+              "hide": {
+                "hideWhenExpression": "isEmpty(referredIn) || (referredIn !== '1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA')"
+              }
             }
           ]
         },
@@ -169,7 +172,10 @@
                 "concept": "fb5e45aa-ba4b-4084-8628-ad7b006ce518"
               },
               "id": "others(Specify)",
-              "label": "Others(Specify)"
+              "label": "Others(Specify)",
+              "hide": {
+                "hideWhenExpression": "isEmpty(surgicalProcedure) || (surgicalProcedure !== 'afbb1627-f4e0-4bde-9c33-e99fae03b920')"
+              }
             },
             {
               "type": "obs",
@@ -234,7 +240,10 @@
                 "concept": "fb5e45aa-ba4b-4084-8628-ad7b006ce518"
               },
               "id": "othersSpecify",
-              "label": "Others(specify)"
+              "label": "Others(specify)",
+              "hide": {
+                "hideWhenExpression": "isEmpty(medicalProcedure) || (medicalProcedure !== '5622AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA')"
+              }
             }
           ]
         }
@@ -500,7 +509,7 @@
   "uuid": "d4973070-d66a-4739-b187-27937cdc8756",
   "description": "Safe abortion note",
   "version": "1",
-  "encounter" : "Consultation",
-  "published" : true,
-  "retired" : false
+  "encounter": "Consultation",
+  "published": true,
+  "retired": false
 }
