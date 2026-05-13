@@ -12,26 +12,6 @@
               "type": "obs",
               "questionOptions": {
                 "rendering": "radio",
-                "concept": "dee7ee59-5266-4209-a1cf-23220b66a52b",
-                "answers": [
-                  {
-                    "concept": "e161b980-9241-4db1-b0bd-9637ada60776",
-                    "label": "Existing"
-                  },
-                  {
-                    "concept": "432492c9-6d6b-44a7-9a4f-65254e273fec",
-                    "label": "New"
-                  }
-                ]
-              },
-              "id": "usersType",
-              "label": "Users type",
-              "required": true
-            },
-            {
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "radio",
                 "concept": "14AAAAAAAAAAAAAAAAAAAAAAAAABB",
                 "answers": [
                   {
@@ -180,7 +160,8 @@
                 ]
               },
               "id": "userType",
-              "label": "User Type"
+              "label": "User Type",
+              "required": true
             }
           ]
         },
@@ -314,7 +295,10 @@
                 ]
               },
               "id": "existingContinued",
-              "label": "Existing continued"
+              "label": "Existing continued",
+              "hide": {
+                "hideWhenExpression": "discontinued"
+              }
             },
             {
               "type": "obs",
