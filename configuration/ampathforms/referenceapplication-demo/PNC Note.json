@@ -325,7 +325,10 @@
                 ]
               },
               "id": "ifTestedResult",
-              "label": "If tested, Result"
+              "label": "If tested, Result",
+              "hide": {
+                "hideWhenExpression": "isEmpty(hivTested) || (hivTested !== '1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA')"
+              }
             }
           ]
         }
@@ -338,7 +341,7 @@
   "uuid": "d92fc38d-121a-43a3-9ab3-9fa188e32bed",
   "description": "PNC Note",
   "version": "1",
-  "encounter" : "Consultation",
-  "published" : true,
-  "retired" : false
+  "encounter": "Consultation",
+  "published": true,
+  "retired": false
 }
