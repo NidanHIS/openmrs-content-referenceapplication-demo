@@ -338,7 +338,10 @@
                 "concept": "8ebed08d-7c9a-4aa0-9e91-6eec2a2cb7e2"
               },
               "id": "bloodTransfusionQuantity",
-              "label": "Blood transfusion quantity"
+              "label": "Blood transfusion quantity",
+              "hide": {
+                "hideWhenExpression": "isEmpty(bloodTransfusionProvided) || (bloodTransfusionProvided !== '1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA')"
+              }
             }
           ]
         }
@@ -557,7 +560,10 @@
               },
               "id": "hivTestDate",
               "label": "HIV test date",
-              "datePickerFormat": "calendar"
+              "datePickerFormat": "calendar",
+              "hide": {
+                "hideWhenExpression": "isEmpty(hivTest) || (hivTest !== '1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA')"
+              }
             },
             {
               "type": "obs",
@@ -576,7 +582,10 @@
                 ]
               },
               "id": "hivTestResultReceived",
-              "label": "HIV test result received"
+              "label": "HIV test result received",
+              "hide": {
+                "hideWhenExpression": "isEmpty(hivTest) || (hivTest !== '1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA')"
+              }
             },
             {
               "type": "obs",
@@ -595,7 +604,10 @@
                 ]
               },
               "id": "hivResult",
-              "label": "Hiv Result"
+              "label": "Hiv Result",
+              "hide": {
+                "hideWhenExpression": "isEmpty(hivTest) || (hivTest !== '1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA')"
+              }
             },
             {
               "type": "obs",
@@ -618,7 +630,10 @@
                 ]
               },
               "id": "partnerHivStatus",
-              "label": "Partner hiv status"
+              "label": "Partner hiv status",
+              "hide": {
+                "hideWhenExpression": "isEmpty(hivTest) || hivTest !== '1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA' || isEmpty(hivResult) || hivResult !== '703AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'"
+              }
             },
             {
               "type": "obs",
@@ -637,7 +652,10 @@
                 ]
               },
               "id": "partnerReferred",
-              "label": "Partner referred"
+              "label": "Partner referred",
+              "hide": {
+                "hideWhenExpression": "isEmpty(hivTest) || hivTest !== '1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA' || isEmpty(hivResult) || hivResult !== '703AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'"
+              }
             },
             {
               "type": "obs",
@@ -656,7 +674,10 @@
                 ]
               },
               "id": "artStarted",
-              "label": "ART started"
+              "label": "ART started",
+              "hide": {
+                "hideWhenExpression": "isEmpty(hivTest) || hivTest !== '1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA' || isEmpty(hivResult) || hivResult !== '703AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'"
+              }
             },
             {
               "type": "obs",
@@ -666,7 +687,10 @@
               },
               "id": "artStartDate",
               "label": "ART Start Date",
-              "datePickerFormat": "calendar"
+              "datePickerFormat": "calendar",
+              "hide": {
+                "hideWhenExpression": "isEmpty(hivTest) || hivTest !== '1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA' || isEmpty(hivResult) || hivResult !== '703AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'"
+              }
             }
           ]
         }
@@ -734,7 +758,10 @@
                 ]
               },
               "id": "syphilisResult",
-              "label": "Syphilis Result"
+              "label": "Syphilis Result",
+              "hide": {
+                "hideWhenExpression": "isEmpty(syphilisTested) || (syphilisTested !== '1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA')"
+              }
             },
             {
               "type": "obs",
@@ -753,7 +780,10 @@
                 ]
               },
               "id": "syphilisTreated",
-              "label": "Syphilis Treated"
+              "label": "Syphilis Treated",
+              "hide": {
+                "hideWhenExpression": "isEmpty(syphilisTested) || syphilisTested !== '1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA' || isEmpty(syphilisResult) || syphilisResult !== '703AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'"
+              }
             },
             {
               "type": "obs",
