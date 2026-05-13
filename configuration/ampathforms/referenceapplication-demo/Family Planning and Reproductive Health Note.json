@@ -201,7 +201,10 @@
                 ]
               },
               "id": "shortActingMethod",
-              "label": "Short acting method"
+              "label": "Short acting method",
+              "hide": {
+                "hideWhenExpression": "longActingMethods"
+              }
             },
             {
               "type": "obs",
@@ -232,7 +235,10 @@
                 ]
               },
               "id": "longActingMethods",
-              "label": "Long acting methods"
+              "label": "Long acting methods",
+              "hide": {
+                "hideWhenExpression": "shortActingMethod"
+              }
             },
             {
               "type": "obs",
@@ -251,7 +257,10 @@
                 ]
               },
               "id": "other",
-              "label": "Other"
+              "label": "Other",
+              "hide": {
+                "hideWhenExpression": "shortActingMethod"
+              }
             }
           ]
         },
@@ -427,10 +436,7 @@
               },
               "id": "methodEffectiveTill",
               "label": "Method effective till",
-              "datePickerFormat": "calendar",
-              "hide": {
-                "hideWhenExpression": "(shortActingMethod !== '6a21251f-7294-46ef-a129-00ccce4b39ad') && (existingContinued !== '6a21251f-7294-46ef-a129-00ccce4b39ad') && (newMethodChosen !== '6a21251f-7294-46ef-a129-00ccce4b39ad')"
-              }
+              "datePickerFormat": "calendar"
             },
             {
               "type": "obs",
