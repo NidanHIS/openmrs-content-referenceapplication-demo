@@ -160,8 +160,36 @@
       "label": "Users Type",
       "sections": [
         {
+          "label": "User Type",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "dee7ee59-5266-4209-a1cf-23220b66a52b",
+                "answers": [
+                  {
+                    "concept": "432492c9-6d6b-44a7-9a4f-65254e273fec",
+                    "label": "New"
+                  },
+                  {
+                    "concept": "e161b980-9241-4db1-b0bd-9637ada60776",
+                    "label": "Existing"
+                  }
+                ]
+              },
+              "id": "userType",
+              "label": "User Type"
+            }
+          ]
+        },
+        {
           "label": "New User",
           "isExpanded": "true",
+          "hide": {
+            "hideWhenExpression": "isEmpty(userType) || (userType !== '432492c9-6d6b-44a7-9a4f-65254e273fec')"
+          },
           "questions": [
             {
               "type": "obs",
@@ -249,6 +277,9 @@
         {
           "label": "Continuous User",
           "isExpanded": "true",
+          "hide": {
+            "hideWhenExpression": "isEmpty(userType) || (userType !== 'e161b980-9241-4db1-b0bd-9637ada60776')"
+          },
           "questions": [
             {
               "type": "obs",
@@ -318,7 +349,10 @@
                 ]
               },
               "id": "discontinued",
-              "label": "Discontinued"
+              "label": "Discontinued",
+              "hide": {
+                "hideWhenExpression": "existingContinued"
+              }
             },
             {
               "type": "obs",
@@ -327,7 +361,10 @@
                 "concept": "14a60b1a-308e-4fb7-942a-f24d51702fea"
               },
               "id": "reasonForDiscontinue",
-              "label": "Reason for discontinue"
+              "label": "Reason for discontinue",
+              "hide": {
+                "hideWhenExpression": "!discontinued"
+              }
             },
             {
               "type": "obs",
@@ -370,7 +407,10 @@
                 ]
               },
               "id": "newMethodChosen",
-              "label": "New method chosen"
+              "label": "New method chosen",
+              "hide": {
+                "hideWhenExpression": "!discontinued"
+              }
             }
           ]
         }
@@ -390,7 +430,10 @@
                 "concept": "11e18ab5-d547-4df6-aab8-9d783f595c5b"
               },
               "id": "unitsProvided",
-              "label": "Units provided (provide cycle count in case of pills)"
+              "label": "Units provided (provide cycle count in case of pills)",
+              "hide": {
+                "hideWhenExpression": "(shortActingMethod !== '6a21251f-7294-46ef-a129-00ccce4b39ad') && (existingContinued !== '6a21251f-7294-46ef-a129-00ccce4b39ad') && (newMethodChosen !== '6a21251f-7294-46ef-a129-00ccce4b39ad')"
+              }
             },
             {
               "type": "obs",
@@ -400,7 +443,10 @@
               },
               "id": "methodEffectiveTill",
               "label": "Method effective till",
-              "datePickerFormat": "calendar"
+              "datePickerFormat": "calendar",
+              "hide": {
+                "hideWhenExpression": "(shortActingMethod !== '6a21251f-7294-46ef-a129-00ccce4b39ad') && (existingContinued !== '6a21251f-7294-46ef-a129-00ccce4b39ad') && (newMethodChosen !== '6a21251f-7294-46ef-a129-00ccce4b39ad')"
+              }
             },
             {
               "type": "obs",
