@@ -289,7 +289,7 @@
                   }
                 ]
               },
-              "id": "hivTestedInThisCourse?",
+              "id": "hivTestedInThisCourse",
               "label": "HIV Tested In This Course ?"
             },
             {
@@ -309,7 +309,10 @@
                 ]
               },
               "id": "hivTestResult",
-              "label": "HIV Test Result"
+              "label": "HIV Test Result",
+              "hide": {
+                "hideWhenExpression": "isEmpty(hivTestedInThisCourse) || (hivTestedInThisCourse !== '1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA')"
+              }
             },
             {
               "type": "obs",
@@ -328,7 +331,10 @@
                 ]
               },
               "id": "isPatientOnArt",
-              "label": "Is Patient on Art ?"
+              "label": "Is Patient on Art ?",
+              "hide": {
+                "hideWhenExpression": "isEmpty(hivTestedInThisCourse) || hivTestedInThisCourse !== '1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA' || isEmpty(hivTestResult) || hivTestResult !== '703AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'"
+              }
             }
           ]
         }
