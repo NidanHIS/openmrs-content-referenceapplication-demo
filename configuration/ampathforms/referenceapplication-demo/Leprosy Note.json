@@ -187,7 +187,10 @@
                 ]
               },
               "id": "smearResult",
-              "label": "Smear Result"
+              "label": "Smear Result",
+              "hide": {
+                "hideWhenExpression": "isEmpty(smearTest) || (smearTest !== '1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA')"
+              }
             },
             {
               "type": "obs",
@@ -270,7 +273,7 @@
   "uuid": "3f297122-3316-4b4b-8126-35696c31d404",
   "description": "Leprosy Note",
   "version": "1",
-  "encounter" : "Consultation",
-  "published" : true,
-  "retired" : false
+  "encounter": "Consultation",
+  "published": true,
+  "retired": false
 }
