@@ -58,7 +58,10 @@
                 "concept": "fb5e45aa-ba4b-4084-8628-ad7b006ce518"
               },
               "id": "others(Specify)",
-              "label": "Others (specify)"
+              "label": "Others (specify)",
+              "hide": {
+                "hideWhenExpression": "isEmpty(syndromicDiagnosis) || (syndromicDiagnosis !== '5622AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA')"
+              }
             },
             {
               "type": "obs",
@@ -199,10 +202,6 @@
                     "label": "Not at all"
                   },
                   {
-                    "concept": "5622AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Other"
-                  },
-                  {
                     "concept": "f687852a-8923-4e02-b7d0-fb2b12c6738d",
                     "label": "Not present"
                   },
@@ -229,6 +228,10 @@
                   {
                     "concept": "97a38bb7-0d34-4c95-bfd0-ac1ad5431e84",
                     "label": "Vaginitis"
+                  },
+                  {
+                    "concept": "5622AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Other"
                   }
                 ]
               },
@@ -242,7 +245,10 @@
                 "concept": "fb5e45aa-ba4b-4084-8628-ad7b006ce518"
               },
               "id": "othersSpecify",
-              "label": "Others (specify)"
+              "label": "Others (specify)",
+              "hide": {
+                "hideWhenExpression": "isEmpty(riskGroup) || (riskGroup !== '5622AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA')"
+              }
             },
             {
               "type": "obs",
@@ -437,7 +443,7 @@
   "uuid": "be876e88-636a-4fda-ade3-88550fad8558",
   "description": "Sexually Transmitted Disease",
   "version": "1",
-  "encounter" : "Consultation",
-  "published" : true,
-  "retired" : false
+  "encounter": "Consultation",
+  "published": true,
+  "retired": false
 }
