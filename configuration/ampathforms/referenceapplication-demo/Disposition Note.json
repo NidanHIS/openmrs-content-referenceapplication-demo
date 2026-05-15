@@ -1,0 +1,204 @@
+{
+  "name": "Disposition Note",
+  "pages": [
+    {
+      "label": "Disposition Type",
+      "sections": [
+        {
+          "label": "Disposition Details",
+          "isExpanded": true,
+          "questions": [
+            {
+              "type": "obs",
+              "id": "dispositionType",
+              "label": "Disposition Type",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "294f862d-bfcf-4a17-b267-ecb6adb9f7ca",
+                "answers": [
+                  {
+                    "concept": "265f43db-84d7-46dc-b2de-7f1b8fecabab",
+                    "label": "Observe for a few hours"
+                  },
+                  {
+                    "concept": "636a7148-76f8-4316-ad3d-8913189a4b7d",
+                    "label": "Consultation complete with follow up"
+                  },
+                  {
+                    "concept": "4ef88846-6eaa-4092-a64d-66faf9447d0a",
+                    "label": "Consultation complete without follow up"
+                  },
+                  {
+                    "concept": "44025da3-25ff-4c43-8c86-3a88e8b761cf",
+                    "label": "Referred for Further Care"
+                  },
+                  {
+                    "concept": "4eb31c88-4f23-4be3-9457-299fade558cc",
+                    "label": "Referred for Surgery"
+                  },
+                  {
+                    "concept": "0cfcee79-1fc1-413f-aae4-5b6ab1bfce1a",
+                    "label": "Referred for Investigations"
+                  },
+                  {
+                    "concept": "77eafb3f-58d3-4397-a6dc-d2c06e9062f3",
+                    "label": "Admit to hospital"
+                  },
+                  {
+                    "concept": "dc98ea48-66e9-4b2a-8533-3833f8200d06",
+                    "label": "Internal facility transfer/referral"
+                  },
+                  {
+                    "concept": "2537896a-7d27-4c71-8e93-4c265ffa5954",
+                    "label": "Discharge from hospital"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "obs",
+              "id": "followUp",
+              "label": "Follow-Up",
+              "questionOptions": {
+                "rendering": "date",
+                "concept": "f5cda421-be04-4b04-a4e8-85267d32ebe5"
+              },
+              "datePickerFormat": "calendar",
+              "hide": {
+                "hideWhenExpression": "isEmpty(dispositionType) || (dispositionType !== '636a7148-76f8-4316-ad3d-8913189a4b7d')"
+              }
+            },
+            {
+              "type": "obs",
+              "id": "dispositionNote",
+              "label": "Disposition Note",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "e1c4a7d3-264b-4ba1-ab12-c6b09ddba328"
+              },
+              "hide": {
+                "hideWhenExpression": "isEmpty(dispositionType) || (dispositionType !== '265f43db-84d7-46dc-b2de-7f1b8fecabab' && dispositionType !== '636a7148-76f8-4316-ad3d-8913189a4b7d' && dispositionType !== '4ef88846-6eaa-4092-a64d-66faf9447d0a')"
+              }
+            }
+          ]
+        },
+        {
+          "label": "Ward Details",
+          "isExpanded": true,
+          "hide": {
+            "hideWhenExpression": "isEmpty(dispositionType) || (dispositionType !== '77eafb3f-58d3-4397-a6dc-d2c06e9062f3' && dispositionType !== '2537896a-7d27-4c71-8e93-4c265ffa5954' && dispositionType !== 'dc98ea48-66e9-4b2a-8533-3833f8200d06')"
+          },
+          "questions": [
+            {
+              "type": "obsGroup",
+              "id": "inpatientDispositionConstruct",
+              "label": "Inpatient disposition construct",
+              "questionOptions": {
+                "concept": "CIEL:169405",
+                "rendering": "group"
+              },
+              "questions": [
+                {
+                  "id": "disposition",
+                  "type": "obs",
+                  "required": false,
+                  "label": "Inpatient patient disposition",
+                  "questionOptions": {
+                    "rendering": "radio",
+                    "required": true,
+                    "concept": "CIEL:169402",
+                    "answers": [
+                      {
+                        "concept": "77eafb3f-58d3-4397-a6dc-d2c06e9062f3",
+                        "label": "Admit to hospital"
+                      },
+                      {
+                        "concept": "dc98ea48-66e9-4b2a-8533-3833f8200d06",
+                        "label": "Internal facility transfer/referral"
+                      },
+                      {
+                        "concept": "2537896a-7d27-4c71-8e93-4c265ffa5954",
+                        "label": "Discharge from hospital"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "admitToLocation",
+                  "type": "obs",
+                  "required": false,
+                  "label": "Admitted to Location",
+                  "questionOptions": {
+                    "rendering": "ui-select-extended",
+                    "required": true,
+                    "concept": "CIEL:169403",
+                    "datasource": {
+                      "name": "location_datasource",
+                      "config": {
+                        "tag": "Admission Location"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Patient Referred Out",
+          "isExpanded": "true",
+          "hide": {
+            "hideWhenExpression": "isEmpty(dispositionType) || (dispositionType !== '44025da3-25ff-4c43-8c86-3a88e8b761cf' && dispositionType !== '4eb31c88-4f23-4be3-9457-299fade558cc' && dispositionType !== '0cfcee79-1fc1-413f-aae4-5b6ab1bfce1a')"
+          },
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "c0f2ccac-003e-406e-afe2-b0cf97b88916"
+              },
+              "id": "referredTo",
+              "label": "Referred To"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "bc44de6f-db98-42c7-98b5-5fd059f50d3a"
+              },
+              "id": "referralReason",
+              "label": "Referral Reason"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "062acf82-584a-4ea3-9c7e-08a955b34da0"
+              },
+              "id": "treatmentGiven",
+              "label": "Treatment Given"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "75ca7f0d-a0f4-49b7-9d4c-077839a1f1cf"
+              },
+              "id": "followUpDetail",
+              "label": "Follow-up Detail"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "processor": "EncounterFormProcessor",
+  "encounterType": "dd528487-82a5-4082-9c72-ed246bd49591",
+  "referencedForms": [],
+  "uuid": "fef627b2-dd88-4ac9-b764-dbf9aba3dc0d",
+  "description": "Disposition Note",
+  "encounter": "Consultation",
+  "published": true,
+  "retired": false,
+  "version": "1"
+}
