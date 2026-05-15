@@ -137,16 +137,16 @@
                     "label": "Chest indrawing"
                   },
                   {
-                    "concept": "f687852a-8923-4e02-b7d0-fb2b12c6738d",
-                    "label": "Not present"
-                  },
-                  {
                     "concept": "068a9105-c236-4d39-8c76-9592d82550c3",
                     "label": "Strider"
                   },
                   {
                     "concept": "83918836-5c2a-4259-91e3-fedc693cff4a",
                     "label": "Wheezing"
+                  },
+                  {
+                    "concept": "f687852a-8923-4e02-b7d0-fb2b12c6738d",
+                    "label": "Not present"
                   }
                 ]
               },
@@ -160,7 +160,10 @@
                 "concept": "6e61f0c9-e43d-436c-bf87-88229b4c31d2"
               },
               "id": "howManyDays",
-              "label": "How many days?"
+              "label": "How many days?",
+              "hide": {
+                "hideWhenExpression": "isEmpty(acuteRespiratoryIllnessSymptoms) || acuteRespiratoryIllnessSymptoms === 'f687852a-8923-4e02-b7d0-fb2b12c6738d'"
+              }
             },
             {
               "type": "obs",
@@ -173,16 +176,16 @@
                     "label": "Cough/Cold"
                   },
                   {
-                    "concept": "f687852a-8923-4e02-b7d0-fb2b12c6738d",
-                    "label": "Not present"
-                  },
-                  {
                     "concept": "3dc141d2-d088-4354-9064-3f77a59a7fb0",
                     "label": "Pneumonia"
                   },
                   {
                     "concept": "0db78ddb-954b-4b7f-9fae-fd855a25bb11",
                     "label": "Severe Pneumonia"
+                  },
+                  {
+                    "concept": "f687852a-8923-4e02-b7d0-fb2b12c6738d",
+                    "label": "Not present"
                   }
                 ]
               },
@@ -228,6 +231,33 @@
               "type": "obs",
               "questionOptions": {
                 "rendering": "radio",
+                "concept": "13bbd0a1-9a2a-4cec-9b08-da9491cc785d",
+                "answers": [
+                  {
+                    "concept": "e822c515-f840-4ff0-bed9-a803a7542802",
+                    "label": "Some Dehydration"
+                  },
+                  {
+                    "concept": "69d419df-d5ed-41e1-9abe-c698be74ecc7",
+                    "label": "Severe Dehydration"
+                  },
+                  {
+                    "concept": "8110a92e-2eb6-4074-9d71-afc39d908721",
+                    "label": "No Dehydration"
+                  },
+                  {
+                    "concept": "1175AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Not applicable"
+                  }
+                ]
+              },
+              "id": "dehydrationStatus",
+              "label": "Dehydration Status"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
                 "concept": "aeff1ac5-67a9-4ce6-89c0-3692835f241e",
                 "answers": [
                   {
@@ -241,34 +271,10 @@
                 ]
               },
               "id": "skinPinch",
-              "label": "Skin pinch"
-            },
-            {
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "radio",
-                "concept": "13bbd0a1-9a2a-4cec-9b08-da9491cc785d",
-                "answers": [
-                  {
-                    "concept": "8110a92e-2eb6-4074-9d71-afc39d908721",
-                    "label": "No Dehydration"
-                  },
-                  {
-                    "concept": "69d419df-d5ed-41e1-9abe-c698be74ecc7",
-                    "label": "Severe Dehydration"
-                  },
-                  {
-                    "concept": "1175AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Not applicable"
-                  },
-                  {
-                    "concept": "e822c515-f840-4ff0-bed9-a803a7542802",
-                    "label": "Some Dehydration"
-                  }
-                ]
-              },
-              "id": "dehydrationStatus",
-              "label": "Dehydration Status"
+              "label": "Skin pinch",
+              "hide": {
+                "hideWhenExpression": "isEmpty(dehydrationStatus) || (dehydrationStatus == '1175AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA')"
+              }
             }
           ]
         },
@@ -302,7 +308,10 @@
                 "concept": "6e61f0c9-e43d-436c-bf87-88229b4c31d2"
               },
               "id": "howManysDays",
-              "label": "How many days?"
+              "label": "How many days?",
+              "hide": {
+                "hideWhenExpression": "isEmpty(fever) || (fever !== '1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA')"
+              }
             },
             {
               "type": "obs",
@@ -312,6 +321,9 @@
               },
               "id": "natureOfFever",
               "label": "Nature of Fever",
+              "hide": {
+                "hideWhenExpression": "isEmpty(fever) || (fever !== '1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA')"
+              },
               "questionInfo": "Describe the nature of fever in terms of frequency, diurnal pattern, severity, +- chills and rigor, or any other specific features"
             },
             {
@@ -329,12 +341,12 @@
                     "label": "Low risk"
                   },
                   {
-                    "concept": "8b5bc008-6380-4d41-a19a-017953af0bdc",
-                    "label": "Risk Free"
-                  },
-                  {
                     "concept": "c0d99bcc-0956-401d-84c6-2cc0855b8188",
                     "label": "Very Low"
+                  },
+                  {
+                    "concept": "8b5bc008-6380-4d41-a19a-017953af0bdc",
+                    "label": "Risk Free"
                   }
                 ]
               },
@@ -549,12 +561,12 @@
                     "label": "Ear pain"
                   },
                   {
-                    "concept": "f687852a-8923-4e02-b7d0-fb2b12c6738d",
-                    "label": "Not present"
-                  },
-                  {
                     "concept": "96165b58-59ae-4a68-b7e9-ca89c62bbb9f",
                     "label": "Tender swelling behind the ear"
+                  },
+                  {
+                    "concept": "f687852a-8923-4e02-b7d0-fb2b12c6738d",
+                    "label": "Not present"
                   }
                 ]
               },
@@ -568,7 +580,10 @@
                 "concept": "fe4c4a16-1a00-45f8-9dc3-af0283be909d"
               },
               "id": "earDischargeDays",
-              "label": "Ear discharge days"
+              "label": "Ear discharge days",
+              "hide": {
+                "hideWhenExpression": "isEmpty(symptoms) || (symptoms !== '98da7192-4272-49f2-9113-2cbf98ecaa96')"
+              }
             },
             {
               "type": "obs",
@@ -577,7 +592,10 @@
                 "concept": "6e61f0c9-e43d-436c-bf87-88229b4c31d2"
               },
               "id": "howsManyDays",
-              "label": "How many days?"
+              "label": "How many days?",
+              "hide": {
+                "hideWhenExpression": "isEmpty(symptoms) || (symptoms !== 'd6577546-49ce-467b-adbd-464919d8cf71' && symptoms !== '96165b58-59ae-4a68-b7e9-ca89c62bbb9f')"
+              }
             },
             {
               "type": "obs",
@@ -620,12 +638,12 @@
                 "concept": "ad1e8bac-ea0e-4f78-bb48-862c75ab1138",
                 "answers": [
                   {
-                    "concept": "21d2f821-7b5e-4976-b00c-82208d44f1b1",
-                    "label": "Low weight"
-                  },
-                  {
                     "concept": "7f6ea91a-b57d-41cd-a5db-5a055c258b2c",
                     "label": "Normal weight"
+                  },
+                  {
+                    "concept": "21d2f821-7b5e-4976-b00c-82208d44f1b1",
+                    "label": "Low weight"
                   },
                   {
                     "concept": "882b011e-5db7-4d32-a3a6-ab2cf451cae5",
@@ -706,7 +724,10 @@
                 "concept": "ce4be9ef-6345-4c8d-bb31-27417bfef331"
               },
               "id": "ifOtherDiagnosis,Specify",
-              "label": "If other diagnosis, specify"
+              "label": "If other diagnosis, specify",
+              "hide": {
+                "hideWhenExpression": "isEmpty(otherDiagnosisThanAbove) || (otherDiagnosisThanAbove !== '1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA')"
+              }
             }
           ]
         }
@@ -914,7 +935,7 @@
   "uuid": "eb1a6ab3-1993-421d-9f2c-40b3f8a2462a",
   "description": "CBIMNCI (2 to 59 months child)",
   "version": "1",
-  "encounter" : "Consultation",
-  "published" : true,
-  "retired" : false
+  "encounter": "Consultation",
+  "published": true,
+  "retired": false
 }
