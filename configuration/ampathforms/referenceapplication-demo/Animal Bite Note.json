@@ -63,7 +63,10 @@
                 "concept": "fb5e45aa-ba4b-4084-8628-ad7b006ce518"
               },
               "id": "others(Specify)",
-              "label": "Others(specify)"
+              "label": "Others(specify)",
+              "hide": {
+                "hideWhenExpression": "isEmpty(bitingAnimal) || (bitingAnimal !== '5622AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA')"
+              }
             },
             {
               "type": "obs",
@@ -118,12 +121,12 @@
                     "label": "Anti rabies vaccine"
                   },
                   {
-                    "concept": "1175AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Not applicable"
-                  },
-                  {
                     "concept": "7abce9cd-8bee-49ba-902f-eecd928a5d01",
                     "label": "Tetanus texoid"
+                  },
+                  {
+                    "concept": "1175AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Not applicable"
                   }
                 ]
               },
@@ -335,7 +338,7 @@
   "uuid": "254745ae-38b4-4db9-af12-17364e96a234",
   "description": "Animal Bite",
   "version": "1",
-  "encounter" : "Consultation",
-  "published" : true,
-  "retired" : false
+  "encounter": "Consultation",
+  "published": true,
+  "retired": false
 }
