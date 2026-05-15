@@ -189,7 +189,10 @@
                 "concept": "fb5e45aa-ba4b-4084-8628-ad7b006ce518"
               },
               "id": "other(Specity)",
-              "label": "Other (Specity)"
+              "label": "Other (Specity)",
+              "hide": {
+                "hideWhenExpression": "isEmpty(treatment) || (treatment !== '5622AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA')"
+              }
             },
             {
               "type": "obs",
@@ -240,7 +243,7 @@
   "uuid": "643748ec-e200-4c19-882e-41172de20b59",
   "description": "1",
   "version": "1",
-  "encounter" : "Consultation",
-  "published" : true,
-  "retired" : false
+  "encounter": "Consultation",
+  "published": true,
+  "retired": false
 }
