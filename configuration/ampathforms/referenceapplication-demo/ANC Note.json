@@ -10,6 +10,7 @@
           "questions": [
             {
               "type": "obs",
+              "historicalExpression": "HD.getObject('prevEnc').getValue('1caf9c9b-b180-4338-870e-885be731da06')",
               "questionOptions": {
                 "rendering": "select",
                 "concept": "1caf9c9b-b180-4338-870e-885be731da06",
@@ -54,6 +55,7 @@
             },
             {
               "type": "obs",
+              "historicalExpression": "HD.getObject('prevEnc').getValue('160446AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA')",
               "questionOptions": {
                 "rendering": "select",
                 "concept": "160446AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
@@ -190,6 +192,7 @@
           "questions": [
             {
               "type": "obs",
+              "historicalExpression": "HD.getObject('prevEnc').getValue('071077d8-5e94-4929-9421-e16dff657ad7')",
               "questionOptions": {
                 "rendering": "radio",
                 "concept": "071077d8-5e94-4929-9421-e16dff657ad7",
@@ -209,6 +212,7 @@
             },
             {
               "type": "obs",
+              "historicalExpression": "HD.getObject('prevEnc').getValue('9c327706-328c-4f4d-a3f9-852148de49c7')",
               "questionOptions": {
                 "rendering": "number",
                 "concept": "9c327706-328c-4f4d-a3f9-852148de49c7"
@@ -242,27 +246,40 @@
           "questions": [
             {
               "type": "obs",
+              "historicalExpression": "HD.getObject('prevEnc').getValue('1427AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA')",
               "questionOptions": {
                 "rendering": "date",
                 "concept": "1427AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
               },
               "id": "lastMenstrualPeriod",
               "label": "Last Menstrual Period (LMP)",
-              "datePickerFormat": "calendar"
+              "datePickerFormat": "calendar",
+              "validators": [
+                {
+                  "type": "date",
+                  "allowFutureDates": false
+                }
+              ]
             },
             {
               "type": "obs",
+              "historicalExpression": "HD.getObject('prevEnc').getValue('8002f0e5-43eb-4aa8-96dd-2120325f6095')",
               "questionOptions": {
                 "rendering": "date",
-                "concept": "8002f0e5-43eb-4aa8-96dd-2120325f6095"
+                "concept": "8002f0e5-43eb-4aa8-96dd-2120325f6095",
+                "calculate": {
+                  "calculateExpression": "calcEDD(lastMenstrualPeriod)"
+                }
               },
               "id": "expectedDateOfDelivery",
               "label": "Expected Date of Delivery (EDD)",
               "datePickerFormat": "calendar",
-              "questionInfo": "EDD is LMP + 9months 7 days"
+              "questionInfo": "EDD is LMP + 9months 7 days",
+              "readonly": true
             },
             {
               "type": "obs",
+              "historicalExpression": "HD.getObject('prevEnc').getValue('4dd1c561-ae28-4c33-9791-d6734517efab')",
               "questionOptions": {
                 "rendering": "select",
                 "concept": "4dd1c561-ae28-4c33-9791-d6734517efab",
@@ -500,7 +517,10 @@
                 "concept": "88d98899-3897-412e-80c2-73dcd0196f65"
               },
               "id": "otherComplications",
-              "label": "Other Complications"
+              "label": "Other Complications",
+              "hide": {
+                "hideWhenExpression": "isEmpty(obstetricComplication) || (obstetricComplication !== 'bd4f6093-ec2e-4683-ad4d-29db295f3a7c')"
+              }
             }
           ]
         }
@@ -841,13 +861,17 @@
               "type": "obs",
               "questionOptions": {
                 "rendering": "number",
-                "concept": "5087AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "concept": "5087AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "min": "40",
+                "max": "230"
               },
               "id": "heartRate",
-              "label": "Heart Rate"
+              "label": "Heart Rate",
+              "questionInfo": "Pulse must be between 40 and 220 bpm"
             },
             {
               "type": "obs",
+              "historicalExpression": "HD.getObject('prevEnc').getValue('9aa7ab1a-8fc3-4dc7-83e9-2014211625dc')",
               "questionOptions": {
                 "rendering": "text",
                 "concept": "9aa7ab1a-8fc3-4dc7-83e9-2014211625dc"
@@ -859,10 +883,13 @@
               "type": "obs",
               "questionOptions": {
                 "rendering": "number",
-                "concept": "5090AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "concept": "5090AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "min": "50",
+                "max": 272
               },
               "id": "height(Cm)",
-              "label": "Height (cm)"
+              "label": "Height (cm)",
+              "questionInfo": "Height should be between 50 cm and 272 cm"
             },
             {
               "type": "obs",
@@ -896,6 +923,7 @@
           "questions": [
             {
               "type": "obs",
+              "historicalExpression": "HD.getObject('prevEnc').getValue('6157dbdb-1b75-4e1d-9fc1-be23c8b54989')",
               "questionOptions": {
                 "rendering": "radio",
                 "concept": "6157dbdb-1b75-4e1d-9fc1-be23c8b54989",
@@ -916,6 +944,7 @@
             },
             {
               "type": "obs",
+              "historicalExpression": "HD.getObject('prevEnc').getValue('475efb37-20f6-44d3-91a0-7002ac8cc532')",
               "questionOptions": {
                 "rendering": "number",
                 "concept": "475efb37-20f6-44d3-91a0-7002ac8cc532"
@@ -925,6 +954,7 @@
             },
             {
               "type": "obs",
+              "historicalExpression": "HD.getObject('prevEnc').getValue('ca6e2bcf-9c12-4266-8649-94548bed2981')",
               "questionOptions": {
                 "rendering": "text",
                 "concept": "ca6e2bcf-9c12-4266-8649-94548bed2981"
@@ -934,6 +964,7 @@
             },
             {
               "type": "obs",
+              "historicalExpression": "HD.getObject('prevEnc').getValue('420b8d81-aeac-4311-87c0-36ea555e6ac8')",
               "questionOptions": {
                 "rendering": "select",
                 "concept": "420b8d81-aeac-4311-87c0-36ea555e6ac8",
