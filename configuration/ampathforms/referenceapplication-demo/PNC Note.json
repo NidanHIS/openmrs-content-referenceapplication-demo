@@ -40,6 +40,7 @@
             },
             {
               "type": "obs",
+              "historicalExpression": "HD.getObject('prevEnc').getValue('27ebade7-d11f-4a82-a7e2-f5837816074e')",
               "questionOptions": {
                 "rendering": "radio",
                 "concept": "27ebade7-d11f-4a82-a7e2-f5837816074e",
@@ -93,7 +94,7 @@
               },
               "id": "visitType",
               "label": "Visit Type",
-              "questionInfo": "Women who delivered at BH should have at least one (1st) PNC visit. c/s cases should have 1,2 and 3rd PNC visit. Transfer in - Women delivered other than BH and referred to BH for PNC visit. Other - Women who self-visited / not referred."
+              "questionInfo": "Women who delivered at Hosp. should have at least one (1st) PNC visit. c/s cases should have 1,2 and 3rd PNC visit. Transfer in - Women delivered other than Hosp. and referred to Hosp. for PNC visit. Other - Women who self-visited / not referred."
             },
             {
               "type": "obs",
