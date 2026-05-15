@@ -121,7 +121,10 @@
                 "concept": "c0f2ccac-003e-406e-afe2-b0cf97b88916"
               },
               "id": "referInstitutionName",
-              "label": "Refer Institution Name"
+              "label": "Refer Institution Name",
+              "hide": {
+                "hideWhenExpression": "isEmpty(referredIn) || (referredIn !== '1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA')"
+              }
             },
             {
               "type": "obs",
