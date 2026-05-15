@@ -313,6 +313,34 @@
               "type": "obs",
               "questionOptions": {
                 "rendering": "radio",
+                "concept": "13bbd0a1-9a2a-4cec-9b08-da9491cc785d",
+                "answers": [
+                  {
+                    "concept": "e822c515-f840-4ff0-bed9-a803a7542802",
+                    "label": "Some Dehydration"
+                  },
+                  {
+                    "concept": "69d419df-d5ed-41e1-9abe-c698be74ecc7",
+                    "label": "Severe Dehydration"
+                  },
+                  {
+                    "concept": "8110a92e-2eb6-4074-9d71-afc39d908721",
+                    "label": "No Dehydration"
+                  },
+                  {
+                    "concept": "1175AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Not applicable"
+                  }
+                ]
+              },
+              "id": "dehydrationStatus",
+              "label": "Dehydration Status",
+              "questionInfo": "Severe Dehydration (If any of two given signs present) Lethargic or unconscious Body movement less than normal Sunken eyes Skin pinch goes back very slowly (>2 seconds) Infant less than one month of age Some dehydration: Irritable Sunken eyes Skin pinch goes back slowly (<2 seconds) No Dehydration: No sufficient signs to classify under severe or some dehydration"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
                 "concept": "aeff1ac5-67a9-4ce6-89c0-3692835f241e",
                 "answers": [
                   {
@@ -326,35 +354,10 @@
                 ]
               },
               "id": "skinPinch",
-              "label": "Skin pinch"
-            },
-            {
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "radio",
-                "concept": "13bbd0a1-9a2a-4cec-9b08-da9491cc785d",
-                "answers": [
-                  {
-                    "concept": "8110a92e-2eb6-4074-9d71-afc39d908721",
-                    "label": "No Dehydration"
-                  },
-                  {
-                    "concept": "e822c515-f840-4ff0-bed9-a803a7542802",
-                    "label": "Some Dehydration"
-                  },
-                  {
-                    "concept": "69d419df-d5ed-41e1-9abe-c698be74ecc7",
-                    "label": "Severe Dehydration"
-                  },
-                  {
-                    "concept": "1175AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Not applicable"
-                  }
-                ]
-              },
-              "id": "dehydrationStatus",
-              "label": "Dehydration Status",
-              "questionInfo": "Severe Dehydration (If any of two given signs present) Lethargic or unconscious Body movement less than normal Sunken eyes Skin pinch goes back very slowly (>2 seconds) Infant less than one month of age Some dehydration: Irritable Sunken eyes Skin pinch goes back slowly (<2 seconds) No Dehydration: No sufficient signs to classify under severe or some dehydration"
+              "label": "Skin pinch",
+              "hide": {
+                "hideWhenExpression": "isEmpty(dehydrationStatus) || (dehydrationStatus == '1175AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA')"
+              }
             }
           ]
         },
@@ -378,8 +381,8 @@
                   }
                 ]
               },
-              "id": "breastfed",
-              "label": "Breastfed"
+              "id": "breastfeed",
+              "label": "Breastfeed"
             },
             {
               "type": "obs",
@@ -388,7 +391,10 @@
                 "concept": "5870aac0-15b1-4b4c-8cc4-7b88c6967910"
               },
               "id": "breastFeeding,HowManyTimesIn24Hours?",
-              "label": "Breast feeding, How many times in 24 hours?"
+              "label": "Breast feeding, How many times in 24 hours?",
+              "hide": {
+                "hideWhenExpression": "isEmpty(breastfeed) || (breastfeed == '1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA')"
+              }
             },
             {
               "type": "obs",
