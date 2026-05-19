@@ -651,5 +651,8 @@
   "version": "1",
   "encounter": "Consultation",
   "published": true,
-  "retired": false
+  "retired": false,
+  "formRules": {
+    "locationTags": "Admission Location"
+  }
 }
