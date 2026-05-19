@@ -282,5 +282,25 @@
   "version": "1",
   "encounter" : "Consultation",
   "published" : true,
-  "retired" : false
+  "retired" : false,
+  "formRules": {
+    "requiredDiagnosisCodes": [
+      "1B10",
+      "1B10.0",
+      "1B10.1",
+      "1B10.Z",
+      "1B11",
+      "1B11.0",
+      "1B11.1",
+      "1B11.2",
+      "1B11.3",
+      "1B11.Y",
+      "1B11.Z",
+      "1B12",
+      "1B1Y",
+      "1B13",
+      "1B14",
+      "1B1Z"
+    ]
+  }
 }
