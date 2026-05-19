@@ -243,5 +243,10 @@
   "version": "1",
   "encounter": "Consultation",
   "published": true,
-  "retired": false
+  "retired": false,
+  "formRules": {
+    "allowedLocationUuids": [
+      "1ce1b7d4-c865-4178-82b0-5932e51503d6"
+    ]
+  }
 }
