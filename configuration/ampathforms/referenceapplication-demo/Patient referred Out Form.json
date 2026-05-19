@@ -73,7 +73,7 @@
   "uuid": "901a4ec8-e3d6-46d8-82ba-4c7a45aed1dc",
   "description": "Patient referred out to higher center ",
   "encounter": "Consultation",
-  "published": true,
+  "published": false,
   "version": "1",
   "retired": false
 }
