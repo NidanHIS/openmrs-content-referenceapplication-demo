@@ -909,5 +909,10 @@
   "version": "1",
   "encounter": "Consultation",
   "published": true,
-  "retired": false
+  "retired": false,
+  "formRules": {
+    "allowedLocationUuids": [
+      "a5cf9b91-bee1-43c6-b5df-656e8da380f1"
+    ]
+  }
 }
