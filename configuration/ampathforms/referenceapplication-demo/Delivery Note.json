@@ -689,5 +689,9 @@
   "version": "1",
   "encounter": "Consultation",
   "published": true,
+  "formRules": {
+    "gender": "F",
+    "locationTags":["Admission Location"]
+  },
   "retired": false
 }
