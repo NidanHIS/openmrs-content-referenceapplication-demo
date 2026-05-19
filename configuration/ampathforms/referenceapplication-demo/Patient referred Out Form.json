@@ -75,5 +75,8 @@
   "encounter": "Consultation",
   "published": false,
   "version": "1",
-  "retired": false
+  "retired": false,
+  "formRules": {
+    "gender": "F"
+  }
 }
