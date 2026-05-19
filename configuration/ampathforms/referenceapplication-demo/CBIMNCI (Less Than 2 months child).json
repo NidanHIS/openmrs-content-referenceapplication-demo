@@ -631,5 +631,8 @@
   "version": "1",
   "encounter": "Consultation",
   "published": true,
+  "formRules": {
+     "maxAge": 1
+  },
   "retired": false
 }
