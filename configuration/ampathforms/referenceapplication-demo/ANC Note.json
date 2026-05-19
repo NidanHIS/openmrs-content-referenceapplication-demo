@@ -867,7 +867,7 @@
               },
               "id": "heartRate",
               "label": "Heart Rate",
-              "questionInfo": "Pulse must be between 40 and 220 bpm"
+              "questionInfo": "Pulse must be between 40 and 230 bpm"
             },
             {
               "type": "obs",
@@ -1003,5 +1003,13 @@
   "version": "1",
   "encounter": "Consultation",
   "published": true,
-  "retired": false
+  "retired": false,
+  "formRules": {
+    "gender": "F",
+    "minAge": 11,
+    "maxAge": 55,
+    "visitTypeUuids": [
+      "287463d3-2233-4c69-9851-5841a1f5e109"
+    ]
+  }
 }
