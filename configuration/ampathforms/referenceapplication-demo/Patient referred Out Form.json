@@ -76,7 +76,4 @@
   "published": false,
   "version": "1",
   "retired": false,
-  "formRules": {
-    "gender": "F"
   }
-}
