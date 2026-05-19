@@ -85,37 +85,66 @@
         {
           "label": "Ward Details",
           "isExpanded": true,
-          "hide": {
-            "hideWhenExpression": "isEmpty(dispositionType) || (dispositionType !== '77eafb3f-58d3-4397-a6dc-d2c06e9062f3' && dispositionType !== '2537896a-7d27-4c71-8e93-4c265ffa5954' && dispositionType !== 'dc98ea48-66e9-4b2a-8533-3833f8200d06')"
-          },
           "questions": [
             {
               "type": "obsGroup",
               "id": "inpatientDispositionConstruct",
               "label": "Inpatient disposition construct",
+              "hide": {
+                "hideWhenExpression": "isEmpty(dispositionType) || (dispositionType !== '77eafb3f-58d3-4397-a6dc-d2c06e9062f3' && dispositionType !== '2537896a-7d27-4c71-8e93-4c265ffa5954' && dispositionType !== 'dc98ea48-66e9-4b2a-8533-3833f8200d06')"
+              },
               "questionOptions": {
                 "concept": "CIEL:169405",
                 "rendering": "group"
               },
               "questions": [
                 {
-                  "id": "disposition",
+                  "id": "admitDisposition",
                   "type": "obs",
-                  "required": false,
                   "label": "Inpatient patient disposition",
+                  "hide": {
+                    "hideWhenExpression": "dispositionType !== '77eafb3f-58d3-4397-a6dc-d2c06e9062f3'"
+                  },
                   "questionOptions": {
                     "rendering": "radio",
-                    "required": true,
                     "concept": "CIEL:169402",
                     "answers": [
                       {
                         "concept": "77eafb3f-58d3-4397-a6dc-d2c06e9062f3",
                         "label": "Admit to hospital"
-                      },
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "transferDisposition",
+                  "type": "obs",
+                  "label": "Inpatient patient disposition",
+                  "hide": {
+                    "hideWhenExpression": "dispositionType !== 'dc98ea48-66e9-4b2a-8533-3833f8200d06'"
+                  },
+                  "questionOptions": {
+                    "rendering": "radio",
+                    "concept": "CIEL:169402",
+                    "answers": [
                       {
                         "concept": "dc98ea48-66e9-4b2a-8533-3833f8200d06",
                         "label": "Internal facility transfer/referral"
-                      },
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "dischargeDisposition",
+                  "type": "obs",
+                  "label": "Inpatient patient disposition",
+                  "hide": {
+                    "hideWhenExpression": "dispositionType !== '2537896a-7d27-4c71-8e93-4c265ffa5954'"
+                  },
+                  "questionOptions": {
+                    "rendering": "radio",
+                    "concept": "CIEL:169402",
+                    "answers": [
                       {
                         "concept": "2537896a-7d27-4c71-8e93-4c265ffa5954",
                         "label": "Discharge from hospital"
@@ -126,11 +155,12 @@
                 {
                   "id": "admitToLocation",
                   "type": "obs",
-                  "required": false,
+                  "hide": {
+                    "hideWhenExpression": "isEmpty(dispositionType) || (dispositionType !== '77eafb3f-58d3-4397-a6dc-d2c06e9062f3' && dispositionType !== '2537896a-7d27-4c71-8e93-4c265ffa5954' && dispositionType !== 'dc98ea48-66e9-4b2a-8533-3833f8200d06')"
+                  },
                   "label": "Admitted to Location",
                   "questionOptions": {
                     "rendering": "ui-select-extended",
-                    "required": true,
                     "concept": "CIEL:169403",
                     "datasource": {
                       "name": "location_datasource",
@@ -146,10 +176,7 @@
         },
         {
           "label": "Patient Referred Out",
-          "isExpanded": "true",
-          "hide": {
-            "hideWhenExpression": "isEmpty(dispositionType) || (dispositionType !== '44025da3-25ff-4c43-8c86-3a88e8b761cf' && dispositionType !== '4eb31c88-4f23-4be3-9457-299fade558cc' && dispositionType !== '0cfcee79-1fc1-413f-aae4-5b6ab1bfce1a')"
-          },
+          "isExpanded": true,
           "questions": [
             {
               "type": "obs",
@@ -158,7 +185,10 @@
                 "concept": "c0f2ccac-003e-406e-afe2-b0cf97b88916"
               },
               "id": "referredTo",
-              "label": "Referred To"
+              "label": "Referred To",
+              "hide": {
+                "hideWhenExpression": "(dispositionType !== '44025da3-25ff-4c43-8c86-3a88e8b761cf' && dispositionType !== '4eb31c88-4f23-4be3-9457-299fade558cc' && dispositionType !== '0cfcee79-1fc1-413f-aae4-5b6ab1bfce1a')"
+              }
             },
             {
               "type": "obs",
@@ -167,7 +197,10 @@
                 "concept": "bc44de6f-db98-42c7-98b5-5fd059f50d3a"
               },
               "id": "referralReason",
-              "label": "Referral Reason"
+              "label": "Referral Reason",
+              "hide": {
+                "hideWhenExpression": "(dispositionType !== '44025da3-25ff-4c43-8c86-3a88e8b761cf' && dispositionType !== '4eb31c88-4f23-4be3-9457-299fade558cc' && dispositionType !== '0cfcee79-1fc1-413f-aae4-5b6ab1bfce1a')"
+              }
             },
             {
               "type": "obs",
@@ -176,7 +209,10 @@
                 "concept": "062acf82-584a-4ea3-9c7e-08a955b34da0"
               },
               "id": "treatmentGiven",
-              "label": "Treatment Given"
+              "label": "Treatment Given",
+              "hide": {
+                "hideWhenExpression": "(dispositionType !== '44025da3-25ff-4c43-8c86-3a88e8b761cf' && dispositionType !== '4eb31c88-4f23-4be3-9457-299fade558cc' && dispositionType !== '0cfcee79-1fc1-413f-aae4-5b6ab1bfce1a')"
+              }
             },
             {
               "type": "obs",
@@ -185,7 +221,10 @@
                 "concept": "75ca7f0d-a0f4-49b7-9d4c-077839a1f1cf"
               },
               "id": "followUpDetail",
-              "label": "Follow-up Detail"
+              "label": "Follow-up Detail",
+              "hide": {
+                "hideWhenExpression": "(dispositionType !== '44025da3-25ff-4c43-8c86-3a88e8b761cf' && dispositionType !== '4eb31c88-4f23-4be3-9457-299fade558cc' && dispositionType !== '0cfcee79-1fc1-413f-aae4-5b6ab1bfce1a')"
+              }
             }
           ]
         }
