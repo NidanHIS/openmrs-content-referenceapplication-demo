@@ -511,5 +511,10 @@
   "version": "1",
   "encounter": "Consultation",
   "published": true,
-  "retired": false
+  "retired": false,
+  "formRules": {
+    "gender": "F"
+    "minAge": 11,
+    "maxAge": 55
+  }
 }
