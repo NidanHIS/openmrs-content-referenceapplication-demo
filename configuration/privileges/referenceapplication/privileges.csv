@@ -1,2 +1,3 @@
 Uuid,Privilege name,Description,_order:1000
 226b62b1-deac-4e2a-8e89-4f66c9a19423, O3 Implementer Tools, Allows access to the O3 Implementer Tools features,
+e31a5c50-517d-4958-b53f-3d794e63d5f0,IPD Summary,Privileges for IPD Summary Patient dashboard view,
