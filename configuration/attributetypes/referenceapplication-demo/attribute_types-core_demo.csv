@@ -8,6 +8,6 @@ fbc0702d-b4c9-4968-be63-af8ad3ad6239,,Visit,Patient Type,"If the patient will be
 bf7e1c87-42f1-4876-8a73-83eaacd6ee64,,Visit,Referred By Clinician,Patient Referred By Clinician,0,1,org.openmrs.customdatatype.datatype.FreeTextDatatype,,,,
 460a3d59-c4a6-492e-aacb-96835c128c31,,Visit,Referred To Hospital,Patient referred to higher center for further care and treatment,0,1,org.openmrs.customdatatype.datatype.FreeTextDatatype,,,,
 e965fdc6-42c1-4167-9dfe-0b3865a6d2e6,,Visit,Assigned Doctor,Patient assigned to specific doctor for consultation,0,1,org.openmrs.customdatatype.datatype.ProviderDatatype,,,,
-d9430bf9-5e07-11ef-8f7c-0242ac120002,,Provider,practitioner_type,list of practitioners,0,1,org.openmrs.customdatatype.datatype.SpecifiedTextOptionsDatatype,,org.openmrs.web.attribute.handler.SpecifiedTextOptionsDropdownHandler,",Doctor,Nurse,",
+d9430bf9-5e07-11ef-8f7c-0242ac120002,,Provider,practitioner_type,list of practitioners,0,1,org.openmrs.customdatatype.datatype.SpecifiedTextOptionsDatatype,,org.openmrs.web.attribute.handler.SpecifiedTextOptionsDropdownHandler,",Doctor,Nurse,HA,",
 d9f8c5d7-5e07-11ef-8f7c-0242ac120002,,Provider,Login Locations,Specific locations for providers to login,0,1,org.openmrs.customdatatype.datatype.LocationDatatype,,,,
 decb58a5-8bf8-4959-ab13-bca04aef59c3,,Provider,Medical Council Number,"Doctor, Nurse, Health Assistant Medical Council Number",0,1,org.openmrs.customdatatype.datatype.FreeTextDatatype,,,,
