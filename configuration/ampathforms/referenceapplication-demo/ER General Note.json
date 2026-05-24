@@ -653,6 +653,6 @@
   "published": true,
   "retired": false,
   "formRules": {
-    "locationTags": "Admission Location"
+    "locationTags": ["Admission Location"]
   }
 }
