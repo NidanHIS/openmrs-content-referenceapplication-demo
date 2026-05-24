@@ -386,7 +386,7 @@
   "published" : true,
   "retired" : false,
   "formRules": {
-    "gender": "F"
+    "gender": "F",
     "minAge": 10,
     "maxAge": 55
   }
