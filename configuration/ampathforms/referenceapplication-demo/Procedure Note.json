@@ -348,5 +348,11 @@
   "version": "1",
   "encounter": "Consultation",
   "published": true,
-  "retired": false
+  "retired": false,
+  "formRules": {
+    "visitTypeUuids": [
+      "287463d3-2233-4c69-9851-5841a1f5e109","d66e9fe0-7d51-4801-a550-5d462ad1c944"
+    ]
+  }
+
 }

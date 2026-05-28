@@ -1,0 +1,284 @@
+{
+  "name": "Vaccine Note",
+  "pages": [
+    {
+      "label": "Immunization ",
+      "sections": [
+        {
+          "label": "Vaccine Details",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "bc3f9ad8-a6e6-414a-b99b-6b023979ec9a"
+              },
+              "id": "guardianName",
+              "label": "Guardian Name"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "de046ce5-6332-4426-a34b-ff3d13cbf8bf",
+                "answers": [
+                  {
+                    "concept": "164adc96-6231-4e83-b6e8-6f593e5fcee4",
+                    "label": "1"
+                  },
+                  {
+                    "concept": "24672ed9-2ad9-4188-a1bb-bf0085bc52b0",
+                    "label": "2"
+                  },
+                  {
+                    "concept": "3f77ac24-7dd8-42bc-8d6b-f21518292f12",
+                    "label": "3"
+                  }
+                ]
+              },
+              "id": "dpt",
+              "label": "DPT-HepB-Hib",
+              "questionInfo": "Give at 6, 10 and 14 weeks of age"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "3a20f7cd-0aa5-43a7-9276-c7b2feb65b14",
+                "answers": [
+                  {
+                    "concept": "164adc96-6231-4e83-b6e8-6f593e5fcee4",
+                    "label": "1"
+                  }
+                ]
+              },
+              "id": "bcgVaccine(BacillusCalmette–GuéRin)",
+              "label": "BCG Vaccine (Bacillus Calmette–Guérin)",
+              "questionInfo": "Give at birth or on first contact"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "05305ff0-28ac-4f73-8927-a0e418bae893",
+                "answers": [
+                  {
+                    "concept": "164adc96-6231-4e83-b6e8-6f593e5fcee4",
+                    "label": "1"
+                  },
+                  {
+                    "concept": "24672ed9-2ad9-4188-a1bb-bf0085bc52b0",
+                    "label": "2"
+                  },
+                  {
+                    "concept": "3f77ac24-7dd8-42bc-8d6b-f21518292f12",
+                    "label": "3"
+                  }
+                ]
+              },
+              "id": "opv(OralPolioVaccine)",
+              "label": "OPV (Oral Polio Vaccine)",
+              "questionInfo": "Give at 6, 10 and 14 weeks of age"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "7141b0d9-f757-4a1e-a949-595b631cc6b9",
+                "answers": [
+                  {
+                    "concept": "164adc96-6231-4e83-b6e8-6f593e5fcee4",
+                    "label": "1"
+                  },
+                  {
+                    "concept": "24672ed9-2ad9-4188-a1bb-bf0085bc52b0",
+                    "label": "2"
+                  }
+                ]
+              },
+              "id": "fipvVaccine(FractionalInjectablePolio)",
+              "label": "FIPV Vaccine (Fractional Injectable Polio)",
+              "questionInfo": "Give at 14 weeks"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "1f50f668-26ed-4090-b22d-ff817c4416f8",
+                "answers": [
+                  {
+                    "concept": "164adc96-6231-4e83-b6e8-6f593e5fcee4",
+                    "label": "1"
+                  },
+                  {
+                    "concept": "24672ed9-2ad9-4188-a1bb-bf0085bc52b0",
+                    "label": "2"
+                  },
+                  {
+                    "concept": "3f77ac24-7dd8-42bc-8d6b-f21518292f12",
+                    "label": "3"
+                  }
+                ]
+              },
+              "id": "pcvVaccine(PneumococcalConjugate)",
+              "label": "PCV Vaccine (Pneumococcal Conjugate)",
+              "questionInfo": "Give at 6 weeks, 10 weeks and 9 months"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "a12c1cc4-95ce-4424-8a28-fa4f08798d7d",
+                "answers": [
+                  {
+                    "concept": "164adc96-6231-4e83-b6e8-6f593e5fcee4",
+                    "label": "1"
+                  },
+                  {
+                    "concept": "24672ed9-2ad9-4188-a1bb-bf0085bc52b0",
+                    "label": "2"
+                  }
+                ]
+              },
+              "id": "rotaVaccine",
+              "label": "Rota Vaccine"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "af2e0460-b223-4ecb-a817-7c6ea901eb5a",
+                "answers": [
+                  {
+                    "concept": "164adc96-6231-4e83-b6e8-6f593e5fcee4",
+                    "label": "1"
+                  },
+                  {
+                    "concept": "24672ed9-2ad9-4188-a1bb-bf0085bc52b0",
+                    "label": "2"
+                  }
+                ]
+              },
+              "id": "measlesRubella",
+              "label": "Measles/rubella",
+              "questionInfo": "Give at 9 and 15 months of age"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "52176f1f-1080-49a7-8d80-5a99764a8f1e",
+                "answers": [
+                  {
+                    "concept": "164adc96-6231-4e83-b6e8-6f593e5fcee4",
+                    "label": "1"
+                  },
+                  {
+                    "concept": "24672ed9-2ad9-4188-a1bb-bf0085bc52b0",
+                    "label": "2"
+                  },
+                  {
+                    "concept": "3f77ac24-7dd8-42bc-8d6b-f21518292f12",
+                    "label": "3"
+                  }
+                ]
+              },
+              "id": "hepatitisBVaccine",
+              "label": "Hepatitis B Vaccine",
+              "questionInfo": "Give at 0, 1 and 5 months"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "f60a0435-9ffa-4f21-ba40-e43a3a8c74be",
+                "answers": [
+                  {
+                    "concept": "164adc96-6231-4e83-b6e8-6f593e5fcee4",
+                    "label": "1"
+                  }
+                ]
+              },
+              "id": "je(JapaneseEncephalitis)Vaccine",
+              "label": "JE (Japanese Encephalitis) Vaccine",
+              "questionInfo": "Give at 12-23 months in high risk districts"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "0d030a0a-029b-40e6-a9e6-26343ef76c45",
+                "answers": [
+                  {
+                    "concept": "164adc96-6231-4e83-b6e8-6f593e5fcee4",
+                    "label": "1"
+                  }
+                ]
+              },
+              "id": "typhoid-ConjugateVaccine",
+              "label": "Typhoid-Conjugate Vaccine"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "9bdc91ea-480f-4c74-8005-c56fec36ba66",
+                "answers": [
+                  {
+                    "concept": "164adc96-6231-4e83-b6e8-6f593e5fcee4",
+                    "label": "1"
+                  },
+                  {
+                    "concept": "24672ed9-2ad9-4188-a1bb-bf0085bc52b0",
+                    "label": "2"
+                  },
+                  {
+                    "concept": "3f77ac24-7dd8-42bc-8d6b-f21518292f12",
+                    "label": "3"
+                  }
+                ]
+              },
+              "id": "td(TetanusDiptheria)",
+              "label": "TD (Tetanus Diptheria)",
+              "questionInfo": "2nd dose after 4 weeks of 1st dose, 3rd dose 6-12 months after the second"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "7589ede2-38ca-41a9-8f4f-efecc0da1228",
+                "answers": [
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  },
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              },
+              "id": "vaccineStartFrom24-59Month",
+              "label": "Vaccine start from 24-59 month"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "processor": "EncounterFormProcessor",
+  "encounterType": "dd528487-82a5-4082-9c72-ed246bd49591",
+  "referencedForms": [],
+  "uuid": "d9833066-8478-4b40-9e26-7170a9968f78",
+  "description": "Vaccine Note",
+  "encounter": "Consultation",
+  "published": true,
+  "retired": false,
+  "version": "1",
+  "formRules": {
+    "visitTypeUuids": [
+      "287463d3-2233-4c69-9851-5841a1f5e109"
+    ]
+  }
+}

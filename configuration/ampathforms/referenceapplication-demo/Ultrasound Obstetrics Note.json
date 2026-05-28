@@ -388,6 +388,9 @@
   "formRules": {
     "gender": "F",
     "minAge": 10,
-    "maxAge": 55
+    "maxAge": 55,
+    "visitTypeUuids": [
+      "287463d3-2233-4c69-9851-5841a1f5e109"
+    ]
   }
 }
