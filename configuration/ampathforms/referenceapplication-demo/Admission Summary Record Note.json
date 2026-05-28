@@ -1,0 +1,214 @@
+{
+  "name": "Admission Summary Record Note",
+  "pages": [
+    {
+      "label": "Patient Information",
+      "sections": [
+        {
+          "label": "Patient Details",
+          "isExpanded": true,
+          "questions": [
+            {
+              "type": "obs",
+              "id": "maritalStatus",
+              "label": "Marital Status",
+              "questionOptions": {
+                "rendering": "select",
+                "concept": "b628d8ca-2806-4735-8a54-bc84d5e5db8e",
+                "answers": [
+                  {
+                    "concept": "a0177a5d-3905-42f1-9bcc-c069f6bf56d3",
+                    "label": "Single"
+                  },
+                  {
+                    "concept": "cd0a7697-b666-4f95-badb-1cb046bd588f",
+                    "label": "Married"
+                  },
+                  {
+                    "concept": "45103f32-ea6b-4699-aa77-7b53a6ee9c66",
+                    "label": "Divorced"
+                  },
+                  {
+                    "concept": "1b78c91b-e370-4aa9-8cd8-83d7c7405744",
+                    "label": "Widowed"
+                  },
+                  {
+                    "concept": "b47d5ac1-a91f-4a2f-b9b0-fe2aeae8cd4d",
+                    "label": "Separated"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "obs",
+              "id": "religion",
+              "label": "Religion",
+              "questionOptions": {
+                "rendering": "select",
+                "concept": "a0153ff4-e94e-4976-b6ea-cffa1f3fd180",
+                "answers": [
+                  {
+                    "concept": "ddc647c8-2ced-4cc9-972d-b05264ce192f",
+                    "label": "Hinduism"
+                  },
+                  {
+                    "concept": "7e256a47-758a-45fc-9991-21b6ee5d5393",
+                    "label": "Buddhism"
+                  },
+                  {
+                    "concept": "24129619-1ddb-4b63-b236-eddaf90cc9d5",
+                    "label": "Islam"
+                  },
+                  {
+                    "concept": "df52767c-5bfd-4e01-9687-43d80019b104",
+                    "label": "Kirat"
+                  },
+                  {
+                    "concept": "98821a35-2a13-4e59-8255-e7613c09f965",
+                    "label": "Christianity"
+                  },
+                  {
+                    "concept": "5622AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Other"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "obs",
+              "id": "occupation",
+              "label": "Occupation",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "cdbea967-d072-4252-9d8a-6f76a790bf34"
+              }
+            },
+            {
+              "type": "obs",
+              "id": "fatherHusbandName",
+              "label": "Father / Husband Name",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "bc3f9ad8-a6e6-414a-b99b-6b023979ec9a"
+              }
+            },
+            {
+              "type": "obs",
+              "id": "emergencyContactNumber",
+              "label": "Emergency Contact Number",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "475efb37-20f6-44d3-91a0-7002ac8cc532"
+              }
+            }
+          ]
+        },
+        {
+          "label": "Assigned Clinician",
+          "isExpanded": true,
+          "questions": [
+            {
+              "type": "encounterProvider",
+              "id": "inpatientIncharge",
+              "label": "Inpatient Incharge",
+              "questionOptions": {
+                "rendering": "ui-select-extended"
+              }
+            },
+            {
+              "type": "encounterProvider",
+              "questionOptions": {
+                "rendering": "ui-select-extended"
+              },
+              "id": "doctors",
+              "label": "Doctors"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "bc44de6f-db98-42c7-98b5-5fd059f50d3a"
+              },
+              "id": "remarks",
+              "label": "Remarks"
+            }
+          ]
+        },
+        {
+          "label": "Ward Stay",
+          "isExpanded": true,
+          "questions": [
+            {
+              "type": "obsGroup",
+              "questionOptions": {
+                "rendering": "repeating"
+              },
+              "id": "admissionDetails",
+              "label": "Admission Details",
+              "questions": [
+                {
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "date",
+                    "concept": "fee07cde-19c9-46a6-a117-2ce8dae3aefb"
+                  },
+                  "id": "dateOfAdmission",
+                  "datePickerFormat": "calendar",
+                  "label": "Date of admission"
+                },
+                {
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "date",
+                    "concept": "f50023bd-feb5-4945-ac00-4f6e8df0b359"
+                  },
+                  "id": "dateOfDischarge",
+                  "datePickerFormat": "calendar",
+                  "label": "Date of Discharge"
+                },
+                {
+                  "id": "admitToLocation",
+                  "type": "obs",
+                  "label": "Admitted to Location",
+                  "questionOptions": {
+                    "rendering": "ui-select-extended",
+                    "concept": "CIEL:169403",
+                    "datasource": {
+                      "name": "location_datasource",
+                      "config": {
+                        "tag": "Admission Location"
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "text",
+                    "concept": "bc44de6f-db98-42c7-98b5-5fd059f50d3a"
+                  },
+                  "id": "assignedBedNumber",
+                  "label": "Assigned Bed "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "processor": "EncounterFormProcessor",
+  "encounterType": "e22e39fd-7db2-45e7-80f1-60fa0d5a4378",
+  "referencedForms": [],
+  "uuid": "a51781e6-7287-4944-87df-ebde291733a8",
+  "description": "Patient admission note",
+  "published": true,
+  "retired": false,
+  "version": "1",
+  "formRules": {
+    "visitTypeUuids": [
+      "7b0f5697-27e3-40c4-8bae-f4049abfb4ed"
+    ]
+  }
+
+}
