@@ -369,7 +369,7 @@
               "type": "obs",
               "questionOptions": {
                 "rendering": "radio",
-                "concept": "98bfa962-0ee4-4873-a22c-47d990dd317a",
+                "concept": "9cf32a21-631e-4f8c-8d53-4db6b3ad46dc",
                 "answers": [
                   {
                     "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
@@ -382,8 +382,7 @@
                 ]
               },
               "id": "breastfeed",
-              "label": "Difficulty on Breast feeding",
-              "questionInfo": "Ineffective position and/or contact, Ineffective suckling, Breastfed infant for less than 10 times in 24 hours, additional feeding practices along with breastfeeding (soup, or other food),oral thrush or painful lesions inside the mouth No difficulty breastfeeding or or no signs of inadequate nutrition"
+              "label": "Breast Feed"
             },
             {
               "type": "obs",
@@ -396,6 +395,26 @@
               "hide": {
                 "hideWhenExpression": "isEmpty(breastfeed) || (breastfeed == '1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA')"
               }
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "98bfa962-0ee4-4873-a22c-47d990dd317a",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "difficultyOnBreastFeeding",
+              "label": "Difficulty on Breast feeding",
+              "questionInfo": "Ineffective position and/or contact, Ineffective suckling, Breastfed infant for less than 10 times in 24 hours, additional feeding practices along with breastfeeding (soup, or other food), oral thrush or painful lesions inside the mouth No difficulty breastfeeding or no signs of inadequate nutrition"
             },
             {
               "type": "obs",
@@ -414,8 +433,7 @@
                 ]
               },
               "id": "lowWeight",
-              "label": "Low weight",
-              "questionInfo": "  low weight- Normal weight for age"
+              "label": "Low weight"
             }
           ]
         },
