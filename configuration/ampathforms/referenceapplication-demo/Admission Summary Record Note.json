@@ -201,6 +201,7 @@
   "encounterType": "e22e39fd-7db2-45e7-80f1-60fa0d5a4378",
   "referencedForms": [],
   "uuid": "a51781e6-7287-4944-87df-ebde291733a8",
+  "encounter": "Admission",
   "description": "Patient admission note",
   "published": true,
   "retired": false,

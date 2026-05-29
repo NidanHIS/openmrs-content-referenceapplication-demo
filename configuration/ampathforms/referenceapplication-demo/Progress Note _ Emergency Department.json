@@ -1,0 +1,57 @@
+{
+  "name": "Progress Note : Emergency Department",
+  "pages": [
+    {
+      "label": "Progress Note : Emergency Department",
+      "sections": [
+        {
+          "label": "Progress Note",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "371f19bd-5f95-493a-8aef-9e90a4398228"
+              },
+              "id": "progressNote(Emergency)",
+              "label": "Progress Note (Emergency)"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "2142eed7-eae7-4d3c-95a9-0d3ada5a6b23"
+              },
+              "id": "counsellingToTheVisitorsNote",
+              "label": "Counselling to the Visitors :Note"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "ad8bd2b6-e845-44d6-b3a9-ac0d62ca5db1"
+              },
+              "id": "consultationNote",
+              "label": "Consultation Note:"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "processor": "EncounterFormProcessor",
+  "encounterType": "e22e39fd-7db2-45e7-80f1-60fa0d5a4378",
+  "referencedForms": [],
+  "uuid": "936918cc-d4ba-4dd0-a841-66b4f54204ef",
+  "description": "Daily tracking of patient condition and progress",
+  "encounter": "Admission",
+  "published": true,
+  "retired": false,
+  "version": "1",
+  "formRules": {
+    "visitTypeUuids": [
+      "d66e9fe0-7d51-4801-a550-5d462ad1c944"
+    ]
+  }
+}

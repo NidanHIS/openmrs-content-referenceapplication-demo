@@ -1,0 +1,57 @@
+{
+  "name": "Progress Note : IPD Department",
+  "pages": [
+    {
+      "label": "Progress Note : IPD Department",
+      "sections": [
+        {
+          "label": "Progress Note",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "92bb81bd-8f2a-40b4-b58f-d004ffb8e30a"
+              },
+              "id": "progressNote(Ipd)",
+              "label": "Progress Note (IPD)"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "2142eed7-eae7-4d3c-95a9-0d3ada5a6b23"
+              },
+              "id": "counsellingToTheVisitorsNote",
+              "label": "Counselling to the Visitors :Note"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "ad8bd2b6-e845-44d6-b3a9-ac0d62ca5db1"
+              },
+              "id": "consultationNote",
+              "label": "Consultation Note:"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "processor": "EncounterFormProcessor",
+  "encounterType": "e22e39fd-7db2-45e7-80f1-60fa0d5a4378",
+  "referencedForms": [],
+  "uuid": "bc125811-bc76-4976-abe3-467ae78ebab4",
+  "description": "Progress note for IPD Admitted patient",
+  "encounter": "Admission",
+  "published": true,
+  "retired": false,
+  "version": "1",
+  "formRules": {
+    "visitTypeUuids": [
+      "7b0f5697-27e3-40c4-8bae-f4049abfb4ed"
+    ]
+  }
+}

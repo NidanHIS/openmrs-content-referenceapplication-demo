@@ -382,7 +382,8 @@
                 ]
               },
               "id": "breastfeed",
-              "label": "Breastfeed"
+              "label": "Difficulty on Breast feeding",
+              "questionInfo": "Ineffective position and/or contact, Ineffective suckling, Breastfed infant for less than 10 times in 24 hours, additional feeding practices along with breastfeeding (soup, or other food),oral thrush or painful lesions inside the mouth No difficulty breastfeeding or or no signs of inadequate nutrition"
             },
             {
               "type": "obs",
@@ -412,9 +413,9 @@
                   }
                 ]
               },
-              "id": "difficultyFeedingOrLowWeight",
-              "label": "Difficulty feeding or low weight",
-              "questionInfo": " Ineffective position and/or contact, Ineffective suckling, Breastfed infant for less than 10 times in 24 hours, additional feeding practices along with breastfeeding (soup, or other food), low weight for age, oral thrush or painful lesions inside the mouth No difficulty breastfeeding or low weight- Normal weight for age, or no signs of inadequate nutrition"
+              "id": "lowWeight",
+              "label": "Low weight",
+              "questionInfo": "  low weight- Normal weight for age"
             }
           ]
         },
@@ -632,7 +633,7 @@
   "encounter": "Consultation",
   "published": true,
   "formRules": {
-     "maxAge": 1
+    "maxAge": 1
   },
   "retired": false
 }
