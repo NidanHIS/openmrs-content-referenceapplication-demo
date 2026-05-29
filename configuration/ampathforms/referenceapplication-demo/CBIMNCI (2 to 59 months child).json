@@ -806,6 +806,10 @@
                     "label": "Diarrhoea"
                   },
                   {
+                    "concept": "7a3c0b21-e41d-442b-bded-8f45169ab624",
+                    "label": "ARI"
+                  },
+                  {
                     "concept": "5622AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
                     "label": "Other"
                   }
