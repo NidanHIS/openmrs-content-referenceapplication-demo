@@ -1,45 +1,35 @@
-<addressConfiguration>
-  <wipe>true</wipe>
-  <addressComponents>
-    <addressComponent>
-      <field>COUNTRY</field>
-      <nameMapping>Location.country</nameMapping>
-      <sizeMapping>40</sizeMapping>
-      <requiredInHierarchy>true</requiredInHierarchy>
-    </addressComponent>
-    <addressComponent>
-      <field>STATE_PROVINCE</field>
-      <nameMapping>Location.province</nameMapping>
-      <sizeMapping>40</sizeMapping>
-      <requiredInHierarchy>true</requiredInHierarchy>
-    </addressComponent>
-    <addressComponent>
-      <field>COUNTY_DISTRICT</field>
-      <nameMapping>Location.district</nameMapping>
-      <sizeMapping>40</sizeMapping>
-      <requiredInHierarchy>true</requiredInHierarchy>
-    </addressComponent>
-    <addressComponent>
-      <field>ADDRESS_1</field>
-      <nameMapping>impl.commune</nameMapping>
-      <sizeMapping>40</sizeMapping>
-      <requiredInHierarchy>true</requiredInHierarchy>
-    </addressComponent>
-    <addressComponent>
-      <field>CITY_VILLAGE</field>
-      <nameMapping>Location.village</nameMapping>
-      <sizeMapping>40</sizeMapping>
-      <requiredInHierarchy>true</requiredInHierarchy>
-    </addressComponent>
-  </addressComponents>
-  <lineByLineFormat>
-    <string>cityVillage, address1</string>
-    <string>countyDistrict, stateProvince</string>
-    <string>country</string>
-  </lineByLineFormat>
-  <addressHierarchyFile>
-    <filename>addresshierarchy.csv</filename>
-    <entryDelimiter>,</entryDelimiter>
-    <identifierDelimiter>%</identifierDelimiter>
-  </addressHierarchyFile>
-</addressConfiguration>
+<org.openmrs.layout.address.AddressTemplate>
+    <nameMappings class="properties">
+      <property name="postalCode" value="Location.postalCode"/>
+      <property name="longitude" value="Location.longitude"/>
+      <property name="address2" value="Location.address2"/>
+      <property name="address1" value="Location.address1"/>
+      <property name="startDate" value="PersonAddress.startDate"/>
+      <property name="country" value="Location.country"/>
+      <property name="endDate" value="personAddress.endDate"/>
+      <property name="stateProvince" value="Location.stateProvince"/>
+      <property name="latitude" value="Location.latitude"/>
+      <property name="cityVillage" value="Location.cityVillage"/>
+<property name="countyDistrict" value="Location.district"/>    
+</nameMappings>
+    <sizeMappings class="properties">
+      <property name="postalCode" value="10"/>
+      <property name="longitude" value="10"/>
+      <property name="address2" value="40"/>
+      <property name="address1" value="40"/>
+      <property name="startDate" value="10"/>
+      <property name="country" value="10"/>
+      <property name="endDate" value="10"/>
+      <property name="stateProvince" value="10"/>
+      <property name="latitude" value="10"/>
+      <property name="cityVillage" value="10"/>
+ <property name="countyDistrict" value="10"/>
+    </sizeMappings>
+    <lineByLineFormat>
+      <string>address1</string>
+      <string>address2</string>
+      <string>cityVillage stateProvince country postalCode</string>
+      <string>latitude longitude</string>
+      <string>startDate endDate</string>
+    </lineByLineFormat>
+  </org.openmrs.layout.address.AddressTemplate>
