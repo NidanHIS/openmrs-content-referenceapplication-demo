@@ -116,9 +116,10 @@
               }
             },
             {
-              "type": "encounterProvider",
+              "type": "obs",
               "questionOptions": {
-                "rendering": "ui-select-extended"
+                "rendering": "multi-provider-select",
+                "concept": "f4f0eec4-5a84-419c-9192-df30ffc72a4c"
               },
               "id": "doctors",
               "label": "Doctors"
@@ -184,8 +185,8 @@
                 {
                   "type": "obs",
                   "questionOptions": {
-                    "rendering": "text",
-                    "concept": "bc44de6f-db98-42c7-98b5-5fd059f50d3a"
+                    "rendering": "bed-select",
+                    "concept": "71525388-448c-4503-979a-921cd6fdc989"
                   },
                   "id": "assignedBedNumber",
                   "label": "Assigned Bed "

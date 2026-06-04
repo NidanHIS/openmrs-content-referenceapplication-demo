@@ -1,0 +1,3 @@
+Uuid,Void/Retire,Same as mappings,Fully specified name:en,Fully specified name:fr,Fully specified name:es,Short name:en,Short name:fr,Short name:es,Description:en,Description:fr,Description:es,Data class,Data type,Complex data handler,_version:1,_order:1000
+71525388-448c-4503-979a-921cd6fdc989,,,Assigned Bed,,,,,,,,,Misc,Complex,NidanBedHandler,,
+f4f0eec4-5a84-419c-9192-df30ffc72a4c,,,Providers,,,,,,,,,Misc,Complex,NidanProviderHandler,,
