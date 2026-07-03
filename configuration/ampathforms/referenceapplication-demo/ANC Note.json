@@ -332,6 +332,15 @@
             {
               "type": "obs",
               "questionOptions": {
+                "rendering": "number",
+                "concept": "db7aa849-20e7-4dd9-9767-762a66dcabb2"
+              },
+              "id": "numberOfCalciumTabletsGiven",
+              "label": "Number of Calcium Tablets given"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
                 "rendering": "radio",
                 "concept": "22cd47c1-742a-456e-83d1-cda601d6496b",
                 "answers": [
