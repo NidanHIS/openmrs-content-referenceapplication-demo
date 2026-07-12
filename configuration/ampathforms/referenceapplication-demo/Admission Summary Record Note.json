@@ -142,7 +142,8 @@
             {
               "type": "obsGroup",
               "questionOptions": {
-                "rendering": "repeating"
+                "rendering": "repeating",
+                "concept": "ca814c5b-b069-431b-90b0-76f0bcfb970d"
               },
               "id": "admissionDetails",
               "label": "Admission Details",
