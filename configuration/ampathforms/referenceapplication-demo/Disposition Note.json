@@ -171,6 +171,18 @@
                   }
                 }
               ]
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "bc44de6f-db98-42c7-98b5-5fd059f50d3a"
+              },
+              "id": "admissionDetails",
+              "label": "Admission/Transfer/Discharge Details",
+              "hide": {
+                "hideWhenExpression": "isEmpty(dispositionType) || (dispositionType !== '77eafb3f-58d3-4397-a6dc-d2c06e9062f3' && dispositionType !== '2537896a-7d27-4c71-8e93-4c265ffa5954' && dispositionType !== 'dc98ea48-66e9-4b2a-8533-3833f8200d06')"
+              }
             }
           ]
         },
