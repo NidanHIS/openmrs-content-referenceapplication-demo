@@ -156,7 +156,7 @@
                   "id": "admitToLocation",
                   "type": "obs",
                   "hide": {
-                    "hideWhenExpression": "isEmpty(dispositionType) || (dispositionType !== '77eafb3f-58d3-4397-a6dc-d2c06e9062f3' && dispositionType !== '2537896a-7d27-4c71-8e93-4c265ffa5954' && dispositionType !== 'dc98ea48-66e9-4b2a-8533-3833f8200d06')"
+                    "hideWhenExpression": "!(admitDisposition === '77eafb3f-58d3-4397-a6dc-d2c06e9062f3' || transferDisposition === 'dc98ea48-66e9-4b2a-8533-3833f8200d06' || dischargeDisposition === '2537896a-7d27-4c71-8e93-4c265ffa5954')"
                   },
                   "label": "Admitted to Location",
                   "questionOptions": {
