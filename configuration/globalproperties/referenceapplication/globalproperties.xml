@@ -9,6 +9,10 @@
             <value>2</value>
         </globalProperty>
         <globalProperty>
+            <property>bahmni.appointment.teleConsultation.sendEmail</property>
+            <value>true</value>
+        </globalProperty>
+        <globalProperty>
             <property>visits.assignmentHandler</property>
             <value>org.openmrs.api.handler.ExistingVisitAssignmentHandler</value>
         </globalProperty>
